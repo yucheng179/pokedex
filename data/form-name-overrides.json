@@ -1,0 +1,2485 @@
+{
+  "generatedAt": "2026-09-06T18:26:06.871Z",
+  "license": {
+    "name": "CC BY-NC-SA 3.0",
+    "attributionRequired": true,
+    "commercialUse": false,
+    "shareAlike": true,
+    "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+  },
+  "sources": [
+    {
+      "title": "拥有形态变化的宝可梦列表",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E6%8B%A5%E6%9C%89%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96%E7%9A%84%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8",
+      "revisionId": 2559008,
+      "revisionTimestamp": "2026-03-30T03:53:34Z",
+      "fetchedAt": "2026-09-06T18:17:35.768Z"
+    },
+    {
+      "title": "宝可梦列表（按全国图鉴编号）/形态变化",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994,
+      "revisionTimestamp": "2026-07-29T03:42:04Z",
+      "fetchedAt": "2026-09-06T18:19:00.353Z"
+    }
+  ],
+  "overrides": {
+    "pikachu-alola-cap": {
+      "formName": "阿羅拉帽子",
+      "displayName": "皮卡丘（阿羅拉帽子）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "pikachu-belle": {
+      "formName": "貴婦皮卡丘",
+      "displayName": "貴婦皮卡丘",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "pikachu-cosplay": {
+      "formName": "換裝皮卡丘",
+      "displayName": "換裝皮卡丘",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "pikachu-hoenn-cap": {
+      "formName": "豐緣帽子",
+      "displayName": "皮卡丘（豐緣帽子）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "pikachu-kalos-cap": {
+      "formName": "卡洛斯帽子",
+      "displayName": "皮卡丘（卡洛斯帽子）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "pikachu-libre": {
+      "formName": "蒙面皮卡丘",
+      "displayName": "蒙面皮卡丘",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "pikachu-original-cap": {
+      "formName": "初始帽子",
+      "displayName": "皮卡丘（初始帽子）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "pikachu-partner-cap": {
+      "formName": "就決定是你了之帽子",
+      "displayName": "皮卡丘（就決定是你了之帽子）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "pikachu-phd": {
+      "formName": "博士皮卡丘",
+      "displayName": "博士皮卡丘",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "pikachu-pop-star": {
+      "formName": "偶像皮卡丘",
+      "displayName": "偶像皮卡丘",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "pikachu-rock-star": {
+      "formName": "硬搖滾皮卡丘",
+      "displayName": "硬搖滾皮卡丘",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "pikachu-sinnoh-cap": {
+      "formName": "神奧帽子",
+      "displayName": "皮卡丘（神奧帽子）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "pikachu-starter": {
+      "formName": "搭檔皮卡丘",
+      "displayName": "搭檔皮卡丘",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "pikachu-unova-cap": {
+      "formName": "合眾帽子",
+      "displayName": "皮卡丘（合眾帽子）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "pikachu-world-cap": {
+      "formName": "世界帽子",
+      "displayName": "皮卡丘（世界帽子）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "eevee-starter": {
+      "formName": "搭檔伊布",
+      "displayName": "搭檔伊布",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "pichu-spiky-eared": {
+      "formName": "刺刺耳皮丘",
+      "displayName": "刺刺耳皮丘",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "unown-b": {
+      "formName": "B",
+      "displayName": "未知圖騰（B）",
+      "matchMethod": "52poke-form-symbol",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "unown-c": {
+      "formName": "C",
+      "displayName": "未知圖騰（C）",
+      "matchMethod": "52poke-form-symbol",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "unown-d": {
+      "formName": "D",
+      "displayName": "未知圖騰（D）",
+      "matchMethod": "52poke-form-symbol",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "unown-e": {
+      "formName": "E",
+      "displayName": "未知圖騰（E）",
+      "matchMethod": "52poke-form-symbol",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "unown-exclamation": {
+      "formName": "!",
+      "displayName": "未知圖騰（!）",
+      "matchMethod": "52poke-form-symbol",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "unown-f": {
+      "formName": "F",
+      "displayName": "未知圖騰（F）",
+      "matchMethod": "52poke-form-symbol",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "unown-g": {
+      "formName": "G",
+      "displayName": "未知圖騰（G）",
+      "matchMethod": "52poke-form-symbol",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "unown-h": {
+      "formName": "H",
+      "displayName": "未知圖騰（H）",
+      "matchMethod": "52poke-form-symbol",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "unown-i": {
+      "formName": "I",
+      "displayName": "未知圖騰（I）",
+      "matchMethod": "52poke-form-symbol",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "unown-j": {
+      "formName": "J",
+      "displayName": "未知圖騰（J）",
+      "matchMethod": "52poke-form-symbol",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "unown-k": {
+      "formName": "K",
+      "displayName": "未知圖騰（K）",
+      "matchMethod": "52poke-form-symbol",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "unown-l": {
+      "formName": "L",
+      "displayName": "未知圖騰（L）",
+      "matchMethod": "52poke-form-symbol",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "unown-m": {
+      "formName": "M",
+      "displayName": "未知圖騰（M）",
+      "matchMethod": "52poke-form-symbol",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "unown-n": {
+      "formName": "N",
+      "displayName": "未知圖騰（N）",
+      "matchMethod": "52poke-form-symbol",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "unown-o": {
+      "formName": "O",
+      "displayName": "未知圖騰（O）",
+      "matchMethod": "52poke-form-symbol",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "unown-p": {
+      "formName": "P",
+      "displayName": "未知圖騰（P）",
+      "matchMethod": "52poke-form-symbol",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "unown-q": {
+      "formName": "Q",
+      "displayName": "未知圖騰（Q）",
+      "matchMethod": "52poke-form-symbol",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "unown-question": {
+      "formName": "?",
+      "displayName": "未知圖騰（?）",
+      "matchMethod": "52poke-form-symbol",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "unown-r": {
+      "formName": "R",
+      "displayName": "未知圖騰（R）",
+      "matchMethod": "52poke-form-symbol",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "unown-s": {
+      "formName": "S",
+      "displayName": "未知圖騰（S）",
+      "matchMethod": "52poke-form-symbol",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "unown-t": {
+      "formName": "T",
+      "displayName": "未知圖騰（T）",
+      "matchMethod": "52poke-form-symbol",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "unown-u": {
+      "formName": "U",
+      "displayName": "未知圖騰（U）",
+      "matchMethod": "52poke-form-symbol",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "unown-v": {
+      "formName": "V",
+      "displayName": "未知圖騰（V）",
+      "matchMethod": "52poke-form-symbol",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "unown-w": {
+      "formName": "W",
+      "displayName": "未知圖騰（W）",
+      "matchMethod": "52poke-form-symbol",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "unown-x": {
+      "formName": "X",
+      "displayName": "未知圖騰（X）",
+      "matchMethod": "52poke-form-symbol",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "unown-y": {
+      "formName": "Y",
+      "displayName": "未知圖騰（Y）",
+      "matchMethod": "52poke-form-symbol",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "unown-z": {
+      "formName": "Z",
+      "displayName": "未知圖騰（Z）",
+      "matchMethod": "52poke-form-symbol",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "castform-rainy": {
+      "formName": "雨水的樣子",
+      "displayName": "飄浮泡泡（雨水的樣子）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "castform-snowy": {
+      "formName": "雪雲的樣子",
+      "displayName": "飄浮泡泡（雪雲的樣子）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "castform-sunny": {
+      "formName": "太陽的樣子",
+      "displayName": "飄浮泡泡（太陽的樣子）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "cherrim-sunshine": {
+      "formName": "晴天形態",
+      "displayName": "櫻花兒（晴天形態）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "shellos-east": {
+      "formName": "東海",
+      "displayName": "無殼海兔（東海）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "gastrodon-east": {
+      "formName": "東海",
+      "displayName": "海兔獸（東海）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "arceus-bug": {
+      "formName": "蟲屬性的樣子",
+      "displayName": "阿爾宙斯（蟲屬性的樣子）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "arceus-dark": {
+      "formName": "惡屬性的樣子",
+      "displayName": "阿爾宙斯（惡屬性的樣子）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "arceus-dragon": {
+      "formName": "龍屬性的樣子",
+      "displayName": "阿爾宙斯（龍屬性的樣子）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "arceus-electric": {
+      "formName": "電屬性的樣子",
+      "displayName": "阿爾宙斯（電屬性的樣子）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "arceus-fairy": {
+      "formName": "妖精屬性的樣子",
+      "displayName": "阿爾宙斯（妖精屬性的樣子）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "arceus-fighting": {
+      "formName": "格鬥屬性的樣子",
+      "displayName": "阿爾宙斯（格鬥屬性的樣子）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "arceus-fire": {
+      "formName": "火屬性的樣子",
+      "displayName": "阿爾宙斯（火屬性的樣子）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "arceus-flying": {
+      "formName": "飛行屬性的樣子",
+      "displayName": "阿爾宙斯（飛行屬性的樣子）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "arceus-ghost": {
+      "formName": "幽靈屬性的樣子",
+      "displayName": "阿爾宙斯（幽靈屬性的樣子）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "arceus-grass": {
+      "formName": "草屬性的樣子",
+      "displayName": "阿爾宙斯（草屬性的樣子）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "arceus-ground": {
+      "formName": "地面屬性的樣子",
+      "displayName": "阿爾宙斯（地面屬性的樣子）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "arceus-poison": {
+      "formName": "毒屬性的樣子",
+      "displayName": "阿爾宙斯（毒屬性的樣子）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "arceus-psychic": {
+      "formName": "超能力屬性的樣子",
+      "displayName": "阿爾宙斯（超能力屬性的樣子）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "arceus-rock": {
+      "formName": "岩石屬性的樣子",
+      "displayName": "阿爾宙斯（岩石屬性的樣子）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "arceus-steel": {
+      "formName": "鋼屬性的樣子",
+      "displayName": "阿爾宙斯（鋼屬性的樣子）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "arceus-unknown": {
+      "formName": "未知屬性的樣子",
+      "displayName": "阿爾宙斯（未知屬性的樣子）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "arceus-water": {
+      "formName": "水屬性的樣子",
+      "displayName": "阿爾宙斯（水屬性的樣子）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "basculin-blue-striped": {
+      "formName": "藍條紋的樣子",
+      "displayName": "野蠻鱸魚（藍條紋的樣子）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "basculin-white-striped": {
+      "formName": "白條紋的樣子",
+      "displayName": "野蠻鱸魚（白條紋的樣子）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "darmanitan-zen": {
+      "formName": "達摩模式",
+      "displayName": "達摩狒狒（達摩模式）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "deerling-autumn": {
+      "formName": "秋天的樣子",
+      "displayName": "四季鹿（秋天的樣子）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "deerling-summer": {
+      "formName": "夏天的樣子",
+      "displayName": "四季鹿（夏天的樣子）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "deerling-winter": {
+      "formName": "冬天的樣子",
+      "displayName": "四季鹿（冬天的樣子）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "sawsbuck-autumn": {
+      "formName": "秋天的樣子",
+      "displayName": "萌芽鹿（秋天的樣子）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "sawsbuck-summer": {
+      "formName": "夏天的樣子",
+      "displayName": "萌芽鹿（夏天的樣子）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "sawsbuck-winter": {
+      "formName": "冬天的樣子",
+      "displayName": "萌芽鹿（冬天的樣子）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "meloetta-pirouette": {
+      "formName": "舞步形態",
+      "displayName": "美洛耶塔（舞步形態）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "genesect-burn": {
+      "formName": "火焰卡帶",
+      "displayName": "蓋諾賽克特（火焰卡帶）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "genesect-chill": {
+      "formName": "冰凍卡帶",
+      "displayName": "蓋諾賽克特（冰凍卡帶）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "genesect-douse": {
+      "formName": "水流卡帶",
+      "displayName": "蓋諾賽克特（水流卡帶）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "genesect-shock": {
+      "formName": "閃電卡帶",
+      "displayName": "蓋諾賽克特（閃電卡帶）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "greninja-ash": {
+      "formName": "小智版甲賀忍蛙",
+      "displayName": "小智版甲賀忍蛙",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "greninja-battle-bond": {
+      "formName": "牽絆變身",
+      "displayName": "甲賀忍蛙（牽絆變身）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "scatterbug-archipelago": {
+      "formName": "群島花紋",
+      "displayName": "粉蝶蟲（群島花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "scatterbug-continental": {
+      "formName": "大陸花紋",
+      "displayName": "粉蝶蟲（大陸花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "scatterbug-elegant": {
+      "formName": "高雅花紋",
+      "displayName": "粉蝶蟲（高雅花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "scatterbug-fancy": {
+      "formName": "幻彩花紋",
+      "displayName": "粉蝶蟲（幻彩花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "scatterbug-garden": {
+      "formName": "庭園花紋",
+      "displayName": "粉蝶蟲（庭園花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "scatterbug-high-plains": {
+      "formName": "荒野花紋",
+      "displayName": "粉蝶蟲（荒野花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "scatterbug-jungle": {
+      "formName": "熱帶雨林花紋",
+      "displayName": "粉蝶蟲（熱帶雨林花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "scatterbug-marine": {
+      "formName": "大海花紋",
+      "displayName": "粉蝶蟲（大海花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "scatterbug-meadow": {
+      "formName": "花園花紋",
+      "displayName": "粉蝶蟲（花園花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "scatterbug-modern": {
+      "formName": "摩登花紋",
+      "displayName": "粉蝶蟲（摩登花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "scatterbug-monsoon": {
+      "formName": "驟雨花紋",
+      "displayName": "粉蝶蟲（驟雨花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "scatterbug-ocean": {
+      "formName": "大洋花紋",
+      "displayName": "粉蝶蟲（大洋花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "scatterbug-poke-ball": {
+      "formName": "球球花紋",
+      "displayName": "粉蝶蟲（球球花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "scatterbug-polar": {
+      "formName": "雪國花紋",
+      "displayName": "粉蝶蟲（雪國花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "scatterbug-river": {
+      "formName": "大河花紋",
+      "displayName": "粉蝶蟲（大河花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "scatterbug-sandstorm": {
+      "formName": "沙塵花紋",
+      "displayName": "粉蝶蟲（沙塵花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "scatterbug-savanna": {
+      "formName": "熱帶草原花紋",
+      "displayName": "粉蝶蟲（熱帶草原花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "scatterbug-sun": {
+      "formName": "太陽花紋",
+      "displayName": "粉蝶蟲（太陽花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "scatterbug-tundra": {
+      "formName": "雪原花紋",
+      "displayName": "粉蝶蟲（雪原花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "spewpa-archipelago": {
+      "formName": "群島花紋",
+      "displayName": "粉蝶蛹（群島花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "spewpa-continental": {
+      "formName": "大陸花紋",
+      "displayName": "粉蝶蛹（大陸花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "spewpa-elegant": {
+      "formName": "高雅花紋",
+      "displayName": "粉蝶蛹（高雅花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "spewpa-fancy": {
+      "formName": "幻彩花紋",
+      "displayName": "粉蝶蛹（幻彩花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "spewpa-garden": {
+      "formName": "庭園花紋",
+      "displayName": "粉蝶蛹（庭園花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "spewpa-high-plains": {
+      "formName": "荒野花紋",
+      "displayName": "粉蝶蛹（荒野花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "spewpa-jungle": {
+      "formName": "熱帶雨林花紋",
+      "displayName": "粉蝶蛹（熱帶雨林花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "spewpa-marine": {
+      "formName": "大海花紋",
+      "displayName": "粉蝶蛹（大海花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "spewpa-meadow": {
+      "formName": "花園花紋",
+      "displayName": "粉蝶蛹（花園花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "spewpa-modern": {
+      "formName": "摩登花紋",
+      "displayName": "粉蝶蛹（摩登花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "spewpa-monsoon": {
+      "formName": "驟雨花紋",
+      "displayName": "粉蝶蛹（驟雨花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "spewpa-ocean": {
+      "formName": "大洋花紋",
+      "displayName": "粉蝶蛹（大洋花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "spewpa-poke-ball": {
+      "formName": "球球花紋",
+      "displayName": "粉蝶蛹（球球花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "spewpa-polar": {
+      "formName": "雪國花紋",
+      "displayName": "粉蝶蛹（雪國花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "spewpa-river": {
+      "formName": "大河花紋",
+      "displayName": "粉蝶蛹（大河花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "spewpa-sandstorm": {
+      "formName": "沙塵花紋",
+      "displayName": "粉蝶蛹（沙塵花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "spewpa-savanna": {
+      "formName": "熱帶草原花紋",
+      "displayName": "粉蝶蛹（熱帶草原花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "spewpa-sun": {
+      "formName": "太陽花紋",
+      "displayName": "粉蝶蛹（太陽花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "spewpa-tundra": {
+      "formName": "雪原花紋",
+      "displayName": "粉蝶蛹（雪原花紋）",
+      "matchMethod": "52poke-vivillon-pattern",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "vivillon-archipelago": {
+      "formName": "群島花紋",
+      "displayName": "彩粉蝶（群島花紋）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "vivillon-continental": {
+      "formName": "大陸花紋",
+      "displayName": "彩粉蝶（大陸花紋）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "vivillon-elegant": {
+      "formName": "高雅花紋",
+      "displayName": "彩粉蝶（高雅花紋）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "vivillon-fancy": {
+      "formName": "幻彩花紋",
+      "displayName": "彩粉蝶（幻彩花紋）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "vivillon-garden": {
+      "formName": "庭園花紋",
+      "displayName": "彩粉蝶（庭園花紋）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "vivillon-high-plains": {
+      "formName": "荒野花紋",
+      "displayName": "彩粉蝶（荒野花紋）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "vivillon-icy-snow": {
+      "formName": "冰雪花紋",
+      "displayName": "彩粉蝶（冰雪花紋）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "vivillon-jungle": {
+      "formName": "熱帶雨林花紋",
+      "displayName": "彩粉蝶（熱帶雨林花紋）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "vivillon-marine": {
+      "formName": "大海花紋",
+      "displayName": "彩粉蝶（大海花紋）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "vivillon-modern": {
+      "formName": "摩登花紋",
+      "displayName": "彩粉蝶（摩登花紋）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "vivillon-monsoon": {
+      "formName": "驟雨花紋",
+      "displayName": "彩粉蝶（驟雨花紋）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "vivillon-ocean": {
+      "formName": "大洋花紋",
+      "displayName": "彩粉蝶（大洋花紋）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "vivillon-poke-ball": {
+      "formName": "球球花紋",
+      "displayName": "彩粉蝶（球球花紋）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "vivillon-polar": {
+      "formName": "雪國花紋",
+      "displayName": "彩粉蝶（雪國花紋）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "vivillon-river": {
+      "formName": "大河花紋",
+      "displayName": "彩粉蝶（大河花紋）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "vivillon-sandstorm": {
+      "formName": "沙塵花紋",
+      "displayName": "彩粉蝶（沙塵花紋）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "vivillon-savanna": {
+      "formName": "熱帶草原花紋",
+      "displayName": "彩粉蝶（熱帶草原花紋）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "vivillon-sun": {
+      "formName": "太陽花紋",
+      "displayName": "彩粉蝶（太陽花紋）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "vivillon-tundra": {
+      "formName": "雪原花紋",
+      "displayName": "彩粉蝶（雪原花紋）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "flabebe-blue": {
+      "formName": "藍花",
+      "displayName": "花蓓蓓（藍花）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "flabebe-orange": {
+      "formName": "橙花",
+      "displayName": "花蓓蓓（橙花）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "flabebe-yellow": {
+      "formName": "黃花",
+      "displayName": "花蓓蓓（黃花）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "floette-blue": {
+      "formName": "藍花",
+      "displayName": "花葉蒂（藍花）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "floette-eternal": {
+      "formName": "永恆之花",
+      "displayName": "花葉蒂（永恆之花）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "floette-orange": {
+      "formName": "橙花",
+      "displayName": "花葉蒂（橙花）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "floette-yellow": {
+      "formName": "黃花",
+      "displayName": "花葉蒂（黃花）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "florges-blue": {
+      "formName": "藍花",
+      "displayName": "花潔夫人（藍花）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "florges-orange": {
+      "formName": "橙花",
+      "displayName": "花潔夫人（橙花）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "florges-yellow": {
+      "formName": "黃花",
+      "displayName": "花潔夫人（黃花）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "furfrou-dandy": {
+      "formName": "紳士造型",
+      "displayName": "多麗米亞（紳士造型）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "furfrou-debutante": {
+      "formName": "淑女造型",
+      "displayName": "多麗米亞（淑女造型）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "furfrou-diamond": {
+      "formName": "菱形造型",
+      "displayName": "多麗米亞（菱形造型）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "furfrou-heart": {
+      "formName": "心形造型",
+      "displayName": "多麗米亞（心形造型）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "furfrou-kabuki": {
+      "formName": "歌舞伎造型",
+      "displayName": "多麗米亞（歌舞伎造型）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "furfrou-la-reine": {
+      "formName": "女王造型",
+      "displayName": "多麗米亞（女王造型）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "furfrou-matron": {
+      "formName": "貴婦造型",
+      "displayName": "多麗米亞（貴婦造型）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "furfrou-pharaoh": {
+      "formName": "國王造型",
+      "displayName": "多麗米亞（國王造型）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "furfrou-star": {
+      "formName": "星形造型",
+      "displayName": "多麗米亞（星形造型）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "aegislash-blade": {
+      "formName": "刀劍形態",
+      "displayName": "堅盾劍怪（刀劍形態）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "pumpkaboo-large": {
+      "formName": "大顆種",
+      "displayName": "南瓜精（大顆種）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "pumpkaboo-small": {
+      "formName": "小顆種",
+      "displayName": "南瓜精（小顆種）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "pumpkaboo-super": {
+      "formName": "巨顆種",
+      "displayName": "南瓜精（巨顆種）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "gourgeist-large": {
+      "formName": "大顆種",
+      "displayName": "南瓜怪人（大顆種）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "gourgeist-small": {
+      "formName": "小顆種",
+      "displayName": "南瓜怪人（小顆種）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "gourgeist-super": {
+      "formName": "巨顆種",
+      "displayName": "南瓜怪人（巨顆種）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "xerneas-active": {
+      "formName": "活躍模式",
+      "displayName": "哲爾尼亞斯（活躍模式）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "zygarde-complete": {
+      "formName": "完全體形態",
+      "displayName": "基格爾德（完全體形態）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "zygarde-10": {
+      "formName": "１０％形態",
+      "displayName": "基格爾德（１０％形態）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "zygarde-10-power-construct": {
+      "formName": "１０％形態・群聚變形",
+      "displayName": "基格爾德（１０％形態・群聚變形）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "zygarde-50-power-construct": {
+      "formName": "５０％形態",
+      "displayName": "基格爾德（５０％形態）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "gumshoos-totem": {
+      "formName": "霸主寶可夢",
+      "displayName": "貓鼬探長（霸主寶可夢）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "vikavolt-totem": {
+      "formName": "霸主寶可夢",
+      "displayName": "鍬農炮蟲（霸主寶可夢）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "oricorio-pau": {
+      "formName": "呼拉呼拉風格",
+      "displayName": "花舞鳥（呼拉呼拉風格）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "oricorio-pom-pom": {
+      "formName": "啪滋啪滋風格",
+      "displayName": "花舞鳥（啪滋啪滋風格）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "oricorio-sensu": {
+      "formName": "輕盈輕盈風格",
+      "displayName": "花舞鳥（輕盈輕盈風格）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "ribombee-totem": {
+      "formName": "霸主寶可夢",
+      "displayName": "蝶結萌虻（霸主寶可夢）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "rockruff-own-tempo": {
+      "formName": "特殊岩狗狗（我行我素）",
+      "displayName": "特殊岩狗狗（我行我素）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "lycanroc-dusk": {
+      "formName": "黃昏的樣子",
+      "displayName": "鬃岩狼人（黃昏的樣子）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "lycanroc-midnight": {
+      "formName": "黑夜的樣子",
+      "displayName": "鬃岩狼人（黑夜的樣子）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "wishiwashi-school": {
+      "formName": "魚群的樣子",
+      "displayName": "弱丁魚（魚群的樣子）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "araquanid-totem": {
+      "formName": "霸主寶可夢",
+      "displayName": "滴蛛霸（霸主寶可夢）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "lurantis-totem": {
+      "formName": "霸主寶可夢",
+      "displayName": "蘭螳花（霸主寶可夢）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "salazzle-totem": {
+      "formName": "霸主寶可夢",
+      "displayName": "焰后蜥（霸主寶可夢）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "silvally-bug": {
+      "formName": "屬性：蟲子",
+      "displayName": "銀伴戰獸（屬性：蟲子）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "silvally-dark": {
+      "formName": "屬性：黑暗",
+      "displayName": "銀伴戰獸（屬性：黑暗）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "silvally-dragon": {
+      "formName": "屬性：龍",
+      "displayName": "銀伴戰獸（屬性：龍）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "silvally-electric": {
+      "formName": "屬性：電子",
+      "displayName": "銀伴戰獸（屬性：電子）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "silvally-fairy": {
+      "formName": "屬性：妖精",
+      "displayName": "銀伴戰獸（屬性：妖精）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "silvally-fighting": {
+      "formName": "屬性：戰鬥",
+      "displayName": "銀伴戰獸（屬性：戰鬥）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "silvally-fire": {
+      "formName": "屬性：火焰",
+      "displayName": "銀伴戰獸（屬性：火焰）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "silvally-flying": {
+      "formName": "屬性：飛翔",
+      "displayName": "銀伴戰獸（屬性：飛翔）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "silvally-ghost": {
+      "formName": "屬性：幽靈",
+      "displayName": "銀伴戰獸（屬性：幽靈）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "silvally-grass": {
+      "formName": "屬性：青草",
+      "displayName": "銀伴戰獸（屬性：青草）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "silvally-ground": {
+      "formName": "屬性：大地",
+      "displayName": "銀伴戰獸（屬性：大地）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "silvally-poison": {
+      "formName": "屬性：毒",
+      "displayName": "銀伴戰獸（屬性：毒）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "silvally-psychic": {
+      "formName": "屬性：精神",
+      "displayName": "銀伴戰獸（屬性：精神）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "silvally-rock": {
+      "formName": "屬性：岩石",
+      "displayName": "銀伴戰獸（屬性：岩石）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "silvally-steel": {
+      "formName": "屬性：鋼鐵",
+      "displayName": "銀伴戰獸（屬性：鋼鐵）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "silvally-water": {
+      "formName": "屬性：清水",
+      "displayName": "銀伴戰獸（屬性：清水）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "minior-blue": {
+      "formName": "淺藍色核心",
+      "displayName": "小隕星（淺藍色核心）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "minior-blue-meteor": {
+      "formName": "淺藍色核心",
+      "displayName": "小隕星（淺藍色核心）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "minior-green": {
+      "formName": "綠色核心",
+      "displayName": "小隕星（綠色核心）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "minior-green-meteor": {
+      "formName": "綠色核心",
+      "displayName": "小隕星（綠色核心）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "minior-indigo": {
+      "formName": "藍色核心",
+      "displayName": "小隕星（藍色核心）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "minior-indigo-meteor": {
+      "formName": "藍色核心",
+      "displayName": "小隕星（藍色核心）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "minior-orange": {
+      "formName": "橙色核心",
+      "displayName": "小隕星（橙色核心）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "minior-orange-meteor": {
+      "formName": "橙色核心",
+      "displayName": "小隕星（橙色核心）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "minior-red": {
+      "formName": "紅色核心",
+      "displayName": "小隕星（紅色核心）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "minior-violet": {
+      "formName": "紫色核心",
+      "displayName": "小隕星（紫色核心）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "minior-violet-meteor": {
+      "formName": "紫色核心",
+      "displayName": "小隕星（紫色核心）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "minior-yellow": {
+      "formName": "黃色核心",
+      "displayName": "小隕星（黃色核心）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "minior-yellow-meteor": {
+      "formName": "黃色核心",
+      "displayName": "小隕星（黃色核心）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "togedemaru-totem": {
+      "formName": "霸主寶可夢",
+      "displayName": "托戈德瑪爾（霸主寶可夢）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "mimikyu-busted": {
+      "formName": "現形的樣子",
+      "displayName": "謎擬Ｑ（現形的樣子）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "mimikyu-totem-busted": {
+      "formName": "霸主寶可夢・現形的樣子",
+      "displayName": "謎擬Ｑ（霸主寶可夢・現形的樣子）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "mimikyu-totem-disguised": {
+      "formName": "霸主寶可夢・化形的樣子",
+      "displayName": "謎擬Ｑ（霸主寶可夢・化形的樣子）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "kommo-o-totem": {
+      "formName": "霸主寶可夢",
+      "displayName": "杖尾鱗甲龍（霸主寶可夢）",
+      "matchMethod": "curated-from-52poke",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "necrozma-ultra": {
+      "formName": "究極奈克洛茲瑪",
+      "displayName": "究極奈克洛茲瑪",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "necrozma-dawn": {
+      "formName": "拂曉之翼",
+      "displayName": "奈克洛茲瑪（拂曉之翼）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "necrozma-dusk": {
+      "formName": "黃昏之鬃",
+      "displayName": "奈克洛茲瑪（黃昏之鬃）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "cramorant-gorging": {
+      "formName": "大口吞的樣子",
+      "displayName": "古月鳥（大口吞的樣子）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "cramorant-gulping": {
+      "formName": "一口吞的樣子",
+      "displayName": "古月鳥（一口吞的樣子）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "sinistea-antique": {
+      "formName": "真品形態",
+      "displayName": "來悲茶（真品形態）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "polteageist-antique": {
+      "formName": "真品形態",
+      "displayName": "怖思壺（真品形態）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-caramel-swirl-berry-sweet": {
+      "formName": "焦糖綜合・莓果糖飾",
+      "displayName": "霜奶仙（焦糖綜合・莓果糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-caramel-swirl-clover-sweet": {
+      "formName": "焦糖綜合・四葉草糖飾",
+      "displayName": "霜奶仙（焦糖綜合・四葉草糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-caramel-swirl-flower-sweet": {
+      "formName": "焦糖綜合・花朵糖飾",
+      "displayName": "霜奶仙（焦糖綜合・花朵糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-caramel-swirl-love-sweet": {
+      "formName": "焦糖綜合・愛心糖飾",
+      "displayName": "霜奶仙（焦糖綜合・愛心糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-caramel-swirl-ribbon-sweet": {
+      "formName": "焦糖綜合・蝴蝶結糖飾",
+      "displayName": "霜奶仙（焦糖綜合・蝴蝶結糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-caramel-swirl-star-sweet": {
+      "formName": "焦糖綜合・星星糖飾",
+      "displayName": "霜奶仙（焦糖綜合・星星糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-caramel-swirl-strawberry-sweet": {
+      "formName": "焦糖綜合・草莓糖飾",
+      "displayName": "霜奶仙（焦糖綜合・草莓糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-lemon-cream-berry-sweet": {
+      "formName": "奶香檸檬・莓果糖飾",
+      "displayName": "霜奶仙（奶香檸檬・莓果糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-lemon-cream-clover-sweet": {
+      "formName": "奶香檸檬・四葉草糖飾",
+      "displayName": "霜奶仙（奶香檸檬・四葉草糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-lemon-cream-flower-sweet": {
+      "formName": "奶香檸檬・花朵糖飾",
+      "displayName": "霜奶仙（奶香檸檬・花朵糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-lemon-cream-love-sweet": {
+      "formName": "奶香檸檬・愛心糖飾",
+      "displayName": "霜奶仙（奶香檸檬・愛心糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-lemon-cream-ribbon-sweet": {
+      "formName": "奶香檸檬・蝴蝶結糖飾",
+      "displayName": "霜奶仙（奶香檸檬・蝴蝶結糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-lemon-cream-star-sweet": {
+      "formName": "奶香檸檬・星星糖飾",
+      "displayName": "霜奶仙（奶香檸檬・星星糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-lemon-cream-strawberry-sweet": {
+      "formName": "奶香檸檬・草莓糖飾",
+      "displayName": "霜奶仙（奶香檸檬・草莓糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-matcha-cream-berry-sweet": {
+      "formName": "奶香抹茶・莓果糖飾",
+      "displayName": "霜奶仙（奶香抹茶・莓果糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-matcha-cream-clover-sweet": {
+      "formName": "奶香抹茶・四葉草糖飾",
+      "displayName": "霜奶仙（奶香抹茶・四葉草糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-matcha-cream-flower-sweet": {
+      "formName": "奶香抹茶・花朵糖飾",
+      "displayName": "霜奶仙（奶香抹茶・花朵糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-matcha-cream-love-sweet": {
+      "formName": "奶香抹茶・愛心糖飾",
+      "displayName": "霜奶仙（奶香抹茶・愛心糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-matcha-cream-ribbon-sweet": {
+      "formName": "奶香抹茶・蝴蝶結糖飾",
+      "displayName": "霜奶仙（奶香抹茶・蝴蝶結糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-matcha-cream-star-sweet": {
+      "formName": "奶香抹茶・星星糖飾",
+      "displayName": "霜奶仙（奶香抹茶・星星糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-matcha-cream-strawberry-sweet": {
+      "formName": "奶香抹茶・草莓糖飾",
+      "displayName": "霜奶仙（奶香抹茶・草莓糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-mint-cream-berry-sweet": {
+      "formName": "奶香薄荷・莓果糖飾",
+      "displayName": "霜奶仙（奶香薄荷・莓果糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-mint-cream-clover-sweet": {
+      "formName": "奶香薄荷・四葉草糖飾",
+      "displayName": "霜奶仙（奶香薄荷・四葉草糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-mint-cream-flower-sweet": {
+      "formName": "奶香薄荷・花朵糖飾",
+      "displayName": "霜奶仙（奶香薄荷・花朵糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-mint-cream-love-sweet": {
+      "formName": "奶香薄荷・愛心糖飾",
+      "displayName": "霜奶仙（奶香薄荷・愛心糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-mint-cream-ribbon-sweet": {
+      "formName": "奶香薄荷・蝴蝶結糖飾",
+      "displayName": "霜奶仙（奶香薄荷・蝴蝶結糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-mint-cream-star-sweet": {
+      "formName": "奶香薄荷・星星糖飾",
+      "displayName": "霜奶仙（奶香薄荷・星星糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-mint-cream-strawberry-sweet": {
+      "formName": "奶香薄荷・草莓糖飾",
+      "displayName": "霜奶仙（奶香薄荷・草莓糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-rainbow-swirl-berry-sweet": {
+      "formName": "三色综合・莓果糖飾",
+      "displayName": "霜奶仙（三色综合・莓果糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-rainbow-swirl-clover-sweet": {
+      "formName": "三色综合・四葉草糖飾",
+      "displayName": "霜奶仙（三色综合・四葉草糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-rainbow-swirl-flower-sweet": {
+      "formName": "三色综合・花朵糖飾",
+      "displayName": "霜奶仙（三色综合・花朵糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-rainbow-swirl-love-sweet": {
+      "formName": "三色综合・愛心糖飾",
+      "displayName": "霜奶仙（三色综合・愛心糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-rainbow-swirl-ribbon-sweet": {
+      "formName": "三色综合・蝴蝶結糖飾",
+      "displayName": "霜奶仙（三色综合・蝴蝶結糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-rainbow-swirl-star-sweet": {
+      "formName": "三色综合・星星糖飾",
+      "displayName": "霜奶仙（三色综合・星星糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-rainbow-swirl-strawberry-sweet": {
+      "formName": "三色综合・草莓糖飾",
+      "displayName": "霜奶仙（三色综合・草莓糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-ruby-cream-berry-sweet": {
+      "formName": "奶香紅鑽・莓果糖飾",
+      "displayName": "霜奶仙（奶香紅鑽・莓果糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-ruby-cream-clover-sweet": {
+      "formName": "奶香紅鑽・四葉草糖飾",
+      "displayName": "霜奶仙（奶香紅鑽・四葉草糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-ruby-cream-flower-sweet": {
+      "formName": "奶香紅鑽・花朵糖飾",
+      "displayName": "霜奶仙（奶香紅鑽・花朵糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-ruby-cream-love-sweet": {
+      "formName": "奶香紅鑽・愛心糖飾",
+      "displayName": "霜奶仙（奶香紅鑽・愛心糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-ruby-cream-ribbon-sweet": {
+      "formName": "奶香紅鑽・蝴蝶結糖飾",
+      "displayName": "霜奶仙（奶香紅鑽・蝴蝶結糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-ruby-cream-star-sweet": {
+      "formName": "奶香紅鑽・星星糖飾",
+      "displayName": "霜奶仙（奶香紅鑽・星星糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-ruby-cream-strawberry-sweet": {
+      "formName": "奶香紅鑽・草莓糖飾",
+      "displayName": "霜奶仙（奶香紅鑽・草莓糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-ruby-swirl-berry-sweet": {
+      "formName": "紅鑽綜合・莓果糖飾",
+      "displayName": "霜奶仙（紅鑽綜合・莓果糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-ruby-swirl-clover-sweet": {
+      "formName": "紅鑽綜合・四葉草糖飾",
+      "displayName": "霜奶仙（紅鑽綜合・四葉草糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-ruby-swirl-flower-sweet": {
+      "formName": "紅鑽綜合・花朵糖飾",
+      "displayName": "霜奶仙（紅鑽綜合・花朵糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-ruby-swirl-love-sweet": {
+      "formName": "紅鑽綜合・愛心糖飾",
+      "displayName": "霜奶仙（紅鑽綜合・愛心糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-ruby-swirl-ribbon-sweet": {
+      "formName": "紅鑽綜合・蝴蝶結糖飾",
+      "displayName": "霜奶仙（紅鑽綜合・蝴蝶結糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-ruby-swirl-star-sweet": {
+      "formName": "紅鑽綜合・星星糖飾",
+      "displayName": "霜奶仙（紅鑽綜合・星星糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-ruby-swirl-strawberry-sweet": {
+      "formName": "紅鑽綜合・草莓糖飾",
+      "displayName": "霜奶仙（紅鑽綜合・草莓糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-salted-cream-berry-sweet": {
+      "formName": "奶香雪鹽・莓果糖飾",
+      "displayName": "霜奶仙（奶香雪鹽・莓果糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-salted-cream-clover-sweet": {
+      "formName": "奶香雪鹽・四葉草糖飾",
+      "displayName": "霜奶仙（奶香雪鹽・四葉草糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-salted-cream-flower-sweet": {
+      "formName": "奶香雪鹽・花朵糖飾",
+      "displayName": "霜奶仙（奶香雪鹽・花朵糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-salted-cream-love-sweet": {
+      "formName": "奶香雪鹽・愛心糖飾",
+      "displayName": "霜奶仙（奶香雪鹽・愛心糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-salted-cream-ribbon-sweet": {
+      "formName": "奶香雪鹽・蝴蝶結糖飾",
+      "displayName": "霜奶仙（奶香雪鹽・蝴蝶結糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-salted-cream-star-sweet": {
+      "formName": "奶香雪鹽・星星糖飾",
+      "displayName": "霜奶仙（奶香雪鹽・星星糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-salted-cream-strawberry-sweet": {
+      "formName": "奶香雪鹽・草莓糖飾",
+      "displayName": "霜奶仙（奶香雪鹽・草莓糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-vanilla-cream-berry-sweet": {
+      "formName": "奶香香草・莓果糖飾",
+      "displayName": "霜奶仙（奶香香草・莓果糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-vanilla-cream-clover-sweet": {
+      "formName": "奶香香草・四葉草糖飾",
+      "displayName": "霜奶仙（奶香香草・四葉草糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-vanilla-cream-flower-sweet": {
+      "formName": "奶香香草・花朵糖飾",
+      "displayName": "霜奶仙（奶香香草・花朵糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-vanilla-cream-love-sweet": {
+      "formName": "奶香香草・愛心糖飾",
+      "displayName": "霜奶仙（奶香香草・愛心糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-vanilla-cream-ribbon-sweet": {
+      "formName": "奶香香草・蝴蝶結糖飾",
+      "displayName": "霜奶仙（奶香香草・蝴蝶結糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "alcremie-vanilla-cream-star-sweet": {
+      "formName": "奶香香草・星星糖飾",
+      "displayName": "霜奶仙（奶香香草・星星糖飾）",
+      "matchMethod": "52poke-cream-plus-decoration",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "eiscue-noice": {
+      "formName": "解凍頭",
+      "displayName": "冰砌鵝（解凍頭）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "morpeko-hangry": {
+      "formName": "空腹花紋",
+      "displayName": "莫魯貝可（空腹花紋）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "zacian-crowned": {
+      "formName": "劍之王",
+      "displayName": "蒼響（劍之王）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "zamazenta-crowned": {
+      "formName": "盾之王",
+      "displayName": "藏瑪然特（盾之王）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "squawkabilly-blue-plumage": {
+      "formName": "藍羽毛",
+      "displayName": "怒鸚哥（藍羽毛）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "squawkabilly-white-plumage": {
+      "formName": "白羽毛",
+      "displayName": "怒鸚哥（白羽毛）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "squawkabilly-yellow-plumage": {
+      "formName": "黃羽毛",
+      "displayName": "怒鸚哥（黃羽毛）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "palafin-hero": {
+      "formName": "全能形態",
+      "displayName": "海豚俠（全能形態）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "koraidon-gliding-build": {
+      "formName": "乘風形態",
+      "displayName": "故勒頓（乘風形態）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "koraidon-limited-build": {
+      "formName": "制限形態",
+      "displayName": "故勒頓（制限形態）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "koraidon-sprinting-build": {
+      "formName": "疾馳形態",
+      "displayName": "故勒頓（疾馳形態）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "koraidon-swimming-build": {
+      "formName": "破浪形態",
+      "displayName": "故勒頓（破浪形態）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "miraidon-aquatic-mode": {
+      "formName": "浮水模式",
+      "displayName": "密勒頓（浮水模式）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "miraidon-drive-mode": {
+      "formName": "行駛模式",
+      "displayName": "密勒頓（行駛模式）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "miraidon-glide-mode": {
+      "formName": "滑翔模式",
+      "displayName": "密勒頓（滑翔模式）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "miraidon-low-power-mode": {
+      "formName": "受限模式",
+      "displayName": "密勒頓（受限模式）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "poltchageist-artisan": {
+      "formName": "高檔貨的樣子",
+      "displayName": "斯魔茶（高檔貨的樣子）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "sinistcha-masterpiece": {
+      "formName": "傑作的樣子",
+      "displayName": "來悲粗茶（傑作的樣子）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "terapagos-stellar": {
+      "formName": "星晶形態",
+      "displayName": "太樂巴戈斯（星晶形態）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    },
+    "terapagos-terastal": {
+      "formName": "太晶形態",
+      "displayName": "太樂巴戈斯（太晶形態）",
+      "matchMethod": "52poke-english-form-match",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89%2F%E5%BD%A2%E6%80%81%E5%8F%98%E5%8C%96",
+      "revisionId": 2608994
+    }
+  },
+  "unresolved": []
+}

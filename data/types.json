@@ -1,0 +1,362 @@
+{
+  "normal": {
+    "id": 1,
+    "name": "一般",
+    "color": "#8f989e",
+    "dark": "#616a70",
+    "damageFrom": {
+      "weak": [
+        "fighting"
+      ],
+      "resist": [],
+      "immune": [
+        "ghost"
+      ]
+    }
+  },
+  "fighting": {
+    "id": 2,
+    "name": "格鬥",
+    "color": "#c4544c",
+    "dark": "#8e3438",
+    "damageFrom": {
+      "weak": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "resist": [
+        "rock",
+        "bug",
+        "dark"
+      ],
+      "immune": []
+    }
+  },
+  "flying": {
+    "id": 3,
+    "name": "飛行",
+    "color": "#8799c5",
+    "dark": "#586b9a",
+    "damageFrom": {
+      "weak": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "resist": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "immune": [
+        "ground"
+      ]
+    }
+  },
+  "poison": {
+    "id": 4,
+    "name": "毒",
+    "color": "#a566ad",
+    "dark": "#74417c",
+    "damageFrom": {
+      "weak": [
+        "ground",
+        "psychic"
+      ],
+      "resist": [
+        "fighting",
+        "poison",
+        "bug",
+        "grass",
+        "fairy"
+      ],
+      "immune": []
+    }
+  },
+  "ground": {
+    "id": 5,
+    "name": "地面",
+    "color": "#c99b57",
+    "dark": "#8b6530",
+    "damageFrom": {
+      "weak": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "resist": [
+        "poison",
+        "rock"
+      ],
+      "immune": [
+        "electric"
+      ]
+    }
+  },
+  "rock": {
+    "id": 6,
+    "name": "岩石",
+    "color": "#ae9b6a",
+    "dark": "#786941",
+    "damageFrom": {
+      "weak": [
+        "fighting",
+        "ground",
+        "steel",
+        "water",
+        "grass"
+      ],
+      "resist": [
+        "normal",
+        "flying",
+        "poison",
+        "fire"
+      ],
+      "immune": []
+    }
+  },
+  "bug": {
+    "id": 7,
+    "name": "蟲",
+    "color": "#91a835",
+    "dark": "#66771c",
+    "damageFrom": {
+      "weak": [
+        "flying",
+        "rock",
+        "fire"
+      ],
+      "resist": [
+        "fighting",
+        "ground",
+        "grass"
+      ],
+      "immune": []
+    }
+  },
+  "ghost": {
+    "id": 8,
+    "name": "幽靈",
+    "color": "#676b9e",
+    "dark": "#424672",
+    "damageFrom": {
+      "weak": [
+        "ghost",
+        "dark"
+      ],
+      "resist": [
+        "poison",
+        "bug"
+      ],
+      "immune": [
+        "normal",
+        "fighting"
+      ]
+    }
+  },
+  "steel": {
+    "id": 9,
+    "name": "鋼",
+    "color": "#6595a2",
+    "dark": "#3f6973",
+    "damageFrom": {
+      "weak": [
+        "fighting",
+        "ground",
+        "fire"
+      ],
+      "resist": [
+        "normal",
+        "flying",
+        "rock",
+        "bug",
+        "steel",
+        "grass",
+        "psychic",
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "immune": [
+        "poison"
+      ]
+    }
+  },
+  "fire": {
+    "id": 10,
+    "name": "火",
+    "color": "#ee7043",
+    "dark": "#c74328",
+    "damageFrom": {
+      "weak": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "resist": [
+        "bug",
+        "steel",
+        "fire",
+        "grass",
+        "ice",
+        "fairy"
+      ],
+      "immune": []
+    }
+  },
+  "water": {
+    "id": 11,
+    "name": "水",
+    "color": "#4b90d6",
+    "dark": "#2864a0",
+    "damageFrom": {
+      "weak": [
+        "grass",
+        "electric"
+      ],
+      "resist": [
+        "steel",
+        "fire",
+        "water",
+        "ice"
+      ],
+      "immune": []
+    }
+  },
+  "grass": {
+    "id": 12,
+    "name": "草",
+    "color": "#5fae58",
+    "dark": "#347c3a",
+    "damageFrom": {
+      "weak": [
+        "flying",
+        "poison",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "resist": [
+        "ground",
+        "water",
+        "grass",
+        "electric"
+      ],
+      "immune": []
+    }
+  },
+  "electric": {
+    "id": 13,
+    "name": "電",
+    "color": "#e9b91f",
+    "dark": "#b88600",
+    "damageFrom": {
+      "weak": [
+        "ground"
+      ],
+      "resist": [
+        "flying",
+        "steel",
+        "electric"
+      ],
+      "immune": []
+    }
+  },
+  "psychic": {
+    "id": 14,
+    "name": "超能力",
+    "color": "#e66c91",
+    "dark": "#b43a64",
+    "damageFrom": {
+      "weak": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "resist": [
+        "fighting",
+        "psychic"
+      ],
+      "immune": []
+    }
+  },
+  "ice": {
+    "id": 15,
+    "name": "冰",
+    "color": "#63c5c3",
+    "dark": "#318b91",
+    "damageFrom": {
+      "weak": [
+        "fighting",
+        "rock",
+        "steel",
+        "fire"
+      ],
+      "resist": [
+        "ice"
+      ],
+      "immune": []
+    }
+  },
+  "dragon": {
+    "id": 16,
+    "name": "龍",
+    "color": "#526eb7",
+    "dark": "#314587",
+    "damageFrom": {
+      "weak": [
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "resist": [
+        "fire",
+        "water",
+        "grass",
+        "electric"
+      ],
+      "immune": []
+    }
+  },
+  "dark": {
+    "id": 17,
+    "name": "惡",
+    "color": "#685a58",
+    "dark": "#403535",
+    "damageFrom": {
+      "weak": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "resist": [
+        "ghost",
+        "dark"
+      ],
+      "immune": [
+        "psychic"
+      ]
+    }
+  },
+  "fairy": {
+    "id": 18,
+    "name": "妖精",
+    "color": "#dc86b9",
+    "dark": "#a94d84",
+    "damageFrom": {
+      "weak": [
+        "poison",
+        "steel"
+      ],
+      "resist": [
+        "fighting",
+        "bug",
+        "dark"
+      ],
+      "immune": [
+        "dragon"
+      ]
+    }
+  }
+}

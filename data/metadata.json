@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-09-07T17:21:10.062Z",
+  "source": "https://pokeapi.co/api/v2",
+  "options": {
+    "concurrency": 12,
+    "refresh": false,
+    "cache": false,
+    "updatedGroups": [
+      "core"
+    ]
+  },
+  "summary": {
+    "items": 2223,
+    "core": {
+      "pokemon": 1579,
+      "species": 1025,
+      "abilities": 374,
+      "types": 18,
+      "chains": 541
+    },
+    "moves": 937
+  }
+}

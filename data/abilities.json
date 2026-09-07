@@ -1,0 +1,4490 @@
+{
+  "stench": {
+    "id": 1,
+    "slug": "stench",
+    "name": {
+      "zhHant": "惡臭",
+      "en": "Stench",
+      "ja": "あくしゅう"
+    },
+    "description": "發出臭氣， 在攻擊的時候， 有時會使對手畏縮。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "drizzle": {
+    "id": 2,
+    "slug": "drizzle",
+    "name": {
+      "zhHant": "降雨",
+      "en": "Drizzle",
+      "ja": "あめふらし"
+    },
+    "description": "出場時， 會將天氣變為下雨。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "speed-boost": {
+    "id": 3,
+    "slug": "speed-boost",
+    "name": {
+      "zhHant": "加速",
+      "en": "Speed Boost",
+      "ja": "かそく"
+    },
+    "description": "每一回合速度會變快。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "battle-armor": {
+    "id": 4,
+    "slug": "battle-armor",
+    "name": {
+      "zhHant": "戰鬥盔甲",
+      "en": "Battle Armor",
+      "ja": "カブトアーマー"
+    },
+    "description": "被堅硬的甲殼守護著， 不會被對手的攻擊擊中要害。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "sturdy": {
+    "id": 5,
+    "slug": "sturdy",
+    "name": {
+      "zhHant": "結實",
+      "en": "Sturdy",
+      "ja": "がんじょう"
+    },
+    "description": "受到對手的招式攻擊時 不會被一擊打倒。 一擊必殺的招式也沒有效果。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "damp": {
+    "id": 6,
+    "slug": "damp",
+    "name": {
+      "zhHant": "濕氣",
+      "en": "Damp",
+      "ja": "しめりけ"
+    },
+    "description": "透過把周圍都弄濕， 使誰都無法使用自爆等爆炸類的招式。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "limber": {
+    "id": 7,
+    "slug": "limber",
+    "name": {
+      "zhHant": "柔軟",
+      "en": "Limber",
+      "ja": "じゅうなん"
+    },
+    "description": "因為身體柔軟， 不會陷入麻痺狀態。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "sand-veil": {
+    "id": 8,
+    "slug": "sand-veil",
+    "name": {
+      "zhHant": "沙隱",
+      "en": "Sand Veil",
+      "ja": "すながくれ"
+    },
+    "description": "在沙暴中 閃避率會提高。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "static": {
+    "id": 9,
+    "slug": "static",
+    "name": {
+      "zhHant": "靜電",
+      "en": "Static",
+      "ja": "せいでんき"
+    },
+    "description": "身上帶有靜電， 有時會令接觸到的對手麻痺。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "volt-absorb": {
+    "id": 10,
+    "slug": "volt-absorb",
+    "name": {
+      "zhHant": "蓄電",
+      "en": "Volt Absorb",
+      "ja": "ちくでん"
+    },
+    "description": "受到電屬性的招式攻擊時， 不會受到傷害，而是會回復。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "water-absorb": {
+    "id": 11,
+    "slug": "water-absorb",
+    "name": {
+      "zhHant": "儲水",
+      "en": "Water Absorb",
+      "ja": "ちょすい"
+    },
+    "description": "受到水屬性的招式攻擊時， 不會受到傷害，而是會回復。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "oblivious": {
+    "id": 12,
+    "slug": "oblivious",
+    "name": {
+      "zhHant": "遲鈍",
+      "en": "Oblivious",
+      "ja": "どんかん"
+    },
+    "description": "感覺遲鈍， 不會陷入著迷和被挑釁狀態。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "cloud-nine": {
+    "id": 13,
+    "slug": "cloud-nine",
+    "name": {
+      "zhHant": "無關天氣",
+      "en": "Cloud Nine",
+      "ja": "ノーてんき"
+    },
+    "description": "任何天氣的影響都會消失。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "compound-eyes": {
+    "id": 14,
+    "slug": "compound-eyes",
+    "name": {
+      "zhHant": "複眼",
+      "en": "Compound Eyes",
+      "ja": "ふくがん"
+    },
+    "description": "因為擁有複眼， 會提高招式的命中率。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "insomnia": {
+    "id": 15,
+    "slug": "insomnia",
+    "name": {
+      "zhHant": "不眠",
+      "en": "Insomnia",
+      "ja": "ふみん"
+    },
+    "description": "因為有著睡不著的體質， 所以不會陷入睡眠狀態。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "color-change": {
+    "id": 16,
+    "slug": "color-change",
+    "name": {
+      "zhHant": "變色",
+      "en": "Color Change",
+      "ja": "へんしょく"
+    },
+    "description": "自己的屬性會變為 擊中自己的對手招式的屬性。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "immunity": {
+    "id": 17,
+    "slug": "immunity",
+    "name": {
+      "zhHant": "免疫",
+      "en": "Immunity",
+      "ja": "めんえき"
+    },
+    "description": "因為體內擁有免疫能力， 不會陷入中毒狀態。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "flash-fire": {
+    "id": 18,
+    "slug": "flash-fire",
+    "name": {
+      "zhHant": "引火",
+      "en": "Flash Fire",
+      "ja": "もらいび"
+    },
+    "description": "受到火屬性的招式攻擊時， 吸收火焰，讓自己使出的 火屬性招式變強。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "shield-dust": {
+    "id": 19,
+    "slug": "shield-dust",
+    "name": {
+      "zhHant": "鱗粉",
+      "en": "Shield Dust",
+      "ja": "りんぷん"
+    },
+    "description": "被鱗粉守護著， 不會受到招式的追加效果影響。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "own-tempo": {
+    "id": 20,
+    "slug": "own-tempo",
+    "name": {
+      "zhHant": "我行我素",
+      "en": "Own Tempo",
+      "ja": "マイペース"
+    },
+    "description": "因為我行我素， 不會陷入混亂狀態。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "suction-cups": {
+    "id": 21,
+    "slug": "suction-cups",
+    "name": {
+      "zhHant": "吸盤",
+      "en": "Suction Cups",
+      "ja": "きゅうばん"
+    },
+    "description": "用吸盤將自己牢牢吸附在地面上， 讓替換寶可夢的招式和道具失效。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "intimidate": {
+    "id": 22,
+    "slug": "intimidate",
+    "name": {
+      "zhHant": "威嚇",
+      "en": "Intimidate",
+      "ja": "いかく"
+    },
+    "description": "出場時威嚇對手， 使其退縮， 從而降低對手的攻擊。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "shadow-tag": {
+    "id": 23,
+    "slug": "shadow-tag",
+    "name": {
+      "zhHant": "踩影",
+      "en": "Shadow Tag",
+      "ja": "かげふみ"
+    },
+    "description": "踩住對手的影子 使其無法逃走或替換。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "rough-skin": {
+    "id": 24,
+    "slug": "rough-skin",
+    "name": {
+      "zhHant": "粗糙皮膚",
+      "en": "Rough Skin",
+      "ja": "さめはだ"
+    },
+    "description": "受到攻擊時， 用粗糙的皮膚弄傷 接觸到自己的對手。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "wonder-guard": {
+    "id": 25,
+    "slug": "wonder-guard",
+    "name": {
+      "zhHant": "神奇守護",
+      "en": "Wonder Guard",
+      "ja": "ふしぎなまもり"
+    },
+    "description": "不可思議的力量， 只有效果絕佳的招式才會擊中自己。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "levitate": {
+    "id": 26,
+    "slug": "levitate",
+    "name": {
+      "zhHant": "飄浮",
+      "en": "Levitate",
+      "ja": "ふゆう"
+    },
+    "description": "從地面浮起， 從而不會受到地面屬性招式的攻擊。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "effect-spore": {
+    "id": 27,
+    "slug": "effect-spore",
+    "name": {
+      "zhHant": "孢子",
+      "en": "Effect Spore",
+      "ja": "ほうし"
+    },
+    "description": "受到攻擊時， 有時會讓接觸到自己的對手 陷入中毒、麻痺或睡眠狀態。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "synchronize": {
+    "id": 28,
+    "slug": "synchronize",
+    "name": {
+      "zhHant": "同步",
+      "en": "Synchronize",
+      "ja": "シンクロ"
+    },
+    "description": "將自己的中毒、麻痺或 灼傷狀態傳染給對手。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "clear-body": {
+    "id": 29,
+    "slug": "clear-body",
+    "name": {
+      "zhHant": "恆淨之軀",
+      "en": "Clear Body",
+      "ja": "クリアボディ"
+    },
+    "description": "不會因對手的招式或特性 而被降低能力。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "natural-cure": {
+    "id": 30,
+    "slug": "natural-cure",
+    "name": {
+      "zhHant": "自然回復",
+      "en": "Natural Cure",
+      "ja": "しぜんかいふく"
+    },
+    "description": "異常狀態會在 離場後治癒。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "lightning-rod": {
+    "id": 31,
+    "slug": "lightning-rod",
+    "name": {
+      "zhHant": "避雷針",
+      "en": "Lightning Rod",
+      "ja": "ひらいしん"
+    },
+    "description": "將電屬性的招式吸引到自己身上， 不但不會受到傷害，反而會提高特攻。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "serene-grace": {
+    "id": 32,
+    "slug": "serene-grace",
+    "name": {
+      "zhHant": "天恩",
+      "en": "Serene Grace",
+      "ja": "てんのめぐみ"
+    },
+    "description": "受到上天保佑， 容易出現招式的追加效果。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "swift-swim": {
+    "id": 33,
+    "slug": "swift-swim",
+    "name": {
+      "zhHant": "悠游自如",
+      "en": "Swift Swim",
+      "ja": "すいすい"
+    },
+    "description": "天氣為下雨時， 速度會提高。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "chlorophyll": {
+    "id": 34,
+    "slug": "chlorophyll",
+    "name": {
+      "zhHant": "葉綠素",
+      "en": "Chlorophyll",
+      "ja": "ようりょくそ"
+    },
+    "description": "天氣為晴朗時， 速度會提高。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "illuminate": {
+    "id": 35,
+    "slug": "illuminate",
+    "name": {
+      "zhHant": "發光",
+      "en": "Illuminate",
+      "ja": "はっこう"
+    },
+    "description": "透過讓周圍變亮， 變得容易遇見野生的寶可夢。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "trace": {
+    "id": 36,
+    "slug": "trace",
+    "name": {
+      "zhHant": "複製",
+      "en": "Trace",
+      "ja": "トレース"
+    },
+    "description": "出場時，複製對手的特性， 變為與之相同的特性。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "huge-power": {
+    "id": 37,
+    "slug": "huge-power",
+    "name": {
+      "zhHant": "大力士",
+      "en": "Huge Power",
+      "ja": "ちからもち"
+    },
+    "description": "物理攻擊的威力會變為２倍。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "poison-point": {
+    "id": 38,
+    "slug": "poison-point",
+    "name": {
+      "zhHant": "毒刺",
+      "en": "Poison Point",
+      "ja": "どくのトゲ"
+    },
+    "description": "有時會讓接觸到自己的 對手陷入中毒狀態。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "inner-focus": {
+    "id": 39,
+    "slug": "inner-focus",
+    "name": {
+      "zhHant": "精神力",
+      "en": "Inner Focus",
+      "ja": "せいしんりょく"
+    },
+    "description": "靠著經過鍛鍊的精神， 不會因對手的攻擊而畏縮。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "magma-armor": {
+    "id": 40,
+    "slug": "magma-armor",
+    "name": {
+      "zhHant": "熔岩鎧甲",
+      "en": "Magma Armor",
+      "ja": "マグマのよろい"
+    },
+    "description": "將熾熱的熔岩覆蓋在身上， 不會陷入冰凍狀態。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "water-veil": {
+    "id": 41,
+    "slug": "water-veil",
+    "name": {
+      "zhHant": "水幕",
+      "en": "Water Veil",
+      "ja": "みずのベール"
+    },
+    "description": "將水幕裹在身上， 不會陷入灼傷狀態。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "magnet-pull": {
+    "id": 42,
+    "slug": "magnet-pull",
+    "name": {
+      "zhHant": "磁力",
+      "en": "Magnet Pull",
+      "ja": "じりょく"
+    },
+    "description": "用磁力吸住鋼屬性的寶可夢， 使其無法逃走。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "soundproof": {
+    "id": 43,
+    "slug": "soundproof",
+    "name": {
+      "zhHant": "隔音",
+      "en": "Soundproof",
+      "ja": "ぼうおん"
+    },
+    "description": "透過遮蔽聲音， 不受到聲音招式的攻擊。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "rain-dish": {
+    "id": 44,
+    "slug": "rain-dish",
+    "name": {
+      "zhHant": "雨盤",
+      "en": "Rain Dish",
+      "ja": "あめうけざら"
+    },
+    "description": "天氣為下雨時， 會漸漸回復ＨＰ。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "sand-stream": {
+    "id": 45,
+    "slug": "sand-stream",
+    "name": {
+      "zhHant": "揚沙",
+      "en": "Sand Stream",
+      "ja": "すなおこし"
+    },
+    "description": "出場時， 會把天氣變為沙暴。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "pressure": {
+    "id": 46,
+    "slug": "pressure",
+    "name": {
+      "zhHant": "壓迫感",
+      "en": "Pressure",
+      "ja": "プレッシャー"
+    },
+    "description": "給予對手壓迫感， 大量減少其使用招式的ＰＰ。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "thick-fat": {
+    "id": 47,
+    "slug": "thick-fat",
+    "name": {
+      "zhHant": "厚脂肪",
+      "en": "Thick Fat",
+      "ja": "あついしぼう"
+    },
+    "description": "被厚厚的脂肪保護著， 能夠讓火屬性和冰屬性 招式的傷害減半。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "early-bird": {
+    "id": 48,
+    "slug": "early-bird",
+    "name": {
+      "zhHant": "早起",
+      "en": "Early Bird",
+      "ja": "はやおき"
+    },
+    "description": "即使陷入睡眠狀態， 也能以２倍的速度提早醒來。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "flame-body": {
+    "id": 49,
+    "slug": "flame-body",
+    "name": {
+      "zhHant": "火焰之軀",
+      "en": "Flame Body",
+      "ja": "ほのおのからだ"
+    },
+    "description": "有時會讓接觸到自己的 對手陷入灼傷狀態。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "run-away": {
+    "id": 50,
+    "slug": "run-away",
+    "name": {
+      "zhHant": "逃跑",
+      "en": "Run Away",
+      "ja": "にげあし"
+    },
+    "description": "一定能從野生寶可夢 那裡逃走。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "keen-eye": {
+    "id": 51,
+    "slug": "keen-eye",
+    "name": {
+      "zhHant": "銳利目光",
+      "en": "Keen Eye",
+      "ja": "するどいめ"
+    },
+    "description": "靠著銳利的目光， 命中率不會被降低。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "hyper-cutter": {
+    "id": 52,
+    "slug": "hyper-cutter",
+    "name": {
+      "zhHant": "怪力鉗",
+      "en": "Hyper Cutter",
+      "ja": "かいりきバサミ"
+    },
+    "description": "因為擁有以力量為傲的鉗子， 不會被對手降低攻擊。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "pickup": {
+    "id": 53,
+    "slug": "pickup",
+    "name": {
+      "zhHant": "撿拾",
+      "en": "Pickup",
+      "ja": "ものひろい"
+    },
+    "description": "有時會撿來對手用過的道具。 冒險過程中也會撿來。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "truant": {
+    "id": 54,
+    "slug": "truant",
+    "name": {
+      "zhHant": "懶惰",
+      "en": "Truant",
+      "ja": "なまけ"
+    },
+    "description": "如果使出招式， 下一回合就需要休息。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "hustle": {
+    "id": 55,
+    "slug": "hustle",
+    "name": {
+      "zhHant": "活力",
+      "en": "Hustle",
+      "ja": "はりきり"
+    },
+    "description": "自己的攻擊雖會變高， 但命中率會降低。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "cute-charm": {
+    "id": 56,
+    "slug": "cute-charm",
+    "name": {
+      "zhHant": "迷人之軀",
+      "en": "Cute Charm",
+      "ja": "メロメロボディ"
+    },
+    "description": "有時會讓接觸到自己的對手 陷入著迷狀態。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "plus": {
+    "id": 57,
+    "slug": "plus",
+    "name": {
+      "zhHant": "正電",
+      "en": "Plus",
+      "ja": "プラス"
+    },
+    "description": "場上的夥伴之中， 如果有正電或負電特性的寶可夢， 自己的特攻會提高。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "minus": {
+    "id": 58,
+    "slug": "minus",
+    "name": {
+      "zhHant": "負電",
+      "en": "Minus",
+      "ja": "マイナス"
+    },
+    "description": "場上的夥伴之中， 如果有正電或負電特性的寶可夢， 自己的特攻會提高。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "forecast": {
+    "id": 59,
+    "slug": "forecast",
+    "name": {
+      "zhHant": "陰晴不定",
+      "en": "Forecast",
+      "ja": "てんきや"
+    },
+    "description": "在天氣的影響下， 會變成水屬性、火屬性 或冰屬性之中的一種。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "sticky-hold": {
+    "id": 60,
+    "slug": "sticky-hold",
+    "name": {
+      "zhHant": "黏著",
+      "en": "Sticky Hold",
+      "ja": "ねんちゃく"
+    },
+    "description": "道具會黏在 具有黏性的身體上， 不會被對手奪走。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "shed-skin": {
+    "id": 61,
+    "slug": "shed-skin",
+    "name": {
+      "zhHant": "蛻皮",
+      "en": "Shed Skin",
+      "ja": "だっぴ"
+    },
+    "description": "透過蛻去身上的皮， 有時會治癒異常狀態。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "guts": {
+    "id": 62,
+    "slug": "guts",
+    "name": {
+      "zhHant": "毅力",
+      "en": "Guts",
+      "ja": "こんじょう"
+    },
+    "description": "陷入異常狀態時， 會拿出毅力， 攻擊會提高。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "marvel-scale": {
+    "id": 63,
+    "slug": "marvel-scale",
+    "name": {
+      "zhHant": "神奇鱗片",
+      "en": "Marvel Scale",
+      "ja": "ふしぎなうろこ"
+    },
+    "description": "陷入異常狀態時， 神奇鱗片會發生反應， 防禦會提高。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "liquid-ooze": {
+    "id": 64,
+    "slug": "liquid-ooze",
+    "name": {
+      "zhHant": "污泥漿",
+      "en": "Liquid Ooze",
+      "ja": "ヘドロえき"
+    },
+    "description": "吸收了污泥漿的對手 會因為強烈的惡臭而 使得ＨＰ減少。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "overgrow": {
+    "id": 65,
+    "slug": "overgrow",
+    "name": {
+      "zhHant": "茂盛",
+      "en": "Overgrow",
+      "ja": "しんりょく"
+    },
+    "description": "ＨＰ減少的時候， 草屬性的招式威力會提高。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "blaze": {
+    "id": 66,
+    "slug": "blaze",
+    "name": {
+      "zhHant": "猛火",
+      "en": "Blaze",
+      "ja": "もうか"
+    },
+    "description": "ＨＰ減少的時候， 火屬性的招式威力會提高。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "torrent": {
+    "id": 67,
+    "slug": "torrent",
+    "name": {
+      "zhHant": "激流",
+      "en": "Torrent",
+      "ja": "げきりゅう"
+    },
+    "description": "ＨＰ減少的時候， 水屬性的招式威力會提高。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "swarm": {
+    "id": 68,
+    "slug": "swarm",
+    "name": {
+      "zhHant": "蟲之預感",
+      "en": "Swarm",
+      "ja": "むしのしらせ"
+    },
+    "description": "ＨＰ減少的時候， 蟲屬性的招式威力會提高。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "rock-head": {
+    "id": 69,
+    "slug": "rock-head",
+    "name": {
+      "zhHant": "堅硬腦袋",
+      "en": "Rock Head",
+      "ja": "いしあたま"
+    },
+    "description": "即使使出會受反作用力傷害的招式， ＨＰ也不會減少。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "drought": {
+    "id": 70,
+    "slug": "drought",
+    "name": {
+      "zhHant": "日照",
+      "en": "Drought",
+      "ja": "ひでり"
+    },
+    "description": "出場時， 會將天氣變為晴朗。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "arena-trap": {
+    "id": 71,
+    "slug": "arena-trap",
+    "name": {
+      "zhHant": "沙穴",
+      "en": "Arena Trap",
+      "ja": "ありじごく"
+    },
+    "description": "在戰鬥中讓對手無法逃走。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "vital-spirit": {
+    "id": 72,
+    "slug": "vital-spirit",
+    "name": {
+      "zhHant": "幹勁",
+      "en": "Vital Spirit",
+      "ja": "やるき"
+    },
+    "description": "透過激發出幹勁， 不會陷入睡眠狀態。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "white-smoke": {
+    "id": 73,
+    "slug": "white-smoke",
+    "name": {
+      "zhHant": "白色煙霧",
+      "en": "White Smoke",
+      "ja": "しろいけむり"
+    },
+    "description": "被白色煙霧保護著， 不會被對手降低能力。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "pure-power": {
+    "id": 74,
+    "slug": "pure-power",
+    "name": {
+      "zhHant": "瑜伽之力",
+      "en": "Pure Power",
+      "ja": "ヨガパワー"
+    },
+    "description": "因瑜伽的力量， 物理攻擊的威力會變為２倍。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "shell-armor": {
+    "id": 75,
+    "slug": "shell-armor",
+    "name": {
+      "zhHant": "硬殼盔甲",
+      "en": "Shell Armor",
+      "ja": "シェルアーマー"
+    },
+    "description": "被堅硬的殼保護著， 對手的攻擊不會擊中要害。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "air-lock": {
+    "id": 76,
+    "slug": "air-lock",
+    "name": {
+      "zhHant": "氣閘",
+      "en": "Air Lock",
+      "ja": "エアロック"
+    },
+    "description": "所有天氣的影響都會消失。",
+    "generation": 3,
+    "isMainSeries": true
+  },
+  "tangled-feet": {
+    "id": 77,
+    "slug": "tangled-feet",
+    "name": {
+      "zhHant": "蹣跚",
+      "en": "Tangled Feet",
+      "ja": "ちどりあし"
+    },
+    "description": "陷入混亂狀態時， 閃避率會提高。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "motor-drive": {
+    "id": 78,
+    "slug": "motor-drive",
+    "name": {
+      "zhHant": "電氣引擎",
+      "en": "Motor Drive",
+      "ja": "でんきエンジン"
+    },
+    "description": "受到電屬性的招式攻擊時， 不但不會受到傷害，反而速度會提高。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "rivalry": {
+    "id": 79,
+    "slug": "rivalry",
+    "name": {
+      "zhHant": "鬥爭心",
+      "en": "Rivalry",
+      "ja": "とうそうしん"
+    },
+    "description": "面對性別相同的對手， 會燃起鬥爭心，變得更強。 面對性別不同的對手時則會變弱。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "steadfast": {
+    "id": 80,
+    "slug": "steadfast",
+    "name": {
+      "zhHant": "不屈之心",
+      "en": "Steadfast",
+      "ja": "ふくつのこころ"
+    },
+    "description": "每次畏縮時， 不屈之心就會燃起， 速度也會提高。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "snow-cloak": {
+    "id": 81,
+    "slug": "snow-cloak",
+    "name": {
+      "zhHant": "雪隱",
+      "en": "Snow Cloak",
+      "ja": "ゆきがくれ"
+    },
+    "description": "天氣為冰雹時， 閃避率會提高。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "gluttony": {
+    "id": 82,
+    "slug": "gluttony",
+    "name": {
+      "zhHant": "貪吃鬼",
+      "en": "Gluttony",
+      "ja": "くいしんぼう"
+    },
+    "description": "原本ＨＰ變得很少時才會吃的樹果， 在ＨＰ還有一半時就會把它吃掉。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "anger-point": {
+    "id": 83,
+    "slug": "anger-point",
+    "name": {
+      "zhHant": "憤怒穴位",
+      "en": "Anger Point",
+      "ja": "いかりのつぼ"
+    },
+    "description": "要害被擊中時會大發雷霆。 攻擊力會提高到最大。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "unburden": {
+    "id": 84,
+    "slug": "unburden",
+    "name": {
+      "zhHant": "輕裝",
+      "en": "Unburden",
+      "ja": "かるわざ"
+    },
+    "description": "失去所持有的道具時， 速度會提高。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "heatproof": {
+    "id": 85,
+    "slug": "heatproof",
+    "name": {
+      "zhHant": "耐熱",
+      "en": "Heatproof",
+      "ja": "たいねつ"
+    },
+    "description": "靠著耐熱的體質， 讓火屬性的招式威力減半。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "simple": {
+    "id": 86,
+    "slug": "simple",
+    "name": {
+      "zhHant": "單純",
+      "en": "Simple",
+      "ja": "たんじゅん"
+    },
+    "description": "能力變化會變為平時的２倍。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "dry-skin": {
+    "id": 87,
+    "slug": "dry-skin",
+    "name": {
+      "zhHant": "乾燥皮膚",
+      "en": "Dry Skin",
+      "ja": "かんそうはだ"
+    },
+    "description": "下雨天氣時和受到水屬性的招式攻擊時， ＨＰ會回復。晴朗天氣時和受到火屬性的 招式攻擊時，ＨＰ會減少。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "download": {
+    "id": 88,
+    "slug": "download",
+    "name": {
+      "zhHant": "下載",
+      "en": "Download",
+      "ja": "ダウンロード"
+    },
+    "description": "比較對手的防禦和特防， 根據較低的那項能力 相應地提高自己的攻擊或特攻。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "iron-fist": {
+    "id": 89,
+    "slug": "iron-fist",
+    "name": {
+      "zhHant": "鐵拳",
+      "en": "Iron Fist",
+      "ja": "てつのこぶし"
+    },
+    "description": "使用到拳頭的招式 威力會提高。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "poison-heal": {
+    "id": 90,
+    "slug": "poison-heal",
+    "name": {
+      "zhHant": "毒療",
+      "en": "Poison Heal",
+      "ja": "ポイズンヒール"
+    },
+    "description": "陷入中毒狀態時， ＨＰ不會減少，反而會漸漸增加。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "adaptability": {
+    "id": 91,
+    "slug": "adaptability",
+    "name": {
+      "zhHant": "適應力",
+      "en": "Adaptability",
+      "ja": "てきおうりょく"
+    },
+    "description": "與自身同屬性的招式 威力會提高。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "skill-link": {
+    "id": 92,
+    "slug": "skill-link",
+    "name": {
+      "zhHant": "連續攻擊",
+      "en": "Skill Link",
+      "ja": "スキルリンク"
+    },
+    "description": "使用連續招式時， 每回都能以最多次數進行攻擊。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "hydration": {
+    "id": 93,
+    "slug": "hydration",
+    "name": {
+      "zhHant": "濕潤之軀",
+      "en": "Hydration",
+      "ja": "うるおいボディ"
+    },
+    "description": "天氣為下雨時， 會治癒異常狀態。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "solar-power": {
+    "id": 94,
+    "slug": "solar-power",
+    "name": {
+      "zhHant": "太陽之力",
+      "en": "Solar Power",
+      "ja": "サンパワー"
+    },
+    "description": "天氣為晴朗時特攻會提高， 但每回合ＨＰ會減少。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "quick-feet": {
+    "id": 95,
+    "slug": "quick-feet",
+    "name": {
+      "zhHant": "飛毛腿",
+      "en": "Quick Feet",
+      "ja": "はやあし"
+    },
+    "description": "陷入異常狀態時， 速度會提高。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "normalize": {
+    "id": 96,
+    "slug": "normalize",
+    "name": {
+      "zhHant": "一般皮膚",
+      "en": "Normalize",
+      "ja": "ノーマルスキン"
+    },
+    "description": "無論是什麼屬性的招式， 全部都會變為一般屬性。 威力會少量提高。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "sniper": {
+    "id": 97,
+    "slug": "sniper",
+    "name": {
+      "zhHant": "狙擊手",
+      "en": "Sniper",
+      "ja": "スナイパー"
+    },
+    "description": "擊中要害時， 威力會進一步提高。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "magic-guard": {
+    "id": 98,
+    "slug": "magic-guard",
+    "name": {
+      "zhHant": "魔法防守",
+      "en": "Magic Guard",
+      "ja": "マジックガード"
+    },
+    "description": "不會受到攻擊以外的傷害。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "no-guard": {
+    "id": 99,
+    "slug": "no-guard",
+    "name": {
+      "zhHant": "無防守",
+      "en": "No Guard",
+      "ja": "ノーガード"
+    },
+    "description": "由於無防守戰術， 雙方使出的招式都必定會擊中。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "stall": {
+    "id": 100,
+    "slug": "stall",
+    "name": {
+      "zhHant": "慢出",
+      "en": "Stall",
+      "ja": "あとだし"
+    },
+    "description": "使出招式的順序 必定會變為最後。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "technician": {
+    "id": 101,
+    "slug": "technician",
+    "name": {
+      "zhHant": "技術高手",
+      "en": "Technician",
+      "ja": "テクニシャン"
+    },
+    "description": "可讓威力低的招式 提高威力來進行攻擊。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "leaf-guard": {
+    "id": 102,
+    "slug": "leaf-guard",
+    "name": {
+      "zhHant": "葉子防守",
+      "en": "Leaf Guard",
+      "ja": "リーフガード"
+    },
+    "description": "天氣為晴朗時， 不會陷入異常狀態。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "klutz": {
+    "id": 103,
+    "slug": "klutz",
+    "name": {
+      "zhHant": "笨拙",
+      "en": "Klutz",
+      "ja": "ぶきよう"
+    },
+    "description": "無法使用持有的道具。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "mold-breaker": {
+    "id": 104,
+    "slug": "mold-breaker",
+    "name": {
+      "zhHant": "破格",
+      "en": "Mold Breaker",
+      "ja": "かたやぶり"
+    },
+    "description": "可不受特性影響， 向對手使出招式。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "super-luck": {
+    "id": 105,
+    "slug": "super-luck",
+    "name": {
+      "zhHant": "超幸運",
+      "en": "Super Luck",
+      "ja": "きょううん"
+    },
+    "description": "因為非常幸運， 容易擊中對手的要害。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "aftermath": {
+    "id": 106,
+    "slug": "aftermath",
+    "name": {
+      "zhHant": "引爆",
+      "en": "Aftermath",
+      "ja": "ゆうばく"
+    },
+    "description": "瀕死時， 會對接觸到自己的對手造成傷害。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "anticipation": {
+    "id": 107,
+    "slug": "anticipation",
+    "name": {
+      "zhHant": "危險預知",
+      "en": "Anticipation",
+      "ja": "きけんよち"
+    },
+    "description": "察覺對手持有的 危險招式。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "forewarn": {
+    "id": 108,
+    "slug": "forewarn",
+    "name": {
+      "zhHant": "預知夢",
+      "en": "Forewarn",
+      "ja": "よちむ"
+    },
+    "description": "出場時，預見１個 對手持有的招式。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "unaware": {
+    "id": 109,
+    "slug": "unaware",
+    "name": {
+      "zhHant": "純樸",
+      "en": "Unaware",
+      "ja": "てんねん"
+    },
+    "description": "可無視對手能力的變化， 進行攻擊。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "tinted-lens": {
+    "id": 110,
+    "slug": "tinted-lens",
+    "name": {
+      "zhHant": "有色眼鏡",
+      "en": "Tinted Lens",
+      "ja": "いろめがね"
+    },
+    "description": "可將效果不好的招式 以正常的威力使出。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "filter": {
+    "id": 111,
+    "slug": "filter",
+    "name": {
+      "zhHant": "過濾",
+      "en": "Filter",
+      "ja": "フィルター"
+    },
+    "description": "受到效果絕佳的攻擊時， 可減弱其威力。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "slow-start": {
+    "id": 112,
+    "slug": "slow-start",
+    "name": {
+      "zhHant": "慢啟動",
+      "en": "Slow Start",
+      "ja": "スロースタート"
+    },
+    "description": "在５回合內， 攻擊和速度會減半。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "scrappy": {
+    "id": 113,
+    "slug": "scrappy",
+    "name": {
+      "zhHant": "膽量",
+      "en": "Scrappy",
+      "ja": "きもったま"
+    },
+    "description": "一般屬性和格鬥屬性的招式 可擊中幽靈屬性的寶可夢。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "storm-drain": {
+    "id": 114,
+    "slug": "storm-drain",
+    "name": {
+      "zhHant": "引水",
+      "en": "Storm Drain",
+      "ja": "よびみず"
+    },
+    "description": "將水屬性的招式引到自己身上， 不但不會受到傷害， 反而會提高特攻。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "ice-body": {
+    "id": 115,
+    "slug": "ice-body",
+    "name": {
+      "zhHant": "冰凍之軀",
+      "en": "Ice Body",
+      "ja": "アイスボディ"
+    },
+    "description": "天氣為冰雹時， 會漸漸回復ＨＰ。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "solid-rock": {
+    "id": 116,
+    "slug": "solid-rock",
+    "name": {
+      "zhHant": "堅硬岩石",
+      "en": "Solid Rock",
+      "ja": "ハードロック"
+    },
+    "description": "受到效果絕佳的攻擊時， 可減弱其威力。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "snow-warning": {
+    "id": 117,
+    "slug": "snow-warning",
+    "name": {
+      "zhHant": "降雪",
+      "en": "Snow Warning",
+      "ja": "ゆきふらし"
+    },
+    "description": "出場時， 會將天氣變為冰雹。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "honey-gather": {
+    "id": 118,
+    "slug": "honey-gather",
+    "name": {
+      "zhHant": "採蜜",
+      "en": "Honey Gather",
+      "ja": "みつあつめ"
+    },
+    "description": "戰鬥結束時， 有時候會撿來甜甜蜜。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "frisk": {
+    "id": 119,
+    "slug": "frisk",
+    "name": {
+      "zhHant": "察覺",
+      "en": "Frisk",
+      "ja": "おみとおし"
+    },
+    "description": "出場時， 可以察覺對手的持有物。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "reckless": {
+    "id": 120,
+    "slug": "reckless",
+    "name": {
+      "zhHant": "捨身",
+      "en": "Reckless",
+      "ja": "すてみ"
+    },
+    "description": "會讓自己因反作用力而受傷的招式 威力會提高。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "multitype": {
+    "id": 121,
+    "slug": "multitype",
+    "name": {
+      "zhHant": "多屬性",
+      "en": "Multitype",
+      "ja": "マルチタイプ"
+    },
+    "description": "自己的屬性會依持有的石板 或Ｚ純晶的屬性而改變。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "flower-gift": {
+    "id": 122,
+    "slug": "flower-gift",
+    "name": {
+      "zhHant": "花之禮",
+      "en": "Flower Gift",
+      "ja": "フラワーギフト"
+    },
+    "description": "天氣為晴朗時， 自己和同伴的攻擊和 特防能力會提高。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "bad-dreams": {
+    "id": 123,
+    "slug": "bad-dreams",
+    "name": {
+      "zhHant": "夢魘",
+      "en": "Bad Dreams",
+      "ja": "ナイトメア"
+    },
+    "description": "給予陷入睡眠狀態的對手傷害。",
+    "generation": 4,
+    "isMainSeries": true
+  },
+  "pickpocket": {
+    "id": 124,
+    "slug": "pickpocket",
+    "name": {
+      "zhHant": "順手牽羊",
+      "en": "Pickpocket",
+      "ja": "わるいてぐせ"
+    },
+    "description": "盜取接觸到自己的 對手的道具。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "sheer-force": {
+    "id": 125,
+    "slug": "sheer-force",
+    "name": {
+      "zhHant": "強行",
+      "en": "Sheer Force",
+      "ja": "ちからずく"
+    },
+    "description": "招式會失去追加效果， 但可以用更高的威力使出招式。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "contrary": {
+    "id": 126,
+    "slug": "contrary",
+    "name": {
+      "zhHant": "唱反調",
+      "en": "Contrary",
+      "ja": "あまのじゃく"
+    },
+    "description": "能力的變化會逆轉， 原本提高時會降低， 原本降低時會提高。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "unnerve": {
+    "id": 127,
+    "slug": "unnerve",
+    "name": {
+      "zhHant": "緊張感",
+      "en": "Unnerve",
+      "ja": "きんちょうかん"
+    },
+    "description": "讓對手感到緊張， 無法吃樹果。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "defiant": {
+    "id": 128,
+    "slug": "defiant",
+    "name": {
+      "zhHant": "不服輸",
+      "en": "Defiant",
+      "ja": "まけんき"
+    },
+    "description": "能力被降低時， 攻擊會大幅提高。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "defeatist": {
+    "id": 129,
+    "slug": "defeatist",
+    "name": {
+      "zhHant": "軟弱",
+      "en": "Defeatist",
+      "ja": "よわき"
+    },
+    "description": "ＨＰ降到一半以下時， 會變得軟弱而使得 攻擊和特攻減半。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "cursed-body": {
+    "id": 130,
+    "slug": "cursed-body",
+    "name": {
+      "zhHant": "詛咒之軀",
+      "en": "Cursed Body",
+      "ja": "のろわれボディ"
+    },
+    "description": "受到攻擊時， 有時會把對手的招式 變為定身法狀態。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "healer": {
+    "id": 131,
+    "slug": "healer",
+    "name": {
+      "zhHant": "治癒之心",
+      "en": "Healer",
+      "ja": "いやしのこころ"
+    },
+    "description": "有時會治癒同伴的異常狀態。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "friend-guard": {
+    "id": 132,
+    "slug": "friend-guard",
+    "name": {
+      "zhHant": "友情防守",
+      "en": "Friend Guard",
+      "ja": "フレンドガード"
+    },
+    "description": "可以減少我方受到的傷害。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "weak-armor": {
+    "id": 133,
+    "slug": "weak-armor",
+    "name": {
+      "zhHant": "碎裂鎧甲",
+      "en": "Weak Armor",
+      "ja": "くだけるよろい"
+    },
+    "description": "因物理招式受到傷害時， 防禦會降低， 速度會大幅提高。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "heavy-metal": {
+    "id": 134,
+    "slug": "heavy-metal",
+    "name": {
+      "zhHant": "重金屬",
+      "en": "Heavy Metal",
+      "ja": "ヘヴィメタル"
+    },
+    "description": "自己的重量會變為２倍。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "light-metal": {
+    "id": 135,
+    "slug": "light-metal",
+    "name": {
+      "zhHant": "輕金屬",
+      "en": "Light Metal",
+      "ja": "ライトメタル"
+    },
+    "description": "自己的重量會減半。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "multiscale": {
+    "id": 136,
+    "slug": "multiscale",
+    "name": {
+      "zhHant": "多重鱗片",
+      "en": "Multiscale",
+      "ja": "マルチスケイル"
+    },
+    "description": "ＨＰ全滿時， 受到的傷害會變少。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "toxic-boost": {
+    "id": 137,
+    "slug": "toxic-boost",
+    "name": {
+      "zhHant": "中毒激升",
+      "en": "Toxic Boost",
+      "ja": "どくぼうそう"
+    },
+    "description": "陷入中毒狀態時， 物理招式的威力會提高。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "flare-boost": {
+    "id": 138,
+    "slug": "flare-boost",
+    "name": {
+      "zhHant": "受熱激升",
+      "en": "Flare Boost",
+      "ja": "ねつぼうそう"
+    },
+    "description": "陷入灼傷狀態時， 特殊招式的威力會提高。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "harvest": {
+    "id": 139,
+    "slug": "harvest",
+    "name": {
+      "zhHant": "收穫",
+      "en": "Harvest",
+      "ja": "しゅうかく"
+    },
+    "description": "可多次採收 已被使用過的樹果。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "telepathy": {
+    "id": 140,
+    "slug": "telepathy",
+    "name": {
+      "zhHant": "心靈感應",
+      "en": "Telepathy",
+      "ja": "テレパシー"
+    },
+    "description": "預測我方的攻擊， 並閃避其招式。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "moody": {
+    "id": 141,
+    "slug": "moody",
+    "name": {
+      "zhHant": "心情不定",
+      "en": "Moody",
+      "ja": "ムラっけ"
+    },
+    "description": "每一回合，能力中的某項 會大幅提高，相對地某項會降低。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "overcoat": {
+    "id": 142,
+    "slug": "overcoat",
+    "name": {
+      "zhHant": "防塵",
+      "en": "Overcoat",
+      "ja": "ぼうじん"
+    },
+    "description": "不會受到沙暴或冰雹等的傷害。 不會受到粉末類招式的攻擊。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "poison-touch": {
+    "id": 143,
+    "slug": "poison-touch",
+    "name": {
+      "zhHant": "毒手",
+      "en": "Poison Touch",
+      "ja": "どくしゅ"
+    },
+    "description": "有時僅是接觸 就能讓對手中毒。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "regenerator": {
+    "id": 144,
+    "slug": "regenerator",
+    "name": {
+      "zhHant": "再生力",
+      "en": "Regenerator",
+      "ja": "さいせいりょく"
+    },
+    "description": "退回同行隊伍後， ＨＰ會少量回復。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "big-pecks": {
+    "id": 145,
+    "slug": "big-pecks",
+    "name": {
+      "zhHant": "健壯胸肌",
+      "en": "Big Pecks",
+      "ja": "はとむね"
+    },
+    "description": "不會受到降低防禦的效果影響。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "sand-rush": {
+    "id": 146,
+    "slug": "sand-rush",
+    "name": {
+      "zhHant": "撥沙",
+      "en": "Sand Rush",
+      "ja": "すなかき"
+    },
+    "description": "天氣為沙暴時， 速度會提高。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "wonder-skin": {
+    "id": 147,
+    "slug": "wonder-skin",
+    "name": {
+      "zhHant": "奇跡皮膚",
+      "en": "Wonder Skin",
+      "ja": "ミラクルスキン"
+    },
+    "description": "不易受到變化類招式 攻擊的身體。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "analytic": {
+    "id": 148,
+    "slug": "analytic",
+    "name": {
+      "zhHant": "分析",
+      "en": "Analytic",
+      "ja": "アナライズ"
+    },
+    "description": "如果在最後使出招式， 招式的威力就會變強。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "illusion": {
+    "id": 149,
+    "slug": "illusion",
+    "name": {
+      "zhHant": "幻覺",
+      "en": "Illusion",
+      "ja": "イリュージョン"
+    },
+    "description": "假扮成同行隊伍中的 最後一隻寶可夢出場， 迷惑對手。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "imposter": {
+    "id": 150,
+    "slug": "imposter",
+    "name": {
+      "zhHant": "變身者",
+      "en": "Imposter",
+      "ja": "かわりもの"
+    },
+    "description": "變身為當前面對的寶可夢。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "infiltrator": {
+    "id": 151,
+    "slug": "infiltrator",
+    "name": {
+      "zhHant": "穿透",
+      "en": "Infiltrator",
+      "ja": "すりぬけ"
+    },
+    "description": "可穿透對手的屏障 或替身進行攻擊。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "mummy": {
+    "id": 152,
+    "slug": "mummy",
+    "name": {
+      "zhHant": "木乃伊",
+      "en": "Mummy",
+      "ja": "ミイラ"
+    },
+    "description": "被對手接觸到時， 會將對手變成木乃伊。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "moxie": {
+    "id": 153,
+    "slug": "moxie",
+    "name": {
+      "zhHant": "自信過度",
+      "en": "Moxie",
+      "ja": "じしんかじょう"
+    },
+    "description": "如果打倒對手， 會充滿自信並提高攻擊。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "justified": {
+    "id": 154,
+    "slug": "justified",
+    "name": {
+      "zhHant": "正義之心",
+      "en": "Justified",
+      "ja": "せいぎのこころ"
+    },
+    "description": "受到惡屬性的招式攻擊時， 因為正義感，攻擊會提高。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "rattled": {
+    "id": 155,
+    "slug": "rattled",
+    "name": {
+      "zhHant": "膽怯",
+      "en": "Rattled",
+      "ja": "びびり"
+    },
+    "description": "受到惡屬性、幽靈屬性 和蟲屬性的招式攻擊時， 會因膽怯而使得速度提高。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "magic-bounce": {
+    "id": 156,
+    "slug": "magic-bounce",
+    "name": {
+      "zhHant": "魔法鏡",
+      "en": "Magic Bounce",
+      "ja": "マジックミラー"
+    },
+    "description": "可不受到由對手使出的 變化類招式所影響，並將其反彈。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "sap-sipper": {
+    "id": 157,
+    "slug": "sap-sipper",
+    "name": {
+      "zhHant": "食草",
+      "en": "Sap Sipper",
+      "ja": "そうしょく"
+    },
+    "description": "受到草屬性的招式攻擊時， 不但不會受到傷害，反而攻擊會提高。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "prankster": {
+    "id": 158,
+    "slug": "prankster",
+    "name": {
+      "zhHant": "惡作劇之心",
+      "en": "Prankster",
+      "ja": "いたずらごころ"
+    },
+    "description": "可以搶先使出變化類招式。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "sand-force": {
+    "id": 159,
+    "slug": "sand-force",
+    "name": {
+      "zhHant": "沙之力",
+      "en": "Sand Force",
+      "ja": "すなのちから"
+    },
+    "description": "天氣為沙暴時， 岩石屬性、地面屬性 和鋼屬性招式的威力會提高。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "iron-barbs": {
+    "id": 160,
+    "slug": "iron-barbs",
+    "name": {
+      "zhHant": "鐵刺",
+      "en": "Iron Barbs",
+      "ja": "てつのトゲ"
+    },
+    "description": "用鐵刺給予接觸到自己的 對手傷害。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "zen-mode": {
+    "id": 161,
+    "slug": "zen-mode",
+    "name": {
+      "zhHant": "達摩模式",
+      "en": "Zen Mode",
+      "ja": "ダルマモード"
+    },
+    "description": "ＨＰ變為一半以下時， 樣子會改變。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "victory-star": {
+    "id": 162,
+    "slug": "victory-star",
+    "name": {
+      "zhHant": "勝利之星",
+      "en": "Victory Star",
+      "ja": "しょうりのほし"
+    },
+    "description": "自己和同伴的命中率會提高。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "turboblaze": {
+    "id": 163,
+    "slug": "turboblaze",
+    "name": {
+      "zhHant": "渦輪火焰",
+      "en": "Turboblaze",
+      "ja": "ターボブレイズ"
+    },
+    "description": "可以不受對手特性的干擾， 向對手使出招式。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "teravolt": {
+    "id": 164,
+    "slug": "teravolt",
+    "name": {
+      "zhHant": "兆級電壓",
+      "en": "Teravolt",
+      "ja": "テラボルテージ"
+    },
+    "description": "可以不受對手特性的干擾， 向對手使出招式。",
+    "generation": 5,
+    "isMainSeries": true
+  },
+  "aroma-veil": {
+    "id": 165,
+    "slug": "aroma-veil",
+    "name": {
+      "zhHant": "芳香幕",
+      "en": "Aroma Veil",
+      "ja": "アロマベール"
+    },
+    "description": "可防住向自己和同伴 發出的心靈攻擊。",
+    "generation": 6,
+    "isMainSeries": true
+  },
+  "flower-veil": {
+    "id": 166,
+    "slug": "flower-veil",
+    "name": {
+      "zhHant": "花幕",
+      "en": "Flower Veil",
+      "ja": "フラワーベール"
+    },
+    "description": "我方的草屬性寶可夢 能力不會降低。 也不會陷入異常狀態。",
+    "generation": 6,
+    "isMainSeries": true
+  },
+  "cheek-pouch": {
+    "id": 167,
+    "slug": "cheek-pouch",
+    "name": {
+      "zhHant": "頰囊",
+      "en": "Cheek Pouch",
+      "ja": "ほおぶくろ"
+    },
+    "description": "無論是哪種樹果， 吃下去後ＨＰ都會回復。",
+    "generation": 6,
+    "isMainSeries": true
+  },
+  "protean": {
+    "id": 168,
+    "slug": "protean",
+    "name": {
+      "zhHant": "變幻自如",
+      "en": "Protean",
+      "ja": "へんげんじざい"
+    },
+    "description": "變為與自己使出的招式 相同的屬性。",
+    "generation": 6,
+    "isMainSeries": true
+  },
+  "fur-coat": {
+    "id": 169,
+    "slug": "fur-coat",
+    "name": {
+      "zhHant": "毛皮大衣",
+      "en": "Fur Coat",
+      "ja": "ファーコート"
+    },
+    "description": "對手的物理招式造成的 傷害會減半。",
+    "generation": 6,
+    "isMainSeries": true
+  },
+  "magician": {
+    "id": 170,
+    "slug": "magician",
+    "name": {
+      "zhHant": "魔術師",
+      "en": "Magician",
+      "ja": "マジシャン"
+    },
+    "description": "奪走被自己招式 擊中的對手的道具。",
+    "generation": 6,
+    "isMainSeries": true
+  },
+  "bulletproof": {
+    "id": 171,
+    "slug": "bulletproof",
+    "name": {
+      "zhHant": "防彈",
+      "en": "Bulletproof",
+      "ja": "ぼうだん"
+    },
+    "description": "可防住對手的 球和彈類的招式。",
+    "generation": 6,
+    "isMainSeries": true
+  },
+  "competitive": {
+    "id": 172,
+    "slug": "competitive",
+    "name": {
+      "zhHant": "好勝",
+      "en": "Competitive",
+      "ja": "かちき"
+    },
+    "description": "能力被降低時， 特攻會大幅提高。",
+    "generation": 6,
+    "isMainSeries": true
+  },
+  "strong-jaw": {
+    "id": 173,
+    "slug": "strong-jaw",
+    "name": {
+      "zhHant": "強壯之顎",
+      "en": "Strong Jaw",
+      "ja": "がんじょうあご"
+    },
+    "description": "顎部強壯， 會提高啃咬類招式的威力。",
+    "generation": 6,
+    "isMainSeries": true
+  },
+  "refrigerate": {
+    "id": 174,
+    "slug": "refrigerate",
+    "name": {
+      "zhHant": "冰凍皮膚",
+      "en": "Refrigerate",
+      "ja": "フリーズスキン"
+    },
+    "description": "一般屬性的招式 會變為冰屬性。 威力會少量提高。",
+    "generation": 6,
+    "isMainSeries": true
+  },
+  "sweet-veil": {
+    "id": 175,
+    "slug": "sweet-veil",
+    "name": {
+      "zhHant": "甜幕",
+      "en": "Sweet Veil",
+      "ja": "スイートベール"
+    },
+    "description": "我方的寶可夢 不會陷入睡眠狀態。",
+    "generation": 6,
+    "isMainSeries": true
+  },
+  "stance-change": {
+    "id": 176,
+    "slug": "stance-change",
+    "name": {
+      "zhHant": "戰鬥切換",
+      "en": "Stance Change",
+      "ja": "バトルスイッチ"
+    },
+    "description": "若使出攻擊招式，會變為刀劍形態， 若使出招式「王者盾牌」， 會變為盾牌形態。",
+    "generation": 6,
+    "isMainSeries": true
+  },
+  "gale-wings": {
+    "id": 177,
+    "slug": "gale-wings",
+    "name": {
+      "zhHant": "疾風之翼",
+      "en": "Gale Wings",
+      "ja": "はやてのつばさ"
+    },
+    "description": "ＨＰ全滿時， 可以搶先在對手之前 使出飛行屬性的招式。",
+    "generation": 6,
+    "isMainSeries": true
+  },
+  "mega-launcher": {
+    "id": 178,
+    "slug": "mega-launcher",
+    "name": {
+      "zhHant": "超級發射器",
+      "en": "Mega Launcher",
+      "ja": "メガランチャー"
+    },
+    "description": "波動和波導類招式的 威力會提高。",
+    "generation": 6,
+    "isMainSeries": true
+  },
+  "grass-pelt": {
+    "id": 179,
+    "slug": "grass-pelt",
+    "name": {
+      "zhHant": "草之毛皮",
+      "en": "Grass Pelt",
+      "ja": "くさのけがわ"
+    },
+    "description": "在青草場地時， 防禦會提高。",
+    "generation": 6,
+    "isMainSeries": true
+  },
+  "symbiosis": {
+    "id": 180,
+    "slug": "symbiosis",
+    "name": {
+      "zhHant": "共生",
+      "en": "Symbiosis",
+      "ja": "きょうせい"
+    },
+    "description": "同伴使用道具時， 會把自己持有的道具交給同伴。",
+    "generation": 6,
+    "isMainSeries": true
+  },
+  "tough-claws": {
+    "id": 181,
+    "slug": "tough-claws",
+    "name": {
+      "zhHant": "硬爪",
+      "en": "Tough Claws",
+      "ja": "かたいツメ"
+    },
+    "description": "接觸到對手的招式 威力會提高。",
+    "generation": 6,
+    "isMainSeries": true
+  },
+  "pixilate": {
+    "id": 182,
+    "slug": "pixilate",
+    "name": {
+      "zhHant": "妖精皮膚",
+      "en": "Pixilate",
+      "ja": "フェアリースキン"
+    },
+    "description": "一般屬性的招式 會變為妖精屬性。 威力會少量提高。",
+    "generation": 6,
+    "isMainSeries": true
+  },
+  "gooey": {
+    "id": 183,
+    "slug": "gooey",
+    "name": {
+      "zhHant": "黏滑",
+      "en": "Gooey",
+      "ja": "ぬめぬめ"
+    },
+    "description": "對手用攻擊接觸到自己時， 降低此對手的速度。",
+    "generation": 6,
+    "isMainSeries": true
+  },
+  "aerilate": {
+    "id": 184,
+    "slug": "aerilate",
+    "name": {
+      "zhHant": "飛行皮膚",
+      "en": "Aerilate",
+      "ja": "スカイスキン"
+    },
+    "description": "一般屬性的招式 會變為飛行屬性。 威力會少量提高。",
+    "generation": 6,
+    "isMainSeries": true
+  },
+  "parental-bond": {
+    "id": 185,
+    "slug": "parental-bond",
+    "name": {
+      "zhHant": "親子愛",
+      "en": "Parental Bond",
+      "ja": "おやこあい"
+    },
+    "description": "親子倆可合計攻擊２次。",
+    "generation": 6,
+    "isMainSeries": true
+  },
+  "dark-aura": {
+    "id": 186,
+    "slug": "dark-aura",
+    "name": {
+      "zhHant": "暗黑氣場",
+      "en": "Dark Aura",
+      "ja": "ダークオーラ"
+    },
+    "description": "全體的惡屬性招式變強。",
+    "generation": 6,
+    "isMainSeries": true
+  },
+  "fairy-aura": {
+    "id": 187,
+    "slug": "fairy-aura",
+    "name": {
+      "zhHant": "妖精氣場",
+      "en": "Fairy Aura",
+      "ja": "フェアリーオーラ"
+    },
+    "description": "全體的妖精屬性招式變強。",
+    "generation": 6,
+    "isMainSeries": true
+  },
+  "aura-break": {
+    "id": 188,
+    "slug": "aura-break",
+    "name": {
+      "zhHant": "氣場破壞",
+      "en": "Aura Break",
+      "ja": "オーラブレイク"
+    },
+    "description": "讓氣場的效果逆轉， 並降低威力。",
+    "generation": 6,
+    "isMainSeries": true
+  },
+  "primordial-sea": {
+    "id": 189,
+    "slug": "primordial-sea",
+    "name": {
+      "zhHant": "始源之海",
+      "en": "Primordial Sea",
+      "ja": "はじまりのうみ"
+    },
+    "description": "變為讓火屬性攻擊 失效的天氣。",
+    "generation": 6,
+    "isMainSeries": true
+  },
+  "desolate-land": {
+    "id": 190,
+    "slug": "desolate-land",
+    "name": {
+      "zhHant": "終結之地",
+      "en": "Desolate Land",
+      "ja": "おわりのだいち"
+    },
+    "description": "變為讓水屬性攻擊 失效的天氣。",
+    "generation": 6,
+    "isMainSeries": true
+  },
+  "delta-stream": {
+    "id": 191,
+    "slug": "delta-stream",
+    "name": {
+      "zhHant": "德爾塔氣流",
+      "en": "Delta Stream",
+      "ja": "デルタストリーム"
+    },
+    "description": "變為令飛行屬性的弱點 消失的天氣。",
+    "generation": 6,
+    "isMainSeries": true
+  },
+  "stamina": {
+    "id": 192,
+    "slug": "stamina",
+    "name": {
+      "zhHant": "持久力",
+      "en": "Stamina",
+      "ja": "じきゅうりょく"
+    },
+    "description": "受到攻擊時， 防禦會提高。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "wimp-out": {
+    "id": 193,
+    "slug": "wimp-out",
+    "name": {
+      "zhHant": "躍躍欲逃",
+      "en": "Wimp Out",
+      "ja": "にげごし"
+    },
+    "description": "ＨＰ變為一半時， 會慌慌張張逃走， 退回同行隊伍裡面。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "emergency-exit": {
+    "id": 194,
+    "slug": "emergency-exit",
+    "name": {
+      "zhHant": "危險迴避",
+      "en": "Emergency Exit",
+      "ja": "ききかいひ"
+    },
+    "description": "ＨＰ減到一半時， 為了避開危險， 會退回同行隊伍裡面。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "water-compaction": {
+    "id": 195,
+    "slug": "water-compaction",
+    "name": {
+      "zhHant": "遇水凝固",
+      "en": "Water Compaction",
+      "ja": "みずがため"
+    },
+    "description": "受到水屬性的招式攻擊時， 防禦會大幅提高。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "merciless": {
+    "id": 196,
+    "slug": "merciless",
+    "name": {
+      "zhHant": "不仁不義",
+      "en": "Merciless",
+      "ja": "ひとでなし"
+    },
+    "description": "攻擊中毒狀態的對手時， 必定會擊中要害。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "shields-down": {
+    "id": 197,
+    "slug": "shields-down",
+    "name": {
+      "zhHant": "界限盾殼",
+      "en": "Shields Down",
+      "ja": "リミットシールド"
+    },
+    "description": "ＨＰ變為一半時， 殼會壞掉，變得更有攻擊性。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "stakeout": {
+    "id": 198,
+    "slug": "stakeout",
+    "name": {
+      "zhHant": "監視",
+      "en": "Stakeout",
+      "ja": "はりこみ"
+    },
+    "description": "可以向替換出場的對手 以２倍的傷害進行攻擊。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "water-bubble": {
+    "id": 199,
+    "slug": "water-bubble",
+    "name": {
+      "zhHant": "水泡",
+      "en": "Water Bubble",
+      "ja": "すいほう"
+    },
+    "description": "降低自己受到的火屬性 招式的威力。不會灼傷。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "steelworker": {
+    "id": 200,
+    "slug": "steelworker",
+    "name": {
+      "zhHant": "鋼能力者",
+      "en": "Steelworker",
+      "ja": "はがねつかい"
+    },
+    "description": "鋼屬性的招式威力會提高。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "berserk": {
+    "id": 201,
+    "slug": "berserk",
+    "name": {
+      "zhHant": "怒火沖天",
+      "en": "Berserk",
+      "ja": "ぎゃくじょう"
+    },
+    "description": "ＨＰ因對手的攻擊 降到一半時， 特攻會提高。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "slush-rush": {
+    "id": 202,
+    "slug": "slush-rush",
+    "name": {
+      "zhHant": "撥雪",
+      "en": "Slush Rush",
+      "ja": "ゆきかき"
+    },
+    "description": "天氣為冰雹時， 速度會提高。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "long-reach": {
+    "id": 203,
+    "slug": "long-reach",
+    "name": {
+      "zhHant": "遠隔",
+      "en": "Long Reach",
+      "ja": "えんかく"
+    },
+    "description": "可以不接觸對手 就使出所有的招式。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "liquid-voice": {
+    "id": 204,
+    "slug": "liquid-voice",
+    "name": {
+      "zhHant": "濕潤之聲",
+      "en": "Liquid Voice",
+      "ja": "うるおいボイス"
+    },
+    "description": "所有的聲音招式 都變為水屬性。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "triage": {
+    "id": 205,
+    "slug": "triage",
+    "name": {
+      "zhHant": "先行治療",
+      "en": "Triage",
+      "ja": "ヒーリングシフト"
+    },
+    "description": "可以搶先使出回復招式。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "galvanize": {
+    "id": 206,
+    "slug": "galvanize",
+    "name": {
+      "zhHant": "電氣皮膚",
+      "en": "Galvanize",
+      "ja": "エレキスキン"
+    },
+    "description": "一般屬性的招式 會變為電屬性。 威力會少量提高。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "surge-surfer": {
+    "id": 207,
+    "slug": "surge-surfer",
+    "name": {
+      "zhHant": "衝浪之尾",
+      "en": "Surge Surfer",
+      "ja": "サーフテール"
+    },
+    "description": "電氣場地時， 速度會變為２倍。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "schooling": {
+    "id": 208,
+    "slug": "schooling",
+    "name": {
+      "zhHant": "魚群",
+      "en": "Schooling",
+      "ja": "ぎょぐん"
+    },
+    "description": "ＨＰ多的時候會聚起來變強。 ＨＰ剩餘量變少時， 群體會分崩離析。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "disguise": {
+    "id": 209,
+    "slug": "disguise",
+    "name": {
+      "zhHant": "畫皮",
+      "en": "Disguise",
+      "ja": "ばけのかわ"
+    },
+    "description": "用畫皮覆蓋住身體， 可防住１次攻擊。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "battle-bond": {
+    "id": 210,
+    "slug": "battle-bond",
+    "name": {
+      "zhHant": "牽絆變身",
+      "en": "Battle Bond",
+      "ja": "きずなへんげ"
+    },
+    "description": "打倒對手時，與訓練家的牽絆會加深， 變化成小智版甲賀忍蛙。 飛水手裡劍的威力會增強。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "power-construct": {
+    "id": 211,
+    "slug": "power-construct",
+    "name": {
+      "zhHant": "群聚變形",
+      "en": "Power Construct",
+      "ja": "スワームチェンジ"
+    },
+    "description": "ＨＰ變為一半時， 細胞們會趕來支援， 變為完全體形態。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "corrosion": {
+    "id": 212,
+    "slug": "corrosion",
+    "name": {
+      "zhHant": "腐蝕",
+      "en": "Corrosion",
+      "ja": "ふしょく"
+    },
+    "description": "就算對方是鋼屬性或毒屬性寶可夢， 也可讓對方陷入中毒狀態。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "comatose": {
+    "id": 213,
+    "slug": "comatose",
+    "name": {
+      "zhHant": "絕對睡眠",
+      "en": "Comatose",
+      "ja": "ぜったいねむり"
+    },
+    "description": "總是半夢半醒的狀態， 絕對不會醒來。 可在睡著的狀況下進行攻擊。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "queenly-majesty": {
+    "id": 214,
+    "slug": "queenly-majesty",
+    "name": {
+      "zhHant": "女王的威嚴",
+      "en": "Queenly Majesty",
+      "ja": "じょおうのいげん"
+    },
+    "description": "向對手施加威懾力， 使其無法對我方使出先制招式。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "innards-out": {
+    "id": 215,
+    "slug": "innards-out",
+    "name": {
+      "zhHant": "飛出的內在物",
+      "en": "Innards Out",
+      "ja": "とびだすなかみ"
+    },
+    "description": "被對手打倒的時候， 會給予對手相當於 ＨＰ剩餘量的傷害。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "dancer": {
+    "id": 216,
+    "slug": "dancer",
+    "name": {
+      "zhHant": "舞者",
+      "en": "Dancer",
+      "ja": "おどりこ"
+    },
+    "description": "當有誰使出跳舞招式時， 自己也能接著使出跳舞招式。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "battery": {
+    "id": 217,
+    "slug": "battery",
+    "name": {
+      "zhHant": "蓄電池",
+      "en": "Battery",
+      "ja": "バッテリー"
+    },
+    "description": "會提高我方的 特殊招式的威力。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "fluffy": {
+    "id": 218,
+    "slug": "fluffy",
+    "name": {
+      "zhHant": "毛茸茸",
+      "en": "Fluffy",
+      "ja": "もふもふ"
+    },
+    "description": "會將對手所給予的接觸類招式的傷害減半， 但火屬性招式的傷害會變為２倍。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "dazzling": {
+    "id": 219,
+    "slug": "dazzling",
+    "name": {
+      "zhHant": "鮮艷之軀",
+      "en": "Dazzling",
+      "ja": "ビビッドボディ"
+    },
+    "description": "讓對手嚇一跳， 使其無法對我方使出先制招式。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "soul-heart": {
+    "id": 220,
+    "slug": "soul-heart",
+    "name": {
+      "zhHant": "魂心",
+      "en": "Soul-Heart",
+      "ja": "ソウルハート"
+    },
+    "description": "每當場上有寶可夢 陷入瀕死狀態時， 特攻就會提高。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "tangling-hair": {
+    "id": 221,
+    "slug": "tangling-hair",
+    "name": {
+      "zhHant": "捲髮",
+      "en": "Tangling Hair",
+      "ja": "カーリーヘアー"
+    },
+    "description": "對手用攻擊接觸到自己時， 降低此對手的速度。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "receiver": {
+    "id": 222,
+    "slug": "receiver",
+    "name": {
+      "zhHant": "接球手",
+      "en": "Receiver",
+      "ja": "レシーバー"
+    },
+    "description": "繼承被打倒的同伴的特性， 變為相同的特性。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "power-of-alchemy": {
+    "id": 223,
+    "slug": "power-of-alchemy",
+    "name": {
+      "zhHant": "化學之力",
+      "en": "Power of Alchemy",
+      "ja": "かがくのちから"
+    },
+    "description": "繼承被打倒的同伴的特性， 變為相同的特性。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "beast-boost": {
+    "id": 224,
+    "slug": "beast-boost",
+    "name": {
+      "zhHant": "異獸提升",
+      "en": "Beast Boost",
+      "ja": "ビーストブースト"
+    },
+    "description": "打倒對手的時候， 會提高自己最高的那項能力。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "rks-system": {
+    "id": 225,
+    "slug": "rks-system",
+    "name": {
+      "zhHant": "ＡＲ系統",
+      "en": "RKS System",
+      "ja": "ＡＲシステム"
+    },
+    "description": "根據持有的記憶碟， 自己的屬性會改變。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "electric-surge": {
+    "id": 226,
+    "slug": "electric-surge",
+    "name": {
+      "zhHant": "電氣製造者",
+      "en": "Electric Surge",
+      "ja": "エレキメイカー"
+    },
+    "description": "出場時， 會布下電氣場地。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "psychic-surge": {
+    "id": 227,
+    "slug": "psychic-surge",
+    "name": {
+      "zhHant": "精神製造者",
+      "en": "Psychic Surge",
+      "ja": "サイコメイカー"
+    },
+    "description": "出場時， 會布下精神場地。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "misty-surge": {
+    "id": 228,
+    "slug": "misty-surge",
+    "name": {
+      "zhHant": "薄霧製造者",
+      "en": "Misty Surge",
+      "ja": "ミストメイカー"
+    },
+    "description": "出場時， 會布下薄霧場地。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "grassy-surge": {
+    "id": 229,
+    "slug": "grassy-surge",
+    "name": {
+      "zhHant": "青草製造者",
+      "en": "Grassy Surge",
+      "ja": "グラスメイカー"
+    },
+    "description": "出場時， 會布下青草場地。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "full-metal-body": {
+    "id": 230,
+    "slug": "full-metal-body",
+    "name": {
+      "zhHant": "金屬防護",
+      "en": "Full Metal Body",
+      "ja": "メタルプロテクト"
+    },
+    "description": "不會因對手的招式或特性 而被降低能力。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "shadow-shield": {
+    "id": 231,
+    "slug": "shadow-shield",
+    "name": {
+      "zhHant": "幻影防守",
+      "en": "Shadow Shield",
+      "ja": "ファントムガード"
+    },
+    "description": "ＨＰ全滿時， 受到的傷害會變少。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "prism-armor": {
+    "id": 232,
+    "slug": "prism-armor",
+    "name": {
+      "zhHant": "稜鏡裝甲",
+      "en": "Prism Armor",
+      "ja": "プリズムアーマー"
+    },
+    "description": "受到效果絕佳的攻擊時， 可減弱其威力。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "neuroforce": {
+    "id": 233,
+    "slug": "neuroforce",
+    "name": {
+      "zhHant": "腦核之力",
+      "en": "Neuroforce",
+      "ja": "ブレインフォース"
+    },
+    "description": "可進一步提升 效果絕佳招式的威力。",
+    "generation": 7,
+    "isMainSeries": true
+  },
+  "intrepid-sword": {
+    "id": 234,
+    "slug": "intrepid-sword",
+    "name": {
+      "zhHant": "不撓之劍",
+      "en": "Intrepid Sword",
+      "ja": "ふとうのけん"
+    },
+    "description": "出場時， 攻擊會提高。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "dauntless-shield": {
+    "id": 235,
+    "slug": "dauntless-shield",
+    "name": {
+      "zhHant": "不屈之盾",
+      "en": "Dauntless Shield",
+      "ja": "ふくつのたて"
+    },
+    "description": "出場時， 防禦會提高。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "libero": {
+    "id": 236,
+    "slug": "libero",
+    "name": {
+      "zhHant": "自由者",
+      "en": "Libero",
+      "ja": "リベロ"
+    },
+    "description": "變為與自己使出的招式 相同的屬性。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "ball-fetch": {
+    "id": 237,
+    "slug": "ball-fetch",
+    "name": {
+      "zhHant": "撿球",
+      "en": "Ball Fetch",
+      "ja": "たまひろい"
+    },
+    "description": "當寶可夢沒有攜帶道具時， 會撿回第１個投出後 捕捉失敗的精靈球。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "cotton-down": {
+    "id": 238,
+    "slug": "cotton-down",
+    "name": {
+      "zhHant": "棉絮",
+      "en": "Cotton Down",
+      "ja": "わたげ"
+    },
+    "description": "受到攻擊時會撒下棉絮， 降低除自己以外的 所有寶可夢的速度。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "propeller-tail": {
+    "id": 239,
+    "slug": "propeller-tail",
+    "name": {
+      "zhHant": "螺旋尾鰭",
+      "en": "Propeller Tail",
+      "ja": "スクリューおびれ"
+    },
+    "description": "能無視具有吸引 對手招式效果的 特性或招式的影響。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "mirror-armor": {
+    "id": 240,
+    "slug": "mirror-armor",
+    "name": {
+      "zhHant": "鏡甲",
+      "en": "Mirror Armor",
+      "ja": "ミラーアーマー"
+    },
+    "description": "只反彈自己受到的 能力降低效果。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "gulp-missile": {
+    "id": 241,
+    "slug": "gulp-missile",
+    "name": {
+      "zhHant": "一口飛彈",
+      "en": "Gulp Missile",
+      "ja": "うのミサイル"
+    },
+    "description": "衝浪或潛水時會叼來獵物。 當受到傷害時， 會吐出獵物攻擊對手。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "stalwart": {
+    "id": 242,
+    "slug": "stalwart",
+    "name": {
+      "zhHant": "堅毅",
+      "en": "Stalwart",
+      "ja": "すじがねいり"
+    },
+    "description": "能無視具有吸引 對手招式效果的 特性或招式的影響。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "steam-engine": {
+    "id": 243,
+    "slug": "steam-engine",
+    "name": {
+      "zhHant": "蒸汽機",
+      "en": "Steam Engine",
+      "ja": "じょうききかん"
+    },
+    "description": "受到水屬性或 火屬性招式攻擊時， 速度會極大幅提高。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "punk-rock": {
+    "id": 244,
+    "slug": "punk-rock",
+    "name": {
+      "zhHant": "龐克搖滾",
+      "en": "Punk Rock",
+      "ja": "パンクロック"
+    },
+    "description": "聲音招式的威力會提高。 受到聲音招式的傷害會減半。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "sand-spit": {
+    "id": 245,
+    "slug": "sand-spit",
+    "name": {
+      "zhHant": "吐沙",
+      "en": "Sand Spit",
+      "ja": "すなはき"
+    },
+    "description": "受到攻擊時， 會刮起沙暴。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "ice-scales": {
+    "id": 246,
+    "slug": "ice-scales",
+    "name": {
+      "zhHant": "冰鱗粉",
+      "en": "Ice Scales",
+      "ja": "こおりのりんぷん"
+    },
+    "description": "得到冰鱗粉的守護， 受到的特殊攻擊傷害會減半。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "ripen": {
+    "id": 247,
+    "slug": "ripen",
+    "name": {
+      "zhHant": "熟成",
+      "en": "Ripen",
+      "ja": "じゅくせい"
+    },
+    "description": "讓樹果成熟， 使效果變為２倍。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "ice-face": {
+    "id": 248,
+    "slug": "ice-face",
+    "name": {
+      "zhHant": "結凍頭",
+      "en": "Ice Face",
+      "ja": "アイスフェイス"
+    },
+    "description": "頭部的冰會代替自己承受 物理攻擊，但是樣子會改變。 下冰雹時，冰會回復原狀。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "power-spot": {
+    "id": 249,
+    "slug": "power-spot",
+    "name": {
+      "zhHant": "能量點",
+      "en": "Power Spot",
+      "ja": "パワースポット"
+    },
+    "description": "只要站在旁邊， 招式的威力就會提高。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "mimicry": {
+    "id": 250,
+    "slug": "mimicry",
+    "name": {
+      "zhHant": "擬態",
+      "en": "Mimicry",
+      "ja": "ぎたい"
+    },
+    "description": "寶可夢的屬性會隨著 場地的狀態而改變。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "screen-cleaner": {
+    "id": 251,
+    "slug": "screen-cleaner",
+    "name": {
+      "zhHant": "除障",
+      "en": "Screen Cleaner",
+      "ja": "バリアフリー"
+    },
+    "description": "出場時，敵方和我方的 光牆、反射壁和極光幕的效果會消失。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "steely-spirit": {
+    "id": 252,
+    "slug": "steely-spirit",
+    "name": {
+      "zhHant": "鋼之意志",
+      "en": "Steely Spirit",
+      "ja": "はがねのせいしん"
+    },
+    "description": "我方的鋼屬性 攻擊威力會提高。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "perish-body": {
+    "id": 253,
+    "slug": "perish-body",
+    "name": {
+      "zhHant": "滅亡之軀",
+      "en": "Perish Body",
+      "ja": "ほろびのボディ"
+    },
+    "description": "在受到接觸類招式攻擊時， ３個回合後雙方都會陷入瀕死。 替換寶可夢後效果就會消失。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "wandering-spirit": {
+    "id": 254,
+    "slug": "wandering-spirit",
+    "name": {
+      "zhHant": "遊魂",
+      "en": "Wandering Spirit",
+      "ja": "さまようたましい"
+    },
+    "description": "與使用接觸類招式 攻擊自己的寶可夢互換特性。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "gorilla-tactics": {
+    "id": 255,
+    "slug": "gorilla-tactics",
+    "name": {
+      "zhHant": "一猩一意",
+      "en": "Gorilla Tactics",
+      "ja": "ごりむちゅう"
+    },
+    "description": "攻擊雖然會提高， 但只能使出 最初選擇的招式。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "neutralizing-gas": {
+    "id": 256,
+    "slug": "neutralizing-gas",
+    "name": {
+      "zhHant": "化學變化氣體",
+      "en": "Neutralizing Gas",
+      "ja": "かがくへんかガス"
+    },
+    "description": "當場上有特性是化學變化氣體的寶可夢時， 所有寶可夢的特性效果 都會消失或無法發動。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "pastel-veil": {
+    "id": 257,
+    "slug": "pastel-veil",
+    "name": {
+      "zhHant": "粉彩護幕",
+      "en": "Pastel Veil",
+      "ja": "パステルベール"
+    },
+    "description": "自己和我方同伴都不會 陷入中毒的異常狀態。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "hunger-switch": {
+    "id": 258,
+    "slug": "hunger-switch",
+    "name": {
+      "zhHant": "飽了又餓",
+      "en": "Hunger Switch",
+      "ja": "はらぺこスイッチ"
+    },
+    "description": "在每個回合結束時， 會在滿腹花紋和空腹花紋之間 交替改變樣子。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "quick-draw": {
+    "id": 259,
+    "slug": "quick-draw",
+    "name": {
+      "zhHant": "速擊",
+      "en": "Quick Draw",
+      "ja": "クイックドロウ"
+    },
+    "description": "有時能比對手先一步行動。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "unseen-fist": {
+    "id": 260,
+    "slug": "unseen-fist",
+    "name": {
+      "zhHant": "無形拳",
+      "en": "Unseen Fist",
+      "ja": "ふかしのこぶし"
+    },
+    "description": "只要是接觸到對手的招式， 就可以無視對手的防守效果進行攻擊。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "curious-medicine": {
+    "id": 261,
+    "slug": "curious-medicine",
+    "name": {
+      "zhHant": "怪藥",
+      "en": "Curious Medicine",
+      "ja": "きみょうなくすり"
+    },
+    "description": "出場時，會從貝殼撒藥， 將我方的能力變化復原。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "transistor": {
+    "id": 262,
+    "slug": "transistor",
+    "name": {
+      "zhHant": "電晶體",
+      "en": "Transistor",
+      "ja": "トランジスタ"
+    },
+    "description": "電屬性的招式威力會提高。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "dragons-maw": {
+    "id": 263,
+    "slug": "dragons-maw",
+    "name": {
+      "zhHant": "龍顎",
+      "en": "Dragon’s Maw",
+      "ja": "りゅうのあぎと"
+    },
+    "description": "龍屬性的招式威力會提高。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "chilling-neigh": {
+    "id": 264,
+    "slug": "chilling-neigh",
+    "name": {
+      "zhHant": "蒼白嘶鳴",
+      "en": "Chilling Neigh",
+      "ja": "しろのいななき"
+    },
+    "description": "打倒對手時 會用冰冷的聲音嘶鳴 並提高攻擊。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "grim-neigh": {
+    "id": 265,
+    "slug": "grim-neigh",
+    "name": {
+      "zhHant": "漆黑嘶鳴",
+      "en": "Grim Neigh",
+      "ja": "くろのいななき"
+    },
+    "description": "打倒對手時 會用恐怖的聲音嘶鳴 並提高特攻。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "as-one-glastrier": {
+    "id": 266,
+    "slug": "as-one-glastrier",
+    "name": {
+      "zhHant": "人馬一體",
+      "en": "As One",
+      "ja": "じんばいったい"
+    },
+    "description": "兼具蕾冠王的緊張感和 雪暴馬的蒼白嘶鳴這２種特性。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "as-one-spectrier": {
+    "id": 267,
+    "slug": "as-one-spectrier",
+    "name": {
+      "zhHant": "人馬一體",
+      "en": "As One",
+      "ja": "じんばいったい"
+    },
+    "description": "兼具蕾冠王的緊張感和 靈幽馬的漆黑嘶鳴這２種特性。",
+    "generation": 8,
+    "isMainSeries": true
+  },
+  "lingering-aroma": {
+    "id": 268,
+    "slug": "lingering-aroma",
+    "name": {
+      "zhHant": "甩不掉的氣味",
+      "en": "Lingering Aroma",
+      "ja": "とれないにおい"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "seed-sower": {
+    "id": 269,
+    "slug": "seed-sower",
+    "name": {
+      "zhHant": "掉出種子",
+      "en": "Seed Sower",
+      "ja": "こぼれダネ"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "thermal-exchange": {
+    "id": 270,
+    "slug": "thermal-exchange",
+    "name": {
+      "zhHant": "熱交換",
+      "en": "Thermal Exchange",
+      "ja": "ねつこうかん"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "anger-shell": {
+    "id": 271,
+    "slug": "anger-shell",
+    "name": {
+      "zhHant": "憤怒甲殼",
+      "en": "Anger Shell",
+      "ja": "いかりのこうら"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "purifying-salt": {
+    "id": 272,
+    "slug": "purifying-salt",
+    "name": {
+      "zhHant": "潔淨之鹽",
+      "en": "Purifying Salt",
+      "ja": "きよめのしお"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "well-baked-body": {
+    "id": 273,
+    "slug": "well-baked-body",
+    "name": {
+      "zhHant": "焦香之軀",
+      "en": "Well-Baked Body",
+      "ja": "こんがりボディ"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "wind-rider": {
+    "id": 274,
+    "slug": "wind-rider",
+    "name": {
+      "zhHant": "乘風",
+      "en": "Wind Rider",
+      "ja": "かぜのり"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "guard-dog": {
+    "id": 275,
+    "slug": "guard-dog",
+    "name": {
+      "zhHant": "看門犬",
+      "en": "Guard Dog",
+      "ja": "ばんけん"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "rocky-payload": {
+    "id": 276,
+    "slug": "rocky-payload",
+    "name": {
+      "zhHant": "搬岩",
+      "en": "Rocky Payload",
+      "ja": "いわはこび"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "wind-power": {
+    "id": 277,
+    "slug": "wind-power",
+    "name": {
+      "zhHant": "風力發電",
+      "en": "Wind Power",
+      "ja": "ふうりょくでんき"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "zero-to-hero": {
+    "id": 278,
+    "slug": "zero-to-hero",
+    "name": {
+      "zhHant": "全能變身",
+      "en": "Zero to Hero",
+      "ja": "マイティチェンジ"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "commander": {
+    "id": 279,
+    "slug": "commander",
+    "name": {
+      "zhHant": "發號施令",
+      "en": "Commander",
+      "ja": "しれいとう"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "electromorphosis": {
+    "id": 280,
+    "slug": "electromorphosis",
+    "name": {
+      "zhHant": "電力轉換",
+      "en": "Electromorphosis",
+      "ja": "でんきにかえる"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "protosynthesis": {
+    "id": 281,
+    "slug": "protosynthesis",
+    "name": {
+      "zhHant": "古代活性",
+      "en": "Protosynthesis",
+      "ja": "こだいかっせい"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "quark-drive": {
+    "id": 282,
+    "slug": "quark-drive",
+    "name": {
+      "zhHant": "夸克充能",
+      "en": "Quark Drive",
+      "ja": "クォークチャージ"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "good-as-gold": {
+    "id": 283,
+    "slug": "good-as-gold",
+    "name": {
+      "zhHant": "黃金之軀",
+      "en": "Good as Gold",
+      "ja": "おうごんのからだ"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "vessel-of-ruin": {
+    "id": 284,
+    "slug": "vessel-of-ruin",
+    "name": {
+      "zhHant": "災禍之鼎",
+      "en": "Vessel of Ruin",
+      "ja": "わざわいのうつわ"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "sword-of-ruin": {
+    "id": 285,
+    "slug": "sword-of-ruin",
+    "name": {
+      "zhHant": "災禍之劍",
+      "en": "Sword of Ruin",
+      "ja": "わざわいのつるぎ"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "tablets-of-ruin": {
+    "id": 286,
+    "slug": "tablets-of-ruin",
+    "name": {
+      "zhHant": "災禍之簡",
+      "en": "Tablets of Ruin",
+      "ja": "わざわいのおふだ"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "beads-of-ruin": {
+    "id": 287,
+    "slug": "beads-of-ruin",
+    "name": {
+      "zhHant": "災禍之玉",
+      "en": "Beads of Ruin",
+      "ja": "わざわいのたま"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "orichalcum-pulse": {
+    "id": 288,
+    "slug": "orichalcum-pulse",
+    "name": {
+      "zhHant": "緋紅脈動",
+      "en": "Orichalcum Pulse",
+      "ja": "ひひいろのこどう"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "hadron-engine": {
+    "id": 289,
+    "slug": "hadron-engine",
+    "name": {
+      "zhHant": "強子引擎",
+      "en": "Hadron Engine",
+      "ja": "ハドロンエンジン"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "opportunist": {
+    "id": 290,
+    "slug": "opportunist",
+    "name": {
+      "zhHant": "跟風",
+      "en": "Opportunist",
+      "ja": "びんじょう"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "cud-chew": {
+    "id": 291,
+    "slug": "cud-chew",
+    "name": {
+      "zhHant": "反芻",
+      "en": "Cud Chew",
+      "ja": "はんすう"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "sharpness": {
+    "id": 292,
+    "slug": "sharpness",
+    "name": {
+      "zhHant": "鋒銳",
+      "en": "Sharpness",
+      "ja": "きれあじ"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "supreme-overlord": {
+    "id": 293,
+    "slug": "supreme-overlord",
+    "name": {
+      "zhHant": "大將",
+      "en": "Supreme Overlord",
+      "ja": "そうだいしょう"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "costar": {
+    "id": 294,
+    "slug": "costar",
+    "name": {
+      "zhHant": "同台共演",
+      "en": "Costar",
+      "ja": "きょうえん"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "toxic-debris": {
+    "id": 295,
+    "slug": "toxic-debris",
+    "name": {
+      "zhHant": "毒滿地",
+      "en": "Toxic Debris",
+      "ja": "どくげしょう"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "armor-tail": {
+    "id": 296,
+    "slug": "armor-tail",
+    "name": {
+      "zhHant": "尾甲",
+      "en": "Armor Tail",
+      "ja": "テイルアーマー"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "earth-eater": {
+    "id": 297,
+    "slug": "earth-eater",
+    "name": {
+      "zhHant": "食土",
+      "en": "Earth Eater",
+      "ja": "どしょく"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "mycelium-might": {
+    "id": 298,
+    "slug": "mycelium-might",
+    "name": {
+      "zhHant": "菌絲之力",
+      "en": "Mycelium Might",
+      "ja": "きんしのちから"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "minds-eye": {
+    "id": 299,
+    "slug": "minds-eye",
+    "name": {
+      "zhHant": "心眼",
+      "en": "Mind’s Eye",
+      "ja": "しんがん"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "supersweet-syrup": {
+    "id": 300,
+    "slug": "supersweet-syrup",
+    "name": {
+      "zhHant": "甘露之蜜",
+      "en": "Supersweet Syrup",
+      "ja": "かんろなミツ"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "hospitality": {
+    "id": 301,
+    "slug": "hospitality",
+    "name": {
+      "zhHant": "款待",
+      "en": "Hospitality",
+      "ja": "おもてなし"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "toxic-chain": {
+    "id": 302,
+    "slug": "toxic-chain",
+    "name": {
+      "zhHant": "毒鎖鏈",
+      "en": "Toxic Chain",
+      "ja": "どくのくさり"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "embody-aspect": {
+    "id": 303,
+    "slug": "embody-aspect",
+    "name": {
+      "zhHant": "面影輝映",
+      "en": "Embody Aspect",
+      "ja": "おもかげやどし"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "tera-shift": {
+    "id": 304,
+    "slug": "tera-shift",
+    "name": {
+      "zhHant": "太晶變形",
+      "en": "Tera Shift",
+      "ja": "テラスチェンジ"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "tera-shell": {
+    "id": 305,
+    "slug": "tera-shell",
+    "name": {
+      "zhHant": "太晶甲殼",
+      "en": "Tera Shell",
+      "ja": "テラスシェル"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "teraform-zero": {
+    "id": 306,
+    "slug": "teraform-zero",
+    "name": {
+      "zhHant": "歸零化境",
+      "en": "Teraform Zero",
+      "ja": "ゼロフォーミング"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "poison-puppeteer": {
+    "id": 307,
+    "slug": "poison-puppeteer",
+    "name": {
+      "zhHant": "毒傀儡",
+      "en": "Poison Puppeteer",
+      "ja": "どくくぐつ"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "piercing-drill": {
+    "id": 308,
+    "slug": "piercing-drill",
+    "name": {
+      "zhHant": "貫穿鑽",
+      "en": "Piercing Drill",
+      "ja": "かんつうドリル"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "dragonize": {
+    "id": 309,
+    "slug": "dragonize",
+    "name": {
+      "zhHant": "龍皮膚",
+      "en": "Dragonize",
+      "ja": "ドラゴンスキン"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "mega-sol": {
+    "id": 310,
+    "slug": "mega-sol",
+    "name": {
+      "zhHant": "超級日光",
+      "en": "Mega Sol",
+      "ja": "メガソーラー"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "spicy-spray": {
+    "id": 311,
+    "slug": "spicy-spray",
+    "name": {
+      "zhHant": "辣椒噴發",
+      "en": "Spicy Spray",
+      "ja": "とびだすハバネロ"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "eelevate": {
+    "id": 312,
+    "slug": "eelevate",
+    "name": {
+      "zhHant": "eelevate",
+      "en": "Eelevate",
+      "ja": "eelevate"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "fire-mane": {
+    "id": 313,
+    "slug": "fire-mane",
+    "name": {
+      "zhHant": "fire-mane",
+      "en": "Fire Mane",
+      "ja": "fire-mane"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "aura-guard": {
+    "id": 314,
+    "slug": "aura-guard",
+    "name": {
+      "zhHant": "aura-guard",
+      "en": "Aura Guard",
+      "ja": "aura-guard"
+    },
+    "description": null,
+    "generation": 9,
+    "isMainSeries": true
+  },
+  "mountaineer": {
+    "id": 10001,
+    "slug": "mountaineer",
+    "name": {
+      "zhHant": "mountaineer",
+      "en": "Mountaineer",
+      "ja": "mountaineer"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "wave-rider": {
+    "id": 10002,
+    "slug": "wave-rider",
+    "name": {
+      "zhHant": "wave-rider",
+      "en": "Wave Rider",
+      "ja": "wave-rider"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "skater": {
+    "id": 10003,
+    "slug": "skater",
+    "name": {
+      "zhHant": "skater",
+      "en": "Skater",
+      "ja": "skater"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "thrust": {
+    "id": 10004,
+    "slug": "thrust",
+    "name": {
+      "zhHant": "thrust",
+      "en": "Thrust",
+      "ja": "thrust"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "perception": {
+    "id": 10005,
+    "slug": "perception",
+    "name": {
+      "zhHant": "perception",
+      "en": "Perception",
+      "ja": "perception"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "parry": {
+    "id": 10006,
+    "slug": "parry",
+    "name": {
+      "zhHant": "parry",
+      "en": "Parry",
+      "ja": "parry"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "instinct": {
+    "id": 10007,
+    "slug": "instinct",
+    "name": {
+      "zhHant": "instinct",
+      "en": "Instinct",
+      "ja": "instinct"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "dodge": {
+    "id": 10008,
+    "slug": "dodge",
+    "name": {
+      "zhHant": "dodge",
+      "en": "Dodge",
+      "ja": "dodge"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "jagged-edge": {
+    "id": 10009,
+    "slug": "jagged-edge",
+    "name": {
+      "zhHant": "jagged-edge",
+      "en": "Jagged Edge",
+      "ja": "jagged-edge"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "frostbite": {
+    "id": 10010,
+    "slug": "frostbite",
+    "name": {
+      "zhHant": "frostbite",
+      "en": "Frostbite",
+      "ja": "frostbite"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "tenacity": {
+    "id": 10011,
+    "slug": "tenacity",
+    "name": {
+      "zhHant": "tenacity",
+      "en": "Tenacity",
+      "ja": "tenacity"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "pride": {
+    "id": 10012,
+    "slug": "pride",
+    "name": {
+      "zhHant": "pride",
+      "en": "Pride",
+      "ja": "pride"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "deep-sleep": {
+    "id": 10013,
+    "slug": "deep-sleep",
+    "name": {
+      "zhHant": "deep-sleep",
+      "en": "Deep Sleep",
+      "ja": "deep-sleep"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "power-nap": {
+    "id": 10014,
+    "slug": "power-nap",
+    "name": {
+      "zhHant": "power-nap",
+      "en": "Power Nap",
+      "ja": "power-nap"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "spirit": {
+    "id": 10015,
+    "slug": "spirit",
+    "name": {
+      "zhHant": "spirit",
+      "en": "Spirit",
+      "ja": "spirit"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "warm-blanket": {
+    "id": 10016,
+    "slug": "warm-blanket",
+    "name": {
+      "zhHant": "warm-blanket",
+      "en": "Warm Blanket",
+      "ja": "warm-blanket"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "gulp": {
+    "id": 10017,
+    "slug": "gulp",
+    "name": {
+      "zhHant": "gulp",
+      "en": "Gulp",
+      "ja": "gulp"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "herbivore": {
+    "id": 10018,
+    "slug": "herbivore",
+    "name": {
+      "zhHant": "herbivore",
+      "en": "Herbivore",
+      "ja": "herbivore"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "sandpit": {
+    "id": 10019,
+    "slug": "sandpit",
+    "name": {
+      "zhHant": "sandpit",
+      "en": "Sandpit",
+      "ja": "sandpit"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "hot-blooded": {
+    "id": 10020,
+    "slug": "hot-blooded",
+    "name": {
+      "zhHant": "hot-blooded",
+      "en": "Hot Blooded",
+      "ja": "hot-blooded"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "medic": {
+    "id": 10021,
+    "slug": "medic",
+    "name": {
+      "zhHant": "medic",
+      "en": "Medic",
+      "ja": "medic"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "life-force": {
+    "id": 10022,
+    "slug": "life-force",
+    "name": {
+      "zhHant": "life-force",
+      "en": "Life Force",
+      "ja": "life-force"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "lunchbox": {
+    "id": 10023,
+    "slug": "lunchbox",
+    "name": {
+      "zhHant": "lunchbox",
+      "en": "Lunchbox",
+      "ja": "lunchbox"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "nurse": {
+    "id": 10024,
+    "slug": "nurse",
+    "name": {
+      "zhHant": "nurse",
+      "en": "Nurse",
+      "ja": "nurse"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "melee": {
+    "id": 10025,
+    "slug": "melee",
+    "name": {
+      "zhHant": "melee",
+      "en": "Melee",
+      "ja": "melee"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "sponge": {
+    "id": 10026,
+    "slug": "sponge",
+    "name": {
+      "zhHant": "sponge",
+      "en": "Sponge",
+      "ja": "sponge"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "bodyguard": {
+    "id": 10027,
+    "slug": "bodyguard",
+    "name": {
+      "zhHant": "bodyguard",
+      "en": "Bodyguard",
+      "ja": "bodyguard"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "hero": {
+    "id": 10028,
+    "slug": "hero",
+    "name": {
+      "zhHant": "hero",
+      "en": "Hero",
+      "ja": "hero"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "last-bastion": {
+    "id": 10029,
+    "slug": "last-bastion",
+    "name": {
+      "zhHant": "last-bastion",
+      "en": "Last Bastion",
+      "ja": "last-bastion"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "stealth": {
+    "id": 10030,
+    "slug": "stealth",
+    "name": {
+      "zhHant": "stealth",
+      "en": "Stealth",
+      "ja": "stealth"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "vanguard": {
+    "id": 10031,
+    "slug": "vanguard",
+    "name": {
+      "zhHant": "vanguard",
+      "en": "Vanguard",
+      "ja": "vanguard"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "nomad": {
+    "id": 10032,
+    "slug": "nomad",
+    "name": {
+      "zhHant": "nomad",
+      "en": "Nomad",
+      "ja": "nomad"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "sequence": {
+    "id": 10033,
+    "slug": "sequence",
+    "name": {
+      "zhHant": "sequence",
+      "en": "Sequence",
+      "ja": "sequence"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "grass-cloak": {
+    "id": 10034,
+    "slug": "grass-cloak",
+    "name": {
+      "zhHant": "grass-cloak",
+      "en": "Grass Cloak",
+      "ja": "grass-cloak"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "celebrate": {
+    "id": 10035,
+    "slug": "celebrate",
+    "name": {
+      "zhHant": "celebrate",
+      "en": "Celebrate",
+      "ja": "celebrate"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "lullaby": {
+    "id": 10036,
+    "slug": "lullaby",
+    "name": {
+      "zhHant": "lullaby",
+      "en": "Lullaby",
+      "ja": "lullaby"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "calming": {
+    "id": 10037,
+    "slug": "calming",
+    "name": {
+      "zhHant": "calming",
+      "en": "Calming",
+      "ja": "calming"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "daze": {
+    "id": 10038,
+    "slug": "daze",
+    "name": {
+      "zhHant": "daze",
+      "en": "Daze",
+      "ja": "daze"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "frighten": {
+    "id": 10039,
+    "slug": "frighten",
+    "name": {
+      "zhHant": "frighten",
+      "en": "Frighten",
+      "ja": "frighten"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "interference": {
+    "id": 10040,
+    "slug": "interference",
+    "name": {
+      "zhHant": "interference",
+      "en": "Interference",
+      "ja": "interference"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "mood-maker": {
+    "id": 10041,
+    "slug": "mood-maker",
+    "name": {
+      "zhHant": "mood-maker",
+      "en": "Mood Maker",
+      "ja": "mood-maker"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "confidence": {
+    "id": 10042,
+    "slug": "confidence",
+    "name": {
+      "zhHant": "confidence",
+      "en": "Confidence",
+      "ja": "confidence"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "fortune": {
+    "id": 10043,
+    "slug": "fortune",
+    "name": {
+      "zhHant": "fortune",
+      "en": "Fortune",
+      "ja": "fortune"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "bonanza": {
+    "id": 10044,
+    "slug": "bonanza",
+    "name": {
+      "zhHant": "bonanza",
+      "en": "Bonanza",
+      "ja": "bonanza"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "explode": {
+    "id": 10045,
+    "slug": "explode",
+    "name": {
+      "zhHant": "explode",
+      "en": "Explode",
+      "ja": "explode"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "omnipotent": {
+    "id": 10046,
+    "slug": "omnipotent",
+    "name": {
+      "zhHant": "omnipotent",
+      "en": "Omnipotent",
+      "ja": "omnipotent"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "share": {
+    "id": 10047,
+    "slug": "share",
+    "name": {
+      "zhHant": "share",
+      "en": "Share",
+      "ja": "share"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "black-hole": {
+    "id": 10048,
+    "slug": "black-hole",
+    "name": {
+      "zhHant": "black-hole",
+      "en": "Black Hole",
+      "ja": "black-hole"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "shadow-dash": {
+    "id": 10049,
+    "slug": "shadow-dash",
+    "name": {
+      "zhHant": "shadow-dash",
+      "en": "Shadow Dash",
+      "ja": "shadow-dash"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "sprint": {
+    "id": 10050,
+    "slug": "sprint",
+    "name": {
+      "zhHant": "sprint",
+      "en": "Sprint",
+      "ja": "sprint"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "disgust": {
+    "id": 10051,
+    "slug": "disgust",
+    "name": {
+      "zhHant": "disgust",
+      "en": "Disgust",
+      "ja": "disgust"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "high-rise": {
+    "id": 10052,
+    "slug": "high-rise",
+    "name": {
+      "zhHant": "high-rise",
+      "en": "High-rise",
+      "ja": "high-rise"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "climber": {
+    "id": 10053,
+    "slug": "climber",
+    "name": {
+      "zhHant": "climber",
+      "en": "Climber",
+      "ja": "climber"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "flame-boost": {
+    "id": 10054,
+    "slug": "flame-boost",
+    "name": {
+      "zhHant": "flame-boost",
+      "en": "Flame Boost",
+      "ja": "flame-boost"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "aqua-boost": {
+    "id": 10055,
+    "slug": "aqua-boost",
+    "name": {
+      "zhHant": "aqua-boost",
+      "en": "Aqua Boost",
+      "ja": "aqua-boost"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "run-up": {
+    "id": 10056,
+    "slug": "run-up",
+    "name": {
+      "zhHant": "run-up",
+      "en": "Run Up",
+      "ja": "run-up"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "conqueror": {
+    "id": 10057,
+    "slug": "conqueror",
+    "name": {
+      "zhHant": "conqueror",
+      "en": "Conqueror",
+      "ja": "conqueror"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "shackle": {
+    "id": 10058,
+    "slug": "shackle",
+    "name": {
+      "zhHant": "shackle",
+      "en": "Shackle",
+      "ja": "shackle"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "decoy": {
+    "id": 10059,
+    "slug": "decoy",
+    "name": {
+      "zhHant": "decoy",
+      "en": "Decoy",
+      "ja": "decoy"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  },
+  "shield": {
+    "id": 10060,
+    "slug": "shield",
+    "name": {
+      "zhHant": "shield",
+      "en": "Shield",
+      "ja": "shield"
+    },
+    "description": null,
+    "generation": 5,
+    "isMainSeries": false
+  }
+}

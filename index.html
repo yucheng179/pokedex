@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="以繁體中文瀏覽、搜尋與比較寶可夢資料。">
+  <meta name="theme-color" content="#e33d45">
+  <title>Pokédex｜寶可夢圖鑑</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#/" aria-label="回到寶可夢圖鑑首頁">
+      <span class="brand-ball" aria-hidden="true"></span>
+      <span>POKÉDEX</span>
+    </a>
+    <nav class="header-nav" aria-label="主要導覽">
+      <a class="active" href="#/">圖鑑</a>
+    </nav>
+  </header>
+
+  <main id="app" tabindex="-1">
+    <section class="loading-state" aria-live="polite">
+      <span class="loading-ball"></span>
+      <p>正在開啟圖鑑…</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Pokédex fan project · Data adapted from PokéAPI and <a href="https://wiki.52poke.com/" target="_blank" rel="noreferrer">52Poké Wiki</a> (CC BY-NC-SA 3.0)</p>
+  </footer>
+
+  <template id="card-template">
+    <article class="pokemon-card">
+      <button class="card-link" type="button">
+        <div class="card-art-wrap">
+          <span class="card-number"></span>
+          <div class="card-tags"></div>
+          <img class="card-art" loading="lazy" alt="">
+        </div>
+        <div class="card-body">
+          <h2 class="card-name"></h2>
+          <div class="type-list"></div>
+        </div>
+      </button>
+    </article>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
