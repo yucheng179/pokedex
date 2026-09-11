@@ -154,6 +154,34 @@ function pickText(entries = [], fields = ["flavor_text", "text", "short_effect",
   return null;
 }
 
+const UNAVAILABLE_MOVE_DESCRIPTION = /無法使用(?:此|這個)招式|建議忘記(?:此|這個)招式|不能使用的招式/;
+
+function pickMoveText(entries = [], fields = ["flavor_text", "text", "short_effect", "effect", "description"]) {
+  for (const language of LANG_ZH) {
+    const candidates = entries.filter(entry => entry.language?.name?.toLowerCase() === language.toLowerCase());
+    for (const entry of candidates.toReversed()) {
+      for (const field of fields) {
+        if (!entry[field]) continue;
+        const text = entry[field].replace(/[\n\f]+/g, " ").replace(/\s+/g, " ").trim();
+        if (text && !UNAVAILABLE_MOVE_DESCRIPTION.test(text)) return text;
+      }
+    }
+  }
+  return null;
+}
+
+function moveDescription(move) {
+  return pickMoveText(move.flavor_text_entries)
+    || pickMoveText(move.effect_entries)
+    || "資料庫目前未有此招式資料。";
+}
+
+function moveKind(move) {
+  if ((move.id >= 622 && move.id <= 658) || (move.id >= 695 && move.id <= 703) || move.id === 719 || (move.id >= 723 && move.id <= 728)) return "z";
+  if (move.id === 743 || (move.id >= 757 && move.id <= 774)) return "max";
+  return "normal";
+}
+
 function localizedNames(entries, fallbackEnglish) {
   return {
     zhHant: pickName(entries, LANG_ZH) || fallbackEnglish,
@@ -407,18 +435,44 @@ function makePokemonRecord(pokemon, species, form, abilities, versionGroupGenera
 
 async function syncMoves() {
   console.log("同步招式資料…");
+  const descriptionData = await readExisting("move-description-overrides.json");
+  const supplementalData = await readExisting("move-supplements.json");
+  const championsData = await readExisting("champions-move-overrides.json");
+  const descriptionOverrides = descriptionData.overrides || {};
+  const championsOverrides = championsData.moves || {};
   const refs = await list("move");
   const details = await mapLimit(refs, ref => fetchJson(ref.url), "招式");
-  const moves = details.map(move => ({
-    id: move.id, slug: move.name, name: localizedNames(move.names, move.name),
-    type: move.type.name, damageClass: move.damage_class?.name || null,
-    power: move.power, accuracy: move.accuracy, pp: move.pp, priority: move.priority,
-    effectChance: move.effect_chance, generation: generationFromResource(move.generation), target: move.target?.name || null,
-    description: pickText(move.flavor_text_entries) || pickText(move.effect_entries),
-    statChanges: move.stat_changes.map(entry => ({ stat: entry.stat.name, change: entry.change })),
-    meta: move.meta ? { ailment: move.meta.ailment?.name, category: move.meta.category?.name, minHits: move.meta.min_hits, maxHits: move.meta.max_hits, drain: move.meta.drain, healing: move.meta.healing, critRate: move.meta.crit_rate, ailmentChance: move.meta.ailment_chance, flinchChance: move.meta.flinch_chance, statChance: move.meta.stat_chance } : null,
-    learnedByPokemon: move.learned_by_pokemon.map(pokemon => pokemon.name)
-  })).sort((a, b) => a.id - b.id);
+  const apiMoves = details.map(move => {
+    const apiDescription = moveDescription(move);
+    const override = descriptionOverrides[move.name];
+    const useOverride = apiDescription === "資料庫目前未有此招式資料。" && override?.description;
+    const names = localizedNames(move.names, move.name);
+    if (override?.nameZhHant) names.zhHant = override.nameZhHant;
+    if (override?.nameJa) names.ja = override.nameJa;
+    const baseMove = {
+      id: move.id, slug: move.name, name: names, kind: moveKind(move),
+      type: move.type.name, damageClass: move.damage_class?.name || null,
+      power: move.power, accuracy: move.accuracy, pp: move.pp, priority: move.priority,
+      effectChance: move.effect_chance, generation: generationFromResource(move.generation), target: move.target?.name || null,
+      description: useOverride ? override.description : apiDescription,
+      descriptionSource: useOverride ? { name: "52Poké Wiki", url: override.sourceUrl, revisionId: override.revisionId } : { name: "PokéAPI", url: `${API}/move/${move.id}` },
+      statChanges: move.stat_changes.map(entry => ({ stat: entry.stat.name, change: entry.change })),
+      meta: move.meta ? { ailment: move.meta.ailment?.name, category: move.meta.category?.name, minHits: move.meta.min_hits, maxHits: move.meta.max_hits, minTurns: move.meta.min_turns, maxTurns: move.meta.max_turns, drain: move.meta.drain, healing: move.meta.healing, critRate: move.meta.crit_rate, ailmentChance: move.meta.ailment_chance, flinchChance: move.meta.flinch_chance, statChance: move.meta.stat_chance } : null,
+      learnedByPokemon: move.learned_by_pokemon.map(pokemon => pokemon.name)
+    };
+    const champions = championsOverrides[move.name];
+    if (!champions) return baseMove;
+    const { learnedByPokemonAdditions = [], id, ...fields } = champions;
+    return {
+      ...baseMove,
+      ...fields,
+      descriptionSource: champions.description
+        ? { name: "Pokémon Champions game data", url: championsData.source?.url, version: championsData.version, commit: championsData.source?.commit }
+        : baseMove.descriptionSource,
+      learnedByPokemon: [...new Set([...baseMove.learnedByPokemon, ...learnedByPokemonAdditions])].sort()
+    };
+  });
+  const moves = [...apiMoves, ...(supplementalData.moves || [])].sort((a, b) => (a.id ?? Number.MAX_SAFE_INTEGER) - (b.id ?? Number.MAX_SAFE_INTEGER) || a.slug.localeCompare(b.slug));
   await writeJson(join(DATA_DIR, "moves.json"), moves);
   return moves.length;
 }

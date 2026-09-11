@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "波動衝",
+        "to": "波动冲"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "波动冲",
+        "to": "波动冲（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 213691,
+        "ns": 0,
+        "title": "波动冲（招式）",
+        "revisions": [
+          {
+            "revid": 2554511,
+            "parentid": 2542443
+          }
+        ]
+      }
+    ]
+  }
+}

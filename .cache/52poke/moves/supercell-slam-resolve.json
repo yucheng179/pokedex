@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "閃電強襲",
+        "to": "闪电强袭"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "闪电强袭",
+        "to": "闪电强袭（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 258204,
+        "ns": 0,
+        "title": "闪电强袭（招式）",
+        "revisions": [
+          {
+            "revid": 2555550,
+            "parentid": 2542590
+          }
+        ]
+      }
+    ]
+  }
+}

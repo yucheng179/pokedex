@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "熱沙風暴",
+        "to": "热沙风暴"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "热沙风暴",
+        "to": "热沙风暴（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 213705,
+        "ns": 0,
+        "title": "热沙风暴（招式）",
+        "revisions": [
+          {
+            "revid": 2564152,
+            "parentid": 2555521
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "描繪",
+        "to": "描绘"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "描绘",
+        "to": "描绘（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 234407,
+        "ns": 0,
+        "title": "描绘（招式）",
+        "revisions": [
+          {
+            "revid": 2554150,
+            "parentid": 2542883
+          }
+        ]
+      }
+    ]
+  }
+}

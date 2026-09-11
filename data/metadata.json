@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-07T17:21:10.062Z",
+  "generatedAt": "2026-09-08T15:56:11.180Z",
   "source": "https://pokeapi.co/api/v2",
   "options": {
     "concurrency": 12,
     "refresh": false,
     "cache": false,
     "updatedGroups": [
-      "core"
+      "moves"
     ]
   },
   "summary": {
@@ -18,6 +18,6 @@
       "types": 18,
       "chains": 541
     },
-    "moves": 937
+    "moves": 970
   }
 }

@@ -1,0 +1,86 @@
+{
+  "batchcomplete": true,
+  "continue": {
+    "sroffset": 8,
+    "continue": "-||"
+  },
+  "query": {
+    "searchinfo": {
+      "totalhits": 35
+    },
+    "search": [
+      {
+        "ns": 0,
+        "title": "黑暗气象（招式）",
+        "pageid": 122603,
+        "size": 2005,
+        "wordcount": 166,
+        "snippet": "这篇文章讲述的是一种招式。如果您在寻找一种特性，请移步暗黑气场（特性）。 黑暗气象（日文︰ダークウェザー，英文︰<span class=\"searchmatch\">Shadow</span> <span class=\"searchmatch\">Sky</span>）是一种黑暗招式。 类似其他黑暗招式，一旦习得该招式的黑暗宝可梦被净化，该招式就会被遗忘并替换为其他招式。 主頁面：黑暗气场（状态） 包括使用的回合在内，接下来5回合的天气变更为黑暗气场。",
+        "timestamp": "2024-09-15T16:01:29Z"
+      },
+      {
+        "ns": 0,
+        "title": "招式列表（黑暗招式）",
+        "pageid": 149606,
+        "size": 2157,
+        "wordcount": 69,
+        "snippet": "黑暗气象 ダークウェザー <span class=\"searchmatch\">Shadow</span> <span class=\"searchmatch\">Sky</span> ------ 变化 — 100% — 368 黑暗紧握 ダークホールド <span class=\"searchmatch\">Shadow</span> Hold ------ 变化 — 80% — 369 黑暗薄雾 ダークミスト <span class=\"searchmatch\">Shadow</span> Mist ------ 变化 — 100% — 370 黑暗恐慌 ダークパニック",
+        "timestamp": "2025-11-27T15:22:55Z"
+      },
+      {
+        "ns": 0,
+        "title": "草之大陸",
+        "pageid": 135199,
+        "size": 9901,
+        "wordcount": 143,
+        "snippet": "Desert 巨大火山 きょだいかざん Giant Volcano 世界大穴 せかいのおおあな World Abyss 天空阶梯 てんくうのかいだん <span class=\"searchmatch\">Sky</span> Stairway 谜团丛林 ミステリージャングル Mystery Jungle 東南小島 なんとうしょとう Southeastern Islands",
+        "timestamp": "2021-06-21T14:05:39Z"
+      },
+      {
+        "ns": 0,
+        "title": "招式列表（第五世代）",
+        "pageid": 86219,
+        "size": 46056,
+        "wordcount": 0,
+        "snippet": "特殊 75 100 15 325 暗影拳 シャドーパンチ <span class=\"searchmatch\">Shadow</span> Punch 幽灵 物理 60 — 20 326 神通力 じんつうりき Extrasensory 超能力 特殊 80 100 30 327 冲天拳 スカイアッパー <span class=\"searchmatch\">Sky</span> Uppercut 格斗 物理 85 90 15 328 流沙地狱",
+        "timestamp": "2022-12-13T14:53:47Z"
+      },
+      {
+        "ns": 0,
+        "title": "招式列表（第四世代）",
+        "pageid": 86214,
+        "size": 38190,
+        "wordcount": 0,
+        "snippet": "特殊 75 100 15 325 暗影拳 シャドーパンチ <span class=\"searchmatch\">Shadow</span> Punch 幽灵 物理 60 — 20 326 神通力 じんつうりき Extrasensory 超能力 特殊 80 100 30 327 冲天拳 スカイアッパー <span class=\"searchmatch\">Sky</span> Uppercut 格斗 物理 85 90 15 328 流沙地狱",
+        "timestamp": "2017-09-08T09:02:49Z"
+      },
+      {
+        "ns": 0,
+        "title": "招式列表（第六世代）",
+        "pageid": 86231,
+        "size": 51783,
+        "wordcount": 0,
+        "snippet": "特殊 75 100 15 325 暗影拳 シャドーパンチ <span class=\"searchmatch\">Shadow</span> Punch 幽灵 物理 60 — 20 326 神通力 じんつうりき Extrasensory 超能力 特殊 80 100 20 327 冲天拳 スカイアッパー <span class=\"searchmatch\">Sky</span> Uppercut 格斗 物理 85 90 15 328 流沙地狱",
+        "timestamp": "2025-05-28T00:31:18Z"
+      },
+      {
+        "ns": 0,
+        "title": "任务列表（传说 Z-A）",
+        "pageid": 304542,
+        "size": 41622,
+        "wordcount": 45,
+        "snippet": "Siblings of the <span class=\"searchmatch\">Sky</span> 190 送给女儿的谜拟丘 娘に贈るミミッキュ A Mimikyu for My Cutie 191 卡带交易 カセットの取引 Collecting Four Drives 192 悄然逼近的影子 しのび寄る影 The Stealthy <span class=\"searchmatch\">Shadow</span> 193 美录坦的梦 メルタンの夢",
+        "timestamp": "2026-03-25T19:13:20Z"
+      },
+      {
+        "ns": 0,
+        "title": "招式列表（第三世代）",
+        "pageid": 86211,
+        "size": 26497,
+        "wordcount": 0,
+        "snippet": "Beam 虫 75 100 15 325 暗影拳 シャドーパンチ <span class=\"searchmatch\">Shadow</span> Punch 幽灵 60 — 20 326 神通力 じんつうりき Extrasensory 超能力 80 100 30 327 冲天拳 スカイアッパー <span class=\"searchmatch\">Sky</span> Uppercut 格斗 85 90 15 328 流沙地狱 すなじごく",
+        "timestamp": "2026-08-01T03:59:32Z"
+      }
+    ]
+  }
+}

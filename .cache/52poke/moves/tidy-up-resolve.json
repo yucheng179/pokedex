@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "大掃除",
+        "to": "大扫除"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "大扫除",
+        "to": "大扫除（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 234420,
+        "ns": 0,
+        "title": "大扫除（招式）",
+        "revisions": [
+          {
+            "revid": 2613978,
+            "parentid": 2554164
+          }
+        ]
+      }
+    ]
+  }
+}

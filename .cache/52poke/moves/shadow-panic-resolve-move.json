@@ -1,0 +1,19 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "normalized": [
+      {
+        "fromencoded": false,
+        "from": "shadow-panic（招式）",
+        "to": "Shadow-panic（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "ns": 0,
+        "title": "Shadow-panic（招式）",
+        "missing": true
+      }
+    ]
+  }
+}

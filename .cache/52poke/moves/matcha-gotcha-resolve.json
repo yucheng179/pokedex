@@ -1,0 +1,24 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "redirects": [
+      {
+        "from": "刷刷茶炮",
+        "to": "刷刷茶炮（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 253995,
+        "ns": 0,
+        "title": "刷刷茶炮（招式）",
+        "revisions": [
+          {
+            "revid": 2554369,
+            "parentid": 2542849
+          }
+        ]
+      }
+    ]
+  }
+}

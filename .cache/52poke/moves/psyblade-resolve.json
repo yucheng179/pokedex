@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "精神劍",
+        "to": "精神剑"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "精神剑",
+        "to": "精神剑（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 245638,
+        "ns": 0,
+        "title": "精神剑（招式）",
+        "revisions": [
+          {
+            "revid": 2564048,
+            "parentid": 2304821
+          }
+        ]
+      }
+    ]
+  }
+}

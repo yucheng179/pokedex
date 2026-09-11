@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "大災難",
+        "to": "大灾难"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "大灾难",
+        "to": "大灾难（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 234416,
+        "ns": 0,
+        "title": "大灾难（招式）",
+        "revisions": [
+          {
+            "revid": 2542874,
+            "parentid": 2492143
+          }
+        ]
+      }
+    ]
+  }
+}

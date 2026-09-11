@@ -1,0 +1,86 @@
+{
+  "batchcomplete": true,
+  "continue": {
+    "sroffset": 8,
+    "continue": "-||"
+  },
+  "query": {
+    "searchinfo": {
+      "totalhits": 26
+    },
+    "search": [
+      {
+        "ns": 0,
+        "title": "招式列表（黑暗招式）",
+        "pageid": 149606,
+        "size": 2157,
+        "wordcount": 69,
+        "snippet": "ダークパニック <span class=\"searchmatch\">Shadow</span> Panic ------ 变化 — 60% — 371 黑暗降低 ダークダウン <span class=\"searchmatch\">Shadow</span> <span class=\"searchmatch\">Down</span> ------ 变化 — 100% — 372 黑暗清除 ダークリムーブ <span class=\"searchmatch\">Shadow</span> Shed ------ 变化 — 100% — 373 黑暗平分 ダークハーフ Shadow",
+        "timestamp": "2025-11-27T15:22:55Z"
+      },
+      {
+        "ns": 0,
+        "title": "招式列表（第五世代）",
+        "pageid": 86219,
+        "size": 46056,
+        "wordcount": 0,
+        "snippet": "Body Slam 一般 物理 85 100 15 35 紧束 まきつく Wrap 一般 物理 15 90 20 36 猛撞 とっしん Take <span class=\"searchmatch\">Down</span> 一般 物理 90 85 20 37 大闹一番 あばれる Thrash 一般 物理 120 100 10 38 舍身冲撞 すてみタックル Double-Edge",
+        "timestamp": "2022-12-13T14:53:47Z"
+      },
+      {
+        "ns": 0,
+        "title": "朽木妖（S2）",
+        "pageid": 169872,
+        "size": 2955,
+        "wordcount": 56,
+        "snippet": "  招式   暗影小屋暗影囚室シャドーコープ<span class=\"searchmatch\">Shadow</span> Cage 120",
+        "timestamp": "2026-06-10T03:23:59Z"
+      },
+      {
+        "ns": 0,
+        "title": "招式列表（第六世代）",
+        "pageid": 86231,
+        "size": 51783,
+        "wordcount": 0,
+        "snippet": "Body Slam 一般 物理 85 100 15 35 紧束 まきつく Wrap 一般 物理 15 90 20 36 猛撞 とっしん Take <span class=\"searchmatch\">Down</span> 一般 物理 90 85 20 37 大闹一番 あばれる Thrash 一般 物理 120 100 10 38 舍身冲撞 すてみタックル Double-Edge",
+        "timestamp": "2025-05-28T00:31:18Z"
+      },
+      {
+        "ns": 0,
+        "title": "招式列表（第四世代）",
+        "pageid": 86214,
+        "size": 38190,
+        "wordcount": 0,
+        "snippet": "Body Slam 一般 物理 85 100 15 35 紧束 まきつく Wrap 一般 物理 15 85 20 36 猛撞 とっしん Take <span class=\"searchmatch\">Down</span> 一般 物理 90 85 20 37 大闹一番 あばれる Thrash 一般 物理 90 100 10 38 舍身冲撞 すてみタックル Double-Edge",
+        "timestamp": "2017-09-08T09:02:49Z"
+      },
+      {
+        "ns": 0,
+        "title": "特性列表（在其他语言中）",
+        "pageid": 105763,
+        "size": 43706,
+        "wordcount": 42,
+        "snippet": "いかく Intimidate Bedroher Intimidation Prepotenza Intimidación 위협 踩影 踩影 かげふみ <span class=\"searchmatch\">Shadow</span> Tag Wegsperre Marque Ombre Pedinombra Sombra Trampa 그림자밟기 粗糙皮肤 粗糙皮膚 さめはだ",
+        "timestamp": "2023-12-16T11:43:51Z"
+      },
+      {
+        "ns": 0,
+        "title": "任务列表（传说 Z-A）",
+        "pageid": 304542,
+        "size": 41622,
+        "wordcount": 45,
+        "snippet": "ＺＡロワイヤルに参戦 Battling in the Z-A Royale 5 仰望棱镜塔的城市 プリズムタワーを望む街 The City in the <span class=\"searchmatch\">Shadow</span> of Prism Tower 6 争取达到Ｘ级 ランクＸをめざして Reaching Rank X 7 争取达到Ｗ级 ランクＷをめざして Reaching",
+        "timestamp": "2026-03-25T19:13:20Z"
+      },
+      {
+        "ns": 0,
+        "title": "招式列表（第三世代）",
+        "pageid": 86211,
+        "size": 26497,
+        "wordcount": 0,
+        "snippet": "のしかかり Body Slam 一般 85 100 15 35 紧束 まきつく Wrap 一般 15 90 20 36 猛撞 とっしん Take <span class=\"searchmatch\">Down</span> 一般 90 85 20 37 大闹一番 あばれる Thrash 一般 120 100 10 38 舍身冲撞 すてみタックル Double-Edge",
+        "timestamp": "2026-08-01T03:59:32Z"
+      }
+    ]
+  }
+}

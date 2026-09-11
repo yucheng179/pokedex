@@ -1,0 +1,21 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "searchinfo": {
+      "totalhits": 1,
+      "suggestion": "shadow rage",
+      "suggestionsnippet": "shadow <em>rage</em>"
+    },
+    "search": [
+      {
+        "ns": 0,
+        "title": "招式列表（黑暗招式）",
+        "pageid": 149606,
+        "size": 2157,
+        "wordcount": 69,
+        "snippet": "361 黑暗锐舞 ダークレイブ <span class=\"searchmatch\">Shadow</span> <span class=\"searchmatch\">Rave</span> ------ 特殊 70 100% — 362 黑暗风暴 ダークストーム <span class=\"searchmatch\">Shadow</span> Storm ------ 特殊 95 100% — 363 黑暗火炎 ダークファイア <span class=\"searchmatch\">Shadow</span> Fire ------ 特殊 75 100% — 364 黑暗闪电",
+        "timestamp": "2025-11-27T15:22:55Z"
+      }
+    ]
+  }
+}

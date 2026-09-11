@@ -1,0 +1,19 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "normalized": [
+      {
+        "fromencoded": false,
+        "from": "shadow-sky",
+        "to": "Shadow-sky"
+      }
+    ],
+    "pages": [
+      {
+        "ns": 0,
+        "title": "Shadow-sky",
+        "missing": true
+      }
+    ]
+  }
+}

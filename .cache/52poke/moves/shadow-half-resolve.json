@@ -1,0 +1,19 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "normalized": [
+      {
+        "fromencoded": false,
+        "from": "shadow-half",
+        "to": "Shadow-half"
+      }
+    ],
+    "pages": [
+      {
+        "ns": 0,
+        "title": "Shadow-half",
+        "missing": true
+      }
+    ]
+  }
+}

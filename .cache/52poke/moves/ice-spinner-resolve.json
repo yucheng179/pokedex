@@ -1,0 +1,24 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "redirects": [
+      {
+        "from": "冰旋",
+        "to": "冰旋（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 234401,
+        "ns": 0,
+        "title": "冰旋（招式）",
+        "revisions": [
+          {
+            "revid": 2555540,
+            "parentid": 2359063
+          }
+        ]
+      }
+    ]
+  }
+}

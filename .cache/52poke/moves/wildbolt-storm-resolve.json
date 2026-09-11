@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "鳴雷風暴",
+        "to": "鸣雷风暴"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "鸣雷风暴",
+        "to": "鸣雷风暴（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 213704,
+        "ns": 0,
+        "title": "鸣雷风暴（招式）",
+        "revisions": [
+          {
+            "revid": 2564160,
+            "parentid": 2304777
+          }
+        ]
+      }
+    ]
+  }
+}

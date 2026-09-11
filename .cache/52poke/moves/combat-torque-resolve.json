@@ -1,0 +1,12 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "pages": [
+      {
+        "ns": 0,
+        "title": "格鬥暴衝",
+        "missing": true
+      }
+    ]
+  }
+}

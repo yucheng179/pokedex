@@ -1,0 +1,24 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "超极巨流水连击",
+        "to": "超極巨流水連擊"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 181490,
+        "ns": 0,
+        "title": "超極巨流水連擊",
+        "revisions": [
+          {
+            "revid": 2576037,
+            "parentid": 2556952
+          }
+        ]
+      }
+    ]
+  }
+}

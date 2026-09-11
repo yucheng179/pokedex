@@ -1,0 +1,24 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "redirects": [
+      {
+        "from": "起草",
+        "to": "起草（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 234423,
+        "ns": 0,
+        "title": "起草（招式）",
+        "revisions": [
+          {
+            "revid": 2576750,
+            "parentid": 2540511
+          }
+        ]
+      }
+    ]
+  }
+}

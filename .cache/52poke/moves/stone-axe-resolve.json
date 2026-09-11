@@ -1,0 +1,24 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "redirects": [
+      {
+        "from": "岩斧",
+        "to": "岩斧（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 213687,
+        "ns": 0,
+        "title": "岩斧（招式）",
+        "revisions": [
+          {
+            "revid": 2564035,
+            "parentid": 2554193
+          }
+        ]
+      }
+    ]
+  }
+}

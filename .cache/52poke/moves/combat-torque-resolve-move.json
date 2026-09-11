@@ -1,0 +1,24 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "格鬥暴衝（招式）",
+        "to": "格斗暴冲（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 238822,
+        "ns": 0,
+        "title": "格斗暴冲（招式）",
+        "revisions": [
+          {
+            "revid": 2542851,
+            "parentid": 2363067
+          }
+        ]
+      }
+    ]
+  }
+}

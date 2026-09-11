@@ -1,0 +1,86 @@
+{
+  "batchcomplete": true,
+  "continue": {
+    "sroffset": 8,
+    "continue": "-||"
+  },
+  "query": {
+    "searchinfo": {
+      "totalhits": 36
+    },
+    "search": [
+      {
+        "ns": 0,
+        "title": "黑暗火炎（招式）",
+        "pageid": 315138,
+        "size": 1207,
+        "wordcount": 127,
+        "snippet": "黑暗火炎（日文︰ダークファイア，英文︰<span class=\"searchmatch\">Shadow</span> <span class=\"searchmatch\">Fire</span>）是一种黑暗招式。 类似其他黑暗招式，一旦习得该招式的黑暗宝可梦被净化，该招式就会被遗忘并替换为其他招式。 在《暗之旋风》中，这个招式对黑暗宝可梦效果不好，对其他宝可梦效果绝佳。 攻击目标造成伤害。 黑暗火炎有10%的几率使目标陷入灼伤状态。",
+        "timestamp": "2026-01-17T19:33:19Z"
+      },
+      {
+        "ns": 0,
+        "title": "招式列表（黑暗招式）",
+        "pageid": 149606,
+        "size": 2157,
+        "wordcount": 69,
+        "snippet": "361 黑暗锐舞 ダークレイブ <span class=\"searchmatch\">Shadow</span> Rave ------ 特殊 70 100% — 362 黑暗风暴 ダークストーム <span class=\"searchmatch\">Shadow</span> Storm ------ 特殊 95 100% — 363 黑暗火炎 ダークファイア <span class=\"searchmatch\">Shadow</span> <span class=\"searchmatch\">Fire</span> ------ 特殊 75 100% — 364 黑暗闪电",
+        "timestamp": "2025-11-27T15:22:55Z"
+      },
+      {
+        "ns": 0,
+        "title": "招式列表（第四世代）",
+        "pageid": 86214,
+        "size": 38190,
+        "wordcount": 0,
+        "snippet": "暗影爪 シャドークロー <span class=\"searchmatch\">Shadow</span> Claw 幽灵 物理 70 100 15 422 雷电牙 かみなりのキバ Thunder Fang 电 物理 65 95 15 423 冰冻牙 こおりのキバ Ice Fang 冰 物理 65 95 15 424 火焰牙 ほのおのキバ <span class=\"searchmatch\">Fire</span> Fang 火 物理 65",
+        "timestamp": "2017-09-08T09:02:49Z"
+      },
+      {
+        "ns": 0,
+        "title": "招式列表（第五世代）",
+        "pageid": 86219,
+        "size": 46056,
+        "wordcount": 0,
+        "snippet": "暗影爪 シャドークロー <span class=\"searchmatch\">Shadow</span> Claw 幽灵 物理 70 100 15 422 雷电牙 かみなりのキバ Thunder Fang 电 物理 65 95 15 423 冰冻牙 こおりのキバ Ice Fang 冰 物理 65 95 15 424 火焰牙 ほのおのキバ <span class=\"searchmatch\">Fire</span> Fang 火 物理 65",
+        "timestamp": "2022-12-13T14:53:47Z"
+      },
+      {
+        "ns": 0,
+        "title": "招式列表（第六世代）",
+        "pageid": 86231,
+        "size": 51783,
+        "wordcount": 0,
+        "snippet": "暗影爪 シャドークロー <span class=\"searchmatch\">Shadow</span> Claw 幽灵 物理 70 100 15 422 雷电牙 かみなりのキバ Thunder Fang 电 物理 65 95 15 423 冰冻牙 こおりのキバ Ice Fang 冰 物理 65 95 15 424 火焰牙 ほのおのキバ <span class=\"searchmatch\">Fire</span> Fang 火 物理 65",
+        "timestamp": "2025-05-28T00:31:18Z"
+      },
+      {
+        "ns": 0,
+        "title": "招式列表（传说 阿尔宙斯）",
+        "pageid": 212849,
+        "size": 17130,
+        "wordcount": 93,
+        "snippet": "用藏有冷气的牙齿咬住对手。有时会使对手陷入冻伤状态。 424 火焰牙 ほのおのキバ <span class=\"searchmatch\">Fire</span> Fang 火 物理 65 95 15 用覆盖着火焰的牙齿咬住对手。有时会使对手陷入灼伤状态。 425 影子偷袭 かげうち <span class=\"searchmatch\">Shadow</span> Sneak 幽灵 物理 40 100 20 伸长影子，从对手的背后进行攻击。能够让自己的行动顺序提前。",
+        "timestamp": "2026-02-22T20:11:23Z"
+      },
+      {
+        "ns": 0,
+        "title": "招式列表（第三世代）",
+        "pageid": 86211,
+        "size": 26497,
+        "wordcount": 0,
+        "snippet": "メガトンパンチ Mega Punch 一般 80 85 20 6 聚宝功 ネコにこばん Pay Day 一般 40 100 20 7 火焰拳 ほのおのパンチ <span class=\"searchmatch\">Fire</span> Punch 火 75 100 15 8 冰冻拳 れいとうパンチ Ice Punch 冰 75 100 15 9 雷电拳 かみなりパンチ ThunderPunch",
+        "timestamp": "2026-08-01T03:59:32Z"
+      },
+      {
+        "ns": 0,
+        "title": "朽木妖（SM11a）",
+        "pageid": 150714,
+        "size": 2457,
+        "wordcount": 40,
+        "snippet": "  招式   暗影冲击暗影冲击シャドーインパクト<span class=\"searchmatch\">Shadow</span> Impact 120",
+        "timestamp": "2020-05-07T19:03:58Z"
+      }
+    ]
+  }
+}

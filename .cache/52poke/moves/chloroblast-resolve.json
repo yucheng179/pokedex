@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "葉綠爆震",
+        "to": "叶绿爆震"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "叶绿爆震",
+        "to": "叶绿爆震（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 213692,
+        "ns": 0,
+        "title": "叶绿爆震（招式）",
+        "revisions": [
+          {
+            "revid": 2304765,
+            "parentid": 2260492
+          }
+        ]
+      }
+    ]
+  }
+}

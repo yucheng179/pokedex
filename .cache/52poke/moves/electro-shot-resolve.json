@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "電光束",
+        "to": "电光束"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "电光束",
+        "to": "电光束（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 252325,
+        "ns": 0,
+        "title": "电光束（招式）",
+        "revisions": [
+          {
+            "revid": 2489232,
+            "parentid": 2488483
+          }
+        ]
+      }
+    ]
+  }
+}

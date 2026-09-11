@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "糖漿炸彈",
+        "to": "糖浆炸弹"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "糖浆炸弹",
+        "to": "糖浆炸弹（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 252326,
+        "ns": 0,
+        "title": "糖浆炸弹（招式）",
+        "revisions": [
+          {
+            "revid": 2564075,
+            "parentid": 2563498
+          }
+        ]
+      }
+    ]
+  }
+}

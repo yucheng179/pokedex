@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "巨力錘",
+        "to": "巨力锤"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "巨力锤",
+        "to": "巨力锤（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 234429,
+        "ns": 0,
+        "title": "巨力锤（招式）",
+        "revisions": [
+          {
+            "revid": 2554380,
+            "parentid": 2542858
+          }
+        ]
+      }
+    ]
+  }
+}

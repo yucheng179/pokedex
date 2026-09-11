@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "硬壓",
+        "to": "硬压"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "硬压",
+        "to": "硬压（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 258196,
+        "ns": 0,
+        "title": "硬压（招式）",
+        "revisions": [
+          {
+            "revid": 2554436,
+            "parentid": 2542598
+          }
+        ]
+      }
+    ]
+  }
+}

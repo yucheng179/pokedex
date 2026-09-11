@@ -1,0 +1,24 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "超极巨地狱灭焰",
+        "to": "超極巨地獄滅焰"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 155508,
+        "ns": 0,
+        "title": "超極巨地獄滅焰",
+        "revisions": [
+          {
+            "revid": 2406270,
+            "parentid": 2226479
+          }
+        ]
+      }
+    ]
+  }
+}

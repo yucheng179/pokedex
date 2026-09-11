@@ -1,0 +1,24 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "超极巨旋风袭卷",
+        "to": "超極巨旋風襲捲"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 153555,
+        "ns": 0,
+        "title": "超極巨旋風襲捲",
+        "revisions": [
+          {
+            "revid": 2209922,
+            "parentid": 2191767
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "冷笑話",
+        "to": "冷笑话"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "冷笑话",
+        "to": "冷笑话（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 234419,
+        "ns": 0,
+        "title": "冷笑话（招式）",
+        "revisions": [
+          {
+            "revid": 2555498,
+            "parentid": 2542870
+          }
+        ]
+      }
+    ]
+  }
+}

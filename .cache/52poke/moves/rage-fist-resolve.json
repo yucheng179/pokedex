@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "憤怒之拳",
+        "to": "愤怒之拳"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "愤怒之拳",
+        "to": "愤怒之拳（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 234427,
+        "ns": 0,
+        "title": "愤怒之拳（招式）",
+        "revisions": [
+          {
+            "revid": 2595171,
+            "parentid": 2595167
+          }
+        ]
+      }
+    ]
+  }
+}

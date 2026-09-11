@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "強刃攻擊",
+        "to": "强刃攻击"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "强刃攻击",
+        "to": "强刃攻击（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 258195,
+        "ns": 0,
+        "title": "强刃攻击（招式）",
+        "revisions": [
+          {
+            "revid": 2564037,
+            "parentid": 2542843
+          }
+        ]
+      }
+    ]
+  }
+}

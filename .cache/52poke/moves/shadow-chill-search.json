@@ -1,0 +1,73 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "searchinfo": {
+      "totalhits": 7
+    },
+    "search": [
+      {
+        "ns": 0,
+        "title": "黑暗急冻（招式）",
+        "pageid": 315137,
+        "size": 1208,
+        "wordcount": 127,
+        "snippet": "黑暗急冻（日文︰ダークフリーズ，英文︰<span class=\"searchmatch\">Shadow</span> <span class=\"searchmatch\">Chill</span>）是一种黑暗招式。 类似其他黑暗招式，一旦习得该招式的黑暗宝可梦被净化，该招式就会被遗忘并替换为其他招式。 在《暗之旋风》中，这个招式对黑暗宝可梦效果不好，对其他宝可梦效果绝佳。 攻击目标造成伤害。 黑暗急冻有10%的几率使目标陷入冰冻状态。",
+        "timestamp": "2026-01-17T19:33:12Z"
+      },
+      {
+        "ns": 0,
+        "title": "招式列表（黑暗招式）",
+        "pageid": 149606,
+        "size": 2157,
+        "wordcount": 69,
+        "snippet": "黑暗闪电 ダークサンダー <span class=\"searchmatch\">Shadow</span> Bolt ------ 特殊 75 100% — 365 黑暗急冻 ダークフリーズ <span class=\"searchmatch\">Shadow</span> <span class=\"searchmatch\">Chill</span> ------ 特殊 75 100% — 366 黑暗氣旋 ダークブラスト <span class=\"searchmatch\">Shadow</span> Blast ------ 物理 80 100% — 367 黑暗气象",
+        "timestamp": "2025-11-27T15:22:55Z"
+      },
+      {
+        "ns": 0,
+        "title": "能力（消消乐）",
+        "pageid": 17185,
+        "size": 73495,
+        "wordcount": 1085,
+        "snippet": "发动率+5% Lv.3 发动率+10% Lv.4 发动率+15% Lv.5 发动率+20% 造成2倍伤害并且对手进入2回合的防护干扰状态 寒气 さむけ <span class=\"searchmatch\">Chill</span> 对手的妨碍推迟！ 20% 30% 100% 2 7 21 40 Lv.2 发动率+10% Lv.3 发动率+20% Lv.4 发动率+25% Lv",
+        "timestamp": "2023-06-12T19:40:23Z"
+      },
+      {
+        "ns": 0,
+        "title": "分类",
+        "pageid": 11737,
+        "size": 153979,
+        "wordcount": 137,
+        "snippet": "ガスじょうポケモン Gas Pokémon 093 鬼斯通 气体状宝可梦 ガスじょうポケモン Gas Pokémon 094 耿鬼 影子宝可梦 シャドーポケモン <span class=\"searchmatch\">Shadow</span> Pokémon 095 大岩蛇 岩蛇宝可梦 いわへびポケモン Rock Snake Pokémon 096 催眠貘 催眠宝可梦 さいみんポケモン",
+        "timestamp": "2026-08-24T08:35:56Z"
+      },
+      {
+        "ns": 0,
+        "title": "分类列表（在其他语言中）",
+        "pageid": 105765,
+        "size": 139020,
+        "wordcount": 42,
+        "snippet": "Gas-Pokémon Pokémon Gaz Pokémon Gas Pokémon Gas 가스포켓몬 影子宝可梦 影子寶可夢 シャドーポケモン <span class=\"searchmatch\">Shadow</span> Pokémon Schatten-Pokémon Pokémon Ombre Pokémon Ombra Pokémon Sombra 그림자포켓몬",
+        "timestamp": "2025-04-25T06:07:20Z"
+      },
+      {
+        "ns": 0,
+        "title": "道具列表（在其他语言中）",
+        "pageid": 88299,
+        "size": 166819,
+        "wordcount": 77,
+        "snippet": "Drive Flammenmodul Module Pyro Piromodulo PiroROM 블레이즈카세트 冰冻卡带 冰凍卡帶 フリーズカセット <span class=\"searchmatch\">Chill</span> Drive Gefriermodul Module Cryo Gelomodulo CrioROM 프리즈카세트 宝可梦盒 寶可夢盒 ポケモンボックス",
+        "timestamp": "2025-12-01T02:22:07Z"
+      },
+      {
+        "ns": 0,
+        "title": "道具列表",
+        "pageid": 34763,
+        "size": 310317,
+        "wordcount": 186,
+        "snippet": "火焰卡带 ブレイズカセット Burn Drive 这是让盖诺赛克特携带的卡带。携带后，高科技光炮这招式就会变为火属性。 冰冻卡带 フリーズカセット <span class=\"searchmatch\">Chill</span> Drive 这是让盖诺赛克特携带的卡带。携带后，高科技光炮这招式就会变为冰属性。 美丽鳞片 きれいなウロコ Prism Scale 能让某些特定宝可梦进化的神奇鳞片。散发着虹色光辉。",
+        "timestamp": "2026-03-30T03:53:48Z"
+      }
+    ]
+  }
+}

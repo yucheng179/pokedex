@@ -1,0 +1,24 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "灼熱暴衝（招式）",
+        "to": "灼热暴冲（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 238818,
+        "ns": 0,
+        "title": "灼热暴冲（招式）",
+        "revisions": [
+          {
+            "revid": 2210125,
+            "parentid": 2193674
+          }
+        ]
+      }
+    ]
+  }
+}

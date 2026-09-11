@@ -1,0 +1,24 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "超极巨蝶影蛊惑",
+        "to": "超極巨蝶影蠱惑"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 155512,
+        "ns": 0,
+        "title": "超極巨蝶影蠱惑",
+        "revisions": [
+          {
+            "revid": 2209912,
+            "parentid": 2191788
+          }
+        ]
+      }
+    ]
+  }
+}

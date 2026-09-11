@@ -1,0 +1,19 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "normalized": [
+      {
+        "fromencoded": false,
+        "from": "shadow-hold",
+        "to": "Shadow-hold"
+      }
+    ],
+    "pages": [
+      {
+        "ns": 0,
+        "title": "Shadow-hold",
+        "missing": true
+      }
+    ]
+  }
+}

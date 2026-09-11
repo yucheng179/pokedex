@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "群魔亂舞",
+        "to": "群魔乱舞"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "群魔乱舞",
+        "to": "群魔乱舞（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 213701,
+        "ns": 0,
+        "title": "群魔乱舞（招式）",
+        "revisions": [
+          {
+            "revid": 2563476,
+            "parentid": 2554356
+          }
+        ]
+      }
+    ]
+  }
+}

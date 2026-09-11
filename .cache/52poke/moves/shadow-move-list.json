@@ -1,0 +1,7 @@
+{
+  "parse": {
+    "title": "招式列表（黑暗招式）",
+    "pageid": 149606,
+    "wikitext": "這是[[黑暗招式]]的招式列表。 \n\n==招式==\n黑暗冲锋在{{gamemd|COLO}}中的内部编号为356，在{{gamemd|XD}}中的编号为357。除黑暗冲锋外，其他招式只出现在{{gamemd|XD}}中。\n\n''以下招式名称均为暂译。''\n\n{{Movelist/gen/header|暗影|gen=4}}\n{{Movelist/gen|356|黑暗攻击|ダークアタック|Shadow Blitz|暗影|物理|40|100%|—}}\n{{Movelist/gen|356|黑暗冲锋|ダークラッシュ|Shadow Rush|暗影|物理|90|100%|—}}\n{{Movelist/gen|357|黑暗冲锋|ダークラッシュ|Shadow Rush|暗影|物理|55|100%|—}}\n{{Movelist/gen|358|黑暗突击|ダークブレイク|Shadow Break|暗影|物理|75|100%|—}}\n{{Movelist/gen|359|黑暗终结|ダークエンド|Shadow End|暗影|物理|120|60%|—}}\n{{Movelist/gen|360|黑暗波浪|ダークウェーブ|Shadow Wave|暗影|特殊|50|100%|—}}\n{{Movelist/gen|361|黑暗锐舞|ダークレイブ|Shadow Rave|暗影|特殊|70|100%|—}}\n{{Movelist/gen|362|黑暗风暴|ダークストーム|Shadow Storm|暗影|特殊|95|100%|—}}\n{{Movelist/gen|363|黑暗火炎|ダークファイア|Shadow Fire|暗影|特殊|75|100%|—}}\n{{Movelist/gen|364|黑暗闪电|ダークサンダー|Shadow Bolt|暗影|特殊|75|100%|—}}\n{{Movelist/gen|365|黑暗急冻|ダークフリーズ|Shadow Chill|暗影|特殊|75|100%|—}}\n{{Movelist/gen|366|黑暗氣旋|ダークブラスト|Shadow Blast|暗影|物理|80|100%|—}}\n{{Movelist/gen|367|黑暗气象|ダークウェザー|Shadow Sky|暗影|变化|—|100%|—}}\n{{Movelist/gen|368|黑暗紧握|ダークホールド|Shadow Hold|暗影|变化|—|80%|—}}\n{{Movelist/gen|369|黑暗薄雾|ダークミスト|Shadow Mist|暗影|变化|—|100%|—}}\n{{Movelist/gen|370|黑暗恐慌|ダークパニック|Shadow Panic|暗影|变化|—|60%|—}}\n{{Movelist/gen|371|黑暗降低|ダークダウン|Shadow Down|暗影|变化|—|100%|—}}\n{{Movelist/gen|372|黑暗清除|ダークリムーブ|Shadow Shed|暗影|变化|—|100%|—}}\n{{Movelist/gen|373|黑暗平分|ダークハーフ|Shadow Half|暗影|变化|—|100%|—}}\n|}\n\n{{-}}\n{{神奇寶貝百科招式工程}}\n\n[[Category:列表]]\n[[Category:招式|*]]"
+  }
+}

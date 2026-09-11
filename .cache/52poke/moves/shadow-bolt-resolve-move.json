@@ -1,0 +1,19 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "normalized": [
+      {
+        "fromencoded": false,
+        "from": "shadow-bolt（招式）",
+        "to": "Shadow-bolt（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "ns": 0,
+        "title": "Shadow-bolt（招式）",
+        "missing": true
+      }
+    ]
+  }
+}

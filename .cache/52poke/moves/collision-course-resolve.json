@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "全開猛撞",
+        "to": "全开猛撞"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "全开猛撞",
+        "to": "全开猛撞（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 234417,
+        "ns": 0,
+        "title": "全开猛撞（招式）",
+        "revisions": [
+          {
+            "revid": 2542873,
+            "parentid": 2492144
+          }
+        ]
+      }
+    ]
+  }
+}

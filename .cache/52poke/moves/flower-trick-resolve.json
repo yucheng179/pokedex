@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "千變萬花",
+        "to": "千变万花"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "千变万花",
+        "to": "千变万花（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 234411,
+        "ns": 0,
+        "title": "千变万花（招式）",
+        "revisions": [
+          {
+            "revid": 2554180,
+            "parentid": 2542880
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "新月祈禱",
+        "to": "新月祈祷"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "新月祈祷",
+        "to": "新月祈祷（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 213706,
+        "ns": 0,
+        "title": "新月祈祷（招式）",
+        "revisions": [
+          {
+            "revid": 2611349,
+            "parentid": 2564366
+          }
+        ]
+      }
+    ]
+  }
+}

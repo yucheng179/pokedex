@@ -1,0 +1,19 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "normalized": [
+      {
+        "fromencoded": false,
+        "from": "shadow-storm",
+        "to": "Shadow-storm"
+      }
+    ],
+    "pages": [
+      {
+        "ns": 0,
+        "title": "Shadow-storm",
+        "missing": true
+      }
+    ]
+  }
+}

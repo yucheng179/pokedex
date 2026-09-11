@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "復生祈禱",
+        "to": "复生祈祷"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "复生祈祷",
+        "to": "复生祈祷（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 234403,
+        "ns": 0,
+        "title": "复生祈祷（招式）",
+        "revisions": [
+          {
+            "revid": 2564339,
+            "parentid": 2554494
+          }
+        ]
+      }
+    ]
+  }
+}

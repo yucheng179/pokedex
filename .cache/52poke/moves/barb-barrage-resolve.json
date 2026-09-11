@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "毒千針",
+        "to": "毒千针"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "毒千针",
+        "to": "毒千针（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 213696,
+        "ns": 0,
+        "title": "毒千针（招式）",
+        "revisions": [
+          {
+            "revid": 2597781,
+            "parentid": 2554242
+          }
+        ]
+      }
+    ]
+  }
+}

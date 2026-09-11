@@ -1,0 +1,24 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "劇毒暴衝（招式）",
+        "to": "剧毒暴冲（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 238821,
+        "ns": 0,
+        "title": "剧毒暴冲（招式）",
+        "revisions": [
+          {
+            "revid": 2370301,
+            "parentid": 2210131
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "normalized": [
+      {
+        "fromencoded": false,
+        "from": "shadow-down",
+        "to": "Shadow-down"
+      }
+    ],
+    "pages": [
+      {
+        "ns": 0,
+        "title": "Shadow-down",
+        "missing": true
+      }
+    ]
+  }
+}

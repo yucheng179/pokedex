@@ -1,0 +1,24 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "超极巨资源再生",
+        "to": "超極巨資源再生"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 158706,
+        "ns": 0,
+        "title": "超極巨資源再生",
+        "revisions": [
+          {
+            "revid": 2224612,
+            "parentid": 2209919
+          }
+        ]
+      }
+    ]
+  }
+}

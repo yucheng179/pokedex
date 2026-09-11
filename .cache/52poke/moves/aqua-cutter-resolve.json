@@ -1,0 +1,24 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "redirects": [
+      {
+        "from": "水波刀",
+        "to": "水波刀（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 234431,
+        "ns": 0,
+        "title": "水波刀（招式）",
+        "revisions": [
+          {
+            "revid": 2564041,
+            "parentid": 2554159
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "悔念劍",
+        "to": "悔念剑"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "悔念剑",
+        "to": "悔念剑（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 228836,
+        "ns": 0,
+        "title": "悔念剑（招式）",
+        "revisions": [
+          {
+            "revid": 2564038,
+            "parentid": 2554379
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "normalized": [
+      {
+        "fromencoded": false,
+        "from": "shadow-break",
+        "to": "Shadow-break"
+      }
+    ],
+    "pages": [
+      {
+        "ns": 0,
+        "title": "Shadow-break",
+        "missing": true
+      }
+    ]
+  }
+}

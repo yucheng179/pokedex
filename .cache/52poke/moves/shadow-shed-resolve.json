@@ -1,0 +1,19 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "normalized": [
+      {
+        "fromencoded": false,
+        "from": "shadow-shed",
+        "to": "Shadow-shed"
+      }
+    ],
+    "pages": [
+      {
+        "ns": 0,
+        "title": "Shadow-shed",
+        "missing": true
+      }
+    ]
+  }
+}

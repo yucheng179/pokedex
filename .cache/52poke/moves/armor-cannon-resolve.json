@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "鎧農炮",
+        "to": "铠农炮"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "铠农炮",
+        "to": "铠农炮（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 228837,
+        "ns": 0,
+        "title": "铠农炮（招式）",
+        "revisions": [
+          {
+            "revid": 2577082,
+            "parentid": 2554388
+          }
+        ]
+      }
+    ]
+  }
+}

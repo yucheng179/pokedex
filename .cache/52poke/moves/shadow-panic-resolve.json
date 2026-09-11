@@ -1,0 +1,19 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "normalized": [
+      {
+        "fromencoded": false,
+        "from": "shadow-panic",
+        "to": "Shadow-panic"
+      }
+    ],
+    "pages": [
+      {
+        "ns": 0,
+        "title": "Shadow-panic",
+        "missing": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "下壓踢",
+        "to": "下压踢"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "下压踢",
+        "to": "下压踢（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 234392,
+        "ns": 0,
+        "title": "下压踢（招式）",
+        "revisions": [
+          {
+            "revid": 2573187,
+            "parentid": 2554195
+          }
+        ]
+      }
+    ]
+  }
+}

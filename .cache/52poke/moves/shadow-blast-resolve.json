@@ -1,0 +1,19 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "normalized": [
+      {
+        "fromencoded": false,
+        "from": "shadow-blast",
+        "to": "Shadow-blast"
+      }
+    ],
+    "pages": [
+      {
+        "ns": 0,
+        "title": "Shadow-blast",
+        "missing": true
+      }
+    ]
+  }
+}

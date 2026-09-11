@@ -1,0 +1,24 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "超极巨夺命一击",
+        "to": "超極巨奪命一擊"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 181489,
+        "ns": 0,
+        "title": "超極巨奪命一擊",
+        "revisions": [
+          {
+            "revid": 2576036,
+            "parentid": 2556951
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,677 @@
+{
+  "generatedAt": "2026-09-08T15:56:04.559Z",
+  "source": "52Poké Wiki",
+  "sourceUrl": "https://wiki.52poke.com/zh-hant/招式列表",
+  "overrides": {
+    "dire-claw": {
+      "description": "攻擊目標造成傷害。 剋命爪有50%的機率使目標陷入中毒狀態、麻痺狀態或睡眠狀態。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%85%8B%E5%91%BD%E7%88%AA%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2595598
+    },
+    "psyshield-bash": {
+      "description": "攻擊目標造成傷害。 令使用者的防禦提升1級。 驚角鹿以迅疾使出20次屏障猛攻後可以進化為詭角鹿。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%B1%8F%E9%9A%9C%E7%8C%9B%E6%94%BB%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2563488
+    },
+    "power-shift": {
+      "description": "主頁面：攻防轉換（狀態） 使自身進入攻防轉換狀態，交換自身的攻擊和防禦。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%8A%9B%E9%87%8F%E8%BD%AC%E6%8D%A2%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2573526
+    },
+    "stone-axe": {
+      "description": "攻擊目標造成傷害。 令目標場地進入隱形岩狀態，使交換上場的寶可夢受到傷害。 如果使用者因目標的鐵刺特性、粗糙皮膚特性或凸凸頭盔而陷入瀕死狀態，則不會令目標場地進入隱形岩狀態。 如果使用者因自身攜帶的生命寶珠而陷入瀕死狀態，則可以正常令目標場地進入隱形岩狀態。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%B2%A9%E6%96%A7%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2564035
+    },
+    "springtide-storm": {
+      "description": "攻擊目標造成傷害。 30%機率令目標的攻擊降低1級。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E9%98%B3%E6%98%A5%E9%A3%8E%E6%9A%B4%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2564158
+    },
+    "mystical-power": {
+      "description": "攻擊目標造成傷害。 令使用者的特攻提升1級。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E7%A5%9E%E7%A7%98%E4%B9%8B%E5%8A%9B%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2554334
+    },
+    "raging-fury": {
+      "description": "攻擊隨機一位對手造成傷害。 使用者進入2～3回合大憤慨狀態，期間會繼續使用大憤慨進行攻擊，無法使用其他招式、使用道具、替換寶可夢或逃走。 因夢話而使用時，不進入大憤慨狀態。 因守住狀態、未命中、屬性相性無效等原因而沒有產生效果，則解除大憤慨狀態。 大憤慨狀態因回合經過解除時，使用者陷入混亂狀態。 神秘守護不會避免該招式帶來的混亂。 後續回合的攻擊不消耗ＰＰ。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%A4%A7%E6%84%A4%E6%85%A8%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2554204
+    },
+    "wave-crash": {
+      "description": "攻擊目標造成傷害。使用者承受對目標造成傷害的1⁄3的傷害。 使用者具有堅硬腦袋或魔法防守特性時，不會承受傷害。 使用者具有捨身特性時，該招式威力提升20%，因此承受的傷害也會提升。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E6%B3%A2%E5%8A%A8%E5%86%B2%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2554511
+    },
+    "chloroblast": {
+      "description": "攻擊目標造成傷害。對使用者造成最大ＨＰ的1⁄2（向上取整）傷害。 如果使用者自身ＨＰ不足1⁄2，這會導致使用者陷入瀕死。 使用該招式未命中、被守住狀態阻擋、或由於屬性相性或特性而沒有產生效果，使用者不會受到傷害。 如果招式使用成功但造成的傷害為0，例如當目標發動畫皮特性或目標在1ＨＰ的情況下使用挺住時，使用者會受到反作用力傷害。 如果雙方同時因為此招式陷入瀕死，則目標會先倒下，因此在對戰中如果使用此招式導致雙方均沒有可以戰鬥的寶可夢，使用者會獲得勝利。 使用者的魔法防守、堅硬腦袋特性會防止此招式對使用者傷害；使用者的捨身特性對此招式無效。 反作用力傷害在目標的紅牌、使用者的生命寶珠和貝殼之鈴的效果之前發生。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%8F%B6%E7%BB%BF%E7%88%86%E9%9C%87%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2304765
+    },
+    "mountain-gale": {
+      "description": "冰山風有30%的機率使尚未行動的目標陷入畏縮狀態。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%86%B0%E5%B1%B1%E9%A3%8E%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2563479
+    },
+    "victory-dance": {
+      "description": "令使用者的攻擊提升1級。 令使用者的防禦提升1級。 令使用者的速度提升1級。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E8%83%9C%E5%88%A9%E4%B9%8B%E8%88%9E%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2564134
+    },
+    "headlong-rush": {
+      "description": "攻擊目標造成傷害。 令使用者的防禦降低1級。 令使用者的特防降低1級。 如果攻擊無效或沒有命中，不會產生該效果。 使用者的白霧、替身或白色煙霧等無法阻止突飛猛撲的該副作用。 強行、不服輸、好勝對突飛猛撲的該副作用無效。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E7%AA%81%E9%A3%9E%E7%8C%9B%E6%89%91%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2577081
+    },
+    "barb-barrage": {
+      "description": "毒千針有50%的機率使目標陷入中毒狀態。 攻擊目標造成傷害。 如果目標處於中毒或劇毒狀態，威力翻倍。 千針魚（洗翠的樣子）以剛猛使出20次毒千針後可以進化為萬針魚。LA 千針魚（洗翠的樣子）學會毒千針後升級可以進化為萬針魚。SV 千針魚（洗翠的樣子）使出毒千針累計攻擊20個目標*後可以進化為萬針魚。LZA",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E6%AF%92%E5%8D%83%E9%92%88%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2597781
+    },
+    "esper-wing": {
+      "description": "攻擊目標造成傷害。擊中要害率比大部分招式高1級。 令使用者的速度提升1級。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E6%B0%94%E5%9C%BA%E4%B9%8B%E7%BF%BC%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2554168
+    },
+    "bitter-malice": {
+      "description": "攻擊目標造成傷害。 令目標的攻擊降低1級。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%86%A4%E5%86%A4%E7%9B%B8%E6%8A%A5%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2554348
+    },
+    "shelter": {
+      "description": "令使用者的防禦提升2級。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E9%97%AD%E5%85%B3%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2304772
+    },
+    "triple-arrows": {
+      "description": "攻擊目標造成傷害。擊中要害率比大部分招式高1級。 50%機率令目標的防禦降低1級。 三連箭有30%的機率使尚未行動的目標陷入畏縮狀態。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E4%B8%89%E8%BF%9E%E7%AE%AD%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2555484
+    },
+    "infernal-parade": {
+      "description": "攻擊目標造成傷害。 如果目標處於異常狀態，威力翻倍。 群魔亂舞有30%的機率使目標陷入灼傷狀態。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E7%BE%A4%E9%AD%94%E4%B9%B1%E8%88%9E%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2563476
+    },
+    "ceaseless-edge": {
+      "description": "攻擊目標造成傷害。 使目標場地變為撒菱狀態，已處於撒菱狀態時則提高撒菱狀態層級，最多撒下3層。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E7%A7%98%E5%89%91%E3%83%BB%E5%8D%83%E9%87%8D%E6%B6%9B%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2564044
+    },
+    "bleakwind-storm": {
+      "description": "攻擊目標造成傷害。 30%機率令目標的速度降低1級。 天氣為下雨時，枯葉風暴一定會命中，除非目標正在使用蓄力的招式並不在場地上。 與暴風不同，枯葉風暴無法擊中處於空中狀態的寶可夢，在大晴天時命中也不會降低。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E6%9E%AF%E5%8F%B6%E9%A3%8E%E6%9A%B4%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2573808
+    },
+    "wildbolt-storm": {
+      "description": "攻擊目標造成傷害。 鳴雷風暴有20%的機率使目標陷入麻痺狀態。 天氣為下雨時，鳴雷風暴一定會命中，除非目標正在使用蓄力的招式並不在場地上。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E9%B8%A3%E9%9B%B7%E9%A3%8E%E6%9A%B4%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2564160
+    },
+    "sandsear-storm": {
+      "description": "攻擊目標造成傷害。 熱沙風暴有20%的機率使目標陷入灼傷狀態。 天氣為下雨時，熱沙風暴一定會命中，除非目標正在使用蓄力的招式並不在場地上。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E7%83%AD%E6%B2%99%E9%A3%8E%E6%9A%B4%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2564152
+    },
+    "lunar-blessing": {
+      "description": "新月祈禱能夠回復使用者和同伴1⁄4的ＨＰ，並且治癒使用者和同伴的異常狀態。 對處於替身狀態的同伴無效。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E6%96%B0%E6%9C%88%E7%A5%88%E7%A5%B7%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2611349
+    },
+    "take-heart": {
+      "description": "治癒使用者的異常狀態。 令使用者的特攻提升1級。 令使用者的特防提升1級。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%8B%87%E6%B0%94%E5%A1%AB%E5%85%85%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2554333
+    },
+    "tera-blast": {
+      "description": "攻擊目標造成傷害。 太晶化時若使用者的攻擊大於特攻，則該招式變為物理招式。 在判定招式分類為物理或特殊時，僅考慮使用者的能力及能力變化，不考慮特性、攜帶道具或灼傷狀態的影響。 當使用者未太晶化時，該招式為一般屬性，受皮膚類特性影響；使用者太晶化後，該招式屬性變為使用者的太晶屬性，且即使寶可夢的太晶屬性為一般屬性，該招式也不受皮膚類特性影響。 使用者太晶化為星晶屬性時，太晶爆發的威力由80提升至100，屬性變為星晶，對非太晶化的任何屬性的目標造成1倍傷害，對太晶化的對手造成2倍的效果絕佳傷害。使用後令使用者的攻擊降低1級。令使用者的特攻降低1級。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%A4%AA%E6%99%B6%E7%88%86%E5%8F%91%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2494961
+    },
+    "silk-trap": {
+      "description": "主頁面：守住（狀態） 在當回合內，使自身進入守住狀態，保護自身不受到來自其他寶可夢的大部分物理招式或特殊招式的影響。 如果在本回合使用者最後行動，則招式會失敗。 若成功使用看穿、挺住、守住、王者盾牌、尖刺防守、碉堡、攔堵、極巨防壁、線阱、火焰守護、掀榻榻米、廣域防守或快速防守，則連續使用線阱的成功率降低至上一次的1⁄3（最低至1⁄729）。 若成功使用線阱，則連續使用看穿、挺住、守住、王者盾牌、尖刺防守、碉堡、攔堵、極巨防壁、線阱或火焰守護的成功率降低至上一次的1⁄3（最低至1⁄729）。 即使守住狀態被解除，連續使用上述招式的成功率依舊會下降。 該招式不會被藉助或揮指發動。 處於守住狀態期間受到接觸類招式的攻擊時，令攻擊方的速度降低1級。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E7%BA%BF%E9%98%B1%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2492126
+    },
+    "axe-kick": {
+      "description": "攻擊目標造成傷害。 如果招式未命中、被守住狀態阻擋，因為屬性相性或特性而沒有產生效果，自身承受最大ＨＰ的1⁄2（向下取整）的反作用力傷害。 使用者具有魔法防守特性時，招式沒有產生效果時使用者不會承受傷害。 使用者具有捨身特性時，該招式威力提升20%。 下壓踢有30%的機率使目標陷入混亂狀態。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E4%B8%8B%E5%8E%8B%E8%B8%A2%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2573187
+    },
+    "last-respects": {
+      "description": "攻擊目標造成傷害。我方每有一隻寶可夢陷入過瀕死狀態，招式的威力提升50，上限為5050[1]。 進入戰鬥之前的瀕死寶可夢不會增加招式威力。 使用者自身陷入瀕死狀態也會增加招式威力，且不會重置威力。 在對戰中復活不會降低招式威力。 在多人對戰或太晶團體戰中，同伴訓練家的寶可夢陷入瀕死狀態不會增加招式威力。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E6%89%AB%E5%A2%93%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2554299
+    },
+    "lumina-crash": {
+      "description": "攻擊目標造成傷害。 令目標的特防降低2級。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E7%90%89%E5%85%89%E5%86%B2%E6%BF%80%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2308845
+    },
+    "order-up": {
+      "description": "攻擊目標造成傷害。 若口中有米立龍，使用後會根據米立龍的姿勢而提高能力。 米立龍（上弓姿勢）會令使用者的攻擊提升1級。 米立龍（下垂姿勢）會令使用者的防禦提升1級。 米立龍（平挺姿勢）會令使用者的速度提升1級。 即使口中的米立龍此後陷入瀕死狀態，使用上菜仍然會提高能力。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E4%B8%8A%E8%8F%9C%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2554163
+    },
+    "jet-punch": {
+      "description": "攻擊目標造成傷害。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%96%B7%E5%B0%84%E6%8B%B3%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2564170
+    },
+    "spicy-extract": {
+      "description": "令目標的攻擊提升2級。 令目標的防禦降低2級。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E8%BE%A3%E6%A4%92%E7%B2%BE%E5%8D%8E%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2554186
+    },
+    "spin-out": {
+      "description": "攻擊目標造成傷害。 令使用者的速度降低2級。 如果攻擊無效或沒有命中，不會產生該效果。 使用者的白霧、替身或白色煙霧等無法阻止疾速轉輪的該副作用。 強行、不服輸、好勝對疾速轉輪的該副作用無效。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E7%96%BE%E9%80%9F%E8%BD%AC%E8%BD%AE%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2563529
+    },
+    "population-bomb": {
+      "description": "攻擊目標造成傷害，一回合內連續攻擊1～10次。每一次攻擊是否命中分別計算，打空則停止攻擊。次數、概率和期望威力如下表： 攜帶老千骰子且命中時，各有1⁄7的機率攻擊4~10次，攻擊次數的數學期望是7次，對應的威力的數學期望是140。 連續攻擊特性或攜帶老千骰子的寶可夢使用鼠數兒只計算一次命中率。 每一擊擊中要害的概率都相等。 如果某一下觸發了目標的氣勢披帶、氣勢頭帶、結實特性或打破了替身，招式會繼續攻擊。 忍耐、金屬爆炸和雙倍奉還只計算最後一次的傷害。 如果使用者持有王者之證或銳利之牙，或具有惡臭特性，每一下攻擊都有相同的概率造成對手畏縮。如果使用者具有毒手特性，每一下攻擊都有相同的概率造成對手中毒。 如果目標擁有詛咒之軀、碎裂鎧甲或與接觸類招式相關的特性或持有凸凸頭盔，每一下攻擊都會觸發效果。即使特性發動令攻擊方陷入一些可能無法行動的狀態（如麻痺、畏縮、著迷、定身法狀態），也不會影響本次攻擊，但陷入睡眠和瀕死時攻擊即刻停止。 目標的木乃伊、遊魂或甩不掉的氣味特性會在第一下攻擊之後就發動。使用方的順手牽羊特性或目標的變色特性在最後一下攻擊完成後才發動。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E9%BC%A0%E6%95%B0%E5%84%BF%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2609775
+    },
+    "ice-spinner": {
+      "description": "攻擊目標造成傷害並破壞場地型狀態。 如果招式使用失敗，或使用者因自己的生命寶珠，目標的凸凸頭盔、鐵刺、粗糙皮膚等而瀕死，則無法移除場地型狀態。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%86%B0%E6%97%8B%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2555540
+    },
+    "glaive-rush": {
+      "description": "攻擊目標造成傷害。如果成功使出該招式，則在使用者下次使出其他招式之前，任何以使用者為目標（或之一）的招式對使用者造成的傷害翻倍，並且一定會命中（包括一擊必殺的招式）。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%B7%A8%E5%89%91%E7%AA%81%E5%87%BB%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2554251
+    },
+    "revival-blessing": {
+      "description": "使用後選擇１只處於瀕死狀態的同行寶可夢，治癒它的瀕死狀態，並且讓它回復最大ＨＰ的５０％。 該招式不能被寫生學習。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%A4%8D%E7%94%9F%E7%A5%88%E7%A5%B7%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2564339
+    },
+    "salt-cure": {
+      "description": "主頁面：鹽醃（狀態） 攻擊目標造成傷害。 鹽醃會使目標陷入鹽醃狀態。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E7%9B%90%E8%85%8C%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2554366
+    },
+    "triple-dive": {
+      "description": "攻擊目標造成傷害，一回合內連續攻擊3次。 每一擊擊中要害的概率都相等。 如果某一下觸發了目標的氣勢披帶、氣勢頭帶、結實特性或打破了替身，招式會繼續攻擊。 忍耐、金屬爆炸和雙倍奉還只計算最後一次的傷害。 如果使用者持有王者之證或銳利之牙，或具有惡臭特性，每一下攻擊都有相同的概率造成對手畏縮。如果使用者具有毒手特性，每一下攻擊都有相同的概率造成對手中毒。 如果目標擁有詛咒之軀、碎裂鎧甲或與接觸類招式相關的特性或持有凸凸頭盔，每一下攻擊都會觸發效果。即使特性發動令攻擊方陷入一些可能無法行動的狀態（如麻痺、畏縮、著迷、定身法狀態），也不會影響本次攻擊，但陷入睡眠和瀕死時攻擊即刻停止。 目標的木乃伊、遊魂或甩不掉的氣味特性會在第一下攻擊之後就發動。使用方的順手牽羊特性或目標的變色特性在最後一下攻擊完成後才發動。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E4%B8%89%E8%BF%9E%E9%92%BB%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2563499
+    },
+    "mortal-spin": {
+      "description": "攻擊目標造成傷害。 晶光轉轉會使目標陷入中毒狀態。 只要此招式成功使出，會移除己方場地上的入場可生效的狀態；擺脫自身束縛、寄生種子狀態。 如果招式使用失敗，或使用者因目標的凸凸頭盔、鐵刺、粗糙皮膚等而瀕死，則無法移除和擺脫。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E6%99%B6%E5%85%89%E8%BD%AC%E8%BD%AC%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2554298
+    },
+    "doodle": {
+      "description": "將自身和同伴的特性轉變為目標的特性。 若使用者或同伴之一的特性為無法被覆蓋的特性，或與目標特性相同，其特性不受描繪影響。 以下情況時，招式使用失敗： 使用者和同伴的特性均為無法被覆蓋的特性，或與目標特性相同； 目標的特性為無法被複製的特性； 目標處於替身狀態。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E6%8F%8F%E7%BB%98%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2554150
+    },
+    "fillet-away": {
+      "description": "使用者損失最大ＨＰ的1⁄2（向下取整）。 令使用者的攻擊提升2級。 令使用者的特攻提升2級。 令使用者的速度提升2級。 如果使用者自身ＨＰ不足1⁄2，招式使用失敗。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E7%94%A9%E8%82%89%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2554152
+    },
+    "kowtow-cleave": {
+      "description": "攻擊目標造成傷害。 仆斬一定會命中，除非目標正在使用蓄力的招式並不在場地上。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E4%BB%86%E6%96%A9%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2564028
+    },
+    "flower-trick": {
+      "description": "攻擊目標造成傷害。攻擊必定擊中要害。 除非目標擁有戰鬥盔甲、硬殼盔甲特性或處於幸運咒語的保護之下。 千變萬花一定會命中，除非目標正在使用蓄力的招式並不在場地上。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%8D%83%E5%8F%98%E4%B8%87%E8%8A%B1%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2554180
+    },
+    "torch-song": {
+      "description": "攻擊目標造成傷害。 令使用者的特攻提升1級。 該招式無視目標的替身狀態。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E9%97%AA%E7%84%B0%E9%AB%98%E6%AD%8C%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2564113
+    },
+    "aqua-step": {
+      "description": "攻擊目標造成傷害。 令使用者的速度提升1級。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E6%B5%81%E6%B0%B4%E6%97%8B%E8%88%9E%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2564131
+    },
+    "raging-bull": {
+      "description": "破壞對方場地的光牆、反射壁和極光幕，並攻擊目標造成傷害。 招式的屬性會根據使用者的形態改變： 肯泰羅（鬥戰種）使出時，招式為格鬥屬性； 肯泰羅（火熾種）使出時，招式為火屬性； 肯泰羅（水瀾種）使出時，招式為水屬性。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E6%80%92%E7%89%9B%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2554372
+    },
+    "make-it-rain": {
+      "description": "攻擊目標造成傷害。 每命中一個目標，向地上投擲5×使用者等級的金幣。如果己方在對戰中獲勝，拾取這些金幣，每個轉換為$1。 己方攜帶了護符金幣或幸運薰香的寶可夢也參與對戰時，拾取金幣獲得的零用錢數量翻倍。 令使用者的特攻降低1級。 如果攻擊無效或沒有命中，不會產生該效果。 使用者的白霧、替身或等無法阻止淘金潮的該副作用。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E6%B7%98%E9%87%91%E6%BD%AE%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2595173
+    },
+    "psyblade": {
+      "description": "攻擊目標造成傷害。 場地為電氣場地時，即使使用者不是地面上的寶可夢，招式威力也會提升為原本的1.5倍。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E7%B2%BE%E7%A5%9E%E5%89%91%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2564048
+    },
+    "hydro-steam": {
+      "description": "攻擊目標造成傷害。 天氣為大晴天時，招式威力不但不會降低，還會提升為1.5倍。 處於冰凍狀態的寶可夢，無論是否命中，只要成功使用該招式，就可以解除冰凍。 被該招式擊中也會被解凍。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E6%B0%B4%E8%92%B8%E6%B0%94%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2368075
+    },
+    "ruination": {
+      "description": "對目標造成目標當前ＨＰ1⁄2（向下取整）的傷害。該招式無法對沒有效果的屬性的寶可夢造成傷害，但忽略其他屬性相剋和屬性一致加成。 目標當前ＨＰ過低時，至少造成1傷害。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%A4%A7%E7%81%BE%E9%9A%BE%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2542874
+    },
+    "collision-course": {
+      "description": "攻擊目標造成傷害，招式出現效果絕佳時威力提升33%。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%85%A8%E5%BC%80%E7%8C%9B%E6%92%9E%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2542873
+    },
+    "electro-drift": {
+      "description": "攻擊目標造成傷害，招式出現效果絕佳時威力提升33%。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E9%97%AA%E7%94%B5%E7%8C%9B%E5%86%B2%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2542872
+    },
+    "shed-tail": {
+      "description": "使用者損失最大ＨＰ的1⁄2（向上取整），製造出替身。替身的ＨＰ為使用者最大ＨＰ的1⁄4，可以抵擋部分招式傷害和效果。 然後自身與後備寶可夢替換。替換後替身會傳遞給交換上場的寶可夢。 即使自身受到扎根、束縛、無法逃走或踩影、沙穴、磁力的影響，也可以替換寶可夢。 以下情況時，招式使用失敗： 使用者已經處於替身狀態； 使用者的ＨＰ不超過最大ＨＰ的1⁄2； 使用者沒有可以替換的後備寶可夢。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E6%96%AD%E5%B0%BE%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2542871
+    },
+    "chilly-reception": {
+      "description": "包括使用的回合在內，接下來5回合的天氣變更為下雪。然後自身與後備寶可夢替換。 如果使用者攜帶了冰冷岩石，天氣持續時間延長為8回合。 使用該招式會覆蓋原本的天氣。如果當前天氣已經為下雪，招式沒有效果，但使用者自身仍退場。 如果自身是同行中唯一沒有陷入瀕死狀態的寶可夢，則不會退場，但天氣仍變更為下雪。 即使自身受到扎根、束縛、無法逃走或踩影、沙穴、磁力的影響，也可以替換寶可夢。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%86%B7%E7%AC%91%E8%AF%9D%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2555498
+    },
+    "tidy-up": {
+      "description": "移除雙方場地上的入場可生效的狀態。消除雙方場上寶可夢的替身。 令使用者的攻擊提升1級。 令使用者的速度提升1級。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%A4%A7%E6%89%AB%E9%99%A4%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2613978
+    },
+    "snowscape": {
+      "description": "主頁面：下雪（狀態） 包括使用的回合在內，接下來5回合的天氣變更為下雪。如果使用者攜帶了冰冷岩石，持續時間延長為8回合。 使用該招式會覆蓋原本的天氣。無論原本的天氣是否永續，該招式的效果結束之後天氣都會恢復為晴朗。如果當前天氣為大雨、大日照、亂流或已經為下雪，招式使用失敗。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E9%9B%AA%E6%99%AF%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2563525
+    },
+    "pounce": {
+      "description": "攻擊目標造成傷害。 令目標的速度降低1級。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E8%99%AB%E6%89%91%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2542867
+    },
+    "trailblaze": {
+      "description": "攻擊目標造成傷害。 令使用者的速度提升1級。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E8%B5%B7%E8%8D%89%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2576750
+    },
+    "chilling-water": {
+      "description": "攻擊目標造成傷害。 令目標的攻擊降低1級。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E6%B3%BC%E5%86%B7%E6%B0%B4%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2554270
+    },
+    "hyper-drill": {
+      "description": "攻擊目標造成傷害。能無視對方防住類招式，正常造成傷害。 不會觸發王者盾牌、尖刺防守、碉堡、攔堵、線阱等招式的特殊效果。 不會解除守住或快速防守狀態。這與佯攻、潛靈奇襲或暗影潛襲不同。 土龍弟弟學會強力鑽後升級可以進化為土龍節節。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%BC%BA%E5%8A%9B%E9%92%BB%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2563475
+    },
+    "twin-beam": {
+      "description": "攻擊目標造成傷害，一回合內連續攻擊2次。 每一擊擊中要害的概率都相等。 如果第一下觸發了目標的氣勢披帶、氣勢頭帶、結實特性或打破了替身，招式會繼續攻擊。 忍耐、金屬爆炸和鏡面反射只計算最後一次的傷害。 如果使用者持有王者之證或銳利之牙，或具有惡臭特性，每一下攻擊都有相同的概率造成對手畏縮。 如果目標擁有詛咒之軀特性，每一下攻擊都會觸發效果。即使特性發動令攻擊方陷入一些可能無法行動的狀態（如麻痺、畏縮、著迷、定身法狀態），也不會影響本次攻擊，但陷入睡眠和瀕死時攻擊即刻停止。 目標的變色特性在最後一下攻擊完成後才發動。 麒麟奇學會雙光束後升級可以進化為奇麒麟。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%8F%8C%E5%85%89%E6%9D%9F%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2555557
+    },
+    "rage-fist": {
+      "description": "攻擊目標造成傷害。 使用者在這場戰鬥中每受到一次攻擊，招式的威力增加50，最大為350。受到連續招式的攻擊時，計算每一次攻擊。憤怒之拳的威力不會因使用者換下或陷入瀕死狀態而重置。 火爆猴使出20次憤怒之拳後提升等級，可以進化為棄世猴。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E6%84%A4%E6%80%92%E4%B9%8B%E6%8B%B3%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2595171
+    },
+    "armor-cannon": {
+      "description": "攻擊目標造成傷害。 令使用者的防禦降低1級。 令使用者的特防降低1級。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E9%93%A0%E5%86%9C%E7%82%AE%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2577082
+    },
+    "bitter-blade": {
+      "description": "攻擊目標造成傷害，自身的ＨＰ恢復「造成的傷害×50%」。在攻擊方攜帶大根莖時，攻擊傷害不變，ＨＰ恢復量提高到「造成的傷害×65%」。 如果攻擊方處於回復封鎖狀態，招式使用失敗。 使用悔念劍攻擊替身狀態下的寶可夢可以恢復ＨＰ。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E6%82%94%E5%BF%B5%E5%89%91%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2564038
+    },
+    "double-shock": {
+      "description": "攻擊目標造成傷害。 使用後自身電屬性變成無屬性，其他屬性的順位不會改變，離場後恢復。 擁有多屬性和ＡＲ系統特性的電屬性寶可夢使用此招式後，特性繼續生效，寶可夢的電屬性不會消失。 使用者本身不具有電屬性時，招式使用失敗。 太晶化電屬性的寶可夢和太晶星晶屬性的具有電屬性的寶可夢使用此招式後，寶可夢的電屬性不會消失。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E7%94%B5%E5%85%89%E5%8F%8C%E5%87%BB%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2542860
+    },
+    "gigaton-hammer": {
+      "description": "攻擊目標造成傷害。若上個回合成功使用巨力錘，則這個回合不能選擇巨力錘。 直到該寶可夢成功使出其他招式或替換寶可夢之後，才能在下一回合使出巨力錘。如因麻痺、睡眠等原因未能使出招式，該寶可夢仍然不能在下一回合使出巨力錘。 成功使出巨力錘後，若下一回合選擇招式時該寶可夢已處於再來一次狀態，則在選擇戰鬥後無法進行招式選擇而只能使出掙扎。 以下情況可以實現連續２次使用巨力錘。 上回合使用過巨力錘且選擇招式時未處於再來一次狀態，在本回合選擇了其他招式但在實際使出招式前陷入再來一次狀態。 通過號令、夢話、揮指使出第2次巨力錘。 巨力錘在通過再來一次和夢話從而連續使出後，在下一回合依然無法被選擇；號令則根據該回合實際行動順序決定在下回合是否可以選擇巨力錘。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%B7%A8%E5%8A%9B%E9%94%A4%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2554380
+    },
+    "aqua-cutter": {
+      "description": "攻擊目標造成傷害。擊中要害率比大部分招式高1級。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E6%B0%B4%E6%B3%A2%E5%88%80%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2564041
+    },
+    "blood-moon": {
+      "description": "攻擊目標造成傷害。若上個回合成功使用血月，則這個回合不能選擇血月。 直到該寶可夢成功使出其他招式或替換寶可夢之後，才能在下一回合使出血月。如因麻痺、睡眠等原因未能使出招式，該寶可夢仍然不能在下一回合使出血月。 成功使出血月後，若下一回合選擇招式時該寶可夢已處於再來一次狀態，則在選擇戰鬥後無法進行招式選擇而只能使出掙扎。 以下情況可以實現連續２次使用血月。 上回合使用過血月且選擇招式時未處於再來一次狀態，在本回合選擇了其他招式但在實際使出招式前陷入再來一次狀態。 通過號令、夢話、揮指使出第2次血月。 血月在通過再來一次和夢話從而連續使出後，在下一回合依然無法被選擇；號令則根據該回合實際行動順序決定在下回合是否可以選擇血月。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E8%A1%80%E6%9C%88%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2563438
+    },
+    "matcha-gotcha": {
+      "description": "攻擊目標造成傷害，自身的ＨＰ恢復「造成的傷害×50%」。在攻擊方攜帶大根莖時，攻擊傷害不變，ＨＰ恢復量提高到「造成的傷害×65%」。 如果攻擊方處於回復封鎖狀態，招式使用失敗。 使用刷刷茶炮攻擊替身狀態下的寶可夢可以恢復ＨＰ。 刷刷茶炮有20%的機率使目標陷入灼傷狀態。 處於冰凍狀態的寶可夢，無論是否命中，只要成功使用該招式，就可以解除冰凍。 被該招式擊中也會被解凍。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%88%B7%E5%88%B7%E8%8C%B6%E7%82%AE%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2554369
+    },
+    "syrup-bomb": {
+      "description": "主頁面：滿身糖（狀態） 攻擊目標造成傷害。 令目標陷入滿身糖狀態，在包含當前回合的3回合內，每回合結束時降低1級速度。 對防彈特性的寶可夢無效。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E7%B3%96%E6%B5%86%E7%82%B8%E5%BC%B9%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2564075
+    },
+    "ivy-cudgel": {
+      "description": "攻擊目標造成傷害。擊中要害率比大部分招式高1級。 該招式的屬性會根據使用者的形態而改變： 厄鬼椪（水井面具）使用時，會變為水屬性。 厄鬼椪（火灶面具）使用時，會變為火屬性。 厄鬼椪（礎石面具）使用時，會變為岩石屬性。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E6%A3%98%E8%97%A4%E6%A3%92%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2554371
+    },
+    "electro-shot": {
+      "description": "主頁面：蓄勢（狀態） 使用電光束的寶可夢在第一回合在場上進入蓄勢狀態，同時令使用者的特攻提升1級。進行蓄勢時的提示為：「[寶可夢的名字]吸收了電力！」。進行蓄勢時不能下達指令。 在第二回合發動招式。攻擊目標造成傷害。 第一回合會進行行動判定，成功則消耗ＰＰ。 攻擊的回合也會進行行動判定，出現不能行動的情況則招式失敗。 在蓄勢的回合，當天氣為下雨狀態時，或者消耗攜帶的強力香草，可以立刻結束蓄勢，在當回合發動招式。 對使用電光束的寶可夢（無論當回合是在進行蓄勢或進行攻擊）使用突襲可以成功。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E7%94%B5%E5%85%89%E6%9D%9F%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2489232
+    },
+    "tera-starstorm": {
+      "description": "攻擊目標造成傷害，範圍為除自身以外場上一隻可以攻擊到的寶可夢。 該招式不能被模仿或寫生學習。 僅當（星晶形態）使用時： 攻擊範圍變為對方全體寶可夢； 招式屬性變為星晶，對非太晶化的目標造成1倍傷害，對太晶化的對手造成2倍的效果絕佳傷害； 當太樂巴戈斯的攻擊大於特攻時，該招式變為物理招式。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E6%99%B6%E5%85%89%E6%98%9F%E7%BE%A4%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2542846
+    },
+    "fickle-beam": {
+      "description": "攻擊目標造成傷害。 招式威力有30%的概率翻倍。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E9%9A%8F%E6%9C%BA%E5%85%89%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2554294
+    },
+    "burning-bulwark": {
+      "description": "主頁面：守住（狀態） 在當回合內，使自身進入守住狀態，保護自身不受到來自其他寶可夢的大部分物理招式或特殊招式的影響。 如果在本回合使用者最後行動，則招式會失敗。 若成功使用看穿、挺住、守住、王者盾牌、尖刺防守、碉堡、攔堵、極巨防壁、線阱、火焰守護、掀榻榻米、廣域防守或快速防守，則連續使用火焰守護的成功率降低至上一次的1⁄3（最低至1⁄729）。 若成功使用火焰守護，則連續使用看穿、挺住、守住、王者盾牌、尖刺防守、碉堡、攔堵、極巨防壁、線阱或火焰守護的成功率降低至上一次的1⁄3（最低至1⁄729）。 即使守住狀態被解除，連續使用上述招式的成功率依舊會下降。 該招式不會被藉助或揮指發動。 處於守住狀態期間受到接觸類招式的攻擊時，令攻擊方陷入灼傷狀態。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E7%81%AB%E7%84%B0%E5%AE%88%E6%8A%A4%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2581584
+    },
+    "thunderclap": {
+      "description": "攻擊目標造成傷害。 如果目標在本回合沒有選擇攻擊招式，或本回合已經行動，則迅雷會使用失敗。 只考慮目標是否選擇了相應的招式，而不考慮目標的招式能否使用成功。 如果目標是太晶團體戰中的野生寶可夢，就算其一回合內使用的多個招式中包含了攻擊招式，只要第一次使用的招式是變化招式，迅雷就會使用失敗。 如果對方使用蓄力的招式（無論當回合是在進行蓄力或進行攻擊），不考慮其他情況下，迅雷都能使用成功，但是否命中需要另外判定。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E8%BF%85%E9%9B%B7%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2554445
+    },
+    "mighty-cleave": {
+      "description": "攻擊目標造成傷害。能無視對方防住類招式，正常造成傷害。 不會觸發王者盾牌、尖刺防守、碉堡、攔堵、線阱等招式的特殊效果。 不會解除守住或快速防守狀態。這與佯攻、潛靈奇襲或暗影潛襲不同。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%BC%BA%E5%88%83%E6%94%BB%E5%87%BB%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2564037
+    },
+    "tachyon-cutter": {
+      "description": "攻擊目標造成傷害，一回合內連續攻擊2次。 每一擊擊中要害的概率都相等。 如果第一下觸發了目標的氣勢披帶、氣勢頭帶、結實特性或打破了替身，招式會繼續攻擊。 忍耐、金屬爆炸和鏡面反射只計算最後一次的傷害。 如果使用者持有王者之證或銳利之牙，或具有惡臭特性，每一下攻擊都有相同的概率造成對手畏縮。 如果目標擁有詛咒之軀特性，每一下攻擊都會觸發效果。即使特性發動令攻擊方陷入一些可能無法行動的狀態（如麻痺、畏縮、著迷、定身法狀態），也不會影響本次攻擊，但陷入睡眠和瀕死時攻擊即刻停止。 目標的變色特性在最後一下攻擊完成後才發動。 迅子利刃一定會命中，除非目標正在使用蓄力的招式並不在場地上。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E8%BF%85%E5%AD%90%E5%88%A9%E5%88%83%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2564050
+    },
+    "hard-press": {
+      "description": "攻擊目標造成傷害。威力和對手剩餘ＨＰ相關。 威力 = 100 × 當前ＨＰ⁄最大ＨＰ。(小數0.5或以下捨去，0.5以上進1；威力最小為1)",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E7%A1%AC%E5%8E%8B%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2554436
+    },
+    "dragon-cheer": {
+      "description": "對戰內 | 令除使用者外己方全場的擊中要害率提升1級。同伴具有龍屬性時擊中要害率提升2級。 場上每隻寶可夢的擊中要害率最多提升1次。 該招式對處於替身狀態的同伴有效。 對戰外 | 裹蜜蟲學會龍聲鼓舞后升級可以進化為蜜集大蛇。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E9%BE%99%E5%A3%B0%E9%BC%93%E8%88%9E%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2595594
+    },
+    "alluring-voice": {
+      "description": "攻擊目標造成傷害。令該回合內能力變化曾提高過的寶可夢陷入混亂狀態。 以下情況符合觸發混亂效果的條件： 在戰鬥開始時，由入場發動的特性導致的能力上升（例如不撓之劍、不屈之盾、電氣場地觸發的電氣種子等情況）； 目標使用暗影偷盜導致的能力上升； 即使目標該回合受到臨別禮物等攻擊，自身能力變化相對回合開始降低，也能觸發魅誘之聲的效果。 以下情況不符合觸發混亂效果的條件： 目標的擊中要害等級提升； 目標因接棒、黑霧、清除之煙、顛倒、自我暗示等招式造成的能力相對提升； 由魅誘之聲的攻擊本身導致的能力上升（例如攻擊特性為持久力的寶可夢，或者觸發了目標的弱點保險等情況）； 目標在上回合結束時的能力上升（例如加速特性，或者在寶可夢被擊倒後替換上擁有不撓之劍、不屈之盾等特性的寶可夢）。 此外，潛在的混亂屬於追加效果，可以被目標的鱗粉特性防止，也能夠發動使用者的強行特性（無論目標的能力是否提升過）。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E9%AD%85%E8%AF%B1%E4%B9%8B%E5%A3%B0%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2564116
+    },
+    "temper-flare": {
+      "description": "攻擊目標造成傷害。 如果自身上一回合因異常狀態或狀態變化而無法行動，或者使用的招式失敗、沒有命中目標或者對目標沒有效果，則本回合使用豁出去時，威力翻倍。 上一回合使用的招式被目標使用守住等招式阻擋後不會觸發豁出去的威力翻倍效果。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E8%B1%81%E5%87%BA%E5%8E%BB%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2554221
+    },
+    "supercell-slam": {
+      "description": "攻擊目標造成傷害。 如果目標處於變小狀態，威力翻倍。同時在這種狀況下，閃電強襲一定會命中，除非目標正在使用蓄力的招式並不在場地上。 如果招式未命中、被守住狀態阻擋，因為屬性相性或特性而沒有產生效果，自身承受最大ＨＰ的1⁄2（向下取整）的反作用力傷害。 使用者具有魔法防守特性時，招式沒有產生效果時使用者不會承受傷害。 使用者具有捨身特性時，該招式威力提升20%。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E9%97%AA%E7%94%B5%E5%BC%BA%E8%A2%AD%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2555550
+    },
+    "psychic-noise": {
+      "description": "主頁面：回復封鎖（狀態） 攻擊目標造成傷害，使目標在2回合內陷入回復封鎖狀態。 阻止目標使用回復ＨＰ的招式、吸取ＨＰ的招式的效果屬於追加效果，可以被目標的鱗粉或密探斗篷防止，也能夠發動使用者的強行特性。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E7%B2%BE%E7%A5%9E%E5%99%AA%E9%9F%B3%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2564104
+    },
+    "upper-hand": {
+      "description": "攻擊目標造成傷害。 對手使出的招式是先制攻擊招式才能成功，否則招式會失敗。 快手還擊會使尚未行動的目標陷入畏縮狀態。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%BF%AB%E6%89%8B%E8%BF%98%E5%87%BB%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2554413
+    },
+    "malignant-chain": {
+      "description": "攻擊目標造成傷害。 邪毒鎖鏈有50%的機率使目標陷入劇毒狀態。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E9%82%AA%E6%AF%92%E9%94%81%E9%93%BE%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2554241
+    },
+    "blazing-torque": {
+      "description": "攻擊目標造成傷害。 灼熱暴衝有30%的機率使目標陷入灼傷狀態。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E7%81%BC%E7%83%AD%E6%9A%B4%E5%86%B2%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2210125
+    },
+    "wicked-torque": {
+      "description": "攻擊目標造成傷害。 黑暗暴衝有10%的機率使目標陷入睡眠狀態。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E9%BB%91%E6%9A%97%E6%9A%B4%E5%86%B2%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2210133
+    },
+    "noxious-torque": {
+      "description": "攻擊目標造成傷害。 劇毒暴衝有30%的機率使目標陷入中毒狀態。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%89%A7%E6%AF%92%E6%9A%B4%E5%86%B2%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2370301
+    },
+    "combat-torque": {
+      "description": "攻擊目標造成傷害。 格鬥暴衝有30%的機率使目標陷入麻痺狀態。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E6%A0%BC%E6%96%97%E6%9A%B4%E5%86%B2%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2542851
+    },
+    "magical-torque": {
+      "description": "攻擊目標造成傷害。 魔法暴衝有30%的機率使目標陷入混亂狀態。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E9%AD%94%E6%B3%95%E6%9A%B4%E5%86%B2%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2210128
+    },
+    "shadow-rush": {
+      "description": "《圓形競技場》 | 攻擊目標造成傷害。對使用者造成對目標造成傷害的1⁄16±1的傷害。 使用者具有堅硬腦袋特性時，仍會承受傷害。 使用者處於興奮狀態時，會有95%的機率擊中要害，這個效果與擊中要害等級分別計算。 儘管不對任何屬性效果絕佳，但這個招式依然能對特性為神奇守護的寶可夢造成傷害。 《暗之旋風》 | 攻擊目標造成傷害。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E9%BB%91%E6%9A%97%E8%A1%9D%E9%8B%92%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2499276,
+      "nameZhHant": "黑暗衝鋒",
+      "nameJa": "ダークラッシュ"
+    },
+    "shadow-blast": {
+      "description": "攻擊目標造成傷害。擊中要害率比大部分招式高1級。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E9%BB%91%E6%9A%97%E6%B0%94%E6%97%8B%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2524110,
+      "nameZhHant": "黑暗氣旋",
+      "nameJa": "ダークブラスト"
+    },
+    "shadow-blitz": {
+      "description": "攻擊目標造成傷害。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E9%BB%91%E6%9A%97%E6%94%BB%E5%87%BB%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2362616,
+      "nameZhHant": "黑暗攻擊",
+      "nameJa": "ダークアタック"
+    },
+    "shadow-bolt": {
+      "description": "攻擊目標造成傷害。 陰暗閃電有10%的機率使目標陷入麻痺狀態。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E9%BB%91%E6%9A%97%E9%97%AA%E7%94%B5%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2528935,
+      "nameZhHant": "黑暗閃電",
+      "nameJa": "ダークサンダー"
+    },
+    "shadow-chill": {
+      "description": "攻擊目標造成傷害。 陰暗急凍有10%的機率使目標陷入冰凍狀態。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E9%BB%91%E6%9A%97%E6%80%A5%E5%86%BB%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2528936,
+      "nameZhHant": "黑暗急凍",
+      "nameJa": "ダークフリーズ"
+    },
+    "shadow-end": {
+      "description": "攻擊目標造成傷害。 對使用者造成當前ＨＰ的1⁄2傷害。 這一傷害不會被堅硬腦袋防止。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E9%BB%91%E6%9A%97%E7%BB%88%E7%BB%93%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2499273,
+      "nameZhHant": "黑暗終結",
+      "nameJa": "ダークエンド"
+    },
+    "shadow-fire": {
+      "description": "攻擊目標造成傷害。 陰暗火炎有10%的機率使目標陷入灼傷狀態。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E9%BB%91%E6%9A%97%E7%81%AB%E7%82%8E%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2528937,
+      "nameZhHant": "黑暗火炎",
+      "nameJa": "ダークファイア"
+    },
+    "shadow-half": {
+      "description": "將場上所有寶可夢的ＨＰ降低至各自當前ＨＰ的1⁄2（向上取整）。 下一回合無法使用招式、使用道具、逃走或替換寶可夢。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E9%BB%91%E6%9A%97%E5%B9%B3%E5%88%86%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2374538,
+      "nameZhHant": "黑暗平分",
+      "nameJa": "ダークハーフ"
+    },
+    "shadow-panic": {
+      "description": "令全體對手寶可夢陷入混亂狀態。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E9%BB%91%E6%9A%97%E6%81%90%E6%85%8C%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2573761,
+      "nameZhHant": "黑暗恐慌",
+      "nameJa": "ダークパニック"
+    },
+    "shadow-sky": {
+      "description": "主頁面：陰暗氣場（狀態） 包括使用的回合在內，接下來5回合的天氣變更為陰暗氣場。 使用該招式會覆蓋原本的天氣。無論原本的天氣是否永續，該招式的效果結束之後天氣都會恢復為晴朗。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E9%BB%91%E6%9A%97%E6%B0%94%E8%B1%A1%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2362618,
+      "nameZhHant": "黑暗氣象",
+      "nameJa": "ダークウェザー"
+    },
+    "comeuppance": {
+      "description": "對最後造成自身傷害對應位置的寶可夢為目標，造成受到的招式×1.5倍固定傷害。該招式無法對沒有效果的屬性的寶可夢造成傷害，但忽略其他屬性相剋和屬性一致加成。 對於多次攻擊類招式，僅使用最後一擊的傷害計算復仇的傷害。 復仇的攻擊目標會受萬眾矚目狀態的影響。 當回合所有對手都沒有使用過攻擊招式攻擊到使用者時，招式使用失敗。",
+      "source": "52Poké Wiki",
+      "sourceUrl": "https://wiki.52poke.com/zh-hant/%E5%A4%8D%E4%BB%87%EF%BC%88%E6%8B%9B%E5%BC%8F%EF%BC%89",
+      "revisionId": 2542856
+    },
+    "shadow-break": {
+      "nameZhHant": "黑暗突擊",
+      "nameJa": "ダークブレイク"
+    },
+    "shadow-wave": {
+      "nameZhHant": "黑暗波浪",
+      "nameJa": "ダークウェーブ"
+    },
+    "shadow-rave": {
+      "nameZhHant": "黑暗銳舞",
+      "nameJa": "ダークレイブ"
+    },
+    "shadow-storm": {
+      "nameZhHant": "黑暗風暴",
+      "nameJa": "ダークストーム"
+    },
+    "shadow-hold": {
+      "nameZhHant": "黑暗緊握",
+      "nameJa": "ダークホールド"
+    },
+    "shadow-mist": {
+      "nameZhHant": "黑暗薄霧",
+      "nameJa": "ダークミスト"
+    },
+    "shadow-down": {
+      "nameZhHant": "黑暗降低",
+      "nameJa": "ダークダウン"
+    },
+    "shadow-shed": {
+      "nameZhHant": "黑暗清除",
+      "nameJa": "ダークリムーブ"
+    }
+  }
+}

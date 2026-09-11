@@ -1,0 +1,24 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "復仇（招式）",
+        "to": "复仇（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 234430,
+        "ns": 0,
+        "title": "复仇（招式）",
+        "revisions": [
+          {
+            "revid": 2542856,
+            "parentid": 2492158
+          }
+        ]
+      }
+    ]
+  }
+}

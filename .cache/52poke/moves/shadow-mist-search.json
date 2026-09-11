@@ -1,0 +1,88 @@
+{
+  "batchcomplete": true,
+  "continue": {
+    "sroffset": 8,
+    "continue": "-||"
+  },
+  "query": {
+    "searchinfo": {
+      "totalhits": 21,
+      "suggestion": "shadow mint",
+      "suggestionsnippet": "shadow <em>mint</em>"
+    },
+    "search": [
+      {
+        "ns": 0,
+        "title": "招式列表（黑暗招式）",
+        "pageid": 149606,
+        "size": 2157,
+        "wordcount": 69,
+        "snippet": "黑暗气象 ダークウェザー <span class=\"searchmatch\">Shadow</span> Sky ------ 变化 — 100% — 368 黑暗紧握 ダークホールド <span class=\"searchmatch\">Shadow</span> Hold ------ 变化 — 80% — 369 黑暗薄雾 ダークミスト <span class=\"searchmatch\">Shadow</span> <span class=\"searchmatch\">Mist</span> ------ 变化 — 100% — 370 黑暗恐慌 ダークパニック",
+        "timestamp": "2025-11-27T15:22:55Z"
+      },
+      {
+        "ns": 0,
+        "title": "黑马蕾冠王V（S6K）",
+        "pageid": 203861,
+        "size": 5417,
+        "wordcount": 48,
+        "snippet": "黑马蕾冠王（日文︰こくばバドレックスV，英文︰<span class=\"searchmatch\">Shadow</span> Rider Calyrex V）是一张超属性的基础宝可梦卡。 星碎是蕾冠王在遊戲中可以学会的招式。",
+        "timestamp": "2026-06-27T19:59:20Z"
+      },
+      {
+        "ns": 0,
+        "title": "招式列表（第四世代）",
+        "pageid": 86214,
+        "size": 38190,
+        "wordcount": 0,
+        "snippet": "Ember 火 特殊 40 100 25 53 喷射火焰 かえんほうしゃ Flamethrower 火 特殊 95 100 15 54 白雾 しろいきり <span class=\"searchmatch\">Mist</span> 冰 变化 — — 30 55 水枪 みずでっぽう Water Gun 水 特殊 40 100 25 56 水炮 ハイドロポンプ Hydro Pump",
+        "timestamp": "2017-09-08T09:02:49Z"
+      },
+      {
+        "ns": 0,
+        "title": "招式列表（第六世代）",
+        "pageid": 86231,
+        "size": 51783,
+        "wordcount": 0,
+        "snippet": "Ember 火 特殊 40 100 25 53 喷射火焰 かえんほうしゃ Flamethrower 火 特殊 90 100 15 54 白雾 しろいきり <span class=\"searchmatch\">Mist</span> 冰 变化 — — 30 55 水枪 みずでっぽう Water Gun 水 特殊 40 100 25 56 水炮 ハイドロポンプ Hydro Pump",
+        "timestamp": "2025-05-28T00:31:18Z"
+      },
+      {
+        "ns": 0,
+        "title": "甲贺忍蛙☆（SSBSP）",
+        "pageid": 224506,
+        "size": 1927,
+        "wordcount": 92,
+        "snippet": "影刃影刃<span class=\"searchmatch\">Shadow</span> Knife",
+        "timestamp": "2025-01-26T08:27:38Z"
+      },
+      {
+        "ns": 0,
+        "title": "甲贺忍蛙（XY-P）",
+        "pageid": 191255,
+        "size": 2952,
+        "wordcount": 65,
+        "snippet": "雾隐雾隐きりがくれ<span class=\"searchmatch\">Mist</span> Concealment",
+        "timestamp": "2024-09-28T12:33:15Z"
+      },
+      {
+        "ns": 0,
+        "title": "招式列表（第五世代）",
+        "pageid": 86219,
+        "size": 46056,
+        "wordcount": 0,
+        "snippet": "Ember 火 特殊 40 100 25 53 喷射火焰 かえんほうしゃ Flamethrower 火 特殊 95 100 15 54 白雾 しろいきり <span class=\"searchmatch\">Mist</span> 冰 变化 — — 30 55 水枪 みずでっぽう Water Gun 水 特殊 40 100 25 56 水炮 ハイドロポンプ Hydro Pump",
+        "timestamp": "2022-12-13T14:53:47Z"
+      },
+      {
+        "ns": 0,
+        "title": "招式列表（第三世代）",
+        "pageid": 86211,
+        "size": 26497,
+        "wordcount": 0,
+        "snippet": "ひのこ Ember 火 40 100 25 53 喷射火焰 かえんほうしゃ Flamethrower 火 95 100 15 54 白雾 しろいきり <span class=\"searchmatch\">Mist</span> 冰 — — 30 55 水枪 みずでっぽう Water Gun 水 40 100 25 56 水炮 ハイドロポンプ Hydro Pump 水 120",
+        "timestamp": "2026-08-01T03:59:32Z"
+      }
+    ]
+  }
+}

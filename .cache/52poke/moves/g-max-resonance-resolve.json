@@ -1,0 +1,24 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "超极巨极光旋律",
+        "to": "超極巨極光旋律"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 158705,
+        "ns": 0,
+        "title": "超極巨極光旋律",
+        "revisions": [
+          {
+            "revid": 2209917,
+            "parentid": 2191769
+          }
+        ]
+      }
+    ]
+  }
+}

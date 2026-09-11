@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "剋命爪",
+        "to": "克命爪"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "克命爪",
+        "to": "克命爪（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 213684,
+        "ns": 0,
+        "title": "克命爪（招式）",
+        "revisions": [
+          {
+            "revid": 2595598,
+            "parentid": 2595586
+          }
+        ]
+      }
+    ]
+  }
+}

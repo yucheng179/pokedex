@@ -1,0 +1,19 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "normalized": [
+      {
+        "fromencoded": false,
+        "from": "shadow-fire",
+        "to": "Shadow-fire"
+      }
+    ],
+    "pages": [
+      {
+        "ns": 0,
+        "title": "Shadow-fire",
+        "missing": true
+      }
+    ]
+  }
+}

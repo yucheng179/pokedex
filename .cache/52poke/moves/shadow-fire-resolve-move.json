@@ -1,0 +1,19 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "normalized": [
+      {
+        "fromencoded": false,
+        "from": "shadow-fire（招式）",
+        "to": "Shadow-fire（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "ns": 0,
+        "title": "Shadow-fire（招式）",
+        "missing": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "超极巨臭气冲天",
+        "to": "超極巨臭氣沖天"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 158707,
+        "ns": 0,
+        "title": "超極巨臭氣沖天",
+        "revisions": [
+          {
+            "revid": 2209920,
+            "parentid": 2191786
+          }
+        ]
+      }
+    ]
+  }
+}

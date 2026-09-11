@@ -1,0 +1,24 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "超极巨特大金币",
+        "to": "超極巨特大金幣"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 155511,
+        "ns": 0,
+        "title": "超極巨特大金幣",
+        "revisions": [
+          {
+            "revid": 2209914,
+            "parentid": 2191778
+          }
+        ]
+      }
+    ]
+  }
+}

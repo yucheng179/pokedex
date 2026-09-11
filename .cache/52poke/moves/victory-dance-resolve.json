@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "勝利之舞",
+        "to": "胜利之舞"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "胜利之舞",
+        "to": "胜利之舞（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 213694,
+        "ns": 0,
+        "title": "胜利之舞（招式）",
+        "revisions": [
+          {
+            "revid": 2564134,
+            "parentid": 2554425
+          }
+        ]
+      }
+    ]
+  }
+}

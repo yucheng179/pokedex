@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "火焰守護",
+        "to": "火焰守护"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "火焰守护",
+        "to": "火焰守护（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 258193,
+        "ns": 0,
+        "title": "火焰守护（招式）",
+        "revisions": [
+          {
+            "revid": 2581584,
+            "parentid": 2554206
+          }
+        ]
+      }
+    ]
+  }
+}

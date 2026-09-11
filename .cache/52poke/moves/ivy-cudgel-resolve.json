@@ -1,0 +1,24 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "redirects": [
+      {
+        "from": "棘藤棒",
+        "to": "棘藤棒（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 253996,
+        "ns": 0,
+        "title": "棘藤棒（招式）",
+        "revisions": [
+          {
+            "revid": 2554371,
+            "parentid": 2542847
+          }
+        ]
+      }
+    ]
+  }
+}

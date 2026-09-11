@@ -1,0 +1,997 @@
+{
+  "generatedAt": "2026-09-08T15:56:04.559Z",
+  "source": "52Poké Wiki",
+  "sourceUrl": "https://wiki.52poke.com/zh-hant/招式列表（劍／盾）",
+  "moves": [
+    {
+      "id": null,
+      "slug": "g-max-wildfire",
+      "name": {
+        "zhHant": "超極巨地獄滅焰",
+        "en": "G-Max Wildfire",
+        "ja": "キョダイゴクエン"
+      },
+      "kind": "gmax",
+      "type": "fire",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "主頁面：超極巨地獄滅焰（狀態） 使場地進入超極巨地獄滅焰的狀態，會在回合結束對除火屬性以外的寶可夢損失最大ＨＰ的1⁄6，持續時間4回合。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E5%9C%B0%E7%8D%84%E6%BB%85%E7%84%B0",
+        "revisionId": 2406270
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "charizard"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-befuddle",
+      "name": {
+        "zhHant": "超極巨蝶影蠱惑",
+        "en": "G-Max Befuddle",
+        "ja": "キョダイコワク"
+      },
+      "kind": "gmax",
+      "type": "bug",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "攻擊目標造成傷害。 超極巨蝶影蠱惑會使對手全體寶可夢陷入中毒狀態、麻痺狀態或睡眠狀態。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E8%9D%B6%E5%BD%B1%E8%A0%B1%E6%83%91",
+        "revisionId": 2209912
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "butterfree"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-volt-crash",
+      "name": {
+        "zhHant": "超極巨萬雷轟頂",
+        "en": "G-Max Volt Crash",
+        "ja": "キョダイバンライ"
+      },
+      "kind": "gmax",
+      "type": "electric",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "攻擊目標造成傷害。對手所有寶可夢陷入麻痺狀態。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E8%90%AC%E9%9B%B7%E8%BD%9F%E9%A0%82",
+        "revisionId": 2209913
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "pikachu"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-gold-rush",
+      "name": {
+        "zhHant": "超極巨特大金幣",
+        "en": "G-Max Gold Rush",
+        "ja": "キョダイコバン"
+      },
+      "kind": "gmax",
+      "type": "normal",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "攻擊目標造成傷害。讓無數金幣散落一地，在對戰結束後將能夠獲得更多的金錢，還能讓對方全員陷入混亂狀態。 第一次使出這個招式，向地上投擲100×使用者等級的金幣。 第二次使出這個招式，向地上投擲200×使用者等級的金幣。 第三次使出這個招式，向地上投擲300×使用者等級的金幣。 如果己方在對戰中獲勝，拾取這些金幣（單次戰鬥中最多拾取$99999）。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E7%89%B9%E5%A4%A7%E9%87%91%E5%B9%A3",
+        "revisionId": 2209914
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "meowth"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-chi-strike",
+      "name": {
+        "zhHant": "超極巨會心一擊",
+        "en": "G-Max Chi Strike",
+        "ja": "キョダイシンゲキ"
+      },
+      "kind": "gmax",
+      "type": "fighting",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "攻擊目標造成傷害。 令使用者和同伴的擊中要害率提升1級。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E6%9C%83%E5%BF%83%E4%B8%80%E6%93%8A",
+        "revisionId": 2209915
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "machamp"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-terror",
+      "name": {
+        "zhHant": "超極巨幻影幽魂",
+        "en": "G-Max Terror",
+        "ja": "キョダイゲンエイ"
+      },
+      "kind": "gmax",
+      "type": "ghost",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "攻擊目標造成傷害。令全部對手寶可夢陷入無法逃走狀態。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E5%B9%BB%E5%BD%B1%E5%B9%BD%E9%AD%82",
+        "revisionId": 2218537
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "gengar"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-resonance",
+      "name": {
+        "zhHant": "超極巨極光旋律",
+        "en": "G-Max Resonance",
+        "ja": "キョダイセンリツ"
+      },
+      "kind": "gmax",
+      "type": "ice",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "主頁面：極光幕（狀態） 攻擊目標造成傷害。5回合內我方寶可夢受到的特殊招式和物理招式傷害減半，如果己方場上存在多隻寶可夢則降低原本的1⁄3。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E6%A5%B5%E5%85%89%E6%97%8B%E5%BE%8B",
+        "revisionId": 2209917
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "lapras"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-cuddle",
+      "name": {
+        "zhHant": "超極巨熱情擁抱",
+        "en": "G-Max Cuddle",
+        "ja": "キョダイホーヨー"
+      },
+      "kind": "gmax",
+      "type": "normal",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "攻擊目標造成傷害。讓對方所有與伊布性別相對的寶可夢陷入著迷狀態。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E7%86%B1%E6%83%85%E6%93%81%E6%8A%B1",
+        "revisionId": 2209918
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "eevee"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-replenish",
+      "name": {
+        "zhHant": "超極巨資源再生",
+        "en": "G-Max Replenish",
+        "ja": "キョダイサイセイ"
+      },
+      "kind": "gmax",
+      "type": "normal",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "攻擊目標造成傷害。 超極巨資源再生有50%機率獲得使用過的樹果（包括投擲）。在攻擊動畫中，樹上掉落了樹果時，表明樹果能再次使用。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E8%B3%87%E6%BA%90%E5%86%8D%E7%94%9F",
+        "revisionId": 2224612
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "snorlax"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-malodor",
+      "name": {
+        "zhHant": "超極巨臭氣沖天",
+        "en": "G-Max Malodor",
+        "ja": "キョダイシュウキ"
+      },
+      "kind": "gmax",
+      "type": "poison",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "攻擊目標造成傷害。讓對手陷入中毒狀態。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E8%87%AD%E6%B0%A3%E6%B2%96%E5%A4%A9",
+        "revisionId": 2209920
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "garbodor"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-stonesurge",
+      "name": {
+        "zhHant": "超極巨岩陣以待",
+        "en": "G-Max Stonesurge",
+        "ja": "キョダイガンジン"
+      },
+      "kind": "gmax",
+      "type": "water",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "主頁面：隱形岩（狀態） 攻擊目標造成傷害，向對手場地撒下尖銳的岩石，使交換上場的寶可夢受到滿ＨＰ的1⁄8傷害。 傷害值受到岩石屬性相性的影響。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E5%B2%A9%E9%99%A3%E4%BB%A5%E5%BE%85",
+        "revisionId": 2556953
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "drednaw"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-wind-rage",
+      "name": {
+        "zhHant": "超極巨旋風襲捲",
+        "en": "G-Max Wind Rage",
+        "ja": "キョダイフウゲキ"
+      },
+      "kind": "gmax",
+      "type": "normal",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "攻擊目標造成傷害，還能消除反射壁、光牆、撒菱和場地型狀態等的效果。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E6%97%8B%E9%A2%A8%E8%A5%B2%E6%8D%B2",
+        "revisionId": 2209922
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "corviknight"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-stun-shock",
+      "name": {
+        "zhHant": "超極巨異毒電場",
+        "en": "G-Max Stun Shock",
+        "ja": "キョダイカンデン"
+      },
+      "kind": "gmax",
+      "type": "electric",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "攻擊目標造成傷害。 超極巨異毒電場會使對手全體寶可夢陷入中毒狀態或麻痺狀態。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E7%95%B0%E6%AF%92%E9%9B%BB%E5%A0%B4",
+        "revisionId": 2209923
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "toxtricity-amped"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-finale",
+      "name": {
+        "zhHant": "超極巨幸福圓滿",
+        "en": "G-Max Finale",
+        "ja": "キョダイダンエン"
+      },
+      "kind": "gmax",
+      "type": "fairy",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "攻擊目標造成傷害。 超極巨幸福圓滿能夠回復使用者和同伴1⁄6的ＨＰ。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E5%B9%B8%E7%A6%8F%E5%9C%93%E6%BB%BF",
+        "revisionId": 2564377
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "alcremie"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-depletion",
+      "name": {
+        "zhHant": "超極巨劣化衰變",
+        "en": "G-Max Depletion",
+        "ja": "キョダイゲンスイ"
+      },
+      "kind": "gmax",
+      "type": "dragon",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "攻擊目標造成傷害。使對手最後使用的招式的ＰＰ減少2。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E5%8A%A3%E5%8C%96%E8%A1%B0%E8%AE%8A",
+        "revisionId": 2209925
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "duraludon"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-gravitas",
+      "name": {
+        "zhHant": "超極巨天道七星",
+        "en": "G-Max Gravitas",
+        "ja": "キョダイテンドウ"
+      },
+      "kind": "gmax",
+      "type": "psychic",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "主頁面：重力（狀態） 攻擊目標造成傷害。場上生成強重力，持續時間為5回合，包括使用的當回合。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E5%A4%A9%E9%81%93%E4%B8%83%E6%98%9F",
+        "revisionId": 2209926
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "orbeetle"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-volcalith",
+      "name": {
+        "zhHant": "超極巨炎石噴發",
+        "en": "G-Max Volcalith",
+        "ja": "キョダイフンセキ"
+      },
+      "kind": "gmax",
+      "type": "rock",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "主頁面：超極巨炎石噴發（狀態） 使場地進入超極巨炎石噴發的狀態，會在回合結束對岩石屬性以外的寶可夢損失極巨化前最大ＨＰ的1/6，持續時間4回合。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E7%82%8E%E7%9F%B3%E5%99%B4%E7%99%BC",
+        "revisionId": 2556954
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "coalossal"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-sandblast",
+      "name": {
+        "zhHant": "超極巨沙塵漫天",
+        "en": "G-Max Sandblast",
+        "ja": "キョダイサジン"
+      },
+      "kind": "gmax",
+      "type": "ground",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "主頁面：束縛（狀態） 攻擊目標造成傷害。使目標陷入束縛狀態。束縛狀態持續4～5回合，處於束縛狀態的寶可夢會持續受到傷害並不能換下。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E6%B2%99%E5%A1%B5%E6%BC%AB%E5%A4%A9",
+        "revisionId": 2209928
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "sandaconda"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-snooze",
+      "name": {
+        "zhHant": "超極巨睡魔降臨",
+        "en": "G-Max Snooze",
+        "ja": "キョダイスイマ"
+      },
+      "kind": "gmax",
+      "type": "dark",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "攻擊目標造成傷害。超極巨睡魔降臨有50%的機率使目標陷入瞌睡狀態。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E7%9D%A1%E9%AD%94%E9%99%8D%E8%87%A8",
+        "revisionId": 2209929
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "grimmsnarl"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-tartness",
+      "name": {
+        "zhHant": "超極巨酸不溜丟",
+        "en": "G-Max Tartness",
+        "ja": "キョダイサンゲキ"
+      },
+      "kind": "gmax",
+      "type": "grass",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "攻擊目標造成傷害。降低對手的閃避率。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E9%85%B8%E4%B8%8D%E6%BA%9C%E4%B8%9F",
+        "revisionId": 2209930
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "flapple"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-sweetness",
+      "name": {
+        "zhHant": "超極巨瓊漿玉液",
+        "en": "G-Max Sweetness",
+        "ja": "キョダイカンロ"
+      },
+      "kind": "gmax",
+      "type": "grass",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "攻擊目標造成傷害。回復我方寶可夢的異常狀態。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E7%93%8A%E6%BC%BF%E7%8E%89%E6%B6%B2",
+        "revisionId": 2209931
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "appletun"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-smite",
+      "name": {
+        "zhHant": "超極巨天譴雷誅",
+        "en": "G-Max Smite",
+        "ja": "キョダイテンバツ"
+      },
+      "kind": "gmax",
+      "type": "fairy",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "攻擊目標造成傷害。讓對手陷入混亂狀態。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E5%A4%A9%E8%AD%B4%E9%9B%B7%E8%AA%85",
+        "revisionId": 2209932
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "hatterene"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-steelsurge",
+      "name": {
+        "zhHant": "超極巨鋼鐵陣法",
+        "en": "G-Max Steelsurge",
+        "ja": "キョダイコウジン"
+      },
+      "kind": "gmax",
+      "type": "steel",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "主頁面：超極巨鋼鐵陣法（狀態） 向對手場地撒下尖銳的刺，使交換上場的寶可夢受到滿ＨＰ的1⁄8傷害。 傷害值受到鋼屬性相性的影響。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E9%8B%BC%E9%90%B5%E9%99%A3%E6%B3%95",
+        "revisionId": 2556949
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "copperajah"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-meltdown",
+      "name": {
+        "zhHant": "超極巨液金熔擊",
+        "en": "G-Max Meltdown",
+        "ja": "キョダイユウゲキ"
+      },
+      "kind": "gmax",
+      "type": "steel",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "攻擊目標造成傷害。讓全體對手陷入持續3回合的無理取鬧狀態，無法兩回合連續使出相同的招式。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E6%B6%B2%E9%87%91%E7%86%94%E6%93%8A",
+        "revisionId": 2351300
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "melmetal"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-foam-burst",
+      "name": {
+        "zhHant": "超極巨激漩泡渦",
+        "en": "G-Max Foam Burst",
+        "ja": "キョダイホウマツ"
+      },
+      "kind": "gmax",
+      "type": "water",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "攻擊目標造成傷害。令全部對手寶可夢的速度降低2級。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E6%BF%80%E6%BC%A9%E6%B3%A1%E6%B8%A6",
+        "revisionId": 2209935
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "kingler"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-centiferno",
+      "name": {
+        "zhHant": "超極巨百火焚野",
+        "en": "G-Max Centiferno",
+        "ja": "キョダイヒャッカ"
+      },
+      "kind": "gmax",
+      "type": "fire",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "主頁面：束縛（狀態） 攻擊目標造成傷害。使目標陷入束縛狀態。束縛狀態持續4～5回合，處於束縛狀態的寶可夢會持續受到傷害並不能換下。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E7%99%BE%E7%81%AB%E7%84%9A%E9%87%8E",
+        "revisionId": 2209936
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "centiskorch"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-drum-solo",
+      "name": {
+        "zhHant": "超極巨狂擂亂打",
+        "en": "G-Max Drum Solo",
+        "ja": "キョダイコランダ"
+      },
+      "kind": "gmax",
+      "type": "grass",
+      "damageClass": null,
+      "power": 160,
+      "accuracy": null,
+      "pp": null,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "攻擊目標造成傷害。 攻擊時能夠使目標、同伴以及目標同伴的一部分特性失效。 可以被無效化的特性 所有會被無效化的特性，都是在自身、同伴受到招式攻擊或者同伴使用招式攻擊時能夠發動的特性。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E7%8B%82%E6%93%82%E4%BA%82%E6%89%93",
+        "revisionId": 2406271
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "rillaboom"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-fireball",
+      "name": {
+        "zhHant": "超極巨破陣火球",
+        "en": "G-Max Fireball",
+        "ja": "キョダイカキュウ"
+      },
+      "kind": "gmax",
+      "type": "fire",
+      "damageClass": null,
+      "power": 160,
+      "accuracy": null,
+      "pp": null,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "攻擊目標造成傷害。 攻擊時能夠使目標、同伴以及目標同伴的一部分特性失效。 可以被無效化的特性 所有會被無效化的特性，都是在自身、同伴受到招式攻擊或者同伴使用招式攻擊時能夠發動的特性。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E7%A0%B4%E9%99%A3%E7%81%AB%E7%90%83",
+        "revisionId": 2556950
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "cinderace"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-hydrosnipe",
+      "name": {
+        "zhHant": "超極巨狙擊神射",
+        "en": "G-Max Hydrosnipe",
+        "ja": "キョダイソゲキ"
+      },
+      "kind": "gmax",
+      "type": "water",
+      "damageClass": null,
+      "power": 160,
+      "accuracy": null,
+      "pp": null,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "攻擊目標造成傷害。 攻擊時能夠使目標、同伴以及目標同伴的一部分特性失效。 可以被無效化的特性 所有會被無效化的特性，都是在自身、同伴受到招式攻擊或者同伴使用招式攻擊時能夠發動的特性。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E7%8B%99%E6%93%8A%E7%A5%9E%E5%B0%84",
+        "revisionId": 2209966
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "inteleon"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-vine-lash",
+      "name": {
+        "zhHant": "超極巨灰飛鞭滅",
+        "en": "G-Max Vine Lash",
+        "ja": "キョダイベンタツ"
+      },
+      "kind": "gmax",
+      "type": "grass",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": null,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "主頁面：超極巨灰飛鞭滅（狀態） 使場地進入超極巨灰飛鞭滅的狀態，會在回合結束對除草屬性以外的寶可夢損失最大ＨＰ的1⁄6，持續時間4回合。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E7%81%B0%E9%A3%9B%E9%9E%AD%E6%BB%85",
+        "revisionId": 2209967
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "venusaur"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-cannonade",
+      "name": {
+        "zhHant": "超極巨水砲轟滅",
+        "en": "G-Max Cannonade",
+        "ja": "キョダイホウゲキ"
+      },
+      "kind": "gmax",
+      "type": "water",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": null,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "主頁面：超極巨水砲轟滅（狀態） 使場地進入超極巨水砲轟滅的狀態，會在回合結束對除水屬性以外的寶可夢損失最大ＨＰ的1⁄6，持續時間4回合。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E6%B0%B4%E7%A0%B2%E8%BD%9F%E6%BB%85",
+        "revisionId": 2209968
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "blastoise"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-one-blow",
+      "name": {
+        "zhHant": "超極巨奪命一擊",
+        "en": "G-Max One Blow",
+        "ja": "キョダイイチゲキ"
+      },
+      "kind": "gmax",
+      "type": "dark",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": null,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "攻擊時，能無視對方所有守住類狀態的效果，正常造成傷害。 包括極巨防壁，以及王者盾牌、尖刺防守、碉堡、攔堵等招式的特殊效果。 不會解除對方守住類狀態，包括極巨防壁。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E5%A5%AA%E5%91%BD%E4%B8%80%E6%93%8A",
+        "revisionId": 2576036
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "urshifu-single-strike"
+      ]
+    },
+    {
+      "id": null,
+      "slug": "g-max-rapid-flow",
+      "name": {
+        "zhHant": "超極巨流水連擊",
+        "en": "G-Max Rapid Flow",
+        "ja": "キョダイレンゲキ"
+      },
+      "kind": "gmax",
+      "type": "water",
+      "damageClass": null,
+      "power": null,
+      "accuracy": null,
+      "pp": null,
+      "priority": 0,
+      "effectChance": null,
+      "generation": 8,
+      "target": "selected-pokemon",
+      "description": "攻擊時，能無視對方所有守住類狀態的效果，正常造成傷害。 包括極巨防壁，以及王者盾牌、尖刺防守、碉堡、攔堵等招式的特殊效果。 不會解除對方守住類狀態，包括極巨防壁。",
+      "descriptionSource": {
+        "name": "52Poké Wiki",
+        "url": "https://wiki.52poke.com/zh-hant/%E8%B6%85%E6%A5%B5%E5%B7%A8%E6%B5%81%E6%B0%B4%E9%80%A3%E6%93%8A",
+        "revisionId": 2576037
+      },
+      "statChanges": [],
+      "meta": null,
+      "learnedByPokemon": [
+        "urshifu-rapid-strike"
+      ]
+    }
+  ]
+}

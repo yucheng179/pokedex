@@ -1,0 +1,19 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "normalized": [
+      {
+        "fromencoded": false,
+        "from": "shadow-rush",
+        "to": "Shadow-rush"
+      }
+    ],
+    "pages": [
+      {
+        "ns": 0,
+        "title": "Shadow-rush",
+        "missing": true
+      }
+    ]
+  }
+}

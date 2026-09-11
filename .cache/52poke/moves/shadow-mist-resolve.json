@@ -1,0 +1,19 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "normalized": [
+      {
+        "fromencoded": false,
+        "from": "shadow-mist",
+        "to": "Shadow-mist"
+      }
+    ],
+    "pages": [
+      {
+        "ns": 0,
+        "title": "Shadow-mist",
+        "missing": true
+      }
+    ]
+  }
+}

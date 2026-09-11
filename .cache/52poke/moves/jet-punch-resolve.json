@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "噴射拳",
+        "to": "喷射拳"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "喷射拳",
+        "to": "喷射拳（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 234396,
+        "ns": 0,
+        "title": "喷射拳（招式）",
+        "revisions": [
+          {
+            "revid": 2564170,
+            "parentid": 2555552
+          }
+        ]
+      }
+    ]
+  }
+}

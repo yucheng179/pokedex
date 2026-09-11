@@ -1,0 +1,19 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "normalized": [
+      {
+        "fromencoded": false,
+        "from": "shadow-rave",
+        "to": "Shadow-rave"
+      }
+    ],
+    "pages": [
+      {
+        "ns": 0,
+        "title": "Shadow-rave",
+        "missing": true
+      }
+    ]
+  }
+}

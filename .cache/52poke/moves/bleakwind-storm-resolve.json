@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "枯葉風暴",
+        "to": "枯叶风暴"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "枯叶风暴",
+        "to": "枯叶风暴（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 213703,
+        "ns": 0,
+        "title": "枯叶风暴（招式）",
+        "revisions": [
+          {
+            "revid": 2573808,
+            "parentid": 2564149
+          }
+        ]
+      }
+    ]
+  }
+}

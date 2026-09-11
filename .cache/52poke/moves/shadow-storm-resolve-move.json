@@ -1,0 +1,19 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "normalized": [
+      {
+        "fromencoded": false,
+        "from": "shadow-storm（招式）",
+        "to": "Shadow-storm（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "ns": 0,
+        "title": "Shadow-storm（招式）",
+        "missing": true
+      }
+    ]
+  }
+}

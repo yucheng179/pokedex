@@ -1,0 +1,24 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "redirects": [
+      {
+        "from": "迅子利刃",
+        "to": "迅子利刃（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 252403,
+        "ns": 0,
+        "title": "迅子利刃（招式）",
+        "revisions": [
+          {
+            "revid": 2564050,
+            "parentid": 2554454
+          }
+        ]
+      }
+    ]
+  }
+}

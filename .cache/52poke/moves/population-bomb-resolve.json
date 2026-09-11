@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "鼠數兒",
+        "to": "鼠数儿"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "鼠数儿",
+        "to": "鼠数儿（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 234400,
+        "ns": 0,
+        "title": "鼠数儿（招式）",
+        "revisions": [
+          {
+            "revid": 2609775,
+            "parentid": 2609769
+          }
+        ]
+      }
+    ]
+  }
+}

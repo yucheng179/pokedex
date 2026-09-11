@@ -1,0 +1,24 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "超极巨岩阵以待",
+        "to": "超極巨岩陣以待"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 153558,
+        "ns": 0,
+        "title": "超極巨岩陣以待",
+        "revisions": [
+          {
+            "revid": 2556953,
+            "parentid": 2209921
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "batchcomplete": true,
+  "query": {
+    "converted": [
+      {
+        "from": "三連鑽",
+        "to": "三连钻"
+      }
+    ],
+    "redirects": [
+      {
+        "from": "三连钻",
+        "to": "三连钻（招式）"
+      }
+    ],
+    "pages": [
+      {
+        "pageid": 234405,
+        "ns": 0,
+        "title": "三连钻（招式）",
+        "revisions": [
+          {
+            "revid": 2563499,
+            "parentid": 2554462
+          }
+        ]
+      }
+    ]
+  }
+}
