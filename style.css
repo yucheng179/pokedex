@@ -300,7 +300,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .champions-check:hover { transform: scale(1.1); }
 .champions-card.owned .champions-check { color: #fff; background: #21a783; border-color: #21a783; }
 .champions-card img { align-self: center; justify-self: center; width: 88px; height: 88px; object-fit: contain; }
-.champions-card strong { overflow: hidden; align-self: center; font-size: .8rem; font-weight: 700; text-align: center; text-overflow: ellipsis; white-space: nowrap; }
+.champions-card strong { overflow: visible; align-self: center; font-size: .8rem; font-weight: 700; line-height: 1.35; text-align: center; overflow-wrap: anywhere; text-overflow: clip; white-space: normal; }
 .champions-source { margin: 22px 0 0; color: var(--muted); font-size: .72rem; text-align: center; }
 .champions-source a { color: #167863; }
 .site-footer { padding: 25px 20px; color: #89929a; background: #fff; border-top: 1px solid var(--line); text-align: center; font-size: .78rem; }
