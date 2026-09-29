@@ -229,6 +229,7 @@ async function main() {
       speciesId: mon.speciesId,
       dexNumber: mon.dexNumber,
       name: displayName(mon),
+      types: mon.types,
       image: `assets/champions/${mon.slug}.png`,
       fallbackImage: mon.image,
       imageBytes: image?.size || null,

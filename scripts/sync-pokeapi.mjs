@@ -288,6 +288,7 @@ function flattenEvolution(root, output = []) {
 async function syncCore() {
   console.log("同步核心圖鑑資料…");
   const existingAbilities = await readExisting("abilities.json");
+  const championsAbilities = (await readExisting("champions-ability-overrides.json")).overrides || {};
   const formNameData = await readExisting("form-name-overrides.json");
   const formNameOverrides = formNameData.overrides || {};
   const [typeRefs, abilityRefs, speciesRefs, pokemonRefs, pokedexRefs, versionGroupRefs] = await Promise.all([
@@ -311,7 +312,15 @@ async function syncCore() {
   const abilities = Object.fromEntries(abilityDetails.map(ability => [ability.name, {
     id: ability.id, slug: ability.name, name: localizedNames(ability.names, ability.name),
     description: pickText(ability.flavor_text_entries) || pickText(ability.effect_entries) || existingAbilities[ability.name]?.description || null,
-    generation: generationFromResource(ability.generation), isMainSeries: ability.is_main_series
+    generation: generationFromResource(ability.generation), isMainSeries: ability.is_main_series,
+    ...(championsAbilities[ability.name]?.description ? {
+      legacyDescription: pickText(ability.flavor_text_entries) || pickText(ability.effect_entries) || existingAbilities[ability.name]?.legacyDescription || null,
+      description: championsAbilities[ability.name].description,
+      descriptionVersion: "Champions",
+      categories: championsAbilities[ability.name].categories || ["other"],
+      categorySource: championsAbilities[ability.name].categorySource || null,
+      descriptionSource: championsAbilities[ability.name].sourceUrl
+    } : {})
   }]));
 
   const [speciesDetails, pokemonDetails, pokedexDetails, versionGroupDetails] = await Promise.all([

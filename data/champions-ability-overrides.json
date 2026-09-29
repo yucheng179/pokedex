@@ -1,0 +1,3358 @@
+{
+  "source": "https://gamewith.ai/pokemon-champions/zh-hant/abilities",
+  "fetchedAt": "2026-09-18T03:05:27.435Z",
+  "note": "GameWith Champions 描述優先；未收錄者保留既有描述。GameWith 網址編號不是 PokeAPI 編號，依名稱配對。",
+  "overrides": {
+    "stench": {
+      "id": 1,
+      "name": "惡臭",
+      "description": "用招式給予傷害時,有10%的機率會讓對手畏縮。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/2",
+      "categories": [
+        "status",
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "drizzle": {
+      "id": 2,
+      "name": "降雨",
+      "description": "自出場起的5回合內,會變為下雨狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/8",
+      "categories": [
+        "weather"
+      ],
+      "categorySource": "GameWith"
+    },
+    "speed-boost": {
+      "id": 3,
+      "name": "加速",
+      "description": "在回合結束時,速度會提高1階。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/25",
+      "categories": [
+        "rank",
+        "speed"
+      ],
+      "categorySource": "GameWith"
+    },
+    "battle-armor": {
+      "id": 4,
+      "name": "戰鬥盔甲",
+      "description": "對手的攻擊不會擊中要害。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/29",
+      "categories": [
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "sturdy": {
+      "id": 5,
+      "name": "結實",
+      "description": "HP全滿時,若受到一擊就會瀕死的招式傷害,會剩下1HP撐過去。一擊必殺的招式也無效。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/32",
+      "categories": [
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "damp": {
+      "id": 6,
+      "name": "濕氣",
+      "description": "所有寶可夢都無法使用爆炸類招式,會爆炸的特性也不會發動。自爆、大爆炸、驚爆大頭、薄霧炸裂會失敗,引爆也會無效。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/52",
+      "categories": [
+        "interfere"
+      ],
+      "categorySource": "GameWith"
+    },
+    "limber": {
+      "id": 7,
+      "name": "柔軟",
+      "description": "不會變為麻痺狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/54",
+      "categories": [
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "sand-veil": {
+      "id": 8,
+      "name": "沙隱",
+      "description": "沙暴狀態時,閃避率會變為1.25倍。不會受到沙暴造成的傷害。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/68",
+      "categories": [
+        "weather",
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "static": {
+      "id": 9,
+      "name": "靜電",
+      "description": "受到接觸類招式時,有30%的機率會讓對手變為麻痺狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/75",
+      "categories": [
+        "contact",
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "volt-absorb": {
+      "id": 10,
+      "name": "蓄電",
+      "description": "電屬性招式無效,反而會回復最大HP的1/4。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/85",
+      "categories": [
+        "type",
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "water-absorb": {
+      "id": 11,
+      "name": "儲水",
+      "description": "水屬性招式無效,反而會回復最大HP的1/4。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/87",
+      "categories": [
+        "type",
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "oblivious": {
+      "id": 12,
+      "name": "遲鈍",
+      "description": "不會變為著迷、挑釁狀態,威嚇也無效。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/103",
+      "categories": [
+        "status",
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "cloud-nine": {
+      "id": 13,
+      "name": "無關天氣",
+      "description": "會使所有天氣的影響都消失。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/111",
+      "categories": [
+        "weather"
+      ],
+      "categorySource": "GameWith"
+    },
+    "compound-eyes": {
+      "id": 14,
+      "name": "複眼",
+      "description": "招式的命中率會變為1.3倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/130",
+      "categories": [
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "insomnia": {
+      "id": 15,
+      "name": "不眠",
+      "description": "不會變為睡眠、瞌睡狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/134",
+      "categories": [
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "color-change": {
+      "id": 16,
+      "name": "變色",
+      "description": "自己的屬性會變為從對手受到的招式的屬性。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/144",
+      "categories": [
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "immunity": {
+      "id": 17,
+      "name": "免疫",
+      "description": "不會變為中毒、劇毒狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/167",
+      "categories": [
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "flash-fire": {
+      "id": 18,
+      "name": "引火",
+      "description": "火屬性招式無效,反而自己會變為引火狀態。引火狀態期間,自己的火屬性招式威力會變為1.5倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/170",
+      "categories": [
+        "type",
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "shield-dust": {
+      "id": 19,
+      "name": "鱗粉",
+      "description": "攻擊的追加效果無效。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/182",
+      "categories": [
+        "defense",
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "own-tempo": {
+      "id": 20,
+      "name": "我行我素",
+      "description": "不會變為混亂狀態,威嚇也無效。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/153",
+      "categories": [
+        "status",
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "suction-cups": {
+      "id": 21,
+      "name": "吸盤",
+      "description": "對手迫使我方替換的招式或道具無效。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/37",
+      "categories": [
+        "switch"
+      ],
+      "categorySource": "GameWith"
+    },
+    "intimidate": {
+      "id": 22,
+      "name": "威嚇",
+      "description": "出場時,會讓對手的攻擊降低1階。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/11",
+      "categories": [
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "shadow-tag": {
+      "id": 23,
+      "name": "踩影",
+      "description": "幽靈屬性以外的對手會無法替換。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/24",
+      "categories": [
+        "switch"
+      ],
+      "categorySource": "GameWith"
+    },
+    "rough-skin": {
+      "id": 24,
+      "name": "粗糙皮膚",
+      "description": "受到接觸類招式時,會給予對手最大HP的1/8的傷害。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/253",
+      "categories": [
+        "contact",
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "wonder-guard": {
+      "id": 25,
+      "name": "神奇守護",
+      "description": "只會受到效果絕佳的招式的傷害。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/133",
+      "categories": [
+        "defense",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "levitate": {
+      "id": 26,
+      "name": "飄浮",
+      "description": "會變為不在地面上,地面屬性招式、撒菱、毒菱、黏黏網狀態無效。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/135",
+      "categories": [
+        "type",
+        "defense",
+        "switch"
+      ],
+      "categorySource": "GameWith"
+    },
+    "effect-spore": {
+      "id": 27,
+      "name": "孢子",
+      "description": "受到接觸類招式時,有30%的機率會讓對手變為中毒、麻痺、睡眠之中的一種狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/147",
+      "categories": [
+        "contact",
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "synchronize": {
+      "id": 28,
+      "name": "同步",
+      "description": "因對手的招式或特性變為中毒、劇毒、麻痺、灼傷狀態時,會讓對手也變為相同狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/58",
+      "categories": [
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "clear-body": {
+      "id": 29,
+      "name": "恆淨之軀",
+      "description": "不會因對手的招式或特性而被降低能力。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/44",
+      "categories": [
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "natural-cure": {
+      "id": 30,
+      "name": "自然回復",
+      "description": "退回同行隊伍後異常狀態會痊癒。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/51",
+      "categories": [
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "lightning-rod": {
+      "id": 31,
+      "name": "避雷針",
+      "description": "將電屬性招式吸引到自己身上。該招式無效,反而會讓特攻提高1階。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/124",
+      "categories": [
+        "type",
+        "defense",
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "serene-grace": {
+      "id": 32,
+      "name": "天恩",
+      "description": "招式追加效果的發生機率會變為2倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/97",
+      "categories": [
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "swift-swim": {
+      "id": 33,
+      "name": "悠游自如",
+      "description": "下雨狀態時,速度會變為2倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/61",
+      "categories": [
+        "weather",
+        "speed"
+      ],
+      "categorySource": "GameWith"
+    },
+    "chlorophyll": {
+      "id": 34,
+      "name": "葉綠素",
+      "description": "大晴天狀態時,速度會變為2倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/175",
+      "categories": [
+        "weather",
+        "speed"
+      ],
+      "categorySource": "GameWith"
+    },
+    "illuminate": {
+      "id": 35,
+      "name": "發光",
+      "description": "可無視對手閃避率的變化,且命中率不會被降低。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/116",
+      "categories": [
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "trace": {
+      "id": 36,
+      "name": "複製",
+      "description": "出場時,會變為和對手相同的特性。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/102",
+      "categories": [
+        "interfere"
+      ],
+      "categorySource": "GameWith"
+    },
+    "huge-power": {
+      "id": 37,
+      "name": "大力士",
+      "description": "物理招式威力會變為2倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/84",
+      "categories": [
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "poison-point": {
+      "id": 38,
+      "name": "毒刺",
+      "description": "受到接觸類招式時,有30%的機率會讓對手變為中毒狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/100",
+      "categories": [
+        "contact",
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "inner-focus": {
+      "id": 39,
+      "name": "精神力",
+      "description": "不會因對手的攻擊而畏縮,威嚇也無效。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/74",
+      "categories": [
+        "status",
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "magma-armor": {
+      "id": 40,
+      "name": "熔岩鎧甲",
+      "description": "不會變為冰凍狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/154",
+      "categories": [
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "water-veil": {
+      "id": 41,
+      "name": "水幕",
+      "description": "不會陷入灼傷狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/160",
+      "categories": [
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "magnet-pull": {
+      "id": 42,
+      "name": "磁力",
+      "description": "使鋼屬性的寶可夢無法交換或逃走。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/56",
+      "categories": [
+        "switch",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "soundproof": {
+      "id": 43,
+      "name": "隔音",
+      "description": "聲音類招式無效。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/146",
+      "categories": [
+        "defense",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "rain-dish": {
+      "id": 44,
+      "name": "雨盤",
+      "description": "下雨狀態時,會在回合結束時回復最大HP的1/16。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/7",
+      "categories": [
+        "weather",
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "sand-stream": {
+      "id": 45,
+      "name": "揚沙",
+      "description": "自出場起的5回合內,會變為沙暴狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/66",
+      "categories": [
+        "weather"
+      ],
+      "categorySource": "GameWith"
+    },
+    "pressure": {
+      "id": 46,
+      "name": "壓迫感",
+      "description": "會讓對手對自己使用的招式的PP額外減少1。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/140",
+      "categories": [
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "thick-fat": {
+      "id": 47,
+      "name": "厚脂肪",
+      "description": "因火屬性、冰屬性招式而受到的傷害會減半。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/3",
+      "categories": [
+        "defense",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "early-bird": {
+      "id": 48,
+      "name": "早起",
+      "description": "即使變為睡眠狀態,也會以2倍的速度提早醒來。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/120",
+      "categories": [
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "flame-body": {
+      "id": 49,
+      "name": "火焰之軀",
+      "description": "受到接觸類招式時,有30%的機率會讓對手變為灼傷狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/151",
+      "categories": [
+        "contact",
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "run-away": {
+      "id": 50,
+      "name": "逃跑",
+      "description": "即使陷入綁緊狀態，也可以替換。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/106",
+      "categories": [
+        "switch"
+      ],
+      "categorySource": "GameWith"
+    },
+    "keen-eye": {
+      "id": 51,
+      "name": "銳利目光",
+      "description": "可無視對手閃避率的變化,且命中率不會被降低。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/71",
+      "categories": [
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "hyper-cutter": {
+      "id": 52,
+      "name": "怪力鉗",
+      "description": "不會因對手的招式或特性而被降低攻擊。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/23",
+      "categories": [
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "pickup": {
+      "id": 53,
+      "name": "撿拾",
+      "description": "自己沒有攜帶道具時,會在回合結束時撿來自己以外的寶可夢消耗的道具。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/169",
+      "categories": [
+        "item"
+      ],
+      "categorySource": "GameWith"
+    },
+    "truant": {
+      "id": 54,
+      "name": "懶惰",
+      "description": "使出招式後，下一回合會無法行動。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/105",
+      "categories": [
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "hustle": {
+      "id": 55,
+      "name": "活力",
+      "description": "使用物理招式時,自己的攻擊會變為1.5倍,但命中率會變為0.8倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/121",
+      "categories": [
+        "offense",
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "cute-charm": {
+      "id": 56,
+      "name": "迷人之軀",
+      "description": "受到異性的接觸類招式時,有30%的機率會讓對手變為著迷狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/166",
+      "categories": [
+        "contact",
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "plus": {
+      "id": 57,
+      "name": "正電",
+      "description": "有正電或負電特性的同伴在場上時,自己的特攻會變為1.5倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/136",
+      "categories": [
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "minus": {
+      "id": 58,
+      "name": "負電",
+      "description": "有正電或負電特性的同伴在場上時,自己的特攻會變為1.5倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/152",
+      "categories": [
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "forecast": {
+      "id": 59,
+      "name": "陰晴不定",
+      "description": "在天氣的影響下,會變為水屬性、火屬性、冰屬性之中的一種。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/95",
+      "categories": [
+        "weather",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "sticky-hold": {
+      "id": 60,
+      "name": "黏著",
+      "description": "不會被對手奪走或失去攜帶的道具。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/109",
+      "categories": [
+        "item"
+      ],
+      "categorySource": "GameWith"
+    },
+    "shed-skin": {
+      "id": 61,
+      "name": "蛻皮",
+      "description": "在回合結束時,異常狀態有30%的機率會痊癒。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/80",
+      "categories": [
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "guts": {
+      "id": 62,
+      "name": "毅力",
+      "description": "變為異常狀態時,攻擊會變為1.5倍。可無視灼傷狀態時物理招式傷害會減半的影響。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/46",
+      "categories": [
+        "status",
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "marvel-scale": {
+      "id": 63,
+      "name": "神奇鱗片",
+      "description": "變為異常狀態時,防禦會變為1.5倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/132",
+      "categories": [
+        "status",
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "liquid-ooze": {
+      "id": 64,
+      "name": "污泥漿",
+      "description": "受到吸取ＨＰ的招式攻擊時，不會回復ＨＰ，反而會減少相應數值的ＨＰ。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/255",
+      "categories": [
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "overgrow": {
+      "id": 65,
+      "name": "茂盛",
+      "description": "HP降到最大HP的1/3以下時,草屬性招式威力會變為1.5倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/59",
+      "categories": [
+        "offense",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "blaze": {
+      "id": 66,
+      "name": "猛火",
+      "description": "HP降到最大HP的1/3以下時,火屬性招式威力會變為1.5倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/168",
+      "categories": [
+        "offense",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "torrent": {
+      "id": 67,
+      "name": "激流",
+      "description": "HP降到最大HP的1/3以下時,水屬性招式威力會變為1.5倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/45",
+      "categories": [
+        "offense",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "swarm": {
+      "id": 68,
+      "name": "蟲之預感",
+      "description": "HP降到最大HP的1/3以下時,蟲屬性招式威力會變為1.5倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/163",
+      "categories": [
+        "offense",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "rock-head": {
+      "id": 69,
+      "name": "堅硬腦袋",
+      "description": "即使使出會讓自己也受到傷害的招式,HP也不會減少。但仍會受到掙扎的反作用力傷害。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/12",
+      "categories": [
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "drought": {
+      "id": 70,
+      "name": "日照",
+      "description": "自出場起的5回合內,會變為大晴天狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/122",
+      "categories": [
+        "weather"
+      ],
+      "categorySource": "GameWith"
+    },
+    "arena-trap": {
+      "id": 71,
+      "name": "沙穴",
+      "description": "除了飛行屬性、幽靈屬性及具有「漂浮」特性的寶可夢以外，對手無法逃走或替換。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/9",
+      "categories": [
+        "switch"
+      ],
+      "categorySource": "GameWith"
+    },
+    "vital-spirit": {
+      "id": 72,
+      "name": "幹勁",
+      "description": "不會變為睡眠、瞌睡狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/171",
+      "categories": [
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "white-smoke": {
+      "id": 73,
+      "name": "白色煙霧",
+      "description": "不會因對手的招式或特性而被降低能力。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/57",
+      "categories": [
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "pure-power": {
+      "id": 74,
+      "name": "瑜伽之力",
+      "description": "物理招式威力會變為2倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/176",
+      "categories": [
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "shell-armor": {
+      "id": 75,
+      "name": "硬殼盔甲",
+      "description": "對手的攻擊不會擊中要害。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/49",
+      "categories": [
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "air-lock": {
+      "id": 76,
+      "name": "氣閘",
+      "description": "所有寶可夢都不會受到天氣的影響。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/18",
+      "categories": [
+        "weather"
+      ],
+      "categorySource": "GameWith"
+    },
+    "tangled-feet": {
+      "id": 77,
+      "name": "蹣跚",
+      "description": "混亂狀態時,閃避率會變為2倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/86",
+      "categories": [
+        "status",
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "motor-drive": {
+      "id": 78,
+      "name": "電氣引擎",
+      "description": "電屬性招式無效,反而會讓速度提高1階。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/254",
+      "categories": [
+        "type",
+        "defense",
+        "rank",
+        "speed"
+      ],
+      "categorySource": "GameWith"
+    },
+    "rivalry": {
+      "id": 79,
+      "name": "鬥爭心",
+      "description": "和對手性別相同時,招式威力會變為1.25倍,和對手性別不同時,則會變為0.75倍。對手性別不明時,會是正常的威力。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/98",
+      "categories": [
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "steadfast": {
+      "id": 80,
+      "name": "不屈之心",
+      "description": "畏縮時速度會提高1階。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/131",
+      "categories": [
+        "rank",
+        "speed"
+      ],
+      "categorySource": "GameWith"
+    },
+    "snow-cloak": {
+      "id": 81,
+      "name": "雪隱",
+      "description": "下雪狀態時,閃避率會變為1.25倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/173",
+      "categories": [
+        "weather",
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "gluttony": {
+      "id": 82,
+      "name": "貪吃鬼",
+      "description": "會在HP為1/2以下時,就吃掉原本在HP為1/4以下時才會吃的樹果。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/41",
+      "categories": [
+        "item"
+      ],
+      "categorySource": "GameWith"
+    },
+    "anger-point": {
+      "id": 83,
+      "name": "憤怒穴位",
+      "description": "被對手的攻擊擊中要害時,自己的攻擊會提高至第6階。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/256",
+      "categories": [
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "unburden": {
+      "id": 84,
+      "name": "輕裝",
+      "description": "失去攜帶的道具時,速度會變為2倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/30",
+      "categories": [
+        "item",
+        "speed"
+      ],
+      "categorySource": "GameWith"
+    },
+    "heatproof": {
+      "id": 85,
+      "name": "耐熱",
+      "description": "因火屬性招式而受到的傷害會減半。因灼傷狀態而受到的傷害也會減半。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/79",
+      "categories": [
+        "defense",
+        "type",
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "simple": {
+      "id": 86,
+      "name": "單純",
+      "description": "能力變化會變為正常的2倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/82",
+      "categories": [
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "dry-skin": {
+      "id": 87,
+      "name": "乾燥皮膚",
+      "description": "水屬性招式無效,反而會回復最大HP的1/4。因火屬性招式而受到的傷害會變為1.25倍。下雨狀態時,會在回合結束時回復最大HP的1/8,但大晴天狀態時,會在回合結束時減少最大HP的1/8。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/34",
+      "categories": [
+        "type",
+        "defense",
+        "weather"
+      ],
+      "categorySource": "GameWith"
+    },
+    "download": {
+      "id": 88,
+      "name": "下載",
+      "description": "比較對手的防禦和特防，配合較低的一方，使自己的攻擊或特攻提高１級。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/257",
+      "categories": [
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "iron-fist": {
+      "id": 89,
+      "name": "鐵拳",
+      "description": "拳擊類招式威力會變為1.2倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/90",
+      "categories": [
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "poison-heal": {
+      "id": 90,
+      "name": "毒療",
+      "description": "變為中毒、劇毒狀態時,在回合結束時HP不會減少,反而會回復最大HP的1/8。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/145",
+      "categories": [
+        "status",
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "adaptability": {
+      "id": 91,
+      "name": "適應力",
+      "description": "和自己同屬性的招式威力不會是1.5倍,而是會變為2倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/88",
+      "categories": [
+        "offense",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "skill-link": {
+      "id": 92,
+      "name": "連續攻擊",
+      "description": "使用連續招式時,能使出最多次數。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/63",
+      "categories": [
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "hydration": {
+      "id": 93,
+      "name": "濕潤之軀",
+      "description": "下雨狀態時,異常狀態會在回合結束時痊癒。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/17",
+      "categories": [
+        "weather",
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "solar-power": {
+      "id": 94,
+      "name": "太陽之力",
+      "description": "大晴天狀態時,特攻會變為1.5倍,但在回合結束時會減少最大HP的1/8。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/48",
+      "categories": [
+        "weather",
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "quick-feet": {
+      "id": 95,
+      "name": "飛毛腿",
+      "description": "變為異常狀態時,速度會變為1.5倍。也可無視麻痺狀態時速度會降低的影響。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/119",
+      "categories": [
+        "status",
+        "speed"
+      ],
+      "categorySource": "GameWith"
+    },
+    "normalize": {
+      "id": 96,
+      "name": "一般皮膚",
+      "description": "所有招式都會變為一般屬性，威力會變為1.2倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/112",
+      "categories": [
+        "type",
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "sniper": {
+      "id": 97,
+      "name": "狙擊手",
+      "description": "擊中要害時,威力不會是1.5倍,而是會變為2.25倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/65",
+      "categories": [
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "magic-guard": {
+      "id": 98,
+      "name": "魔法防守",
+      "description": "攻擊以外的傷害無效。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/156",
+      "categories": [
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "no-guard": {
+      "id": 99,
+      "name": "無防守",
+      "description": "雙方招式的命中率都會變為100%。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/110",
+      "categories": [
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "stall": {
+      "id": 100,
+      "name": "慢出",
+      "description": "會在相同優先度的招式中最後一個行動。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/4",
+      "categories": [
+        "speed"
+      ],
+      "categorySource": "GameWith"
+    },
+    "technician": {
+      "id": 101,
+      "name": "技術高手",
+      "description": "威力在60以下的招式威力會變為1.5倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/89",
+      "categories": [
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "leaf-guard": {
+      "id": 102,
+      "name": "葉子防守",
+      "description": "大晴天狀態時,不會變為異常狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/181",
+      "categories": [
+        "weather",
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "klutz": {
+      "id": 103,
+      "name": "笨拙",
+      "description": "這隻寶可夢攜帶的道具不會發揮效果。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/129",
+      "categories": [
+        "item"
+      ],
+      "categorySource": "GameWith"
+    },
+    "mold-breaker": {
+      "id": 104,
+      "name": "破格",
+      "description": "可不受對手特性影響使出招式。部分特性例外。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/27",
+      "categories": [
+        "interfere"
+      ],
+      "categorySource": "GameWith"
+    },
+    "super-luck": {
+      "id": 105,
+      "name": "超幸運",
+      "description": "易中要害+1。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/38",
+      "categories": [
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "aftermath": {
+      "id": 106,
+      "name": "引爆",
+      "description": "受到接觸類招式而瀕死時,會給予對手最大HP的1/4的傷害。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/172",
+      "categories": [
+        "contact",
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "anticipation": {
+      "id": 107,
+      "name": "危險預知",
+      "description": "出場時,若對手擁有對自己效果絕佳或一擊必殺的招式,則能夠察覺。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/35",
+      "categories": [
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "forewarn": {
+      "id": 108,
+      "name": "預知夢",
+      "description": "出場時,會從對手的招式中讀取1種威力高的招式。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/177",
+      "categories": [
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "unaware": {
+      "id": 109,
+      "name": "純樸",
+      "description": "可無視對手能力的變化,進行攻擊。可無視對手能力的變化,承受攻擊。無法無視速度的變化。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/96",
+      "categories": [
+        "interfere",
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "tinted-lens": {
+      "id": 110,
+      "name": "有色眼鏡",
+      "description": "效果不好的招式會變回通常的威力。原本為1/4時會變為1/2。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/16",
+      "categories": [
+        "offense",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "filter": {
+      "id": 111,
+      "name": "過濾",
+      "description": "因效果絕佳的招式而受到的傷害會變為3/4。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/126",
+      "categories": [
+        "defense",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "slow-start": {
+      "id": 112,
+      "name": "慢啟動",
+      "description": "出場後的５個回合內，攻擊和速度會減半。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/72",
+      "categories": [
+        "offense",
+        "speed"
+      ],
+      "categorySource": "GameWith"
+    },
+    "scrappy": {
+      "id": 113,
+      "name": "膽量",
+      "description": "能讓一般屬性、格鬥屬性招式擊中幽靈屬性的寶可夢。威嚇也無效。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/36",
+      "categories": [
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "storm-drain": {
+      "id": 114,
+      "name": "引水",
+      "description": "不會受到水屬性招式的傷害，且特攻會提高１階段。會將自己以外的對象所受到的水屬性招式吸引到自己身上。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/178",
+      "categories": [
+        "type",
+        "defense",
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "ice-body": {
+      "id": 115,
+      "name": "冰凍之軀",
+      "description": "下雪狀態時,會在回合結束時回復最大HP的1/16。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/1",
+      "categories": [
+        "weather",
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "solid-rock": {
+      "id": 116,
+      "name": "堅硬岩石",
+      "description": "因效果絕佳的招式而受到的傷害會變為3/4。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/114",
+      "categories": [
+        "defense",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "snow-warning": {
+      "id": 117,
+      "name": "降雪",
+      "description": "自出場起的5回合內,會變為下雪狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/174",
+      "categories": [
+        "weather"
+      ],
+      "categorySource": "GameWith"
+    },
+    "honey-gather": {
+      "id": 118,
+      "name": "採蜜",
+      "description": "戰鬥結束時，有時會撿到甜甜蜜。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/161",
+      "categories": [
+        "item"
+      ],
+      "categorySource": "GameWith"
+    },
+    "frisk": {
+      "id": 119,
+      "name": "察覺",
+      "description": "出場時,可得知對手攜帶的道具。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/20",
+      "categories": [
+        "item"
+      ],
+      "categorySource": "GameWith"
+    },
+    "reckless": {
+      "id": 120,
+      "name": "捨身",
+      "description": "會讓自己也受傷害的招式威力變為1.2倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/64",
+      "categories": [
+        "offense",
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "multitype": {
+      "id": 121,
+      "name": "多屬性",
+      "description": "會依照所攜帶的石板而改變自己的屬性。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/158",
+      "categories": [
+        "type",
+        "item"
+      ],
+      "categorySource": "GameWith"
+    },
+    "flower-gift": {
+      "id": 122,
+      "name": "花之禮",
+      "description": "天氣為晴朗時，自己和同伴的攻擊與特防會變為1.5倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/137",
+      "categories": [
+        "weather",
+        "offense",
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "bad-dreams": {
+      "id": 123,
+      "name": "夢魘",
+      "description": "每回合對睡眠中的對手造成最大ＨＰ的1/8傷害。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/104",
+      "categories": [
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "pickpocket": {
+      "id": 124,
+      "name": "順手牽羊",
+      "description": "自己沒有攜帶道具時,若受到接觸類招式,則會盜取對手的道具。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/183",
+      "categories": [
+        "contact",
+        "item"
+      ],
+      "categorySource": "GameWith"
+    },
+    "sheer-force": {
+      "id": 125,
+      "name": "強行",
+      "description": "攻擊會失去追加效果,但可用1.3倍的威力使出招式。仍會受到反作用力傷害或能力降低的效果。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/83",
+      "categories": [
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "contrary": {
+      "id": 126,
+      "name": "唱反調",
+      "description": "能力的變化會逆轉,原本提高時會降低,原本降低時會提高。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/6",
+      "categories": [
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "unnerve": {
+      "id": 127,
+      "name": "緊張感",
+      "description": "會讓對手無法吃掉樹果。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/40",
+      "categories": [
+        "item"
+      ],
+      "categorySource": "GameWith"
+    },
+    "defiant": {
+      "id": 128,
+      "name": "不服輸",
+      "description": "被對手降低能力時,攻擊會提高2階。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/155",
+      "categories": [
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "defeatist": {
+      "id": 129,
+      "name": "軟弱",
+      "description": "ＨＰ變為一半以下時，攻擊和特攻會減半。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/179",
+      "categories": [
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "cursed-body": {
+      "id": 130,
+      "name": "詛咒之軀",
+      "description": "受到招式傷害時,有30%的機率會讓對手在4回合內變為招式封鎖狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/113",
+      "categories": [
+        "status",
+        "interfere"
+      ],
+      "categorySource": "GameWith"
+    },
+    "healer": {
+      "id": 131,
+      "name": "治癒之心",
+      "description": "在回合結束時,有50%的機率會治癒同伴的異常狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/14",
+      "categories": [
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "friend-guard": {
+      "id": 132,
+      "name": "友情防守",
+      "description": "會讓同伴受到的傷害變為3/4。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/141",
+      "categories": [
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "weak-armor": {
+      "id": 133,
+      "name": "碎裂鎧甲",
+      "description": "受到物理招式傷害時,防禦會降低1階,速度會提高2階。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/43",
+      "categories": [
+        "rank",
+        "defense",
+        "speed"
+      ],
+      "categorySource": "GameWith"
+    },
+    "heavy-metal": {
+      "id": 134,
+      "name": "重金屬",
+      "description": "自己的重量會變為2倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/142",
+      "categories": [
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "light-metal": {
+      "id": 135,
+      "name": "輕金屬",
+      "description": "自己的重量會變為1/2。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/180",
+      "categories": [
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "multiscale": {
+      "id": 136,
+      "name": "多重鱗片",
+      "description": "HP全滿時,受到的傷害會減半。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/258",
+      "categories": [
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "toxic-boost": {
+      "id": 137,
+      "name": "中毒激升",
+      "description": "陷入中毒狀態時，物理招式的威力會變為1.5倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/101",
+      "categories": [
+        "status",
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "flare-boost": {
+      "id": 138,
+      "name": "受熱激升",
+      "description": "陷入灼傷狀態時，特殊招式的威力會變為1.5倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/108",
+      "categories": [
+        "status",
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "harvest": {
+      "id": 139,
+      "name": "收穫",
+      "description": "在回合結束時,有50%的機率會採收使用過的樹果。大晴天狀態時,則必定會採收。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/53",
+      "categories": [
+        "item",
+        "weather"
+      ],
+      "categorySource": "GameWith"
+    },
+    "telepathy": {
+      "id": 140,
+      "name": "心靈感應",
+      "description": "可閃避來自同伴的攻擊。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/94",
+      "categories": [
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "moody": {
+      "id": 141,
+      "name": "心情不定",
+      "description": "在回合結束時,某種能力會提高2階,另外的某種能力會降低1階。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/164",
+      "categories": [
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "overcoat": {
+      "id": 142,
+      "name": "防塵",
+      "description": "因沙暴狀態而受到的傷害無效。粉末類招式、特性也無效。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/148",
+      "categories": [
+        "weather",
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "poison-touch": {
+      "id": 143,
+      "name": "毒手",
+      "description": "使用接觸類招式擊中對手時,有30%的機率會使其變為中毒狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/99",
+      "categories": [
+        "contact",
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "regenerator": {
+      "id": 144,
+      "name": "再生力",
+      "description": "退回同行隊伍後,會回復最大HP的1/3。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/47",
+      "categories": [
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "big-pecks": {
+      "id": 145,
+      "name": "健壯胸肌",
+      "description": "不會因對手的招式或特性而被降低防禦。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/117",
+      "categories": [
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "sand-rush": {
+      "id": 146,
+      "name": "撥沙",
+      "description": "沙暴狀態時,速度會變為2倍。不會受到沙暴造成的傷害。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/67",
+      "categories": [
+        "weather",
+        "speed"
+      ],
+      "categorySource": "GameWith"
+    },
+    "wonder-skin": {
+      "id": 147,
+      "name": "奇跡皮膚",
+      "description": "所受到的變化類招式的命中率會變為５０％。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/162",
+      "categories": [
+        "defense",
+        "interfere"
+      ],
+      "categorySource": "GameWith"
+    },
+    "analytic": {
+      "id": 148,
+      "name": "分析",
+      "description": "如果在回合的最後使出招式,招式威力會變為1.3倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/5",
+      "categories": [
+        "offense",
+        "speed"
+      ],
+      "categorySource": "GameWith"
+    },
+    "illusion": {
+      "id": 149,
+      "name": "幻覺",
+      "description": "會以同行隊伍中最後一隻寶可夢的樣子出場。屬性和能力不會改變。受到招式傷害時,會回到原來的模樣。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/15",
+      "categories": [
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "imposter": {
+      "id": 150,
+      "name": "變身者",
+      "description": "變身為當前面對的寶可夢。HP以外的能力也會變為一樣。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/31",
+      "categories": [
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "infiltrator": {
+      "id": 151,
+      "name": "穿透",
+      "description": "可無視對手的光牆、反射壁、極光幕、神秘守護、替身使用招式。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/70",
+      "categories": [
+        "interfere"
+      ],
+      "categorySource": "GameWith"
+    },
+    "mummy": {
+      "id": 152,
+      "name": "木乃伊",
+      "description": "受到接觸類招式時,會讓對手的特性變為木乃伊。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/159",
+      "categories": [
+        "contact",
+        "interfere"
+      ],
+      "categorySource": "GameWith"
+    },
+    "moxie": {
+      "id": 153,
+      "name": "自信過度",
+      "description": "用攻擊打倒對手時,攻擊會提高1階。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/50",
+      "categories": [
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "justified": {
+      "id": 154,
+      "name": "正義之心",
+      "description": "受到惡屬性招式傷害時,攻擊會提高1階。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/73",
+      "categories": [
+        "rank",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "rattled": {
+      "id": 155,
+      "name": "膽怯",
+      "description": "受到惡屬性、幽靈屬性或蟲屬性的招式攻擊，或是受到特性「威嚇」的影響時，速度會提高1個等級。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/123",
+      "categories": [
+        "type",
+        "rank",
+        "speed"
+      ],
+      "categorySource": "GameWith"
+    },
+    "magic-bounce": {
+      "id": 156,
+      "name": "魔法鏡",
+      "description": "不會受到對手的變化招式影響,反而會將其反彈給對手。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/157",
+      "categories": [
+        "interfere"
+      ],
+      "categorySource": "GameWith"
+    },
+    "sap-sipper": {
+      "id": 157,
+      "name": "食草",
+      "description": "草屬性招式無效,反而會讓攻擊提高1階。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/76",
+      "categories": [
+        "type",
+        "defense",
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "prankster": {
+      "id": 158,
+      "name": "惡作劇之心",
+      "description": "變化招式的優先度提高1階。但對惡屬性無效。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/13",
+      "categories": [
+        "speed",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "sand-force": {
+      "id": 159,
+      "name": "沙之力",
+      "description": "沙暴狀態時,岩石、地面、鋼屬性的招式威力會變為1.3倍。不會受到沙暴造成的傷害。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/69",
+      "categories": [
+        "weather",
+        "offense",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "iron-barbs": {
+      "id": 160,
+      "name": "鐵刺",
+      "description": "受到接觸類招式攻擊時，會使對手減少最大ＨＰ的1/8。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/91",
+      "categories": [
+        "contact",
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "zen-mode": {
+      "id": 161,
+      "name": "達摩模式",
+      "description": "ＨＰ變為一半以下時，會變化為「達摩模式」。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/81",
+      "categories": [
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "victory-star": {
+      "id": 162,
+      "name": "勝利之星",
+      "description": "自己和同伴的命中率會變為１．１倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/55",
+      "categories": [
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "turboblaze": {
+      "id": 163,
+      "name": "渦輪火焰",
+      "description": "可以無視對手的特性使出招式。攻擊後受到的效果不會消失。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/78",
+      "categories": [
+        "interfere"
+      ],
+      "categorySource": "GameWith"
+    },
+    "teravolt": {
+      "id": 164,
+      "name": "兆級電壓",
+      "description": "可以無視對手的特性使出招式。攻擊後受到的效果不會消失。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/92",
+      "categories": [
+        "interfere"
+      ],
+      "categorySource": "GameWith"
+    },
+    "aroma-veil": {
+      "id": 165,
+      "name": "芳香幕",
+      "description": "自己和同伴不會變為著迷、挑釁、不可連續、招式封鎖、回復封鎖、再來一次狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/10",
+      "categories": [
+        "status",
+        "interfere"
+      ],
+      "categorySource": "GameWith"
+    },
+    "flower-veil": {
+      "id": 166,
+      "name": "花幕",
+      "description": "我方的草屬性寶可夢能力不會降低,也不會變為異常狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/138",
+      "categories": [
+        "status",
+        "rank",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "cheek-pouch": {
+      "id": 167,
+      "name": "頰囊",
+      "description": "吃掉樹果後,除了其效果外,還會回復最大HP的1/3。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/150",
+      "categories": [
+        "item",
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "protean": {
+      "id": 168,
+      "name": "變幻自如",
+      "description": "每次出場時,變為和自己使出的招式相同的屬性1次。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/143",
+      "categories": [
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "fur-coat": {
+      "id": 169,
+      "name": "毛皮大衣",
+      "description": "因物理招式而受到的傷害會減半。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/125",
+      "categories": [
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "magician": {
+      "id": 170,
+      "name": "魔術師",
+      "description": "自己沒有攜帶道具時,會奪取用招式給予自己傷害的對手的道具。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/260",
+      "categories": [
+        "item"
+      ],
+      "categorySource": "GameWith"
+    },
+    "bulletproof": {
+      "id": 171,
+      "name": "防彈",
+      "description": "球彈類招式無效。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/149",
+      "categories": [
+        "defense",
+        "interfere"
+      ],
+      "categorySource": "GameWith"
+    },
+    "competitive": {
+      "id": 172,
+      "name": "好勝",
+      "description": "被對手降低能力時,特攻會提高2階。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/28",
+      "categories": [
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "strong-jaw": {
+      "id": 173,
+      "name": "強壯之顎",
+      "description": "啃咬類招式威力會變為1.5倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/33",
+      "categories": [
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "refrigerate": {
+      "id": 174,
+      "name": "冰凍皮膚",
+      "description": "一般屬性招式會變為冰屬性,威力會變為1.2倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/139",
+      "categories": [
+        "type",
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "sweet-veil": {
+      "id": 175,
+      "name": "甜幕",
+      "description": "自己和同伴不會變為睡眠、瞌睡狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/60",
+      "categories": [
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "stance-change": {
+      "id": 176,
+      "name": "戰鬥切換",
+      "description": "若使出攻擊,會變為刀劍形態,若使出招式「王者盾牌」,則會變為盾牌形態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/118",
+      "categories": [
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "gale-wings": {
+      "id": 177,
+      "name": "疾風之翼",
+      "description": "HP全滿時,飛行屬性招式的優先度會提高1階。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/259",
+      "categories": [
+        "type",
+        "speed"
+      ],
+      "categorySource": "GameWith"
+    },
+    "mega-launcher": {
+      "id": 178,
+      "name": "超級發射器",
+      "description": "波動和波導類招式威力會變為1.5倍。治癒波動會回復最大HP的3/4。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/165",
+      "categories": [
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "grass-pelt": {
+      "id": 179,
+      "name": "草之毛皮",
+      "description": "場上為青草場地時，防禦會變為１．５倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/42",
+      "categories": [
+        "field",
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "symbiosis": {
+      "id": 180,
+      "name": "共生",
+      "description": "同伴消耗道具時,會把自己攜帶的道具交給同伴。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/39",
+      "categories": [
+        "item"
+      ],
+      "categorySource": "GameWith"
+    },
+    "tough-claws": {
+      "id": 181,
+      "name": "硬爪",
+      "description": "接觸類招式威力會變為1.3倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/26",
+      "categories": [
+        "offense",
+        "contact"
+      ],
+      "categorySource": "GameWith"
+    },
+    "pixilate": {
+      "id": 182,
+      "name": "妖精皮膚",
+      "description": "一般屬性招式會變為妖精屬性,威力會變為1.2倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/128",
+      "categories": [
+        "type",
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "gooey": {
+      "id": 183,
+      "name": "黏滑",
+      "description": "受到接觸類招式時,會讓對手的速度降低1階。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/107",
+      "categories": [
+        "contact",
+        "rank",
+        "speed"
+      ],
+      "categorySource": "GameWith"
+    },
+    "aerilate": {
+      "id": 184,
+      "name": "飛行皮膚",
+      "description": "一般屬性招式會變為飛行屬性,威力會變為1.2倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/62",
+      "categories": [
+        "type",
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "parental-bond": {
+      "id": 185,
+      "name": "親子愛",
+      "description": "母親和孩子合計可攻擊2次。孩子的攻擊威力是母親的0.25倍。招式的追加效果會發動2次。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/21",
+      "categories": [
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "dark-aura": {
+      "id": 186,
+      "name": "暗黑氣場",
+      "description": "全體的惡屬性招式的威力會變為1.33倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/77",
+      "categories": [
+        "type",
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "fairy-aura": {
+      "id": 187,
+      "name": "妖精氣場",
+      "description": "全體的妖精屬性招式威力會變為1.33倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/127",
+      "categories": [
+        "type",
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "aura-break": {
+      "id": 188,
+      "name": "氣場破壞",
+      "description": "使「妖精氣場」「暗黑氣場」的效果反轉，變為威力的3/4倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/19",
+      "categories": [
+        "type",
+        "interfere",
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "primordial-sea": {
+      "id": 189,
+      "name": "始源之海",
+      "description": "出場時，會將天氣變為「大雨」。除了一般的下雨效果之外，火屬性的攻擊還會變為無效。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/115",
+      "categories": [
+        "weather",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "desolate-land": {
+      "id": 190,
+      "name": "終結之地",
+      "description": "出場時，會將天氣變為「日照非常強烈」。除了通常的晴朗效果外，水屬性的攻擊還會變為無效。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/22",
+      "categories": [
+        "weather",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "delta-stream": {
+      "id": 191,
+      "name": "德爾塔氣流",
+      "description": "出場時，會將天氣變為「亂流」。會使飛行屬性的弱點屬性的招式變為通常的威力。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/93",
+      "categories": [
+        "weather",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "stamina": {
+      "id": 192,
+      "name": "持久力",
+      "description": "受到招式傷害時,防禦會提高1階。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/198",
+      "categories": [
+        "rank",
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "wimp-out": {
+      "id": 193,
+      "name": "躍躍欲逃",
+      "description": "因對手的招式使ＨＰ變為一半時，會與後備寶可夢進行替換。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/196",
+      "categories": [
+        "switch"
+      ],
+      "categorySource": "GameWith"
+    },
+    "emergency-exit": {
+      "id": 194,
+      "name": "危險迴避",
+      "description": "ＨＰ變為一半以下時，會與後備寶可夢交換。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/220",
+      "categories": [
+        "switch"
+      ],
+      "categorySource": "GameWith"
+    },
+    "water-compaction": {
+      "id": 195,
+      "name": "遇水凝固",
+      "description": "受到水屬性招式的傷害時，防禦會提高２個等級。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/207",
+      "categories": [
+        "type",
+        "rank",
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "merciless": {
+      "id": 196,
+      "name": "不仁不義",
+      "description": "攻擊中毒、劇毒狀態的對手時,必定會擊中要害。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/218",
+      "categories": [
+        "status",
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "shields-down": {
+      "id": 197,
+      "name": "界限盾殼",
+      "description": "ＨＰ變為一半以下時，會變成核心形態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/200",
+      "categories": [
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "stakeout": {
+      "id": 198,
+      "name": "監視",
+      "description": "攻擊換場上來的對手時，招式的威力會變為2倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/195",
+      "categories": [
+        "offense",
+        "switch"
+      ],
+      "categorySource": "GameWith"
+    },
+    "water-bubble": {
+      "id": 199,
+      "name": "水泡",
+      "description": "因火屬性招式而受到的傷害會減半。水屬性招式威力會變為2倍。不會變為灼傷狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/219",
+      "categories": [
+        "defense",
+        "type",
+        "offense",
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "steelworker": {
+      "id": 200,
+      "name": "鋼能力者",
+      "description": "鋼屬性招式的威力會變為1.5倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/221",
+      "categories": [
+        "offense",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "berserk": {
+      "id": 201,
+      "name": "怒火沖天",
+      "description": "HP因對手的攻擊而降到1/2以下時,特攻會提高1階。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/189",
+      "categories": [
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "slush-rush": {
+      "id": 202,
+      "name": "撥雪",
+      "description": "下雪狀態時,速度會變為2倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/212",
+      "categories": [
+        "weather",
+        "speed"
+      ],
+      "categorySource": "GameWith"
+    },
+    "long-reach": {
+      "id": 203,
+      "name": "遠隔",
+      "description": "使用的招式會變為非接觸類招式。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/216",
+      "categories": [
+        "contact"
+      ],
+      "categorySource": "GameWith"
+    },
+    "liquid-voice": {
+      "id": 204,
+      "name": "濕潤之聲",
+      "description": "聲音類招式會變為水屬性。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/217",
+      "categories": [
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "triage": {
+      "id": 205,
+      "name": "先行治療",
+      "description": "可以搶先使出回復類招式。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/197",
+      "categories": [
+        "speed"
+      ],
+      "categorySource": "GameWith"
+    },
+    "galvanize": {
+      "id": 206,
+      "name": "電氣皮膚",
+      "description": "自己的一般屬性招式會變成電屬性，且威力會變為１.２倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/214",
+      "categories": [
+        "type",
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "surge-surfer": {
+      "id": 207,
+      "name": "衝浪之尾",
+      "description": "電氣場地狀態時,速度會變為2倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/202",
+      "categories": [
+        "field",
+        "speed"
+      ],
+      "categorySource": "GameWith"
+    },
+    "schooling": {
+      "id": 208,
+      "name": "魚群",
+      "description": "ＨＰ多於最大ＨＰ的１/４時，會變成魚群形態。變為１/４以下時，會變成單獨形態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/206",
+      "categories": [
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "disguise": {
+      "id": 209,
+      "name": "畫皮",
+      "description": "若在化形的樣子時受到招式傷害,會消耗最大HP的1/8代替受到的傷害,並變為現形的樣子。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/193",
+      "categories": [
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "battle-bond": {
+      "id": 210,
+      "name": "牽絆變身",
+      "description": "打倒對手時，攻擊、特攻和速度會各自提高１個等級。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/208",
+      "categories": [
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "power-construct": {
+      "id": 211,
+      "name": "群聚變形",
+      "description": "ＨＰ變為一半時，會變成完美形態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/188",
+      "categories": [
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "corrosion": {
+      "id": 212,
+      "name": "腐蝕",
+      "description": "能讓鋼屬性、毒屬性也變為中毒、劇毒狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/191",
+      "categories": [
+        "status",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "comatose": {
+      "id": 213,
+      "name": "絕對睡眠",
+      "description": "總是處於睡眠狀態且不會醒來，也不會陷入其他異常狀態。可以在睡眠狀態下使出招式。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/185",
+      "categories": [
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "queenly-majesty": {
+      "id": 214,
+      "name": "女王的威嚴",
+      "description": "對手無法對自己和同伴使用先制招式。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/205",
+      "categories": [
+        "speed",
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "innards-out": {
+      "id": 215,
+      "name": "飛出的內在物",
+      "description": "受到會瀕死的招式傷害時,會將從對手受到的傷害還給對手。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/201",
+      "categories": [
+        "defense",
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "dancer": {
+      "id": 216,
+      "name": "舞者",
+      "description": "當有誰使用跳舞類招式時，自己也會緊接著使出該跳舞類招式。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/199",
+      "categories": [
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "battery": {
+      "id": 217,
+      "name": "蓄電池",
+      "description": "可以將同伴特殊招式的威力提高為１.３倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/194",
+      "categories": [
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "fluffy": {
+      "id": 218,
+      "name": "毛茸茸",
+      "description": "因接觸類招式而受到的傷害會減半。因火屬性招式而受到的傷害會變為2倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/192",
+      "categories": [
+        "contact",
+        "defense",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "dazzling": {
+      "id": 219,
+      "name": "鮮艷之軀",
+      "description": "對手無法對自己或同伴使出先制招式。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/190",
+      "categories": [
+        "speed"
+      ],
+      "categorySource": "GameWith"
+    },
+    "soul-heart": {
+      "id": 220,
+      "name": "魂心",
+      "description": "場上的寶可夢每陷入瀕死時，特攻就會提高1階段。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/252",
+      "categories": [
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "tangling-hair": {
+      "id": 221,
+      "name": "捲髮",
+      "description": "受到接觸類招式時,會讓對手的速度降低1階。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/213",
+      "categories": [
+        "contact",
+        "rank",
+        "speed"
+      ],
+      "categorySource": "GameWith"
+    },
+    "receiver": {
+      "id": 222,
+      "name": "接球手",
+      "description": "會變為和被打倒的同伴相同的特性。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/203",
+      "categories": [
+        "interfere"
+      ],
+      "categorySource": "GameWith"
+    },
+    "power-of-alchemy": {
+      "id": 223,
+      "name": "化學之力",
+      "description": "場上的同伴被打倒時，除了特定的特性以外，會繼承其特性並變成相同的特性。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/215",
+      "categories": [
+        "interfere"
+      ],
+      "categorySource": "GameWith"
+    },
+    "beast-boost": {
+      "id": 224,
+      "name": "異獸提升",
+      "description": "用自己的招式打倒對手時，自己最高的能力會提高1階段。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/222",
+      "categories": [
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "rks-system": {
+      "id": 225,
+      "name": "ＡＲ系統",
+      "description": "會根據所攜帶的記憶碟而改變自己的屬性。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/204",
+      "categories": [
+        "type",
+        "item"
+      ],
+      "categorySource": "GameWith"
+    },
+    "electric-surge": {
+      "id": 226,
+      "name": "電氣製造者",
+      "description": "自出場起的5回合內,會讓整個場上變為電氣場地狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/187",
+      "categories": [
+        "field",
+        "status",
+        "offense",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "psychic-surge": {
+      "id": 227,
+      "name": "精神製造者",
+      "description": "自出場起的5回合內，會讓整個場上變為精神場地狀態。在地面上的所有寶可夢都不會受到對手的先制招式攻擊，而且超能力屬性招式的威力會變為1.3倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/209",
+      "categories": [
+        "field",
+        "speed",
+        "offense",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "misty-surge": {
+      "id": 228,
+      "name": "薄霧製造者",
+      "description": "出場時，會將場地變為薄霧場地。在地面上的所有寶可夢都不會陷入異常狀態，而且龍屬性招式的傷害會減半。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/211",
+      "categories": [
+        "field",
+        "status",
+        "type",
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "grassy-surge": {
+      "id": 229,
+      "name": "青草製造者",
+      "description": "自出場起的5回合內，會讓整個場上變為青草場地狀態。在地面上時，每回合會回復最大ＨＰ的１/１６。草屬性招式的威力會變為１.３倍。地震、重踏和震級的威力會減半。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/210",
+      "categories": [
+        "field",
+        "defense",
+        "offense",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "full-metal-body": {
+      "id": 230,
+      "name": "金屬防護",
+      "description": "不會被對手的招式或特性降低能力等級。也不會被招式或特性無視。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/184",
+      "categories": [
+        "rank",
+        "interfere"
+      ],
+      "categorySource": "GameWith"
+    },
+    "shadow-shield": {
+      "id": 231,
+      "name": "幻影防守",
+      "description": "ＨＰ全滿時受到的傷害會減半。不會被招式或特性無視。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/186",
+      "categories": [
+        "defense",
+        "interfere"
+      ],
+      "categorySource": "GameWith"
+    },
+    "prism-armor": {
+      "id": 232,
+      "name": "稜鏡裝甲",
+      "description": "將受到的效果絕佳的招式威力降為3/4。不會被招式或特性無視。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/223",
+      "categories": [
+        "defense",
+        "type",
+        "interfere"
+      ],
+      "categorySource": "GameWith"
+    },
+    "neuroforce": {
+      "id": 233,
+      "name": "腦核之力",
+      "description": "效果絕佳的攻擊威力會變為1.25倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/224",
+      "categories": [
+        "offense",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "intrepid-sword": {
+      "id": 234,
+      "name": "不撓之劍",
+      "description": "出場時，攻擊只會提高1階段1次。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/235",
+      "categories": [
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "dauntless-shield": {
+      "id": 235,
+      "name": "不屈之盾",
+      "description": "出場時，防禦只會提高1階段1次。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/236",
+      "categories": [
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "libero": {
+      "id": 236,
+      "name": "自由者",
+      "description": "出場期間，只會1次變為與自己使出的招式相同的屬性。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/249",
+      "categories": [
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "ball-fetch": {
+      "id": 237,
+      "name": "撿球",
+      "description": "沒有攜帶道具時，會撿回第一次投擲失敗的球。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/227",
+      "categories": [
+        "item"
+      ],
+      "categorySource": "GameWith"
+    },
+    "cotton-down": {
+      "id": 238,
+      "name": "棉絮",
+      "description": "受到攻擊招式時，會降低自己以外所有寶可夢的速度1階段。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/225",
+      "categories": [
+        "rank",
+        "speed"
+      ],
+      "categorySource": "GameWith"
+    },
+    "propeller-tail": {
+      "id": 239,
+      "name": "螺旋尾鰭",
+      "description": "可以無視變更對手攻擊目標的效果使出招式。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/245",
+      "categories": [
+        "interfere"
+      ],
+      "categorySource": "GameWith"
+    },
+    "mirror-armor": {
+      "id": 240,
+      "name": "鏡甲",
+      "description": "不會受到降低自己能力的效果影響,反而會將其反彈給對手。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/226",
+      "categories": [
+        "rank",
+        "interfere"
+      ],
+      "categorySource": "GameWith"
+    },
+    "gulp-missile": {
+      "id": 241,
+      "name": "一口飛彈",
+      "description": "使用「衝浪」或「潛水」時，ＨＰ在一半以上會變為「吞入嘴裡的樣子」，一半以下會變為「整隻吞下的樣子」。受到傷害時，會對對手造成最大ＨＰ1/4的傷害；此外「吞入嘴裡的樣子」時降低對手防禦1階段，「整隻吞下的樣子」時使對手陷入麻痹狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/230",
+      "categories": [
+        "defense",
+        "status",
+        "rank",
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "stalwart": {
+      "id": 242,
+      "name": "堅毅",
+      "description": "會無視具有吸引招式效果的特性或招式的影響。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/247",
+      "categories": [
+        "interfere"
+      ],
+      "categorySource": "GameWith"
+    },
+    "steam-engine": {
+      "id": 243,
+      "name": "蒸汽機",
+      "description": "受到水屬性和火屬性招式時，速度會提高6階段。在隊伍中時，孵蛋所需的步數減半。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/228",
+      "categories": [
+        "type",
+        "rank",
+        "speed"
+      ],
+      "categorySource": "GameWith"
+    },
+    "punk-rock": {
+      "id": 244,
+      "name": "龐克搖滾",
+      "description": "聲音招式的威力會變為1.3倍。自己受到的聲音招式傷害減半。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/234",
+      "categories": [
+        "offense",
+        "defense",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "sand-spit": {
+      "id": 245,
+      "name": "吐沙",
+      "description": "自受到招式傷害起的5回合內,會變為沙暴狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/232",
+      "categories": [
+        "weather"
+      ],
+      "categorySource": "GameWith"
+    },
+    "ice-scales": {
+      "id": 246,
+      "name": "冰鱗粉",
+      "description": "受到特殊招式的傷害減半。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/248",
+      "categories": [
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "ripen": {
+      "id": 247,
+      "name": "熟成",
+      "description": "吃掉的樹果效果會變為2倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/237",
+      "categories": [
+        "item"
+      ],
+      "categorySource": "GameWith"
+    },
+    "ice-face": {
+      "id": 248,
+      "name": "結凍頭",
+      "description": "處於「結凍臉」狀態時受到物理攻擊，會不受傷害並變為「解凍臉」狀態。天氣變為下雪時會恢復原狀。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/243",
+      "categories": [
+        "defense",
+        "weather"
+      ],
+      "categorySource": "GameWith"
+    },
+    "power-spot": {
+      "id": 249,
+      "name": "能量點",
+      "description": "使同伴的招式威力變為1.3倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/240",
+      "categories": [
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "mimicry": {
+      "id": 250,
+      "name": "擬態",
+      "description": "屬性會依場地而改變。電氣場地時變為電屬性、青草場地時變為草屬性、精神場地時變為超能力屬性、薄霧場地時變為妖精屬性。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/233",
+      "categories": [
+        "field",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "screen-cleaner": {
+      "id": 251,
+      "name": "除障",
+      "description": "出場時,會解除光牆、反射壁、極光幕狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/239",
+      "categories": [
+        "defense",
+        "interfere"
+      ],
+      "categorySource": "GameWith"
+    },
+    "steely-spirit": {
+      "id": 252,
+      "name": "鋼之意志",
+      "description": "使同伴的鋼屬性招式威力變為1.5倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/244",
+      "categories": [
+        "offense",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "perish-body": {
+      "id": 253,
+      "name": "滅亡之軀",
+      "description": "受到接觸類招式時，雙方在3回合後會陷入瀕死。交換後效果會消失。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/246",
+      "categories": [
+        "contact",
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "wandering-spirit": {
+      "id": 254,
+      "name": "遊魂",
+      "description": "受到接觸類招式時,會和對手互換特性。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/238",
+      "categories": [
+        "contact",
+        "interfere"
+      ],
+      "categorySource": "GameWith"
+    },
+    "gorilla-tactics": {
+      "id": 255,
+      "name": "一猩一意",
+      "description": "只能使出最初選擇的招式，但物理招式的威力會變為1.5倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/241",
+      "categories": [
+        "offense",
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "neutralizing-gas": {
+      "id": 256,
+      "name": "化學變化氣體",
+      "description": "只要在場上，除特定特性外，寶可夢的特性效果都會消失而無法發動。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/229",
+      "categories": [
+        "interfere"
+      ],
+      "categorySource": "GameWith"
+    },
+    "pastel-veil": {
+      "id": 257,
+      "name": "粉彩護幕",
+      "description": "自己和同伴不會陷入中毒狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/231",
+      "categories": [
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "hunger-switch": {
+      "id": 258,
+      "name": "飽了又餓",
+      "description": "在回合結束時,會在滿腹花紋和空腹花紋之間交替改變樣子。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/242",
+      "categories": [
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "quick-draw": {
+      "id": 259,
+      "name": "速擊",
+      "description": "有30%的機率會在相同優先度的招式中第一個行動。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/251",
+      "categories": [
+        "speed"
+      ],
+      "categorySource": "GameWith"
+    },
+    "unseen-fist": {
+      "id": 260,
+      "name": "無形拳",
+      "description": "使用接觸類招式時,會無視對手的防守效果,給予原本的1/4的傷害。對手的防守以外的效果會發動。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/250",
+      "categories": [
+        "contact",
+        "interfere",
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "curious-medicine": {
+      "id": 261,
+      "name": "怪藥",
+      "description": "出場時,會讓同伴的能力變化復原。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/261",
+      "categories": [
+        "rank",
+        "interfere"
+      ],
+      "categorySource": "GameWith"
+    },
+    "transistor": {
+      "id": 262,
+      "name": "電晶體",
+      "description": "電屬性招式的威力會變為１．３倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/262",
+      "categories": [
+        "offense",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "dragons-maw": {
+      "id": 263,
+      "name": "龍顎",
+      "description": "龍屬性招式的威力會變為１．５倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/263",
+      "categories": [
+        "offense",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "chilling-neigh": {
+      "id": 264,
+      "name": "蒼白嘶鳴",
+      "description": "用自己的招式打倒對手時，攻擊會提高１級。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/265",
+      "categories": [
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "grim-neigh": {
+      "id": 265,
+      "name": "漆黑嘶鳴",
+      "description": "用自己的招式打倒對手時，特攻會提高１級。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/266",
+      "categories": [
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "as-one-glastrier": {
+      "id": 266,
+      "name": "人馬一體(白馬)",
+      "description": "在「緊張感」之外，還兼具「蒼白嘶鳴」。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/264",
+      "categories": [
+        "item",
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "as-one-spectrier": {
+      "id": 267,
+      "name": "人馬一體(黑馬)",
+      "description": "在「緊張感」之外，還兼具「漆黑嘶鳴」。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/309",
+      "categories": [
+        "item",
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "lingering-aroma": {
+      "id": 268,
+      "name": "甩不掉的氣味",
+      "description": "使接觸到的對手的特性變為「擺脫不了的氣味」。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/282",
+      "categories": [
+        "contact",
+        "interfere"
+      ],
+      "categorySource": "GameWith"
+    },
+    "seed-sower": {
+      "id": 269,
+      "name": "掉出種子",
+      "description": "自受到招式傷害起的5回合內，會讓整個場上變為青草場地狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/296",
+      "categories": [
+        "field"
+      ],
+      "categorySource": "GameWith"
+    },
+    "thermal-exchange": {
+      "id": 270,
+      "name": "熱交換",
+      "description": "受到火屬性招式攻擊時，攻擊會提高１級。並且不會陷入灼傷狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/275",
+      "categories": [
+        "type",
+        "rank",
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "anger-shell": {
+      "id": 271,
+      "name": "憤怒甲殼",
+      "description": "當ＨＰ變為一半以下時，防禦和特防會降低１級，攻擊、特攻和速度會提高１級。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/267",
+      "categories": [
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "purifying-salt": {
+      "id": 272,
+      "name": "潔淨之鹽",
+      "description": "不會變為異常狀態。因幽靈屬性招式而受到的傷害會減半。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/295",
+      "categories": [
+        "status",
+        "defense",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "well-baked-body": {
+      "id": 273,
+      "name": "焦香之軀",
+      "description": "不會受到火屬性招式的傷害，而且防禦會提高２級。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/271",
+      "categories": [
+        "type",
+        "defense",
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "wind-rider": {
+      "id": 274,
+      "name": "乘風",
+      "description": "當我方颳起順風或受到風招式時，不會受到傷害，而且攻擊會提高１級。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/277",
+      "categories": [
+        "defense",
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "guard-dog": {
+      "id": 275,
+      "name": "看門犬",
+      "description": "不會受到「威嚇」的效果影響，作為代替，攻擊會提高１級。讓替換寶可夢的招式和道具失效。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/285",
+      "categories": [
+        "rank",
+        "switch"
+      ],
+      "categorySource": "GameWith"
+    },
+    "rocky-payload": {
+      "id": 276,
+      "name": "搬岩",
+      "description": "岩石屬性招式的威力會變為1.5倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/294",
+      "categories": [
+        "offense",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "wind-power": {
+      "id": 277,
+      "name": "風力發電",
+      "description": "受到風招式時，會變為「充電」狀態，使電屬性招式的威力提高為２倍，僅限１次。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/278",
+      "categories": [
+        "offense",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "zero-to-hero": {
+      "id": 278,
+      "name": "全能變身",
+      "description": "退回同行隊伍後,會變為全能形態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/283",
+      "categories": [
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "commander": {
+      "id": 279,
+      "name": "發號施令",
+      "description": "出場時，若同伴中有吃吼霸，自己會無法行動，作為代價，吃吼霸的攻擊／防禦／特攻／特防／速度會各提高２級。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/274",
+      "categories": [
+        "rank",
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "electromorphosis": {
+      "id": 280,
+      "name": "電力轉換",
+      "description": "受到招式傷害時,會變為電屬性威力提高狀態。下次使用的電屬性招式威力會僅一次變為2倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/269",
+      "categories": [
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "protosynthesis": {
+      "id": 281,
+      "name": "古代活性",
+      "description": "攜帶了促進能量時或天氣為晴朗時，除ＨＰ以外最高的能力會提升。攻擊／防禦／特攻／特防的情況下會變為１．３倍，速度的情況下會變為１．５倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/272",
+      "categories": [
+        "weather",
+        "offense",
+        "rank",
+        "speed",
+        "item"
+      ],
+      "categorySource": "GameWith"
+    },
+    "quark-drive": {
+      "id": 282,
+      "name": "夸克充能",
+      "description": "攜帶了促進能量時或在電氣場地時，除ＨＰ以外最高的能力會提升。攻擊／防禦／特攻／特防的情況下會變為１．３倍，速度的情況下會變為１．５倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/281",
+      "categories": [
+        "field",
+        "offense",
+        "rank",
+        "speed",
+        "item"
+      ],
+      "categorySource": "GameWith"
+    },
+    "good-as-gold": {
+      "id": 283,
+      "name": "黃金之軀",
+      "description": "來自對手的變化招式無效。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/284",
+      "categories": [
+        "interfere",
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "vessel-of-ruin": {
+      "id": 284,
+      "name": "災禍之鼎",
+      "description": "自己以外的寶可夢的特攻會變為３／４倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/286",
+      "categories": [
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "sword-of-ruin": {
+      "id": 285,
+      "name": "災禍之劍",
+      "description": "自己以外的寶可夢的防禦會變為３／４倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/287",
+      "categories": [
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "tablets-of-ruin": {
+      "id": 286,
+      "name": "災禍之簡",
+      "description": "自己以外的寶可夢的攻擊會變為３／４倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/288",
+      "categories": [
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "beads-of-ruin": {
+      "id": 287,
+      "name": "災禍之玉",
+      "description": "自己以外的寶可夢的特防會變為3/4倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/289",
+      "categories": [
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "orichalcum-pulse": {
+      "id": 288,
+      "name": "緋紅脈動",
+      "description": "出場時，會將天氣變為晴朗。天氣為晴朗時，攻擊會變為１．３倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/279",
+      "categories": [
+        "weather",
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "hadron-engine": {
+      "id": 289,
+      "name": "強子引擎",
+      "description": "登場時，會將場地變為「電氣場地」。在電氣場地時，特攻會變為１．３倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/280",
+      "categories": [
+        "field",
+        "offense",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "opportunist": {
+      "id": 290,
+      "name": "跟風",
+      "description": "對手的能力提高時,自己的能力也一樣會提高。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/276",
+      "categories": [
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "cud-chew": {
+      "id": 291,
+      "name": "反芻",
+      "description": "吃掉樹果的下一回合結束時,會再次吃掉相同的樹果1次。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/270",
+      "categories": [
+        "item"
+      ],
+      "categorySource": "GameWith"
+    },
+    "sharpness": {
+      "id": 292,
+      "name": "鋒銳",
+      "description": "切斬類招式威力會變為1.5倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/293",
+      "categories": [
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "supreme-overlord": {
+      "id": 293,
+      "name": "大將",
+      "description": "出場時,該場戰鬥中每有1隻同行隊伍中的寶可夢被打倒,招式威力就會提高10%。最多會提高至50%。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/292",
+      "categories": [
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "costar": {
+      "id": 294,
+      "name": "同台共演",
+      "description": "出場時，會複製同伴的能力變化。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/297",
+      "categories": [
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "toxic-debris": {
+      "id": 295,
+      "name": "毒滿地",
+      "description": "受到物理招式傷害時,會讓對手場上變為毒菱狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/291",
+      "categories": [
+        "switch",
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "armor-tail": {
+      "id": 296,
+      "name": "尾甲",
+      "description": "對手無法對自己和同伴使用先制招式。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/268",
+      "categories": [
+        "speed"
+      ],
+      "categorySource": "GameWith"
+    },
+    "earth-eater": {
+      "id": 297,
+      "name": "食土",
+      "description": "地面屬性招式無效,反而會回復最大HP的1/4。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/273",
+      "categories": [
+        "type",
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "mycelium-might": {
+      "id": 298,
+      "name": "菌絲之力",
+      "description": "變化類招式會變為後攻招式，但可無視對手的特性使出。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/290",
+      "categories": [
+        "speed",
+        "interfere"
+      ],
+      "categorySource": "GameWith"
+    },
+    "minds-eye": {
+      "id": 299,
+      "name": "心眼",
+      "description": "可以將一般屬性和格鬥屬性的招式命中幽靈屬性。會無視對手閃避率的變化，命中率也不會被降低。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/301",
+      "categories": [
+        "type",
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "supersweet-syrup": {
+      "id": 300,
+      "name": "甘露之蜜",
+      "description": "出場時,會讓對手的閃避率降低1階。在1場戰鬥中只會發動1次。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/299",
+      "categories": [
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "hospitality": {
+      "id": 301,
+      "name": "款待",
+      "description": "出場時,會讓同伴的HP回復該同伴最大HP的1/4。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/300",
+      "categories": [
+        "defense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "toxic-chain": {
+      "id": 302,
+      "name": "毒鎖鏈",
+      "description": "用攻擊招式給予傷害時，有30%的機率讓對手陷入劇毒狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/298",
+      "categories": [
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "embody-aspect": {
+      "id": 303,
+      "name": "面影輝映",
+      "description": "太晶化後特性會變更，並依照形態提高相應的能力。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/302",
+      "categories": [
+        "type",
+        "rank",
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "tera-shift": {
+      "id": 304,
+      "name": "太晶變形",
+      "description": "出場時，會形態變化為太晶形態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/303",
+      "categories": [
+        "type",
+        "other"
+      ],
+      "categorySource": "GameWith"
+    },
+    "tera-shell": {
+      "id": 305,
+      "name": "太晶甲殼",
+      "description": "HP全滿時，受到的招式會變為「效果不好」。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/304",
+      "categories": [
+        "defense",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "teraform-zero": {
+      "id": 306,
+      "name": "歸零化境",
+      "description": "多惑之獸太晶化變為星晶形態時，會解除天氣和場地的變化。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/305",
+      "categories": [
+        "weather",
+        "field"
+      ],
+      "categorySource": "GameWith"
+    },
+    "poison-puppeteer": {
+      "id": 307,
+      "name": "毒傀儡",
+      "description": "用招式讓對手陷入「中毒狀態」或「劇毒狀態」時，也會使其陷入「混亂狀態」。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/306",
+      "categories": [
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "piercing-drill": {
+      "id": 308,
+      "name": "貫穿鑽",
+      "description": "使用接觸類招式時,會無視對手的防守效果,給予原本的1/4的傷害。對手的防守以外的效果會發動。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/310",
+      "categories": [
+        "contact",
+        "interfere",
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "dragonize": {
+      "id": 309,
+      "name": "龍皮膚",
+      "description": "一般屬性招式會變為龍屬性,威力會變為1.2倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/308",
+      "categories": [
+        "type",
+        "offense"
+      ],
+      "categorySource": "GameWith"
+    },
+    "mega-sol": {
+      "id": 310,
+      "name": "超級日光",
+      "description": "就算天氣不是大晴天狀態,也能比照大晴天狀態使用招式。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/307",
+      "categories": [
+        "weather"
+      ],
+      "categorySource": "GameWith"
+    },
+    "spicy-spray": {
+      "id": 311,
+      "name": "辣椒噴發",
+      "description": "受到招式傷害時,會讓對手變為灼傷狀態。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/311",
+      "categories": [
+        "defense",
+        "status"
+      ],
+      "categorySource": "GameWith"
+    },
+    "eelevate": {
+      "id": 312,
+      "name": "鰻鰻高升",
+      "description": "會變為不在地面上,地面屬性招式、撒菱、毒菱、黏黏網狀態無效。用攻擊打倒對手時,自己最高的那項能力會提高1階。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/312",
+      "categories": [
+        "type",
+        "defense",
+        "switch",
+        "rank"
+      ],
+      "categorySource": "GameWith"
+    },
+    "fire-mane": {
+      "id": 313,
+      "name": "火焰鬃毛",
+      "description": "火屬性招式威力會變為1.5倍。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/313",
+      "categories": [
+        "offense",
+        "type"
+      ],
+      "categorySource": "GameWith"
+    },
+    "aura-guard": {
+      "id": 314,
+      "name": "波導防護",
+      "description": "因接觸類招式而受到的傷害會減半。",
+      "sourceUrl": "https://gamewith.ai/pokemon-champions/zh-hant/abilities/314",
+      "categories": [
+        "defense",
+        "contact"
+      ],
+      "categorySource": "local-description-classification"
+    }
+  },
+  "unmatched": []
+}

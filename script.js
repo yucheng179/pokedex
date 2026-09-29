@@ -1,5 +1,6 @@
 const app = document.querySelector("#app");
 const cardTemplate = document.querySelector("#card-template");
+let typeChartCleanup = null;
 
 const state = {
   pokemon: [], chains: [], types: {}, abilities: {}, pokedexNumbers: {}, moves: null, championsRoster: null, query: "",
@@ -7,6 +8,7 @@ const state = {
   typeMode: "or", pokedex: "national", filtersOpen: false,
   moveQuery: "", moveType: new Set(), moveClass: new Set(), moveTarget: new Set(), moveKind: new Set(["normal"]),
   moveSortKey: "id", moveSortDirection: "asc", moveLimit: 100,
+  abilityQuery: "", abilityGeneration: new Set(), abilityCategory: new Set(), abilitySortKey: "id", abilitySortDirection: "asc",
   championsOwned: loadChampionsOwned()
 };
 
@@ -342,6 +344,151 @@ function matchupGroup(multiplier, matchups) {
   const types = Object.entries(matchups).filter(([, value]) => value === multiplier).map(([type]) => type);
   const label = multiplier === .5 ? "½×" : multiplier === .25 ? "¼×" : `${multiplier}×`;
   return `<div class="matchup-group"><span class="matchup-multiplier">${label}</span><div class="matchup-types">${types.length ? types.map(type => typePill(type, true)).join("") : "<small>無</small>"}</div></div>`;
+}
+
+function typeChartMultiplier(attackingType, defendingType) {
+  const defense = state.types[defendingType]?.damageFrom;
+  if (!defense) return 1;
+  if (defense.immune.includes(attackingType)) return 0;
+  if (defense.weak.includes(attackingType)) return 2;
+  if (defense.resist.includes(attackingType)) return .5;
+  return 1;
+}
+
+function typeChartBadge(type, compact = false) {
+  const info = state.types[type];
+  return `<span class="type-chart-badge${compact ? " compact" : ""}" style="--type-color:${info.color};--type-dark:${info.dark || info.color}">
+    <img class="type-chart-symbol" src="assets/type-icons/${type}.svg" width="31" height="31" alt="" aria-hidden="true">
+    <span>${info.name}</span>
+  </span>`;
+}
+
+function typeChartCell(attackingType, defendingType, row, column) {
+  const multiplier = typeChartMultiplier(attackingType, defendingType);
+  const className = multiplier === 2 ? "super" : multiplier === .5 ? "resisted" : multiplier === 0 ? "immune" : "neutral";
+  const mark = multiplier === 2 ? "●" : multiplier === .5 ? "▲" : multiplier === 0 ? "×" : "";
+  const description = multiplier === 2 ? "效果絕佳" : multiplier === .5 ? "效果不佳" : multiplier === 0 ? "沒有效果" : "一般效果";
+  const attackName = state.types[attackingType].name;
+  const defenseName = state.types[defendingType].name;
+  return `<td class="matchup-cell ${className}" tabindex="0" data-row="${row}" data-column="${column}" data-attack="${attackingType}" data-defense="${defendingType}" data-multiplier="${multiplier}" aria-label="${attackName}屬性招式攻擊${defenseName}屬性寶可夢：${multiplier} 倍，${description}"><span aria-hidden="true">${mark}</span></td>`;
+}
+
+function bindFrozenTypeChartHeader(table) {
+  const scroller = table.closest(".type-chart-scroll");
+  const floating = document.createElement("div");
+  floating.className = "type-chart-frozen-header";
+  floating.setAttribute("aria-hidden", "true");
+  floating.inert = true;
+  floating.hidden = true;
+  const frozenTable = document.createElement("table");
+  frozenTable.className = "type-chart-table";
+  frozenTable.append(table.tHead.cloneNode(true));
+  floating.append(frozenTable);
+  scroller.after(floating);
+  const originalHeaders = [...table.tHead.rows[0].cells];
+  const frozenHeaders = [...frozenTable.tHead.rows[0].cells];
+  const controller = new AbortController();
+  let frame = 0;
+  const update = () => {
+    frame = 0;
+    const top = document.querySelector(".site-header").getBoundingClientRect().bottom;
+    const rect = scroller.getBoundingClientRect();
+    const height = table.tHead.getBoundingClientRect().height;
+    floating.hidden = rect.top >= top || rect.bottom <= top;
+    if (floating.hidden) return;
+    floating.style.left = `${rect.left + scroller.clientLeft}px`;
+    floating.style.top = `${Math.min(top, rect.bottom - height)}px`;
+    floating.style.width = `${scroller.clientWidth}px`;
+    frozenTable.style.width = `${table.getBoundingClientRect().width}px`;
+    frozenTable.style.transform = `translateX(${-scroller.scrollLeft}px)`;
+    frozenHeaders.forEach((header, index) => { header.style.width = `${originalHeaders[index].getBoundingClientRect().width}px`; });
+    frozenHeaders[0].style.transform = `translateX(${scroller.scrollLeft}px)`;
+  };
+  const schedule = () => { if (!frame) frame = requestAnimationFrame(update); };
+  window.addEventListener("scroll", schedule, { passive: true, signal: controller.signal });
+  window.addEventListener("resize", schedule, { passive: true, signal: controller.signal });
+  scroller.addEventListener("scroll", schedule, { passive: true, signal: controller.signal });
+  const observer = new ResizeObserver(schedule);
+  observer.observe(scroller);
+  observer.observe(document.querySelector(".site-header"));
+  typeChartCleanup = () => { controller.abort(); observer.disconnect(); cancelAnimationFrame(frame); floating.remove(); };
+  update();
+  return () => frozenHeaders.forEach((header, index) => header.classList.toggle("is-highlighted", originalHeaders[index].classList.contains("is-highlighted")));
+}
+
+function renderTypeChartPage() {
+  setActiveNav("types");
+  document.title = "屬性相剋表｜Pokédex";
+  const types = Object.keys(state.types).sort((a, b) => state.types[a].id - state.types[b].id);
+  const columns = types.map((type, column) => `<th scope="col" data-column="${column}">${typeChartBadge(type, true)}</th>`).join("");
+  const rows = types.map((attackingType, row) => `
+    <tr data-row="${row}">
+      <th scope="row">${typeChartBadge(attackingType)}</th>
+      ${types.map((defendingType, column) => typeChartCell(attackingType, defendingType, row, column)).join("")}
+    </tr>`).join("");
+
+  app.innerHTML = `
+    <section class="type-chart-hero">
+      <div class="type-chart-hero-inner">
+        <div>
+          <p class="eyebrow">TYPE MATCHUP</p>
+          <h1>屬性相剋表</h1>
+          <p>左側是招式的攻擊屬性，上方是防守方寶可夢的屬性。</p>
+        </div>
+      </div>
+    </section>
+    <section class="type-chart-content">
+      <div class="type-chart-card">
+        <div class="type-chart-heading">
+          <div><span class="section-kicker">完整屬性矩陣</span><h2>攻擊方 × 防守方</h2></div>
+          <p>向下捲動頁面時，防守屬性列會固定在導覽列下方；窄螢幕可左右捲動表格。</p>
+        </div>
+        <div class="type-chart-scroll" tabindex="0" aria-label="屬性相剋表，可左右捲動，防守屬性列於頁面捲動時固定">
+          <table class="type-chart-table">
+            <thead><tr><th class="type-chart-corner"><span>防守屬性</span><strong>攻擊屬性</strong></th>${columns}</tr></thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>
+
+        <div class="type-chart-legend" aria-label="倍率圖例">
+          <div><span class="legend-mark super">●</span><p><strong>效果絕佳</strong><small>造成 2 倍傷害</small></p></div>
+          <div><span class="legend-mark resisted">▲</span><p><strong>效果不佳</strong><small>造成 ½ 倍傷害</small></p></div>
+          <div><span class="legend-mark immune">×</span><p><strong>沒有效果</strong><small>不會造成傷害</small></p></div>
+          <div><span class="legend-mark neutral"></span><p><strong>一般效果</strong><small>造成正常傷害</small></p></div>
+        </div>
+        <p class="type-chart-note">此表以單一防守屬性計算；雙屬性寶可夢需將兩個倍率相乘，例如 2× × 2× = 4×。</p>
+        <p class="type-chart-note type-chart-credit">屬性 SVG 圖示：<a href="https://github.com/partywhale/pokemon-type-icons" target="_blank" rel="noreferrer">partywhale / pokemon-type-icons</a>（MIT License）。</p>
+      </div>
+    </section>`;
+
+  const table = document.querySelector(".type-chart-table");
+  const syncFrozenHighlight = bindFrozenTypeChartHeader(table);
+  const clearHighlight = () => {
+    table.querySelectorAll(".is-highlighted, .is-current").forEach(item => item.classList.remove("is-highlighted", "is-current"));
+    syncFrozenHighlight();
+  };
+  const showCell = cell => {
+    if (!cell) return;
+    clearHighlight();
+    table.querySelectorAll(`tbody tr[data-row="${cell.dataset.row}"] > *, [data-column="${cell.dataset.column}"]`).forEach(item => item.classList.add("is-highlighted"));
+    cell.classList.add("is-current");
+    syncFrozenHighlight();
+  };
+  table.addEventListener("pointerover", event => {
+    const cell = event.target.closest(".matchup-cell");
+    if (cell) showCell(cell);
+    else clearHighlight();
+  });
+  table.addEventListener("pointerleave", () => {
+    const focusedCell = document.activeElement?.closest(".matchup-cell");
+    if (focusedCell && table.contains(focusedCell)) showCell(focusedCell);
+    else clearHighlight();
+  });
+  table.addEventListener("focusin", event => showCell(event.target.closest(".matchup-cell")));
+  table.addEventListener("focusout", event => {
+    if (!table.contains(event.relatedTarget)) clearHighlight();
+  });
+  window.scrollTo({ top: 0, behavior: "auto" });
 }
 
 function regionalFormRegionFromSlug(slug = "") {
@@ -704,6 +851,105 @@ function renderMoveDetailPage(key) {
   window.scrollTo({ top: 0, behavior: "auto" });
 }
 
+function abilityOwners(ability) {
+  return state.pokemon.filter(mon => mon.abilities.some(item => item.id === ability.id))
+    .sort((a, b) => a.speciesId - b.speciesId || a.id - b.id);
+}
+
+function abilityDescription(ability) {
+  return ability.description || "資料庫目前未有此特性資料。";
+}
+
+const ABILITY_CATEGORY_LABELS = { weather: "天氣", field: "場地", offense: "攻擊", defense: "防禦", status: "異常狀態", rank: "能力變化", speed: "速度", type: "屬性", contact: "接觸", switch: "換人·場地", item: "道具·樹果", interfere: "特性·招式", other: "其他" };
+
+function renderAbilitiesPage() {
+  setActiveNav("abilities");
+  document.title = "特性一覽｜Pokédex";
+  const abilities = Object.values(state.abilities).filter(item => item.isMainSeries);
+  const generations = [...new Set(abilities.map(item => item.generation))].sort((a, b) => a - b);
+  app.innerHTML = `<section class="moves-hero abilities-hero"><div><p class="eyebrow">ABILITY DATABASE</p><h1>特性一覽</h1><p>查詢特性效果，以及擁有該特性的寶可夢。</p></div></section>
+    <section class="move-browser ability-browser">
+      <div class="move-toolbar"><label class="move-search"><span aria-hidden="true">⌕</span><input type="search" value="${escapeHtml(state.abilityQuery)}" placeholder="搜尋特性名稱、編號或效果…" aria-label="搜尋特性"><button type="button" aria-label="清除特性搜尋" ${state.abilityQuery ? "" : "hidden"}>×</button></label></div>
+      <div class="ability-filters"><div data-ability-filter="abilityGeneration"><span class="filter-label">首次登場世代</span><div class="filter-chips">${filterButtons("abilityGeneration", [{value: "all", label: "全部"}, ...generations.map(value => ({value: String(value), label: `Gen ${value}`}))])}</div></div><div data-ability-filter="abilityCategory"><span class="filter-label">分類</span><div class="filter-chips">${filterButtons("abilityCategory", [{value: "all", label: "全部"}, ...Object.entries(ABILITY_CATEGORY_LABELS).map(([value, label]) => ({value, label}))])}</div></div></div>
+      <div class="move-result-bar"><strong>特性資料</strong><span class="move-result-count"></span></div>
+      <div class="move-table-shell"><table class="move-table ability-table"><thead><tr>${[["id", "編號"], ["name", "特性名"], ["generation", "世代"], ["description", "效果"]].map(([key, label]) => `<th aria-sort="none"><button type="button" data-ability-sort="${key}">${label}<span>↕</span></button></th>`).join("")}</tr></thead><tbody></tbody></table></div>
+      <div class="move-empty" hidden><h2>找不到符合條件的特性</h2><p>請調整關鍵字或篩選條件。</p></div>
+    </section>`;
+  const update = () => {
+    const query = normalize(state.abilityQuery.trim());
+    const filtered = abilities.filter(item => (!state.abilityGeneration.size || state.abilityGeneration.has(String(item.generation))) && (!state.abilityCategory.size || (item.categories || ["other"]).some(category => state.abilityCategory.has(category))) && (!query || normalize([item.id, ...Object.values(item.name), item.description || ""].join(" ")).includes(query)));
+    const key = state.abilitySortKey;
+    filtered.sort((a, b) => {
+      const first = key === "name" ? a.name.zhHant : key === "description" ? abilityDescription(a) : a[key];
+      const second = key === "name" ? b.name.zhHant : key === "description" ? abilityDescription(b) : b[key];
+      const compared = typeof first === "number" ? first - second : String(first).localeCompare(String(second), "zh-Hant");
+      return (compared || a.id - b.id) * (state.abilitySortDirection === "asc" ? 1 : -1);
+    });
+    app.querySelector(".move-result-count").textContent = `共 ${filtered.length} 個特性`;
+    app.querySelector("tbody").innerHTML = filtered.map(item => `<tr class="move-row" tabindex="0" data-ability-key="${escapeHtml(item.slug)}" aria-label="查看${escapeHtml(item.name.zhHant)}特性"><td class="move-id">#${String(item.id).padStart(3, "0")}</td><td class="move-name-cell"><strong>${escapeHtml(item.name.zhHant)}</strong><small>${escapeHtml(item.name.en)}</small></td><td class="ability-generation">Gen ${item.generation}</td><td class="ability-effect">${escapeHtml(abilityDescription(item))}</td></tr>`).join("");
+    app.querySelector(".move-table-shell").hidden = !filtered.length;
+    app.querySelector(".move-empty").hidden = Boolean(filtered.length);
+    app.querySelectorAll("[data-ability-sort]").forEach(button => {
+      const active = button.dataset.abilitySort === key;
+      button.querySelector("span").textContent = active ? (state.abilitySortDirection === "asc" ? "↑" : "↓") : "↕";
+      button.closest("th").setAttribute("aria-sort", active ? (state.abilitySortDirection === "asc" ? "ascending" : "descending") : "none");
+    });
+  };
+  const input = app.querySelector("input");
+  const clear = app.querySelector(".move-search button");
+  input.addEventListener("input", () => { state.abilityQuery = input.value; clear.hidden = !input.value; update(); });
+  clear.addEventListener("click", () => { state.abilityQuery = ""; input.value = ""; clear.hidden = true; update(); input.focus(); });
+  app.querySelector(".ability-filters").addEventListener("click", event => {
+    const button = event.target.closest(".filter-chip");
+    if (!button) return;
+    const value = button.dataset.value;
+    const group = button.closest("[data-ability-filter]");
+    const selected = state[group.dataset.abilityFilter];
+    if (value === "all") selected.clear();
+    else if (selected.has(value)) selected.delete(value);
+    else selected.add(value);
+    group.querySelectorAll(".filter-chip").forEach(chip => {
+      const active = chip.dataset.value === "all" ? !selected.size : selected.has(chip.dataset.value);
+      chip.classList.toggle("active", active); chip.setAttribute("aria-pressed", String(active));
+    });
+    update();
+  });
+  app.querySelector("table").addEventListener("click", event => {
+    const button = event.target.closest("[data-ability-sort]");
+    if (button) {
+      const key = button.dataset.abilitySort;
+      state.abilitySortDirection = key === state.abilitySortKey && state.abilitySortDirection === "asc" ? "desc" : "asc";
+      state.abilitySortKey = key; update(); return;
+    }
+    const row = event.target.closest("[data-ability-key]");
+    if (row) location.hash = `#/abilities/${encodeURIComponent(row.dataset.abilityKey)}`;
+  });
+  app.querySelector("table").addEventListener("keydown", event => {
+    const row = event.target.closest("[data-ability-key]");
+    if (row && ["Enter", " "].includes(event.key)) { event.preventDefault(); location.hash = `#/abilities/${encodeURIComponent(row.dataset.abilityKey)}`; }
+  });
+  update();
+  window.scrollTo({top: 0, behavior: "auto"});
+}
+
+function renderAbilityDetailPage(key) {
+  setActiveNav("abilities");
+  const ability = Object.values(state.abilities).find(item => item.isMainSeries && (item.slug === key || String(item.id) === key));
+  if (!ability) {
+    document.title = "找不到特性｜Pokédex";
+    app.innerHTML = `<section class="error-state"><div><h2>找不到這個特性</h2><a href="#/abilities">← 返回特性一覽</a></div></section>`;
+    return;
+  }
+  document.title = `${ability.name.zhHant}｜特性一覽`;
+  const owners = abilityOwners(ability);
+  app.innerHTML = `<article class="move-detail-page ability-detail-page" style="--move-color:#6575a9;--move-dark:#303b62">
+    <header class="move-detail-hero"><div class="move-detail-hero-inner"><a class="back-button" href="#/abilities">← 返回特性一覽</a><p class="move-detail-number">ABILITY #${String(ability.id).padStart(3, "0")} · GENERATION ${ability.generation}</p><h1>${escapeHtml(ability.name.zhHant)}</h1><p class="move-foreign-names">${escapeHtml(ability.name.en)} &nbsp;/&nbsp; ${escapeHtml(ability.name.ja)}</p></div></header>
+    <div class="move-detail-content"><section class="panel"><h2 class="panel-title">特性效果</h2><p class="move-detail-description">${escapeHtml(abilityDescription(ability))}</p>${ability.descriptionVersion === "Champions" ? `<p class="muted-copy">Champions 版本描述 · <a href="${escapeHtml(ability.descriptionSource)}" target="_blank" rel="noreferrer">GameWith</a></p>` : ""}</section>
+    <section class="panel move-pokemon-panel"><div class="move-pokemon-heading"><div><h2 class="panel-title">擁有此特性的寶可夢</h2><p>依本地圖鑑資料列出各型態；隱藏特性另加標示，共 ${owners.length} 個型態。</p></div><strong>${owners.length}</strong></div>
+    ${owners.length ? `<div class="move-pokemon-grid">${owners.map(mon => `<a class="move-pokemon-card" href="#/pokemon/${encodeURIComponent(mon.slug)}"><img loading="lazy" src="${artworkFor(mon)}" alt=""><div><strong>${escapeHtml(mon.name.zhHant)}</strong><span>${mon.types.map(type => state.types[type]?.name || type).join("／")}</span>${mon.abilities.some(item => item.id === ability.id && item.hidden) ? '<small class="ability-hidden-label">隱藏特性</small>' : ""}</div></a>`).join("")}</div>` : '<p class="muted-copy">本地圖鑑目前未收錄擁有此特性的寶可夢。</p>'}</section></div></article>`;
+  window.scrollTo({top: 0, behavior: "auto"});
+}
+
 function renderMoveNotFound() {
   setActiveNav("moves");
   document.title = "找不到招式｜Pokédex";
@@ -732,7 +978,7 @@ async function ensureChampionsRoster() {
 
 function championsCardHtml(mon, index) {
   const owned = state.championsOwned.has(mon.key);
-  return `<article class="champions-card${owned ? " owned" : ""}">
+  return `<article class="champions-card${owned ? " owned" : ""}" data-champions-name="${escapeHtml(mon.name.toLocaleLowerCase("zh-Hant"))}" data-champions-types="${escapeHtml((mon.types || []).join(" "))}">
     <a class="champions-card-link" href="#/pokemon/${encodeURIComponent(mon.slug)}" aria-label="查看${escapeHtml(mon.name)}的圖鑑資料">
       <span class="champions-number">#${index + 1}</span>
       <img loading="lazy" src="${escapeHtml(mon.image)}" data-fallback-src="${escapeHtml(mon.fallbackImage)}" alt="">
@@ -754,15 +1000,18 @@ function updateChampionsProgress() {
 
 function renderChampionsPage() {
   setActiveNav("champions");
-  document.title = "Champions 收藏紀錄｜Pokédex";
+  document.title = "Champions 圖鑑｜Pokédex";
   const roster = state.championsRoster.pokemon;
   const ruleset = state.championsRoster.ruleset || "M-C";
   const version = state.championsRoster.version || "1.2.0";
+  const availableTypes = Object.entries(state.types).filter(([type]) => roster.some(mon => mon.types?.includes(type)));
+  const selectedTypes = new Set();
+  let typeMode = "or";
   app.innerHTML = `
     <section class="champions-hero"><div class="champions-hero-heading">
       <div>
         <p class="eyebrow">MY CHAMPIONS COLLECTION</p>
-        <h1>Champions 收藏紀錄</h1>
+        <h1>Champions 圖鑑</h1>
         <p>點擊右上角圓圈記錄擁有狀態；點擊卡片可查看圖鑑資料。</p>
       </div>
       <div class="champions-regulation" aria-label="賽制 ${escapeHtml(ruleset)}，版本 ${escapeHtml(version)}">
@@ -772,11 +1021,35 @@ function renderChampionsPage() {
     </div></section>
     <section class="champions-catalog">
       <div class="champions-summary">
-        <div><span>已擁有</span><strong class="champions-owned-count">0／${roster.length}</strong></div>
-        <div class="champions-progress" role="progressbar" aria-label="Champions 收藏進度" aria-valuemin="0" aria-valuemax="${roster.length}" aria-valuenow="0"><div class="champions-progress-bar"><span></span></div></div>
+        <div class="champions-progress-row">
+          <div><span>已擁有</span><strong class="champions-owned-count">0／${roster.length}</strong></div>
+          <div class="champions-progress" role="progressbar" aria-label="Champions 收藏進度" aria-valuemin="0" aria-valuemax="${roster.length}" aria-valuenow="0"><div class="champions-progress-bar"><span></span></div></div>
+        </div>
+        <div class="champions-controls">
+        <label class="champions-search-field">
+          <span class="champions-search-icon" aria-hidden="true"></span>
+          <span class="sr-only">搜尋名稱</span>
+          <input id="champions-search" type="search" placeholder="輸入寶可夢名稱" autocomplete="off">
+        </label>
+        <button class="champions-filter-toggle filter-toggle" type="button" aria-expanded="false">篩選</button>
+        <div class="champions-filter-panel" hidden>
+          <div class="filter-heading">
+            <span class="filter-label">屬性</span>
+            <div class="logic-toggle" aria-label="屬性篩選邏輯">
+              <button type="button" data-champions-type-mode="or" class="active" aria-pressed="true">OR 任一</button>
+              <button type="button" data-champions-type-mode="and" aria-pressed="false">AND 全部</button>
+            </div>
+          </div>
+          <div class="filter-chips" data-champions-type-filter>
+            <button type="button" class="filter-chip active" data-value="all" aria-pressed="true">全部</button>
+            ${availableTypes.map(([value, item]) => `<button type="button" class="filter-chip" data-value="${value}" aria-pressed="false">${escapeHtml(item.name)}</button>`).join("")}
+          </div>
+        </div>
+        </div>
       </div>
       <div class="champions-grid">${roster.map(championsCardHtml).join("")}</div>
-      <p class="champions-source">可用名單與 Champions 圖示來自 <a href="https://wiki.52poke.com/wiki/宝可梦列表（Champions）" target="_blank" rel="noreferrer">52Poké Champions 寶可夢列表</a>，並以 <a href="https://github.com/projectpokemon/champout" target="_blank" rel="noreferrer">Project Pokémon champout</a> 核對版本；圖片無法載入時會自動改用 PokéAPI 圖鑑圖片。</p>
+      <p class="champions-no-results" hidden>找不到符合條件的寶可夢。</p>
+      <p class="champions-source">可用名單與 Champions 圖示來自 <a href="https://wiki.52poke.com/wiki/宝可梦列表（Champions）" target="_blank" rel="noreferrer">52Poké Champions 寶可夢列表</a>、<a href="https://gamewith.ai/pokemon-champions/zh-hant/pokemon" target="_blank" rel="noreferrer">GameWith Champions 寶可夢列表</a>，並以 <a href="https://github.com/projectpokemon/champout" target="_blank" rel="noreferrer">Project Pokémon champout</a> 核對版本；圖片無法載入時會自動改用 PokéAPI 圖鑑圖片。</p>
     </section>`;
 
   const grid = document.querySelector(".champions-grid");
@@ -800,11 +1073,74 @@ function renderChampionsPage() {
       image.src = image.dataset.fallbackSrc;
     });
   });
+  const searchInput = document.querySelector("#champions-search");
+  const filterToggle = document.querySelector(".champions-filter-toggle");
+  const filterPanel = document.querySelector(".champions-filter-panel");
+  const cards = [...grid.querySelectorAll(".champions-card")];
+  const applyChampionsFilters = () => {
+    const query = searchInput.value.trim().toLocaleLowerCase("zh-Hant");
+    let visibleCount = 0;
+    cards.forEach(card => {
+      const matchesName = !query || card.dataset.championsName.includes(query);
+      const cardTypes = card.dataset.championsTypes.split(" ").filter(Boolean);
+      const matchesType = selectedTypes.size === 0 || (typeMode === "and"
+        ? [...selectedTypes].every(type => cardTypes.includes(type))
+        : [...selectedTypes].some(type => cardTypes.includes(type)));
+      const visible = matchesName && matchesType;
+      card.hidden = !visible;
+      if (visible) visibleCount += 1;
+    });
+    document.querySelector(".champions-no-results").hidden = visibleCount !== 0;
+  };
+  searchInput.addEventListener("input", applyChampionsFilters);
+  filterToggle.addEventListener("click", () => {
+    const open = filterToggle.getAttribute("aria-expanded") !== "true";
+    filterToggle.setAttribute("aria-expanded", String(open));
+    filterPanel.hidden = !open;
+  });
+  filterPanel.addEventListener("click", event => {
+    const modeButton = event.target.closest("[data-champions-type-mode]");
+    if (modeButton) {
+      typeMode = modeButton.dataset.championsTypeMode;
+      filterPanel.querySelectorAll("[data-champions-type-mode]").forEach(button => {
+        const active = button === modeButton;
+        button.classList.toggle("active", active);
+        button.setAttribute("aria-pressed", String(active));
+      });
+      applyChampionsFilters();
+      return;
+    }
+    const chip = event.target.closest("[data-champions-type-filter] .filter-chip");
+    if (!chip) return;
+    const value = chip.dataset.value;
+    if (value === "all") selectedTypes.clear();
+    else if (selectedTypes.has(value)) selectedTypes.delete(value);
+    else selectedTypes.add(value);
+    filterPanel.querySelectorAll("[data-champions-type-filter] .filter-chip").forEach(button => {
+      const active = button.dataset.value === "all" ? selectedTypes.size === 0 : selectedTypes.has(button.dataset.value);
+      button.classList.toggle("active", active);
+      button.setAttribute("aria-pressed", String(active));
+    });
+    filterToggle.textContent = `篩選${selectedTypes.size ? ` · ${selectedTypes.size}` : ""}`;
+    applyChampionsFilters();
+  });
   updateChampionsProgress();
   window.scrollTo({ top: 0, behavior: "auto" });
 }
 
 async function route() {
+  typeChartCleanup?.();
+  typeChartCleanup = null;
+  const abilityMatch = location.hash.match(/^#\/abilities\/([^/]+)$/);
+  if (location.hash === "#/abilities" || abilityMatch) {
+    if (abilityMatch) renderAbilityDetailPage(decodeURIComponent(abilityMatch[1]));
+    else renderAbilitiesPage();
+    return;
+  }
+  if (location.hash === "#/types") {
+    renderTypeChartPage();
+    return;
+  }
   if (location.hash === "#/champions") {
     const requestedHash = location.hash;
     setActiveNav("champions");

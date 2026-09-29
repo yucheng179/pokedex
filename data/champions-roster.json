@@ -25,6 +25,10 @@
       "speciesId": 3,
       "dexNumber": 3,
       "name": "妙蛙花",
+      "types": [
+        "grass",
+        "poison"
+      ],
       "image": "assets/champions/venusaur.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
       "imageBytes": 19549,
@@ -39,6 +43,10 @@
       "speciesId": 6,
       "dexNumber": 6,
       "name": "噴火龍",
+      "types": [
+        "fire",
+        "flying"
+      ],
       "image": "assets/champions/charizard.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
       "imageBytes": 15765,
@@ -53,6 +61,9 @@
       "speciesId": 9,
       "dexNumber": 9,
       "name": "水箭龜",
+      "types": [
+        "water"
+      ],
       "image": "assets/champions/blastoise.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
       "imageBytes": 17940,
@@ -67,6 +78,10 @@
       "speciesId": 15,
       "dexNumber": 15,
       "name": "大針蜂",
+      "types": [
+        "bug",
+        "poison"
+      ],
       "image": "assets/champions/beedrill.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
       "imageBytes": 15939,
@@ -81,6 +96,10 @@
       "speciesId": 18,
       "dexNumber": 18,
       "name": "大比鳥",
+      "types": [
+        "normal",
+        "flying"
+      ],
       "image": "assets/champions/pidgeot.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
       "imageBytes": 17972,
@@ -95,6 +114,9 @@
       "speciesId": 24,
       "dexNumber": 24,
       "name": "阿柏怪",
+      "types": [
+        "poison"
+      ],
       "image": "assets/champions/arbok.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
       "imageBytes": 14809,
@@ -109,6 +131,9 @@
       "speciesId": 25,
       "dexNumber": 25,
       "name": "皮卡丘",
+      "types": [
+        "electric"
+      ],
       "image": "assets/champions/pikachu.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
       "imageBytes": 9762,
@@ -123,6 +148,9 @@
       "speciesId": 26,
       "dexNumber": 26,
       "name": "雷丘",
+      "types": [
+        "electric"
+      ],
       "image": "assets/champions/raichu.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
       "imageBytes": 14296,
@@ -137,6 +165,10 @@
       "speciesId": 26,
       "dexNumber": 26,
       "name": "雷丘（阿羅拉）",
+      "types": [
+        "electric",
+        "psychic"
+      ],
       "image": "assets/champions/raichu-alola.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10100.png",
       "imageBytes": 15164,
@@ -151,6 +183,9 @@
       "speciesId": 36,
       "dexNumber": 36,
       "name": "皮可西",
+      "types": [
+        "fairy"
+      ],
       "image": "assets/champions/clefable.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
       "imageBytes": 13090,
@@ -165,6 +200,9 @@
       "speciesId": 38,
       "dexNumber": 38,
       "name": "九尾",
+      "types": [
+        "fire"
+      ],
       "image": "assets/champions/ninetales.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
       "imageBytes": 18088,
@@ -179,6 +217,10 @@
       "speciesId": 38,
       "dexNumber": 38,
       "name": "九尾（阿羅拉）",
+      "types": [
+        "ice",
+        "fairy"
+      ],
       "image": "assets/champions/ninetales-alola.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10104.png",
       "imageBytes": 14600,
@@ -193,6 +235,10 @@
       "speciesId": 40,
       "dexNumber": 40,
       "name": "胖可丁",
+      "types": [
+        "normal",
+        "fairy"
+      ],
       "image": "assets/champions/wigglytuff.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png",
       "imageBytes": 14082,
@@ -207,6 +253,10 @@
       "speciesId": 45,
       "dexNumber": 45,
       "name": "霸王花",
+      "types": [
+        "grass",
+        "poison"
+      ],
       "image": "assets/champions/vileplume.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
       "imageBytes": 11304,
@@ -221,6 +271,9 @@
       "speciesId": 53,
       "dexNumber": 53,
       "name": "貓老大",
+      "types": [
+        "normal"
+      ],
       "image": "assets/champions/persian.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png",
       "imageBytes": 15250,
@@ -235,6 +288,9 @@
       "speciesId": 53,
       "dexNumber": 53,
       "name": "貓老大（阿羅拉）",
+      "types": [
+        "dark"
+      ],
       "image": "assets/champions/persian-alola.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10108.png",
       "imageBytes": 16279,
@@ -249,6 +305,9 @@
       "speciesId": 59,
       "dexNumber": 59,
       "name": "風速狗",
+      "types": [
+        "fire"
+      ],
       "image": "assets/champions/arcanine.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
       "imageBytes": 17915,
@@ -263,6 +322,10 @@
       "speciesId": 59,
       "dexNumber": 59,
       "name": "風速狗（洗翠）",
+      "types": [
+        "fire",
+        "rock"
+      ],
       "image": "assets/champions/arcanine-hisui.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10230.png",
       "imageBytes": 16862,
@@ -277,6 +340,9 @@
       "speciesId": 65,
       "dexNumber": 65,
       "name": "胡地",
+      "types": [
+        "psychic"
+      ],
       "image": "assets/champions/alakazam.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
       "imageBytes": 20462,
@@ -291,6 +357,9 @@
       "speciesId": 68,
       "dexNumber": 68,
       "name": "怪力",
+      "types": [
+        "fighting"
+      ],
       "image": "assets/champions/machamp.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
       "imageBytes": 18130,
@@ -305,6 +374,10 @@
       "speciesId": 71,
       "dexNumber": 71,
       "name": "大食花",
+      "types": [
+        "grass",
+        "poison"
+      ],
       "image": "assets/champions/victreebel.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
       "imageBytes": 12900,
@@ -319,6 +392,10 @@
       "speciesId": 80,
       "dexNumber": 80,
       "name": "呆殼獸",
+      "types": [
+        "water",
+        "psychic"
+      ],
       "image": "assets/champions/slowbro.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
       "imageBytes": 17201,
@@ -333,6 +410,10 @@
       "speciesId": 80,
       "dexNumber": 80,
       "name": "呆殼獸（伽勒爾）",
+      "types": [
+        "poison",
+        "psychic"
+      ],
       "image": "assets/champions/slowbro-galar.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10165.png",
       "imageBytes": 15838,
@@ -347,6 +428,10 @@
       "speciesId": 83,
       "dexNumber": 83,
       "name": "大蔥鴨",
+      "types": [
+        "normal",
+        "flying"
+      ],
       "image": "assets/champions/farfetchd.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
       "imageBytes": 11726,
@@ -361,6 +446,10 @@
       "speciesId": 94,
       "dexNumber": 94,
       "name": "耿鬼",
+      "types": [
+        "ghost",
+        "poison"
+      ],
       "image": "assets/champions/gengar.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
       "imageBytes": 12726,
@@ -375,6 +464,9 @@
       "speciesId": 115,
       "dexNumber": 115,
       "name": "袋獸",
+      "types": [
+        "normal"
+      ],
       "image": "assets/champions/kangaskhan.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
       "imageBytes": 17702,
@@ -389,6 +481,10 @@
       "speciesId": 121,
       "dexNumber": 121,
       "name": "寶石海星",
+      "types": [
+        "water",
+        "psychic"
+      ],
       "image": "assets/champions/starmie.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
       "imageBytes": 16145,
@@ -403,6 +499,10 @@
       "speciesId": 122,
       "dexNumber": 122,
       "name": "魔牆人偶",
+      "types": [
+        "psychic",
+        "fairy"
+      ],
       "image": "assets/champions/mr-mime.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png",
       "imageBytes": 16995,
@@ -417,6 +517,9 @@
       "speciesId": 127,
       "dexNumber": 127,
       "name": "凱羅斯",
+      "types": [
+        "bug"
+      ],
       "image": "assets/champions/pinsir.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
       "imageBytes": 13394,
@@ -431,6 +534,9 @@
       "speciesId": 128,
       "dexNumber": 128,
       "name": "肯泰羅",
+      "types": [
+        "normal"
+      ],
       "image": "assets/champions/tauros.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
       "imageBytes": 14010,
@@ -445,6 +551,10 @@
       "speciesId": 128,
       "dexNumber": 128,
       "name": "肯泰羅（帕底亞・水瀾種）",
+      "types": [
+        "fighting",
+        "water"
+      ],
       "image": "assets/champions/tauros-paldea-aqua-breed.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10252.png",
       "imageBytes": 11279,
@@ -459,6 +569,10 @@
       "speciesId": 128,
       "dexNumber": 128,
       "name": "肯泰羅（帕底亞・火熾種）",
+      "types": [
+        "fighting",
+        "fire"
+      ],
       "image": "assets/champions/tauros-paldea-blaze-breed.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10251.png",
       "imageBytes": 10221,
@@ -473,6 +587,9 @@
       "speciesId": 128,
       "dexNumber": 128,
       "name": "肯泰羅（帕底亞・鬥戰種）",
+      "types": [
+        "fighting"
+      ],
       "image": "assets/champions/tauros-paldea-combat-breed.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10250.png",
       "imageBytes": 10659,
@@ -487,6 +604,10 @@
       "speciesId": 130,
       "dexNumber": 130,
       "name": "暴鯉龍",
+      "types": [
+        "water",
+        "flying"
+      ],
       "image": "assets/champions/gyarados.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
       "imageBytes": 20328,
@@ -501,6 +622,9 @@
       "speciesId": 132,
       "dexNumber": 132,
       "name": "百變怪",
+      "types": [
+        "normal"
+      ],
       "image": "assets/champions/ditto.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
       "imageBytes": 6602,
@@ -515,6 +639,9 @@
       "speciesId": 134,
       "dexNumber": 134,
       "name": "水伊布",
+      "types": [
+        "water"
+      ],
       "image": "assets/champions/vaporeon.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
       "imageBytes": 11927,
@@ -529,6 +656,9 @@
       "speciesId": 135,
       "dexNumber": 135,
       "name": "雷伊布",
+      "types": [
+        "electric"
+      ],
       "image": "assets/champions/jolteon.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png",
       "imageBytes": 15379,
@@ -543,6 +673,9 @@
       "speciesId": 136,
       "dexNumber": 136,
       "name": "火伊布",
+      "types": [
+        "fire"
+      ],
       "image": "assets/champions/flareon.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
       "imageBytes": 13898,
@@ -557,6 +690,10 @@
       "speciesId": 142,
       "dexNumber": 142,
       "name": "化石翼龍",
+      "types": [
+        "rock",
+        "flying"
+      ],
       "image": "assets/champions/aerodactyl.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
       "imageBytes": 14533,
@@ -571,6 +708,9 @@
       "speciesId": 143,
       "dexNumber": 143,
       "name": "卡比獸",
+      "types": [
+        "normal"
+      ],
       "image": "assets/champions/snorlax.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
       "imageBytes": 13282,
@@ -585,6 +725,10 @@
       "speciesId": 149,
       "dexNumber": 149,
       "name": "快龍",
+      "types": [
+        "dragon",
+        "flying"
+      ],
       "image": "assets/champions/dragonite.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
       "imageBytes": 17368,
@@ -599,6 +743,9 @@
       "speciesId": 154,
       "dexNumber": 154,
       "name": "大竺葵",
+      "types": [
+        "grass"
+      ],
       "image": "assets/champions/meganium.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/154.png",
       "imageBytes": 12435,
@@ -613,6 +760,9 @@
       "speciesId": 157,
       "dexNumber": 157,
       "name": "火爆獸",
+      "types": [
+        "fire"
+      ],
       "image": "assets/champions/typhlosion.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/157.png",
       "imageBytes": 15582,
@@ -627,6 +777,10 @@
       "speciesId": 157,
       "dexNumber": 157,
       "name": "火爆獸（洗翠）",
+      "types": [
+        "fire",
+        "ghost"
+      ],
       "image": "assets/champions/typhlosion-hisui.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10233.png",
       "imageBytes": 13561,
@@ -641,6 +795,9 @@
       "speciesId": 160,
       "dexNumber": 160,
       "name": "大力鱷",
+      "types": [
+        "water"
+      ],
       "image": "assets/champions/feraligatr.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/160.png",
       "imageBytes": 18641,
@@ -655,6 +812,10 @@
       "speciesId": 168,
       "dexNumber": 168,
       "name": "阿利多斯",
+      "types": [
+        "bug",
+        "poison"
+      ],
       "image": "assets/champions/ariados.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/168.png",
       "imageBytes": 11074,
@@ -669,6 +830,9 @@
       "speciesId": 181,
       "dexNumber": 181,
       "name": "電龍",
+      "types": [
+        "electric"
+      ],
       "image": "assets/champions/ampharos.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/181.png",
       "imageBytes": 12631,
@@ -683,6 +847,10 @@
       "speciesId": 184,
       "dexNumber": 184,
       "name": "瑪力露麗",
+      "types": [
+        "water",
+        "fairy"
+      ],
       "image": "assets/champions/azumarill.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/184.png",
       "imageBytes": 12824,
@@ -697,6 +865,9 @@
       "speciesId": 186,
       "dexNumber": 186,
       "name": "蚊香蛙皇",
+      "types": [
+        "water"
+      ],
       "image": "assets/champions/politoed.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/186.png",
       "imageBytes": 13983,
@@ -711,6 +882,9 @@
       "speciesId": 196,
       "dexNumber": 196,
       "name": "太陽伊布",
+      "types": [
+        "psychic"
+      ],
       "image": "assets/champions/espeon.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/196.png",
       "imageBytes": 12180,
@@ -725,6 +899,9 @@
       "speciesId": 197,
       "dexNumber": 197,
       "name": "月亮伊布",
+      "types": [
+        "dark"
+      ],
       "image": "assets/champions/umbreon.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png",
       "imageBytes": 10685,
@@ -739,6 +916,10 @@
       "speciesId": 199,
       "dexNumber": 199,
       "name": "呆呆王",
+      "types": [
+        "water",
+        "psychic"
+      ],
       "image": "assets/champions/slowking.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/199.png",
       "imageBytes": 14953,
@@ -753,6 +934,10 @@
       "speciesId": 199,
       "dexNumber": 199,
       "name": "呆呆王（伽勒爾）",
+      "types": [
+        "poison",
+        "psychic"
+      ],
       "image": "assets/champions/slowking-galar.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10172.png",
       "imageBytes": 12633,
@@ -767,6 +952,10 @@
       "speciesId": 205,
       "dexNumber": 205,
       "name": "佛烈托斯",
+      "types": [
+        "bug",
+        "steel"
+      ],
       "image": "assets/champions/forretress.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/205.png",
       "imageBytes": 14914,
@@ -781,6 +970,10 @@
       "speciesId": 208,
       "dexNumber": 208,
       "name": "大鋼蛇",
+      "types": [
+        "steel",
+        "ground"
+      ],
       "image": "assets/champions/steelix.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/208.png",
       "imageBytes": 16955,
@@ -795,6 +988,10 @@
       "speciesId": 211,
       "dexNumber": 211,
       "name": "千針魚",
+      "types": [
+        "water",
+        "poison"
+      ],
       "image": "assets/champions/qwilfish.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/211.png",
       "imageBytes": 11200,
@@ -809,6 +1006,10 @@
       "speciesId": 212,
       "dexNumber": 212,
       "name": "巨鉗螳螂",
+      "types": [
+        "bug",
+        "steel"
+      ],
       "image": "assets/champions/scizor.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/212.png",
       "imageBytes": 17159,
@@ -823,6 +1024,10 @@
       "speciesId": 214,
       "dexNumber": 214,
       "name": "赫拉克羅斯",
+      "types": [
+        "bug",
+        "fighting"
+      ],
       "image": "assets/champions/heracross.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/214.png",
       "imageBytes": 14286,
@@ -837,6 +1042,10 @@
       "speciesId": 227,
       "dexNumber": 227,
       "name": "盔甲鳥",
+      "types": [
+        "steel",
+        "flying"
+      ],
       "image": "assets/champions/skarmory.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/227.png",
       "imageBytes": 16395,
@@ -851,6 +1060,10 @@
       "speciesId": 229,
       "dexNumber": 229,
       "name": "黑魯加",
+      "types": [
+        "dark",
+        "fire"
+      ],
       "image": "assets/champions/houndoom.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/229.png",
       "imageBytes": 13786,
@@ -865,6 +1078,10 @@
       "speciesId": 248,
       "dexNumber": 248,
       "name": "班基拉斯",
+      "types": [
+        "rock",
+        "dark"
+      ],
       "image": "assets/champions/tyranitar.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/248.png",
       "imageBytes": 17841,
@@ -879,6 +1096,9 @@
       "speciesId": 254,
       "dexNumber": 254,
       "name": "蜥蜴王",
+      "types": [
+        "grass"
+      ],
       "image": "assets/champions/sceptile.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/254.png",
       "imageBytes": 16450,
@@ -893,6 +1113,10 @@
       "speciesId": 257,
       "dexNumber": 257,
       "name": "火焰雞",
+      "types": [
+        "fire",
+        "fighting"
+      ],
       "image": "assets/champions/blaziken.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/257.png",
       "imageBytes": 17312,
@@ -907,6 +1131,10 @@
       "speciesId": 260,
       "dexNumber": 260,
       "name": "巨沼怪",
+      "types": [
+        "water",
+        "ground"
+      ],
       "image": "assets/champions/swampert.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/260.png",
       "imageBytes": 16030,
@@ -921,6 +1149,10 @@
       "speciesId": 279,
       "dexNumber": 279,
       "name": "大嘴鷗",
+      "types": [
+        "water",
+        "flying"
+      ],
       "image": "assets/champions/pelipper.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/279.png",
       "imageBytes": 11348,
@@ -935,6 +1167,10 @@
       "speciesId": 282,
       "dexNumber": 282,
       "name": "沙奈朵",
+      "types": [
+        "psychic",
+        "fairy"
+      ],
       "image": "assets/champions/gardevoir.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/282.png",
       "imageBytes": 11779,
@@ -949,6 +1185,10 @@
       "speciesId": 302,
       "dexNumber": 302,
       "name": "勾魂眼",
+      "types": [
+        "dark",
+        "ghost"
+      ],
       "image": "assets/champions/sableye.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/302.png",
       "imageBytes": 10098,
@@ -963,6 +1203,10 @@
       "speciesId": 303,
       "dexNumber": 303,
       "name": "大嘴娃",
+      "types": [
+        "steel",
+        "fairy"
+      ],
       "image": "assets/champions/mawile.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/303.png",
       "imageBytes": 10465,
@@ -977,6 +1221,10 @@
       "speciesId": 306,
       "dexNumber": 306,
       "name": "波士可多拉",
+      "types": [
+        "steel",
+        "rock"
+      ],
       "image": "assets/champions/aggron.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/306.png",
       "imageBytes": 18101,
@@ -991,6 +1239,10 @@
       "speciesId": 308,
       "dexNumber": 308,
       "name": "恰雷姆",
+      "types": [
+        "fighting",
+        "psychic"
+      ],
       "image": "assets/champions/medicham.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/308.png",
       "imageBytes": 10995,
@@ -1005,6 +1257,9 @@
       "speciesId": 310,
       "dexNumber": 310,
       "name": "雷電獸",
+      "types": [
+        "electric"
+      ],
       "image": "assets/champions/manectric.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/310.png",
       "imageBytes": 13343,
@@ -1019,6 +1274,9 @@
       "speciesId": 317,
       "dexNumber": 317,
       "name": "吞食獸",
+      "types": [
+        "poison"
+      ],
       "image": "assets/champions/swalot.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/317.png",
       "imageBytes": 11871,
@@ -1033,6 +1291,10 @@
       "speciesId": 319,
       "dexNumber": 319,
       "name": "巨牙鯊",
+      "types": [
+        "water",
+        "dark"
+      ],
       "image": "assets/champions/sharpedo.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/319.png",
       "imageBytes": 9946,
@@ -1047,6 +1309,10 @@
       "speciesId": 323,
       "dexNumber": 323,
       "name": "噴火駝",
+      "types": [
+        "fire",
+        "ground"
+      ],
       "image": "assets/champions/camerupt.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/323.png",
       "imageBytes": 18154,
@@ -1061,6 +1327,9 @@
       "speciesId": 324,
       "dexNumber": 324,
       "name": "煤炭龜",
+      "types": [
+        "fire"
+      ],
       "image": "assets/champions/torkoal.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/324.png",
       "imageBytes": 12601,
@@ -1075,6 +1344,10 @@
       "speciesId": 334,
       "dexNumber": 334,
       "name": "七夕青鳥",
+      "types": [
+        "dragon",
+        "flying"
+      ],
       "image": "assets/champions/altaria.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/334.png",
       "imageBytes": 11300,
@@ -1089,6 +1362,9 @@
       "speciesId": 350,
       "dexNumber": 350,
       "name": "美納斯",
+      "types": [
+        "water"
+      ],
       "image": "assets/champions/milotic.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/350.png",
       "imageBytes": 18883,
@@ -1103,6 +1379,9 @@
       "speciesId": 351,
       "dexNumber": 351,
       "name": "飄浮泡泡",
+      "types": [
+        "normal"
+      ],
       "image": "assets/champions/castform.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/351.png",
       "imageBytes": 7266,
@@ -1117,6 +1396,9 @@
       "speciesId": 354,
       "dexNumber": 354,
       "name": "詛咒娃娃",
+      "types": [
+        "ghost"
+      ],
       "image": "assets/champions/banette.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/354.png",
       "imageBytes": 12175,
@@ -1131,6 +1413,9 @@
       "speciesId": 358,
       "dexNumber": 358,
       "name": "風鈴鈴",
+      "types": [
+        "psychic"
+      ],
       "image": "assets/champions/chimecho.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/358.png",
       "imageBytes": 6597,
@@ -1145,6 +1430,9 @@
       "speciesId": 359,
       "dexNumber": 359,
       "name": "阿勃梭魯",
+      "types": [
+        "dark"
+      ],
       "image": "assets/champions/absol.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/359.png",
       "imageBytes": 12704,
@@ -1159,6 +1447,9 @@
       "speciesId": 362,
       "dexNumber": 362,
       "name": "冰鬼護",
+      "types": [
+        "ice"
+      ],
       "image": "assets/champions/glalie.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/362.png",
       "imageBytes": 16324,
@@ -1173,6 +1464,10 @@
       "speciesId": 373,
       "dexNumber": 373,
       "name": "暴飛龍",
+      "types": [
+        "dragon",
+        "flying"
+      ],
       "image": "assets/champions/salamence.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/373.png",
       "imageBytes": 14075,
@@ -1187,6 +1482,10 @@
       "speciesId": 376,
       "dexNumber": 376,
       "name": "巨金怪",
+      "types": [
+        "steel",
+        "psychic"
+      ],
       "image": "assets/champions/metagross.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/376.png",
       "imageBytes": 15252,
@@ -1201,6 +1500,10 @@
       "speciesId": 389,
       "dexNumber": 389,
       "name": "土台龜",
+      "types": [
+        "grass",
+        "ground"
+      ],
       "image": "assets/champions/torterra.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/389.png",
       "imageBytes": 17734,
@@ -1215,6 +1518,10 @@
       "speciesId": 392,
       "dexNumber": 392,
       "name": "烈焰猴",
+      "types": [
+        "fire",
+        "fighting"
+      ],
       "image": "assets/champions/infernape.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/392.png",
       "imageBytes": 19023,
@@ -1229,6 +1536,10 @@
       "speciesId": 395,
       "dexNumber": 395,
       "name": "帝王拿波",
+      "types": [
+        "water",
+        "steel"
+      ],
       "image": "assets/champions/empoleon.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/395.png",
       "imageBytes": 14161,
@@ -1243,6 +1554,10 @@
       "speciesId": 398,
       "dexNumber": 398,
       "name": "姆克鷹",
+      "types": [
+        "normal",
+        "flying"
+      ],
       "image": "assets/champions/staraptor.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/398.png",
       "imageBytes": 14310,
@@ -1257,6 +1572,9 @@
       "speciesId": 405,
       "dexNumber": 405,
       "name": "倫琴貓",
+      "types": [
+        "electric"
+      ],
       "image": "assets/champions/luxray.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/405.png",
       "imageBytes": 12575,
@@ -1271,6 +1589,10 @@
       "speciesId": 407,
       "dexNumber": 407,
       "name": "羅絲雷朵",
+      "types": [
+        "grass",
+        "poison"
+      ],
       "image": "assets/champions/roserade.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/407.png",
       "imageBytes": 14119,
@@ -1285,6 +1607,9 @@
       "speciesId": 409,
       "dexNumber": 409,
       "name": "戰槌龍",
+      "types": [
+        "rock"
+      ],
       "image": "assets/champions/rampardos.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/409.png",
       "imageBytes": 12939,
@@ -1299,6 +1624,10 @@
       "speciesId": 411,
       "dexNumber": 411,
       "name": "護城龍",
+      "types": [
+        "rock",
+        "steel"
+      ],
       "image": "assets/champions/bastiodon.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/411.png",
       "imageBytes": 16684,
@@ -1313,6 +1642,9 @@
       "speciesId": 428,
       "dexNumber": 428,
       "name": "長耳兔",
+      "types": [
+        "normal"
+      ],
       "image": "assets/champions/lopunny.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/428.png",
       "imageBytes": 13913,
@@ -1327,6 +1659,10 @@
       "speciesId": 442,
       "dexNumber": 442,
       "name": "花岩怪",
+      "types": [
+        "ghost",
+        "dark"
+      ],
       "image": "assets/champions/spiritomb.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/442.png",
       "imageBytes": 14296,
@@ -1341,6 +1677,10 @@
       "speciesId": 445,
       "dexNumber": 445,
       "name": "烈咬陸鯊",
+      "types": [
+        "dragon",
+        "ground"
+      ],
       "image": "assets/champions/garchomp.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/445.png",
       "imageBytes": 19758,
@@ -1355,6 +1695,10 @@
       "speciesId": 448,
       "dexNumber": 448,
       "name": "路卡利歐",
+      "types": [
+        "fighting",
+        "steel"
+      ],
       "image": "assets/champions/lucario.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png",
       "imageBytes": 11176,
@@ -1369,6 +1713,9 @@
       "speciesId": 450,
       "dexNumber": 450,
       "name": "河馬獸",
+      "types": [
+        "ground"
+      ],
       "image": "assets/champions/hippowdon.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/450.png",
       "imageBytes": 13955,
@@ -1383,6 +1730,10 @@
       "speciesId": 454,
       "dexNumber": 454,
       "name": "毒骷蛙",
+      "types": [
+        "poison",
+        "fighting"
+      ],
       "image": "assets/champions/toxicroak.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/454.png",
       "imageBytes": 14889,
@@ -1397,6 +1748,10 @@
       "speciesId": 460,
       "dexNumber": 460,
       "name": "暴雪王",
+      "types": [
+        "grass",
+        "ice"
+      ],
       "image": "assets/champions/abomasnow.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/460.png",
       "imageBytes": 14958,
@@ -1411,6 +1766,10 @@
       "speciesId": 461,
       "dexNumber": 461,
       "name": "瑪狃拉",
+      "types": [
+        "dark",
+        "ice"
+      ],
       "image": "assets/champions/weavile.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/461.png",
       "imageBytes": 15071,
@@ -1425,6 +1784,10 @@
       "speciesId": 464,
       "dexNumber": 464,
       "name": "超甲狂犀",
+      "types": [
+        "ground",
+        "rock"
+      ],
       "image": "assets/champions/rhyperior.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/464.png",
       "imageBytes": 20617,
@@ -1439,6 +1802,9 @@
       "speciesId": 470,
       "dexNumber": 470,
       "name": "葉伊布",
+      "types": [
+        "grass"
+      ],
       "image": "assets/champions/leafeon.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/470.png",
       "imageBytes": 14616,
@@ -1453,6 +1819,9 @@
       "speciesId": 471,
       "dexNumber": 471,
       "name": "冰伊布",
+      "types": [
+        "ice"
+      ],
       "image": "assets/champions/glaceon.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/471.png",
       "imageBytes": 11984,
@@ -1467,6 +1836,10 @@
       "speciesId": 472,
       "dexNumber": 472,
       "name": "天蠍王",
+      "types": [
+        "ground",
+        "flying"
+      ],
       "image": "assets/champions/gliscor.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/472.png",
       "imageBytes": 15812,
@@ -1481,6 +1854,10 @@
       "speciesId": 473,
       "dexNumber": 473,
       "name": "象牙豬",
+      "types": [
+        "ice",
+        "ground"
+      ],
       "image": "assets/champions/mamoswine.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/473.png",
       "imageBytes": 15837,
@@ -1495,6 +1872,10 @@
       "speciesId": 475,
       "dexNumber": 475,
       "name": "艾路雷朵",
+      "types": [
+        "psychic",
+        "fighting"
+      ],
       "image": "assets/champions/gallade.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/475.png",
       "imageBytes": 9449,
@@ -1509,6 +1890,10 @@
       "speciesId": 478,
       "dexNumber": 478,
       "name": "雪妖女",
+      "types": [
+        "ice",
+        "ghost"
+      ],
       "image": "assets/champions/froslass.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/478.png",
       "imageBytes": 13138,
@@ -1523,6 +1908,10 @@
       "speciesId": 479,
       "dexNumber": 479,
       "name": "洛托姆",
+      "types": [
+        "electric",
+        "ghost"
+      ],
       "image": "assets/champions/rotom.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/479.png",
       "imageBytes": 8153,
@@ -1537,6 +1926,10 @@
       "speciesId": 479,
       "dexNumber": 479,
       "name": "結冰洛托姆",
+      "types": [
+        "electric",
+        "ice"
+      ],
       "image": "assets/champions/rotom-frost.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10010.png",
       "imageBytes": 10041,
@@ -1551,6 +1944,10 @@
       "speciesId": 479,
       "dexNumber": 479,
       "name": "旋轉洛托姆",
+      "types": [
+        "electric",
+        "flying"
+      ],
       "image": "assets/champions/rotom-fan.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10011.png",
       "imageBytes": 11022,
@@ -1565,6 +1962,10 @@
       "speciesId": 479,
       "dexNumber": 479,
       "name": "加熱洛托姆",
+      "types": [
+        "electric",
+        "fire"
+      ],
       "image": "assets/champions/rotom-heat.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10008.png",
       "imageBytes": 9846,
@@ -1579,6 +1980,10 @@
       "speciesId": 479,
       "dexNumber": 479,
       "name": "切割洛托姆",
+      "types": [
+        "electric",
+        "grass"
+      ],
       "image": "assets/champions/rotom-mow.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10012.png",
       "imageBytes": 10729,
@@ -1593,6 +1998,10 @@
       "speciesId": 479,
       "dexNumber": 479,
       "name": "清洗洛托姆",
+      "types": [
+        "electric",
+        "water"
+      ],
       "image": "assets/champions/rotom-wash.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10009.png",
       "imageBytes": 10066,
@@ -1607,6 +2016,9 @@
       "speciesId": 497,
       "dexNumber": 497,
       "name": "君主蛇",
+      "types": [
+        "grass"
+      ],
       "image": "assets/champions/serperior.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/497.png",
       "imageBytes": 15189,
@@ -1621,6 +2033,10 @@
       "speciesId": 500,
       "dexNumber": 500,
       "name": "炎武王",
+      "types": [
+        "fire",
+        "fighting"
+      ],
       "image": "assets/champions/emboar.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/500.png",
       "imageBytes": 19974,
@@ -1635,6 +2051,9 @@
       "speciesId": 503,
       "dexNumber": 503,
       "name": "大劍鬼",
+      "types": [
+        "water"
+      ],
       "image": "assets/champions/samurott.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/503.png",
       "imageBytes": 16627,
@@ -1649,6 +2068,10 @@
       "speciesId": 503,
       "dexNumber": 503,
       "name": "大劍鬼（洗翠）",
+      "types": [
+        "water",
+        "dark"
+      ],
       "image": "assets/champions/samurott-hisui.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10236.png",
       "imageBytes": 17442,
@@ -1663,6 +2086,9 @@
       "speciesId": 505,
       "dexNumber": 505,
       "name": "步哨鼠",
+      "types": [
+        "normal"
+      ],
       "image": "assets/champions/watchog.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/505.png",
       "imageBytes": 9721,
@@ -1677,6 +2103,9 @@
       "speciesId": 510,
       "dexNumber": 510,
       "name": "酷豹",
+      "types": [
+        "dark"
+      ],
       "image": "assets/champions/liepard.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/510.png",
       "imageBytes": 11693,
@@ -1691,6 +2120,9 @@
       "speciesId": 512,
       "dexNumber": 512,
       "name": "花椰猿",
+      "types": [
+        "grass"
+      ],
       "image": "assets/champions/simisage.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/512.png",
       "imageBytes": 13148,
@@ -1705,6 +2137,9 @@
       "speciesId": 514,
       "dexNumber": 514,
       "name": "爆香猿",
+      "types": [
+        "fire"
+      ],
       "image": "assets/champions/simisear.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/514.png",
       "imageBytes": 16182,
@@ -1719,6 +2154,9 @@
       "speciesId": 516,
       "dexNumber": 516,
       "name": "冷水猿",
+      "types": [
+        "water"
+      ],
       "image": "assets/champions/simipour.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/516.png",
       "imageBytes": 15938,
@@ -1733,6 +2171,9 @@
       "speciesId": 518,
       "dexNumber": 518,
       "name": "夢夢蝕",
+      "types": [
+        "psychic"
+      ],
       "image": "assets/champions/musharna.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/518.png",
       "imageBytes": 13549,
@@ -1747,6 +2188,10 @@
       "speciesId": 530,
       "dexNumber": 530,
       "name": "龍頭地鼠",
+      "types": [
+        "ground",
+        "steel"
+      ],
       "image": "assets/champions/excadrill.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/530.png",
       "imageBytes": 11253,
@@ -1761,6 +2206,9 @@
       "speciesId": 531,
       "dexNumber": 531,
       "name": "差不多娃娃",
+      "types": [
+        "normal"
+      ],
       "image": "assets/champions/audino.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/531.png",
       "imageBytes": 12069,
@@ -1775,6 +2223,9 @@
       "speciesId": 534,
       "dexNumber": 534,
       "name": "修建老匠",
+      "types": [
+        "fighting"
+      ],
       "image": "assets/champions/conkeldurr.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/534.png",
       "imageBytes": 15750,
@@ -1789,6 +2240,10 @@
       "speciesId": 545,
       "dexNumber": 545,
       "name": "蜈蚣王",
+      "types": [
+        "bug",
+        "poison"
+      ],
       "image": "assets/champions/scolipede.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/545.png",
       "imageBytes": 11461,
@@ -1803,6 +2258,10 @@
       "speciesId": 547,
       "dexNumber": 547,
       "name": "風妖精",
+      "types": [
+        "grass",
+        "fairy"
+      ],
       "image": "assets/champions/whimsicott.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/547.png",
       "imageBytes": 12856,
@@ -1817,6 +2276,10 @@
       "speciesId": 553,
       "dexNumber": 553,
       "name": "流氓鱷",
+      "types": [
+        "ground",
+        "dark"
+      ],
       "image": "assets/champions/krookodile.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/553.png",
       "imageBytes": 17236,
@@ -1831,6 +2294,10 @@
       "speciesId": 560,
       "dexNumber": 560,
       "name": "頭巾混混",
+      "types": [
+        "dark",
+        "fighting"
+      ],
       "image": "assets/champions/scrafty.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/560.png",
       "imageBytes": 11512,
@@ -1845,6 +2312,9 @@
       "speciesId": 563,
       "dexNumber": 563,
       "name": "死神棺",
+      "types": [
+        "ghost"
+      ],
       "image": "assets/champions/cofagrigus.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/563.png",
       "imageBytes": 15179,
@@ -1859,6 +2329,9 @@
       "speciesId": 569,
       "dexNumber": 569,
       "name": "灰塵山",
+      "types": [
+        "poison"
+      ],
       "image": "assets/champions/garbodor.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/569.png",
       "imageBytes": 17224,
@@ -1873,6 +2346,9 @@
       "speciesId": 571,
       "dexNumber": 571,
       "name": "索羅亞克",
+      "types": [
+        "dark"
+      ],
       "image": "assets/champions/zoroark.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/571.png",
       "imageBytes": 15432,
@@ -1887,6 +2363,10 @@
       "speciesId": 571,
       "dexNumber": 571,
       "name": "索羅亞克（洗翠）",
+      "types": [
+        "normal",
+        "ghost"
+      ],
       "image": "assets/champions/zoroark-hisui.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10239.png",
       "imageBytes": 18376,
@@ -1901,6 +2381,9 @@
       "speciesId": 579,
       "dexNumber": 579,
       "name": "人造細胞卵",
+      "types": [
+        "psychic"
+      ],
       "image": "assets/champions/reuniclus.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/579.png",
       "imageBytes": 13176,
@@ -1915,6 +2398,9 @@
       "speciesId": 584,
       "dexNumber": 584,
       "name": "雙倍多多冰",
+      "types": [
+        "ice"
+      ],
       "image": "assets/champions/vanilluxe.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/584.png",
       "imageBytes": 16357,
@@ -1929,6 +2415,10 @@
       "speciesId": 587,
       "dexNumber": 587,
       "name": "電飛鼠",
+      "types": [
+        "electric",
+        "flying"
+      ],
       "image": "assets/champions/emolga.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/587.png",
       "imageBytes": 10327,
@@ -1943,6 +2433,9 @@
       "speciesId": 604,
       "dexNumber": 604,
       "name": "麻麻鰻魚王",
+      "types": [
+        "electric"
+      ],
       "image": "assets/champions/eelektross.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/604.png",
       "imageBytes": 17233,
@@ -1957,6 +2450,10 @@
       "speciesId": 609,
       "dexNumber": 609,
       "name": "水晶燈火靈",
+      "types": [
+        "ghost",
+        "fire"
+      ],
       "image": "assets/champions/chandelure.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/609.png",
       "imageBytes": 14718,
@@ -1971,6 +2468,9 @@
       "speciesId": 614,
       "dexNumber": 614,
       "name": "凍原熊",
+      "types": [
+        "ice"
+      ],
       "image": "assets/champions/beartic.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/614.png",
       "imageBytes": 14709,
@@ -1985,6 +2485,10 @@
       "speciesId": 618,
       "dexNumber": 618,
       "name": "泥巴魚",
+      "types": [
+        "ground",
+        "electric"
+      ],
       "image": "assets/champions/stunfisk.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/618.png",
       "imageBytes": 10290,
@@ -1999,6 +2503,10 @@
       "speciesId": 618,
       "dexNumber": 618,
       "name": "泥巴魚（伽勒爾）",
+      "types": [
+        "ground",
+        "steel"
+      ],
       "image": "assets/champions/stunfisk-galar.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10180.png",
       "imageBytes": 9833,
@@ -2013,6 +2521,10 @@
       "speciesId": 623,
       "dexNumber": 623,
       "name": "泥偶巨人",
+      "types": [
+        "ground",
+        "ghost"
+      ],
       "image": "assets/champions/golurk.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/623.png",
       "imageBytes": 21882,
@@ -2027,6 +2539,10 @@
       "speciesId": 635,
       "dexNumber": 635,
       "name": "三首惡龍",
+      "types": [
+        "dark",
+        "dragon"
+      ],
       "image": "assets/champions/hydreigon.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/635.png",
       "imageBytes": 17097,
@@ -2041,6 +2557,10 @@
       "speciesId": 637,
       "dexNumber": 637,
       "name": "火神蛾",
+      "types": [
+        "bug",
+        "fire"
+      ],
       "image": "assets/champions/volcarona.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/637.png",
       "imageBytes": 15280,
@@ -2055,6 +2575,10 @@
       "speciesId": 652,
       "dexNumber": 652,
       "name": "布里卡隆",
+      "types": [
+        "grass",
+        "fighting"
+      ],
       "image": "assets/champions/chesnaught.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/652.png",
       "imageBytes": 18899,
@@ -2069,6 +2593,10 @@
       "speciesId": 655,
       "dexNumber": 655,
       "name": "妖火紅狐",
+      "types": [
+        "fire",
+        "psychic"
+      ],
       "image": "assets/champions/delphox.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/655.png",
       "imageBytes": 13378,
@@ -2083,6 +2611,10 @@
       "speciesId": 658,
       "dexNumber": 658,
       "name": "甲賀忍蛙",
+      "types": [
+        "water",
+        "dark"
+      ],
       "image": "assets/champions/greninja.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/658.png",
       "imageBytes": 13915,
@@ -2097,6 +2629,10 @@
       "speciesId": 660,
       "dexNumber": 660,
       "name": "掘地兔",
+      "types": [
+        "normal",
+        "ground"
+      ],
       "image": "assets/champions/diggersby.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/660.png",
       "imageBytes": 13912,
@@ -2111,6 +2647,10 @@
       "speciesId": 663,
       "dexNumber": 663,
       "name": "烈箭鷹",
+      "types": [
+        "fire",
+        "flying"
+      ],
       "image": "assets/champions/talonflame.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/663.png",
       "imageBytes": 13217,
@@ -2125,6 +2665,10 @@
       "speciesId": 666,
       "dexNumber": 666,
       "name": "彩粉蝶",
+      "types": [
+        "bug",
+        "flying"
+      ],
       "image": "assets/champions/vivillon.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
       "imageBytes": 17349,
@@ -2139,6 +2683,10 @@
       "speciesId": 668,
       "dexNumber": 668,
       "name": "火炎獅",
+      "types": [
+        "fire",
+        "normal"
+      ],
       "image": "assets/champions/pyroar-male.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/668.png",
       "imageBytes": 15017,
@@ -2153,6 +2701,9 @@
       "speciesId": 670,
       "dexNumber": 670,
       "name": "花葉蒂（永恆之花）",
+      "types": [
+        "fairy"
+      ],
       "image": "assets/champions/floette-eternal.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10061.png",
       "imageBytes": 9367,
@@ -2167,6 +2718,9 @@
       "speciesId": 671,
       "dexNumber": 671,
       "name": "花潔夫人",
+      "types": [
+        "fairy"
+      ],
       "image": "assets/champions/florges.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/671.png",
       "imageBytes": 15177,
@@ -2181,6 +2735,9 @@
       "speciesId": 673,
       "dexNumber": 673,
       "name": "坐騎山羊",
+      "types": [
+        "grass"
+      ],
       "image": "assets/champions/gogoat.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/673.png",
       "imageBytes": 12647,
@@ -2195,6 +2752,10 @@
       "speciesId": 675,
       "dexNumber": 675,
       "name": "流氓熊貓",
+      "types": [
+        "fighting",
+        "dark"
+      ],
       "image": "assets/champions/pangoro.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/675.png",
       "imageBytes": 16720,
@@ -2209,6 +2770,9 @@
       "speciesId": 676,
       "dexNumber": 676,
       "name": "多麗米亞",
+      "types": [
+        "normal"
+      ],
       "image": "assets/champions/furfrou.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/676.png",
       "imageBytes": 10590,
@@ -2223,6 +2787,9 @@
       "speciesId": 678,
       "dexNumber": 678,
       "name": "超能妙喵（雄性）",
+      "types": [
+        "psychic"
+      ],
       "image": "assets/champions/meowstic-male.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/678.png",
       "imageBytes": 12502,
@@ -2237,6 +2804,9 @@
       "speciesId": 678,
       "dexNumber": 678,
       "name": "超能妙喵（雌性）",
+      "types": [
+        "psychic"
+      ],
       "image": "assets/champions/meowstic-female.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10025.png",
       "imageBytes": 11197,
@@ -2251,6 +2821,10 @@
       "speciesId": 681,
       "dexNumber": 681,
       "name": "堅盾劍怪",
+      "types": [
+        "steel",
+        "ghost"
+      ],
       "image": "assets/champions/aegislash-shield.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/681.png",
       "imageBytes": 14631,
@@ -2265,6 +2839,9 @@
       "speciesId": 683,
       "dexNumber": 683,
       "name": "芳香精",
+      "types": [
+        "fairy"
+      ],
       "image": "assets/champions/aromatisse.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/683.png",
       "imageBytes": 12920,
@@ -2279,6 +2856,9 @@
       "speciesId": 685,
       "dexNumber": 685,
       "name": "胖甜妮",
+      "types": [
+        "fairy"
+      ],
       "image": "assets/champions/slurpuff.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/685.png",
       "imageBytes": 11950,
@@ -2293,6 +2873,10 @@
       "speciesId": 687,
       "dexNumber": 687,
       "name": "烏賊王",
+      "types": [
+        "dark",
+        "psychic"
+      ],
       "image": "assets/champions/malamar.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/687.png",
       "imageBytes": 15049,
@@ -2307,6 +2891,10 @@
       "speciesId": 689,
       "dexNumber": 689,
       "name": "龜足巨鎧",
+      "types": [
+        "rock",
+        "water"
+      ],
       "image": "assets/champions/barbaracle.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/689.png",
       "imageBytes": 20581,
@@ -2321,6 +2909,10 @@
       "speciesId": 691,
       "dexNumber": 691,
       "name": "毒藻龍",
+      "types": [
+        "poison",
+        "dragon"
+      ],
       "image": "assets/champions/dragalge.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/691.png",
       "imageBytes": 11464,
@@ -2335,6 +2927,9 @@
       "speciesId": 693,
       "dexNumber": 693,
       "name": "鋼炮臂蝦",
+      "types": [
+        "water"
+      ],
       "image": "assets/champions/clawitzer.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/693.png",
       "imageBytes": 13327,
@@ -2349,6 +2944,10 @@
       "speciesId": 695,
       "dexNumber": 695,
       "name": "光電傘蜥",
+      "types": [
+        "electric",
+        "normal"
+      ],
       "image": "assets/champions/heliolisk.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/695.png",
       "imageBytes": 10031,
@@ -2363,6 +2962,10 @@
       "speciesId": 697,
       "dexNumber": 697,
       "name": "怪顎龍",
+      "types": [
+        "rock",
+        "dragon"
+      ],
       "image": "assets/champions/tyrantrum.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/697.png",
       "imageBytes": 19117,
@@ -2377,6 +2980,10 @@
       "speciesId": 699,
       "dexNumber": 699,
       "name": "冰雪巨龍",
+      "types": [
+        "rock",
+        "ice"
+      ],
       "image": "assets/champions/aurorus.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/699.png",
       "imageBytes": 11034,
@@ -2391,6 +2998,9 @@
       "speciesId": 700,
       "dexNumber": 700,
       "name": "仙子伊布",
+      "types": [
+        "fairy"
+      ],
       "image": "assets/champions/sylveon.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/700.png",
       "imageBytes": 11590,
@@ -2405,6 +3015,10 @@
       "speciesId": 701,
       "dexNumber": 701,
       "name": "摔角鷹人",
+      "types": [
+        "fighting",
+        "flying"
+      ],
       "image": "assets/champions/hawlucha.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/701.png",
       "imageBytes": 11324,
@@ -2419,6 +3033,10 @@
       "speciesId": 702,
       "dexNumber": 702,
       "name": "咚咚鼠",
+      "types": [
+        "electric",
+        "fairy"
+      ],
       "image": "assets/champions/dedenne.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/702.png",
       "imageBytes": 10132,
@@ -2433,6 +3051,9 @@
       "speciesId": 706,
       "dexNumber": 706,
       "name": "黏美龍",
+      "types": [
+        "dragon"
+      ],
       "image": "assets/champions/goodra.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/706.png",
       "imageBytes": 12230,
@@ -2447,6 +3068,10 @@
       "speciesId": 706,
       "dexNumber": 706,
       "name": "黏美龍（洗翠）",
+      "types": [
+        "steel",
+        "dragon"
+      ],
       "image": "assets/champions/goodra-hisui.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10242.png",
       "imageBytes": 12161,
@@ -2461,6 +3086,10 @@
       "speciesId": 707,
       "dexNumber": 707,
       "name": "鑰圈兒",
+      "types": [
+        "steel",
+        "fairy"
+      ],
       "image": "assets/champions/klefki.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/707.png",
       "imageBytes": 8925,
@@ -2475,6 +3104,10 @@
       "speciesId": 709,
       "dexNumber": 709,
       "name": "朽木妖",
+      "types": [
+        "ghost",
+        "grass"
+      ],
       "image": "assets/champions/trevenant.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/709.png",
       "imageBytes": 15951,
@@ -2489,6 +3122,10 @@
       "speciesId": 711,
       "dexNumber": 711,
       "name": "南瓜怪人（中顆種）",
+      "types": [
+        "ghost",
+        "grass"
+      ],
       "image": "assets/champions/gourgeist-average.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/711.png",
       "imageBytes": 11726,
@@ -2503,6 +3140,10 @@
       "speciesId": 711,
       "dexNumber": 711,
       "name": "南瓜怪人（巨顆種）",
+      "types": [
+        "ghost",
+        "grass"
+      ],
       "image": "assets/champions/gourgeist-super.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10032.png",
       "imageBytes": 13140,
@@ -2517,6 +3158,10 @@
       "speciesId": 711,
       "dexNumber": 711,
       "name": "南瓜怪人（大顆種）",
+      "types": [
+        "ghost",
+        "grass"
+      ],
       "image": "assets/champions/gourgeist-large.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10031.png",
       "imageBytes": 12562,
@@ -2531,6 +3176,10 @@
       "speciesId": 711,
       "dexNumber": 711,
       "name": "南瓜怪人（小顆種）",
+      "types": [
+        "ghost",
+        "grass"
+      ],
       "image": "assets/champions/gourgeist-small.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10030.png",
       "imageBytes": 10632,
@@ -2545,6 +3194,9 @@
       "speciesId": 713,
       "dexNumber": 713,
       "name": "冰岩怪",
+      "types": [
+        "ice"
+      ],
       "image": "assets/champions/avalugg.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/713.png",
       "imageBytes": 16241,
@@ -2559,6 +3211,10 @@
       "speciesId": 713,
       "dexNumber": 713,
       "name": "冰岩怪（洗翠）",
+      "types": [
+        "ice",
+        "rock"
+      ],
       "image": "assets/champions/avalugg-hisui.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10243.png",
       "imageBytes": 13770,
@@ -2573,6 +3229,10 @@
       "speciesId": 715,
       "dexNumber": 715,
       "name": "音波龍",
+      "types": [
+        "flying",
+        "dragon"
+      ],
       "image": "assets/champions/noivern.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/715.png",
       "imageBytes": 12620,
@@ -2587,6 +3247,10 @@
       "speciesId": 724,
       "dexNumber": 724,
       "name": "狙射樹梟",
+      "types": [
+        "grass",
+        "ghost"
+      ],
       "image": "assets/champions/decidueye.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/724.png",
       "imageBytes": 13594,
@@ -2601,6 +3265,10 @@
       "speciesId": 724,
       "dexNumber": 724,
       "name": "狙射樹梟（洗翠）",
+      "types": [
+        "grass",
+        "fighting"
+      ],
       "image": "assets/champions/decidueye-hisui.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10244.png",
       "imageBytes": 13730,
@@ -2615,6 +3283,10 @@
       "speciesId": 727,
       "dexNumber": 727,
       "name": "熾焰咆哮虎",
+      "types": [
+        "fire",
+        "dark"
+      ],
       "image": "assets/champions/incineroar.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/727.png",
       "imageBytes": 14504,
@@ -2629,6 +3301,10 @@
       "speciesId": 730,
       "dexNumber": 730,
       "name": "西獅海壬",
+      "types": [
+        "water",
+        "fairy"
+      ],
       "image": "assets/champions/primarina.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/730.png",
       "imageBytes": 15785,
@@ -2643,6 +3319,10 @@
       "speciesId": 733,
       "dexNumber": 733,
       "name": "銃嘴大鳥",
+      "types": [
+        "normal",
+        "flying"
+      ],
       "image": "assets/champions/toucannon.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/733.png",
       "imageBytes": 11819,
@@ -2657,6 +3337,10 @@
       "speciesId": 740,
       "dexNumber": 740,
       "name": "好勝毛蟹",
+      "types": [
+        "fighting",
+        "ice"
+      ],
       "image": "assets/champions/crabominable.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/740.png",
       "imageBytes": 13492,
@@ -2671,6 +3355,9 @@
       "speciesId": 745,
       "dexNumber": 745,
       "name": "鬃岩狼人（白晝）",
+      "types": [
+        "rock"
+      ],
       "image": "assets/champions/lycanroc-midday.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/745.png",
       "imageBytes": 12842,
@@ -2685,6 +3372,9 @@
       "speciesId": 745,
       "dexNumber": 745,
       "name": "鬃岩狼人（黑夜）",
+      "types": [
+        "rock"
+      ],
       "image": "assets/champions/lycanroc-midnight.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10126.png",
       "imageBytes": 12423,
@@ -2699,6 +3389,9 @@
       "speciesId": 745,
       "dexNumber": 745,
       "name": "鬃岩狼人（黃昏）",
+      "types": [
+        "rock"
+      ],
       "image": "assets/champions/lycanroc-dusk.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10152.png",
       "imageBytes": 12394,
@@ -2713,6 +3406,10 @@
       "speciesId": 748,
       "dexNumber": 748,
       "name": "超壞星",
+      "types": [
+        "poison",
+        "water"
+      ],
       "image": "assets/champions/toxapex.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/748.png",
       "imageBytes": 14585,
@@ -2727,6 +3424,9 @@
       "speciesId": 750,
       "dexNumber": 750,
       "name": "重泥挽馬",
+      "types": [
+        "ground"
+      ],
       "image": "assets/champions/mudsdale.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/750.png",
       "imageBytes": 15427,
@@ -2741,6 +3441,10 @@
       "speciesId": 752,
       "dexNumber": 752,
       "name": "滴蛛霸",
+      "types": [
+        "water",
+        "bug"
+      ],
       "image": "assets/champions/araquanid.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/752.png",
       "imageBytes": 15563,
@@ -2755,6 +3459,10 @@
       "speciesId": 758,
       "dexNumber": 758,
       "name": "焰后蜥",
+      "types": [
+        "poison",
+        "fire"
+      ],
       "image": "assets/champions/salazzle.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/758.png",
       "imageBytes": 11947,
@@ -2769,6 +3477,9 @@
       "speciesId": 763,
       "dexNumber": 763,
       "name": "甜冷美后",
+      "types": [
+        "grass"
+      ],
       "image": "assets/champions/tsareena.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/763.png",
       "imageBytes": 13560,
@@ -2783,6 +3494,10 @@
       "speciesId": 765,
       "dexNumber": 765,
       "name": "智揮猩",
+      "types": [
+        "normal",
+        "psychic"
+      ],
       "image": "assets/champions/oranguru.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/765.png",
       "imageBytes": 15648,
@@ -2797,6 +3512,9 @@
       "speciesId": 766,
       "dexNumber": 766,
       "name": "投擲猴",
+      "types": [
+        "fighting"
+      ],
       "image": "assets/champions/passimian.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/766.png",
       "imageBytes": 15044,
@@ -2811,6 +3529,10 @@
       "speciesId": 768,
       "dexNumber": 768,
       "name": "具甲武者",
+      "types": [
+        "bug",
+        "water"
+      ],
       "image": "assets/champions/golisopod.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/768.png",
       "imageBytes": 23266,
@@ -2825,6 +3547,10 @@
       "speciesId": 778,
       "dexNumber": 778,
       "name": "謎擬Ｑ",
+      "types": [
+        "ghost",
+        "fairy"
+      ],
       "image": "assets/champions/mimikyu-disguised.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/778.png",
       "imageBytes": 8480,
@@ -2839,6 +3565,10 @@
       "speciesId": 780,
       "dexNumber": 780,
       "name": "老翁龍",
+      "types": [
+        "normal",
+        "dragon"
+      ],
       "image": "assets/champions/drampa.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/780.png",
       "imageBytes": 14823,
@@ -2853,6 +3583,10 @@
       "speciesId": 784,
       "dexNumber": 784,
       "name": "杖尾鱗甲龍",
+      "types": [
+        "dragon",
+        "fighting"
+      ],
       "image": "assets/champions/kommo-o.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/784.png",
       "imageBytes": 19815,
@@ -2867,6 +3601,9 @@
       "speciesId": 812,
       "dexNumber": 812,
       "name": "轟擂金剛猩",
+      "types": [
+        "grass"
+      ],
       "image": "assets/champions/rillaboom.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/812.png",
       "imageBytes": 17550,
@@ -2881,6 +3618,9 @@
       "speciesId": 815,
       "dexNumber": 815,
       "name": "閃焰王牌",
+      "types": [
+        "fire"
+      ],
       "image": "assets/champions/cinderace.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/815.png",
       "imageBytes": 11554,
@@ -2895,6 +3635,9 @@
       "speciesId": 818,
       "dexNumber": 818,
       "name": "千面避役",
+      "types": [
+        "water"
+      ],
       "image": "assets/champions/inteleon.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/818.png",
       "imageBytes": 9462,
@@ -2909,6 +3652,10 @@
       "speciesId": 823,
       "dexNumber": 823,
       "name": "鋼鎧鴉",
+      "types": [
+        "flying",
+        "steel"
+      ],
       "image": "assets/champions/corviknight.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/823.png",
       "imageBytes": 13977,
@@ -2923,6 +3670,9 @@
       "speciesId": 828,
       "dexNumber": 828,
       "name": "狐大盜",
+      "types": [
+        "dark"
+      ],
       "image": "assets/champions/thievul.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/828.png",
       "imageBytes": 10380,
@@ -2937,6 +3687,10 @@
       "speciesId": 841,
       "dexNumber": 841,
       "name": "蘋裹龍",
+      "types": [
+        "grass",
+        "dragon"
+      ],
       "image": "assets/champions/flapple.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/841.png",
       "imageBytes": 10678,
@@ -2951,6 +3705,10 @@
       "speciesId": 842,
       "dexNumber": 842,
       "name": "豐蜜龍",
+      "types": [
+        "grass",
+        "dragon"
+      ],
       "image": "assets/champions/appletun.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/842.png",
       "imageBytes": 10733,
@@ -2965,6 +3723,9 @@
       "speciesId": 844,
       "dexNumber": 844,
       "name": "沙螺蟒",
+      "types": [
+        "ground"
+      ],
       "image": "assets/champions/sandaconda.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/844.png",
       "imageBytes": 14691,
@@ -2979,6 +3740,10 @@
       "speciesId": 849,
       "dexNumber": 849,
       "name": "顫弦蠑螈",
+      "types": [
+        "electric",
+        "poison"
+      ],
       "image": "assets/champions/toxtricity-amped.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/849.png",
       "imageBytes": 12220,
@@ -2993,6 +3758,9 @@
       "speciesId": 853,
       "dexNumber": 853,
       "name": "八爪武師",
+      "types": [
+        "fighting"
+      ],
       "image": "assets/champions/grapploct.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/853.png",
       "imageBytes": 14375,
@@ -3007,6 +3775,9 @@
       "speciesId": 855,
       "dexNumber": 855,
       "name": "怖思壺",
+      "types": [
+        "ghost"
+      ],
       "image": "assets/champions/polteageist.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/855.png",
       "imageBytes": 13057,
@@ -3021,6 +3792,10 @@
       "speciesId": 858,
       "dexNumber": 858,
       "name": "布莉姆溫",
+      "types": [
+        "psychic",
+        "fairy"
+      ],
       "image": "assets/champions/hatterene.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/858.png",
       "imageBytes": 11331,
@@ -3035,6 +3810,10 @@
       "speciesId": 861,
       "dexNumber": 861,
       "name": "長毛巨魔",
+      "types": [
+        "dark",
+        "fairy"
+      ],
       "image": "assets/champions/grimmsnarl.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/861.png",
       "imageBytes": 16556,
@@ -3049,6 +3828,9 @@
       "speciesId": 863,
       "dexNumber": 863,
       "name": "喵頭目",
+      "types": [
+        "steel"
+      ],
       "image": "assets/champions/perrserker.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/863.png",
       "imageBytes": 13461,
@@ -3063,6 +3845,9 @@
       "speciesId": 865,
       "dexNumber": 865,
       "name": "蔥遊兵",
+      "types": [
+        "fighting"
+      ],
       "image": "assets/champions/sirfetchd.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/865.png",
       "imageBytes": 10803,
@@ -3077,6 +3862,10 @@
       "speciesId": 866,
       "dexNumber": 866,
       "name": "踏冰人偶",
+      "types": [
+        "ice",
+        "psychic"
+      ],
       "image": "assets/champions/mr-rime.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/866.png",
       "imageBytes": 16927,
@@ -3091,6 +3880,10 @@
       "speciesId": 867,
       "dexNumber": 867,
       "name": "死神板",
+      "types": [
+        "ground",
+        "ghost"
+      ],
       "image": "assets/champions/runerigus.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/867.png",
       "imageBytes": 15700,
@@ -3105,6 +3898,9 @@
       "speciesId": 869,
       "dexNumber": 869,
       "name": "霜奶仙",
+      "types": [
+        "fairy"
+      ],
       "image": "assets/champions/alcremie.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/869.png",
       "imageBytes": 11035,
@@ -3119,6 +3915,9 @@
       "speciesId": 870,
       "dexNumber": 870,
       "name": "列陣兵",
+      "types": [
+        "fighting"
+      ],
       "image": "assets/champions/falinks.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/870.png",
       "imageBytes": 13607,
@@ -3133,6 +3932,9 @@
       "speciesId": 871,
       "dexNumber": 871,
       "name": "啪嚓海膽",
+      "types": [
+        "electric"
+      ],
       "image": "assets/champions/pincurchin.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/871.png",
       "imageBytes": 8372,
@@ -3147,6 +3949,10 @@
       "speciesId": 876,
       "dexNumber": 876,
       "name": "愛管侍（雄性）",
+      "types": [
+        "psychic",
+        "normal"
+      ],
       "image": "assets/champions/indeedee-male.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/876.png",
       "imageBytes": 9827,
@@ -3161,6 +3967,10 @@
       "speciesId": 876,
       "dexNumber": 876,
       "name": "愛管侍（雌性）",
+      "types": [
+        "psychic",
+        "normal"
+      ],
       "image": "assets/champions/indeedee-female.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10186.png",
       "imageBytes": 10919,
@@ -3175,6 +3985,10 @@
       "speciesId": 877,
       "dexNumber": 877,
       "name": "莫魯貝可",
+      "types": [
+        "electric",
+        "dark"
+      ],
       "image": "assets/champions/morpeko-full-belly.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/877.png",
       "imageBytes": 8840,
@@ -3189,6 +4003,10 @@
       "speciesId": 887,
       "dexNumber": 887,
       "name": "多龍巴魯托",
+      "types": [
+        "dragon",
+        "ghost"
+      ],
       "image": "assets/champions/dragapult.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/887.png",
       "imageBytes": 14999,
@@ -3203,6 +4021,10 @@
       "speciesId": 899,
       "dexNumber": 899,
       "name": "詭角鹿",
+      "types": [
+        "normal",
+        "psychic"
+      ],
       "image": "assets/champions/wyrdeer.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/899.png",
       "imageBytes": 12268,
@@ -3217,6 +4039,10 @@
       "speciesId": 900,
       "dexNumber": 900,
       "name": "劈斧螳螂",
+      "types": [
+        "bug",
+        "rock"
+      ],
       "image": "assets/champions/kleavor.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/900.png",
       "imageBytes": 13048,
@@ -3231,6 +4057,10 @@
       "speciesId": 902,
       "dexNumber": 902,
       "name": "幽尾玄魚（雄性）",
+      "types": [
+        "water",
+        "ghost"
+      ],
       "image": "assets/champions/basculegion-male.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/902.png",
       "imageBytes": 17972,
@@ -3245,6 +4075,10 @@
       "speciesId": 902,
       "dexNumber": 902,
       "name": "幽尾玄魚（雌性）",
+      "types": [
+        "water",
+        "ghost"
+      ],
       "image": "assets/champions/basculegion-female.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10248.png",
       "imageBytes": 17364,
@@ -3259,6 +4093,10 @@
       "speciesId": 903,
       "dexNumber": 903,
       "name": "大狃拉",
+      "types": [
+        "fighting",
+        "poison"
+      ],
       "image": "assets/champions/sneasler.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/903.png",
       "imageBytes": 11497,
@@ -3273,6 +4111,10 @@
       "speciesId": 904,
       "dexNumber": 904,
       "name": "萬針魚",
+      "types": [
+        "dark",
+        "poison"
+      ],
       "image": "assets/champions/overqwil.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/904.png",
       "imageBytes": 12654,
@@ -3287,6 +4129,10 @@
       "speciesId": 908,
       "dexNumber": 908,
       "name": "魔幻假面喵",
+      "types": [
+        "grass",
+        "dark"
+      ],
       "image": "assets/champions/meowscarada.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/908.png",
       "imageBytes": 13730,
@@ -3301,6 +4147,10 @@
       "speciesId": 911,
       "dexNumber": 911,
       "name": "骨紋巨聲鱷",
+      "types": [
+        "fire",
+        "ghost"
+      ],
       "image": "assets/champions/skeledirge.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/911.png",
       "imageBytes": 15916,
@@ -3315,6 +4165,10 @@
       "speciesId": 914,
       "dexNumber": 914,
       "name": "狂歡浪舞鴨",
+      "types": [
+        "water",
+        "fighting"
+      ],
       "image": "assets/champions/quaquaval.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/914.png",
       "imageBytes": 15887,
@@ -3329,6 +4183,10 @@
       "speciesId": 923,
       "dexNumber": 923,
       "name": "巴布土撥",
+      "types": [
+        "electric",
+        "fighting"
+      ],
       "image": "assets/champions/pawmot.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/923.png",
       "imageBytes": 12551,
@@ -3343,6 +4201,9 @@
       "speciesId": 925,
       "dexNumber": 925,
       "name": "一家鼠",
+      "types": [
+        "normal"
+      ],
       "image": "assets/champions/maushold-family-of-four.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/925.png",
       "imageBytes": 7636,
@@ -3357,6 +4218,10 @@
       "speciesId": 930,
       "dexNumber": 930,
       "name": "奧利瓦",
+      "types": [
+        "grass",
+        "normal"
+      ],
       "image": "assets/champions/arboliva.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/930.png",
       "imageBytes": 14665,
@@ -3371,6 +4236,10 @@
       "speciesId": 931,
       "dexNumber": 931,
       "name": "怒鸚哥",
+      "types": [
+        "normal",
+        "flying"
+      ],
       "image": "assets/champions/squawkabilly-green-plumage.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/931.png",
       "imageBytes": 9453,
@@ -3385,6 +4254,9 @@
       "speciesId": 934,
       "dexNumber": 934,
       "name": "鹽石巨靈",
+      "types": [
+        "rock"
+      ],
       "image": "assets/champions/garganacl.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/934.png",
       "imageBytes": 15519,
@@ -3399,6 +4271,10 @@
       "speciesId": 936,
       "dexNumber": 936,
       "name": "紅蓮鎧騎",
+      "types": [
+        "fire",
+        "psychic"
+      ],
       "image": "assets/champions/armarouge.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/936.png",
       "imageBytes": 11879,
@@ -3413,6 +4289,10 @@
       "speciesId": 937,
       "dexNumber": 937,
       "name": "蒼炎刃鬼",
+      "types": [
+        "fire",
+        "ghost"
+      ],
       "image": "assets/champions/ceruledge.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/937.png",
       "imageBytes": 12600,
@@ -3427,6 +4307,9 @@
       "speciesId": 939,
       "dexNumber": 939,
       "name": "電肚蛙",
+      "types": [
+        "electric"
+      ],
       "image": "assets/champions/bellibolt.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/939.png",
       "imageBytes": 12480,
@@ -3441,6 +4324,9 @@
       "speciesId": 943,
       "dexNumber": 943,
       "name": "獒教父",
+      "types": [
+        "dark"
+      ],
       "image": "assets/champions/mabosstiff.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/943.png",
       "imageBytes": 13255,
@@ -3455,6 +4341,10 @@
       "speciesId": 952,
       "dexNumber": 952,
       "name": "狠辣椒",
+      "types": [
+        "grass",
+        "fire"
+      ],
       "image": "assets/champions/scovillain.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/952.png",
       "imageBytes": 14682,
@@ -3469,6 +4359,9 @@
       "speciesId": 956,
       "dexNumber": 956,
       "name": "超能艷鴕",
+      "types": [
+        "psychic"
+      ],
       "image": "assets/champions/espathra.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/956.png",
       "imageBytes": 14917,
@@ -3483,6 +4376,10 @@
       "speciesId": 959,
       "dexNumber": 959,
       "name": "巨鍛匠",
+      "types": [
+        "fairy",
+        "steel"
+      ],
       "image": "assets/champions/tinkaton.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/959.png",
       "imageBytes": 18860,
@@ -3497,6 +4394,9 @@
       "speciesId": 964,
       "dexNumber": 964,
       "name": "海豚俠",
+      "types": [
+        "water"
+      ],
       "image": "assets/champions/palafin-zero.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/964.png",
       "imageBytes": 12291,
@@ -3511,6 +4411,9 @@
       "speciesId": 968,
       "dexNumber": 968,
       "name": "拖拖蚓",
+      "types": [
+        "steel"
+      ],
       "image": "assets/champions/orthworm.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/968.png",
       "imageBytes": 14123,
@@ -3525,6 +4428,10 @@
       "speciesId": 970,
       "dexNumber": 970,
       "name": "晶光花",
+      "types": [
+        "rock",
+        "poison"
+      ],
       "image": "assets/champions/glimmora.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/970.png",
       "imageBytes": 10868,
@@ -3539,6 +4446,9 @@
       "speciesId": 972,
       "dexNumber": 972,
       "name": "墓揚犬",
+      "types": [
+        "ghost"
+      ],
       "image": "assets/champions/houndstone.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/972.png",
       "imageBytes": 16134,
@@ -3553,6 +4463,10 @@
       "speciesId": 979,
       "dexNumber": 979,
       "name": "棄世猴",
+      "types": [
+        "fighting",
+        "ghost"
+      ],
       "image": "assets/champions/annihilape.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/979.png",
       "imageBytes": 17811,
@@ -3567,6 +4481,10 @@
       "speciesId": 981,
       "dexNumber": 981,
       "name": "奇麒麟",
+      "types": [
+        "normal",
+        "psychic"
+      ],
       "image": "assets/champions/farigiraf.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/981.png",
       "imageBytes": 11062,
@@ -3581,6 +4499,10 @@
       "speciesId": 983,
       "dexNumber": 983,
       "name": "仆刀將軍",
+      "types": [
+        "dark",
+        "steel"
+      ],
       "image": "assets/champions/kingambit.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/983.png",
       "imageBytes": 15694,
@@ -3595,6 +4517,10 @@
       "speciesId": 998,
       "dexNumber": 998,
       "name": "戟脊龍",
+      "types": [
+        "dragon",
+        "ice"
+      ],
       "image": "assets/champions/baxcalibur.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/998.png",
       "imageBytes": 14124,
@@ -3609,6 +4535,10 @@
       "speciesId": 1000,
       "dexNumber": 1000,
       "name": "賽富豪",
+      "types": [
+        "steel",
+        "ghost"
+      ],
       "image": "assets/champions/gholdengo.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1000.png",
       "imageBytes": 12844,
@@ -3623,6 +4553,10 @@
       "speciesId": 1013,
       "dexNumber": 1013,
       "name": "來悲粗茶",
+      "types": [
+        "grass",
+        "ghost"
+      ],
       "image": "assets/champions/sinistcha.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1013.png",
       "imageBytes": 9823,
@@ -3637,6 +4571,10 @@
       "speciesId": 1018,
       "dexNumber": 1018,
       "name": "鋁鋼橋龍",
+      "types": [
+        "steel",
+        "dragon"
+      ],
       "image": "assets/champions/archaludon.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1018.png",
       "imageBytes": 18742,
@@ -3651,6 +4589,10 @@
       "speciesId": 1019,
       "dexNumber": 1019,
       "name": "蜜集大蛇",
+      "types": [
+        "grass",
+        "dragon"
+      ],
       "image": "assets/champions/hydrapple.png",
       "fallbackImage": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1019.png",
       "imageBytes": 10326,
