@@ -487,6 +487,7 @@ async function syncMoves() {
 }
 
 async function syncItems() {
+  const championsItems = (await readExisting("champions-item-overrides.json")).overrides || {};
   console.log("同步道具資料…");
   const refs = await list("item");
   const details = await mapLimit(refs, ref => fetchJson(ref.url), "道具");
@@ -506,6 +507,22 @@ async function syncItems() {
     machines: item.machines.map(machine => ({ machineUrl: machine.machine.url, versionGroup: machine.version_group.name }))
   });
   });
+  for (const item of items) {
+    const override = championsItems[item.slug];
+    item.inChampions = Boolean(override);
+    if (override) {
+      item.legacyDescription = item.description;
+      item.championsSource = override.championsSource;
+      if (override.descriptionVersion === "Champions") {
+        item.description = override.description;
+        item.descriptionVersion = "Champions";
+        item.descriptionSource = override.descriptionSource;
+      }
+      item.image ||= override.image;
+    }
+  }
+  const knownItems = new Set(items.map(item => item.slug));
+  items.push(...Object.values(championsItems).filter(item => !knownItems.has(item.slug)));
   await writeJson(join(DATA_DIR, "items.json"), items);
   return items.length;
 }

@@ -1,0 +1,4576 @@
+{
+  "source": "https://gamewith.ai/pokemon-champions/zh-hant/items",
+  "fetchedAt": "2026-10-13T10:54:38.016Z",
+  "displayedCount": 166,
+  "note": "依網頁實際顯示名單判定加入 Champions，排除僅存在隱藏資料的未顯示項目。保留原始描述。",
+  "overrides": {
+    "bright-powder": {
+      "id": 190,
+      "slug": "bright-powder",
+      "apiName": "bright-powder",
+      "name": {
+        "zhHant": "光粉",
+        "en": "Bright Powder",
+        "ja": "ひかりのこな"
+      },
+      "category": "held-items",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "對手對自己使用的招式的命中率會變為0.9倍。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/bright-powder.png",
+      "heldByPokemon": [
+        "wurmple",
+        "volbeat",
+        "illumise"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "閃閃發光的粉末。 攜帶後，光芒會迷惑對手， 進而使其招式變得不容易命中。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/1",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/1"
+    },
+    "white-herb": {
+      "id": 191,
+      "slug": "white-herb",
+      "apiName": "white-herb",
+      "name": {
+        "zhHant": "白色香草",
+        "en": "White Herb",
+        "ja": "しろいハーブ"
+      },
+      "category": "held-items",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": "herb-effect",
+      "description": "能力降低時,能夠讓能力復原。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/white-herb.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "當攜帶它的寶可夢 能力降低時，將能回到 初始狀態１次。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/2",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/2"
+    },
+    "quick-claw": {
+      "id": 194,
+      "slug": "quick-claw",
+      "apiName": "quick-claw",
+      "name": {
+        "zhHant": "先制之爪",
+        "en": "Quick Claw",
+        "ja": "せんせいのツメ"
+      },
+      "category": "held-items",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "有20%的機率會在相同優先度的招式中第一個行動。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-claw.png",
+      "heldByPokemon": [
+        "sandshrew",
+        "sandslash",
+        "meowth",
+        "persian",
+        "sneasel",
+        "zangoose",
+        "weavile",
+        "meowth-alola",
+        "persian-alola"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "又輕又尖銳的爪子。 攜帶後，有時能比對手 先一步行動。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/4",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/4"
+    },
+    "mental-herb": {
+      "id": 196,
+      "slug": "mental-herb",
+      "apiName": "mental-herb",
+      "name": {
+        "zhHant": "心靈香草",
+        "en": "Mental Herb",
+        "ja": "メンタルハーブ"
+      },
+      "category": "held-items",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": "herb-effect",
+      "description": "可治癒著迷、挑釁、不可連續、招式封鎖、回復封鎖、再來一次狀態。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mental-herb.png",
+      "heldByPokemon": [
+        "lotad",
+        "lombre",
+        "ludicolo",
+        "sewaddle",
+        "swadloon",
+        "leavanny",
+        "pancham",
+        "pangoro"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "當攜帶它的寶可夢 無法自由使出招式時， 會僅回復１次。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/6",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/6"
+    },
+    "kings-rock": {
+      "id": 198,
+      "slug": "kings-rock",
+      "apiName": "kings-rock",
+      "name": {
+        "zhHant": "王者之證",
+        "en": "King’s Rock",
+        "ja": "おうじゃのしるし"
+      },
+      "category": "held-items",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 30,
+      "flingEffect": "flinch",
+      "description": "用招式給予傷害時,有10%的機率會讓對手畏縮。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kings-rock.png",
+      "heldByPokemon": [
+        "poliwhirl",
+        "poliwrath",
+        "slowpoke",
+        "slowbro",
+        "politoed",
+        "slowking",
+        "hariyama",
+        "hawlucha",
+        "slowbro-mega"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "攜帶後進行攻擊， 並造成傷害時， 有時會讓對手畏縮。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/8",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/8"
+    },
+    "silver-powder": {
+      "id": 199,
+      "slug": "silver-powder",
+      "apiName": "silver-powder",
+      "name": {
+        "zhHant": "銀粉",
+        "en": "Silver Powder",
+        "ja": "ぎんのこな"
+      },
+      "category": "type-enhancement",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "蟲屬性招式威力會變為1.2倍。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silver-powder.png",
+      "heldByPokemon": [
+        "butterfree",
+        "venomoth",
+        "beautifly",
+        "dustox",
+        "masquerain",
+        "wormadam-plant",
+        "mothim",
+        "volcarona",
+        "wormadam-sandy",
+        "wormadam-trash"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "散發著銀色光輝的粉末。 攜帶後，蟲屬性的 招式威力就會提高。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/9",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/9"
+    },
+    "focus-band": {
+      "id": 207,
+      "slug": "focus-band",
+      "apiName": "focus-band",
+      "name": {
+        "zhHant": "氣勢頭帶",
+        "en": "Focus Band",
+        "ja": "きあいのハチマキ"
+      },
+      "category": "held-items",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "受到會瀕死的招式傷害時,有10%的機率會剩下1HP撐過去。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-band.png",
+      "heldByPokemon": [
+        "machop",
+        "machoke",
+        "machamp"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "攜帶後，即便受到 可能會導致瀕死的招式， 有時也能僅以１ＨＰ撐過去。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/14",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/14"
+    },
+    "scope-lens": {
+      "id": 209,
+      "slug": "scope-lens",
+      "apiName": "scope-lens",
+      "name": {
+        "zhHant": "焦點鏡",
+        "en": "Scope Lens",
+        "ja": "ピントレンズ"
+      },
+      "category": "held-items",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 30,
+      "flingEffect": null,
+      "description": "易中要害+1。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/scope-lens.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "能看見弱點的鏡片。 攜帶它的寶可夢的招式 會變得容易擊中要害。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/16",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/16"
+    },
+    "metal-coat": {
+      "id": 210,
+      "slug": "metal-coat",
+      "apiName": "metal-coat",
+      "name": {
+        "zhHant": "金屬膜",
+        "en": "Metal Coat",
+        "ja": "メタルコート"
+      },
+      "category": "type-enhancement",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 30,
+      "flingEffect": null,
+      "description": "鋼屬性招式威力會變為1.2倍。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metal-coat.png",
+      "heldByPokemon": [
+        "magnemite",
+        "magneton",
+        "steelix",
+        "skarmory",
+        "beldum",
+        "metang",
+        "metagross",
+        "bronzor",
+        "bronzong",
+        "magnezone",
+        "steelix-mega",
+        "metagross-mega"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "特殊的金屬膜。 攜帶後，鋼屬性的 招式威力就會提高。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/17",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/17"
+    },
+    "leftovers": {
+      "id": 211,
+      "slug": "leftovers",
+      "apiName": "leftovers",
+      "name": {
+        "zhHant": "吃剩的東西",
+        "en": "Leftovers",
+        "ja": "たべのこし"
+      },
+      "category": "held-items",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "在回合結束時,會回復最大HP的1/16。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png",
+      "heldByPokemon": [
+        "snorlax",
+        "munchlax"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "攜帶後，寶可夢的ＨＰ 會在戰鬥期間緩緩回復。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/18",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/18"
+    },
+    "soft-sand": {
+      "id": 214,
+      "slug": "soft-sand",
+      "apiName": "soft-sand",
+      "name": {
+        "zhHant": "柔軟沙子",
+        "en": "Soft Sand",
+        "ja": "やわらかいすな"
+      },
+      "category": "type-enhancement",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "地面屬性招式威力會變為1.2倍。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/soft-sand.png",
+      "heldByPokemon": [
+        "sandslash",
+        "diglett",
+        "dugtrio",
+        "piloswine",
+        "nincada",
+        "trapinch",
+        "stunfisk",
+        "diglett-alola",
+        "dugtrio-alola"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "手感細緻的沙子。 攜帶後，地面屬性的 招式威力就會提高。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/19",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/19"
+    },
+    "hard-stone": {
+      "id": 215,
+      "slug": "hard-stone",
+      "apiName": "hard-stone",
+      "name": {
+        "zhHant": "硬石頭",
+        "en": "Hard Stone",
+        "ja": "かたいいし"
+      },
+      "category": "type-enhancement",
+      "attributes": [
+        "holdable",
+        "holdable-active",
+        "underground"
+      ],
+      "flingPower": 100,
+      "flingEffect": null,
+      "description": "岩石屬性招式威力會變為1.2倍。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hard-stone.png",
+      "heldByPokemon": [
+        "graveler",
+        "golem",
+        "onix",
+        "sudowoodo",
+        "corsola",
+        "nosepass",
+        "aron",
+        "lairon",
+        "aggron",
+        "lunatone",
+        "probopass",
+        "roggenrola",
+        "boldore",
+        "gigalith",
+        "dwebble",
+        "crustle",
+        "aggron-mega"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "絕對不會裂開的石頭。 攜帶後，岩石屬性的 招式威力就會提高。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/20",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/20"
+    },
+    "miracle-seed": {
+      "id": 216,
+      "slug": "miracle-seed",
+      "apiName": "miracle-seed",
+      "name": {
+        "zhHant": "奇跡種子",
+        "en": "Miracle Seed",
+        "ja": "きせきのタネ"
+      },
+      "category": "type-enhancement",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 30,
+      "flingEffect": null,
+      "description": "草屬性招式威力會變為1.2倍。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/miracle-seed.png",
+      "heldByPokemon": [
+        "tangela",
+        "bayleef",
+        "cherubi",
+        "cherrim",
+        "maractus",
+        "fomantis",
+        "lurantis",
+        "pumpkaboo-super",
+        "gourgeist-super",
+        "lurantis-totem"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "蘊藏生命的種子。 攜帶後，草屬性的 招式威力就會提高。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/21",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/21"
+    },
+    "black-glasses": {
+      "id": 217,
+      "slug": "black-glasses",
+      "apiName": "black-glasses",
+      "name": {
+        "zhHant": "黑色眼鏡",
+        "en": "Black Glasses",
+        "ja": "くろいメガネ"
+      },
+      "category": "type-enhancement",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 30,
+      "flingEffect": null,
+      "description": "惡屬性招式威力會變為1.2倍。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/black-glasses.png",
+      "heldByPokemon": [
+        "carvanha",
+        "sandile",
+        "krokorok",
+        "krookodile"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "看起來很奇怪的眼鏡。 攜帶後，惡屬性的 招式威力就會提高。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/22",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/22"
+    },
+    "black-belt": {
+      "id": 218,
+      "slug": "black-belt",
+      "apiName": "black-belt",
+      "name": {
+        "zhHant": "黑帶",
+        "en": "Black Belt",
+        "ja": "くろおび"
+      },
+      "category": "type-enhancement",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 30,
+      "flingEffect": null,
+      "description": "格鬥屬性招式威力會變為1.2倍。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/black-belt.png",
+      "heldByPokemon": [
+        "hitmonlee",
+        "hitmontop",
+        "makuhita",
+        "throh",
+        "sawk"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "能振作精神的帶子。 攜帶後，格鬥屬性的 招式威力就會提高。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/23",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/23"
+    },
+    "magnet": {
+      "id": 219,
+      "slug": "magnet",
+      "apiName": "magnet",
+      "name": {
+        "zhHant": "磁鐵",
+        "en": "Magnet",
+        "ja": "じしゃく"
+      },
+      "category": "type-enhancement",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 30,
+      "flingEffect": null,
+      "description": "電屬性招式威力會變為1.2倍。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/magnet.png",
+      "heldByPokemon": [
+        "magneton",
+        "voltorb",
+        "nosepass",
+        "probopass"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "強力的磁鐵。 攜帶後，電屬性的 招式威力就會提高。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/24",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/24"
+    },
+    "mystic-water": {
+      "id": 220,
+      "slug": "mystic-water",
+      "apiName": "mystic-water",
+      "name": {
+        "zhHant": "神秘水滴",
+        "en": "Mystic Water",
+        "ja": "しんぴのしずく"
+      },
+      "category": "type-enhancement",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 30,
+      "flingEffect": null,
+      "description": "水屬性招式威力會變為1.2倍。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mystic-water.png",
+      "heldByPokemon": [
+        "seel",
+        "goldeen",
+        "seaking",
+        "lapras",
+        "croconaw",
+        "castform",
+        "dewpider",
+        "araquanid",
+        "castform-sunny",
+        "castform-rainy",
+        "castform-snowy",
+        "araquanid-totem"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "水滴形狀的寶石。 攜帶後，水屬性的 招式威力就會提高。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/25",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/25"
+    },
+    "sharp-beak": {
+      "id": 221,
+      "slug": "sharp-beak",
+      "apiName": "sharp-beak",
+      "name": {
+        "zhHant": "銳利鳥嘴",
+        "en": "Sharp Beak",
+        "ja": "するどいくちばし"
+      },
+      "category": "type-enhancement",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 50,
+      "flingEffect": null,
+      "description": "飛行屬性招式威力會變為1.2倍。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sharp-beak.png",
+      "heldByPokemon": [
+        "spearow",
+        "fearow",
+        "doduo",
+        "dodrio",
+        "skarmory"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "又長又尖的鳥嘴。 攜帶後，飛行屬性的 招式威力就會提高。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/26",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/26"
+    },
+    "poison-barb": {
+      "id": 222,
+      "slug": "poison-barb",
+      "apiName": "poison-barb",
+      "name": {
+        "zhHant": "毒針",
+        "en": "Poison Barb",
+        "ja": "どくバリ"
+      },
+      "category": "type-enhancement",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 70,
+      "flingEffect": "poison",
+      "description": "毒屬性招式威力會變為1.2倍。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poison-barb.png",
+      "heldByPokemon": [
+        "beedrill",
+        "arbok",
+        "tentacool",
+        "tentacruel",
+        "qwilfish",
+        "roselia",
+        "cacnea",
+        "cacturne",
+        "budew",
+        "roserade",
+        "vespiquen",
+        "skorupi",
+        "drapion",
+        "venipede",
+        "whirlipede",
+        "scolipede",
+        "mareanie",
+        "toxapex",
+        "beedrill-mega"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "有毒的小針。 攜帶後，毒屬性的 招式威力就會提高。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/27",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/27"
+    },
+    "never-melt-ice": {
+      "id": 223,
+      "slug": "never-melt-ice",
+      "apiName": "never-melt-ice",
+      "name": {
+        "zhHant": "不融冰",
+        "en": "Never-Melt Ice",
+        "ja": "とけないこおり"
+      },
+      "category": "type-enhancement",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 30,
+      "flingEffect": null,
+      "description": "冰屬性招式威力會變為1.2倍。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/never-melt-ice.png",
+      "heldByPokemon": [
+        "dewgong",
+        "swinub",
+        "piloswine",
+        "delibird",
+        "glalie",
+        "snover",
+        "abomasnow",
+        "vanillite",
+        "vanillish",
+        "vanilluxe",
+        "cryogonal",
+        "abomasnow-mega"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "隔絕熱的冰。 攜帶後，冰屬性的 招式威力就會提高。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/28",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/28"
+    },
+    "spell-tag": {
+      "id": 224,
+      "slug": "spell-tag",
+      "apiName": "spell-tag",
+      "name": {
+        "zhHant": "詛咒之符",
+        "en": "Spell Tag",
+        "ja": "のろいのおふだ"
+      },
+      "category": "type-enhancement",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 30,
+      "flingEffect": null,
+      "description": "幽靈屬性招式威力會變為1.2倍。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/spell-tag.png",
+      "heldByPokemon": [
+        "haunter",
+        "gengar",
+        "misdreavus",
+        "shuppet",
+        "banette",
+        "duskull",
+        "dusclops",
+        "dusknoir",
+        "yamask",
+        "cofagrigus",
+        "sandygast",
+        "palossand",
+        "banette-mega"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "古怪可怕的咒符。 攜帶後，幽靈屬性的 招式威力就會提高。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/29",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/29"
+    },
+    "twisted-spoon": {
+      "id": 225,
+      "slug": "twisted-spoon",
+      "apiName": "twisted-spoon",
+      "name": {
+        "zhHant": "彎曲的湯匙",
+        "en": "Twisted Spoon",
+        "ja": "まがったスプーン"
+      },
+      "category": "type-enhancement",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 30,
+      "flingEffect": null,
+      "description": "超能力屬性招式威力會變為1.2倍。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/twisted-spoon.png",
+      "heldByPokemon": [
+        "abra",
+        "kadabra",
+        "alakazam",
+        "ralts",
+        "meditite",
+        "alakazam-mega"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "注入了念力的湯匙。 攜帶後，超能力屬性的 招式威力就會提高。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/30",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/30"
+    },
+    "charcoal": {
+      "id": 226,
+      "slug": "charcoal",
+      "apiName": "charcoal",
+      "name": {
+        "zhHant": "木炭",
+        "en": "Charcoal",
+        "ja": "もくたん"
+      },
+      "category": "type-enhancement",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 30,
+      "flingEffect": null,
+      "description": "火屬性招式威力會變為1.2倍。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/charcoal.png",
+      "heldByPokemon": [
+        "vulpix",
+        "ninetales",
+        "quilava",
+        "numel",
+        "torkoal",
+        "turtonator"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "燒東西的燃料。 攜帶後，火屬性的 招式威力就會提高。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/31",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/31"
+    },
+    "dragon-fang": {
+      "id": 227,
+      "slug": "dragon-fang",
+      "apiName": "dragon-fang",
+      "name": {
+        "zhHant": "龍之牙",
+        "en": "Dragon Fang",
+        "ja": "りゅうのキバ"
+      },
+      "category": "type-enhancement",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 70,
+      "flingEffect": null,
+      "description": "龍屬性招式威力會變為1.2倍。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragon-fang.png",
+      "heldByPokemon": [
+        "dragonair",
+        "dragonite",
+        "vibrava",
+        "altaria",
+        "bagon",
+        "shelgon",
+        "salamence",
+        "druddigon",
+        "salamence-mega"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "堅硬銳利的牙齒。 攜帶後，龍屬性的 招式威力就會提高。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/32",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/32"
+    },
+    "silk-scarf": {
+      "id": 228,
+      "slug": "silk-scarf",
+      "apiName": "silk-scarf",
+      "name": {
+        "zhHant": "絲綢圍巾",
+        "en": "Silk Scarf",
+        "ja": "シルクのスカーフ"
+      },
+      "category": "type-enhancement",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "一般屬性招式威力會變為1.2倍。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silk-scarf.png",
+      "heldByPokemon": [
+        "zangoose",
+        "trubbish",
+        "garbodor"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "手感不錯的圍巾。 攜帶後，一般屬性的 招式威力就會提高。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/33",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/33"
+    },
+    "shell-bell": {
+      "id": 230,
+      "slug": "shell-bell",
+      "apiName": "shell-bell",
+      "name": {
+        "zhHant": "貝殼之鈴",
+        "en": "Shell Bell",
+        "ja": "かいがらのすず"
+      },
+      "category": "held-items",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 30,
+      "flingEffect": null,
+      "description": "用招式給予傷害時,會回復自己該傷害的1/8的HP。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shell-bell.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "當攜帶它的寶可夢 攻擊並造成對手傷害時， 能回復少量ＨＰ。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/34",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/34"
+    },
+    "stick": {
+      "id": 236,
+      "slug": "stick",
+      "apiName": "stick",
+      "name": {
+        "zhHant": "大蔥",
+        "en": "Leek",
+        "ja": "ながねぎ"
+      },
+      "category": "species-specific",
+      "attributes": [
+        "holdable"
+      ],
+      "flingPower": 60,
+      "flingEffect": null,
+      "description": "讓大蔥鴨和蔥遊兵攜帶後，擊中要害的等級會提升2階。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/stick.png",
+      "heldByPokemon": [
+        "farfetchd"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "非常長且堅硬的莖。 讓大蔥鴨攜帶後，招式會 變得容易擊中要害。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/38",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/38"
+    },
+    "wide-lens": {
+      "id": 242,
+      "slug": "wide-lens",
+      "apiName": "wide-lens",
+      "name": {
+        "zhHant": "廣角鏡",
+        "en": "Wide Lens",
+        "ja": "こうかくレンズ"
+      },
+      "category": "held-items",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "招式的命中率會變為1.1倍。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wide-lens.png",
+      "heldByPokemon": [
+        "yanma",
+        "sableye",
+        "yanmega"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "會讓物體看起來比較大的鏡片。 攜帶後，招式的命中率 就會少量提高。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/39",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/39"
+    },
+    "muscle-band": {
+      "id": 243,
+      "slug": "muscle-band",
+      "apiName": "muscle-band",
+      "name": {
+        "zhHant": "力量頭帶",
+        "en": "Muscle Band",
+        "ja": "ちからのハチマキ"
+      },
+      "category": "held-items",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "物理招式威力會變為1.1倍。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/muscle-band.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "力如泉湧的頭帶。 攜帶後，物理招式的 威力就會少量提高。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/40",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/40"
+    },
+    "wise-glasses": {
+      "id": 244,
+      "slug": "wise-glasses",
+      "apiName": "wise-glasses",
+      "name": {
+        "zhHant": "博識眼鏡",
+        "en": "Wise Glasses",
+        "ja": "ものしりメガネ"
+      },
+      "category": "held-items",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "特殊招式威力會變為1.1倍。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wise-glasses.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "裝著很厚鏡片的眼鏡。 攜帶後，特殊招式的 威力就會少量提高。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/41",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/41"
+    },
+    "expert-belt": {
+      "id": 245,
+      "slug": "expert-belt",
+      "apiName": "expert-belt",
+      "name": {
+        "zhHant": "達人帶",
+        "en": "Expert Belt",
+        "ja": "たつじんのおび"
+      },
+      "category": "held-items",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "使用的招式效果絕佳時，威力會變為1.2倍。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/expert-belt.png",
+      "heldByPokemon": [
+        "throh",
+        "sawk"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "用慣了的黑色帶子。 攜帶後，效果絕佳時的 招式威力就會少量提高。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/42",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/42"
+    },
+    "light-clay": {
+      "id": 246,
+      "slug": "light-clay",
+      "apiName": "light-clay",
+      "name": {
+        "zhHant": "光之黏土",
+        "en": "Light Clay",
+        "ja": "ひかりのねんど"
+      },
+      "category": "held-items",
+      "attributes": [
+        "holdable",
+        "holdable-active",
+        "underground"
+      ],
+      "flingPower": 30,
+      "flingEffect": null,
+      "description": "使用光牆、反射壁、極光幕時,效果持續時間會延長3回合。(一共8回合)",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/light-clay.png",
+      "heldByPokemon": [
+        "baltoy",
+        "claydol",
+        "golett",
+        "golurk",
+        "mudbray",
+        "mudsdale"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "當攜帶它的寶可夢 使出光牆或反射壁時， 效果會比平時持續得更久。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/43",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/43"
+    },
+    "life-orb": {
+      "id": 247,
+      "slug": "life-orb",
+      "apiName": "life-orb",
+      "name": {
+        "zhHant": "生命寶珠",
+        "en": "Life Orb",
+        "ja": "いのちのたま"
+      },
+      "category": "held-items",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 30,
+      "flingEffect": null,
+      "description": "招式威力會變為1.3倍,但每次攻擊成功時都會減少最大HP的1/10。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png",
+      "heldByPokemon": [
+        "absol",
+        "absol-mega"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "攜帶後，雖然每次攻擊時 ＨＰ會少量減少，但招式的 威力會提高。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/44",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/44"
+    },
+    "focus-sash": {
+      "id": 252,
+      "slug": "focus-sash",
+      "apiName": "focus-sash",
+      "name": {
+        "zhHant": "氣勢披帶",
+        "en": "Focus Sash",
+        "ja": "きあいのタスキ"
+      },
+      "category": "held-items",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "HP全滿時,若受到一擊就會瀕死的招式傷害,會剩下1HP撐過去。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "攜帶後，在ＨＰ全滿時， 即使受到可能導致瀕死的招式攻擊， 也能以１ＨＰ撐過１次。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/47",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/47"
+    },
+    "zoom-lens": {
+      "id": 253,
+      "slug": "zoom-lens",
+      "apiName": "zoom-lens",
+      "name": {
+        "zhHant": "對焦鏡",
+        "en": "Zoom Lens",
+        "ja": "フォーカスレンズ"
+      },
+      "category": "held-items",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "行動順序比對手還要晚時,招式的命中率會變為1.2倍。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/zoom-lens.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "當攜帶它的寶可夢比 對手行動緩慢時， 招式會變得容易命中。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/48",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/48"
+    },
+    "metronome": {
+      "id": 254,
+      "slug": "metronome",
+      "apiName": "metronome",
+      "name": {
+        "zhHant": "節拍器",
+        "en": "Metronome",
+        "ja": "メトロノーム"
+      },
+      "category": "held-items",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 30,
+      "flingEffect": null,
+      "description": "連續使用相同招式時,威力會提高。第2次提高至1.2倍,第3次提高至1.4倍,最大提高至2倍。停止時,威力就會復原。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metronome.png",
+      "heldByPokemon": [
+        "kricketot",
+        "kricketune",
+        "chatot"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "攜帶後，連續使出相同招式時， 威力就會提高。停止時， 威力就會復原。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/49",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/49"
+    },
+    "iron-ball": {
+      "id": 255,
+      "slug": "iron-ball",
+      "apiName": "iron-ball",
+      "name": {
+        "zhHant": "黑色鐵球",
+        "en": "Iron Ball",
+        "ja": "くろいてっきゅう"
+      },
+      "category": "bad-held-items",
+      "attributes": [
+        "holdable",
+        "holdable-active",
+        "underground"
+      ],
+      "flingPower": 130,
+      "flingEffect": null,
+      "description": "速度會變為1/2。原本不在地面上的寶可夢會變為在地面上,地面屬性招式、撒菱、毒菱、黏黏網狀態會生效。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/iron-ball.png",
+      "heldByPokemon": [
+        "mawile"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "攜帶後，速度會降低。 飛行屬性以及飄浮特性的 寶可夢會被地面招式擊中。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/50",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/50"
+    },
+    "icy-rock": {
+      "id": 259,
+      "slug": "icy-rock",
+      "apiName": "icy-rock",
+      "name": {
+        "zhHant": "冰冷岩石",
+        "en": "Icy Rock",
+        "ja": "つめたいいわ"
+      },
+      "category": "held-items",
+      "attributes": [
+        "holdable",
+        "holdable-active",
+        "underground"
+      ],
+      "flingPower": 40,
+      "flingEffect": null,
+      "description": "因招式或特性造成下雪狀態時,效果持續時間會延長3回合。(一共8回合)",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/icy-rock.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "攜帶它的寶可夢 使出冰雹的話， 冰雹的時間就會比平時更長。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/54",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/54"
+    },
+    "smooth-rock": {
+      "id": 260,
+      "slug": "smooth-rock",
+      "apiName": "smooth-rock",
+      "name": {
+        "zhHant": "沙沙岩石",
+        "en": "Smooth Rock",
+        "ja": "さらさらいわ"
+      },
+      "category": "held-items",
+      "attributes": [
+        "holdable",
+        "holdable-active",
+        "underground"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "因招式或特性造成沙暴狀態時,效果持續時間會延長3回合。(一共8回合)",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/smooth-rock.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "攜帶它的寶可夢 使出沙暴的話， 沙暴的時間就會比平時更長。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/55",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/55"
+    },
+    "heat-rock": {
+      "id": 261,
+      "slug": "heat-rock",
+      "apiName": "heat-rock",
+      "name": {
+        "zhHant": "熾熱岩石",
+        "en": "Heat Rock",
+        "ja": "あついいわ"
+      },
+      "category": "held-items",
+      "attributes": [
+        "holdable",
+        "holdable-active",
+        "underground"
+      ],
+      "flingPower": 60,
+      "flingEffect": null,
+      "description": "因招式或特性造成大晴天狀態時,效果持續時間會延長3回合。(一共8回合)",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/heat-rock.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "攜帶它的寶可夢 使出大晴天的話， 晴天的時間就會比平時更長。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/56",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/56"
+    },
+    "damp-rock": {
+      "id": 262,
+      "slug": "damp-rock",
+      "apiName": "damp-rock",
+      "name": {
+        "zhHant": "潮濕岩石",
+        "en": "Damp Rock",
+        "ja": "しめったいわ"
+      },
+      "category": "held-items",
+      "attributes": [
+        "holdable",
+        "holdable-active",
+        "underground"
+      ],
+      "flingPower": 60,
+      "flingEffect": null,
+      "description": "因招式或特性造成下雨狀態時,效果持續時間會延長3回合。(一共8回合)",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/damp-rock.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "攜帶它的寶可夢 使出求雨的話， 下雨的時間就會比平時更長。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/57",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/57"
+    },
+    "choice-scarf": {
+      "id": 264,
+      "slug": "choice-scarf",
+      "apiName": "choice-scarf",
+      "name": {
+        "zhHant": "講究圍巾",
+        "en": "Choice Scarf",
+        "ja": "こだわりスカーフ"
+      },
+      "category": "choice",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "速度會變為1.5倍,但一旦使出招式後,直到替換前都只能使出該招式。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/choice-scarf.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "有點講究的圍巾。 雖然攜帶後速度會提高， 但只能使出相同的招式。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/59",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/59"
+    },
+    "shed-shell": {
+      "id": 272,
+      "slug": "shed-shell",
+      "apiName": "shed-shell",
+      "name": {
+        "zhHant": "美麗空殼",
+        "en": "Shed Shell",
+        "ja": "きれいなぬけがら"
+      },
+      "category": "held-items",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "可無視妨礙替換的效果,和同行隊伍中的其他寶可夢替換。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shed-shell.png",
+      "heldByPokemon": [
+        "venomoth",
+        "beautifly",
+        "dustox",
+        "seviper",
+        "scraggy",
+        "scrafty",
+        "goomy",
+        "sliggoo"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "結實堅硬的空殼。 攜帶它的寶可夢必定可以 和後備的寶可夢進行替換。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/67",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/67"
+    },
+    "big-root": {
+      "id": 273,
+      "slug": "big-root",
+      "apiName": "big-root",
+      "name": {
+        "zhHant": "大根莖",
+        "en": "Big Root",
+        "ja": "おおきなねっこ"
+      },
+      "category": "held-items",
+      "attributes": [
+        "holdable",
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "吸取HP的招式帶來的回復量會變為1.3倍。扎根、吸取力量等的回復量也會變為1.3倍。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/big-root.png",
+      "heldByPokemon": [
+        "lileep",
+        "cradily"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "攜帶後，吸取ＨＰ的招式 可以比平時回復更多 自己的ＨＰ。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/68",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/68"
+    },
+    "rocky-helmet": {
+      "id": 583,
+      "slug": "rocky-helmet",
+      "apiName": "rocky-helmet",
+      "name": {
+        "zhHant": "凸凸頭盔",
+        "en": "Rocky Helmet",
+        "ja": "ゴツゴツメット"
+      },
+      "category": "held-items",
+      "attributes": [],
+      "flingPower": 60,
+      "flingEffect": null,
+      "description": "攜帶後受到接觸招式時，會對對手造成其最大HP1/6的傷害。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rocky-helmet.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 在受到打擊招式攻擊時， 也能給予對手傷害。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/80",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/80"
+    },
+    "air-balloon": {
+      "id": 584,
+      "slug": "air-balloon",
+      "apiName": "air-balloon",
+      "name": {
+        "zhHant": "氣球",
+        "en": "Air Balloon",
+        "ja": "ふうせん"
+      },
+      "category": "held-items",
+      "attributes": [],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "攜帶後寶可夢會浮在空中，地面屬性的招式將無法擊中。受到攻擊後便會破裂消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/air-balloon.png",
+      "heldByPokemon": [
+        "drifblim"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 寶可夢會浮在空中。 受到攻擊就會破裂。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/81",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/81"
+    },
+    "binding-band": {
+      "id": 587,
+      "slug": "binding-band",
+      "apiName": "binding-band",
+      "name": {
+        "zhHant": "緊綁束帶",
+        "en": "Binding Band",
+        "ja": "しめつけバンド"
+      },
+      "category": "held-items",
+      "attributes": [],
+      "flingPower": 30,
+      "flingEffect": null,
+      "description": "攜帶後束縛類招式每回合造成的傷害會從對手最大HP的1/8增加到1/6。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/binding-band.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "輔助綁緊類招式的束帶。 攜帶後，綁緊類招式的 威力會變強。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/82",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/82"
+    },
+    "red-card": {
+      "id": 585,
+      "slug": "red-card",
+      "apiName": "red-card",
+      "name": {
+        "zhHant": "紅牌",
+        "en": "Red Card",
+        "ja": "レッドカード"
+      },
+      "category": "held-items",
+      "attributes": [],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "會讓用招式造成傷害的對手替換。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/red-card.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "有著神奇力量的卡片。 攜帶後，能讓使用了 招式的對手退場。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/83",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/83"
+    },
+    "eject-button": {
+      "id": 590,
+      "slug": "eject-button",
+      "apiName": "eject-button",
+      "name": {
+        "zhHant": "逃脫按鍵",
+        "en": "Eject Button",
+        "ja": "だっしゅつボタン"
+      },
+      "category": "held-items",
+      "attributes": [],
+      "flingPower": 30,
+      "flingEffect": null,
+      "description": "受到招式的傷害時，會與後備寶可夢替換。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/eject-button.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "攜帶它的寶可夢如果受到招式攻擊， 就能從戰鬥中逃脫，並和同行的 其他寶可夢進行替換。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/87",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/87"
+    },
+    "normal-gem": {
+      "id": 669,
+      "slug": "normal-gem",
+      "apiName": "normal-gem",
+      "name": {
+        "zhHant": "一般寶石",
+        "en": "Normal Gem",
+        "ja": "ノーマルジュエル"
+      },
+      "category": "jewels",
+      "attributes": [],
+      "flingPower": null,
+      "flingEffect": null,
+      "description": "攜帶後僅1次一般屬性招式的威力會變為1.3倍。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/normal-gem.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "一般屬性的寶石。 攜帶後，一般屬性招式的 威力會僅增強１次。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/88",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/88"
+    },
+    "terrain-extender": {
+      "id": 896,
+      "slug": "terrain-extender",
+      "apiName": "terrain-extender",
+      "name": {
+        "zhHant": "大地膜",
+        "en": "Terrain Extender",
+        "ja": "グランドコート"
+      },
+      "category": "held-items",
+      "attributes": [],
+      "flingPower": 60,
+      "flingEffect": null,
+      "description": "攜帶後用招式或特性展開場地時，效果持續時間會延長3回合。（合計8回合）",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/terrain-extender.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "當攜帶它的寶可夢 透過招式或特性展開場地時， 場地的持續時間會比平時更長。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/96",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/96"
+    },
+    "electric-seed": {
+      "id": 898,
+      "slug": "electric-seed",
+      "apiName": "electric-seed",
+      "name": {
+        "zhHant": "電氣種子",
+        "en": "Electric Seed",
+        "ja": "エレキシード"
+      },
+      "category": "held-items",
+      "attributes": [],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "攜帶後在電氣場地時會使用，防禦會提升1個級別。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/electric-seed.png",
+      "heldByPokemon": [
+        "togedemaru",
+        "togedemaru-totem"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 在電氣場地上使用， 就會提高防禦。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/98",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/98"
+    },
+    "psychic-seed": {
+      "id": 899,
+      "slug": "psychic-seed",
+      "apiName": "psychic-seed",
+      "name": {
+        "zhHant": "精神種子",
+        "en": "Psychic Seed",
+        "ja": "サイコシード"
+      },
+      "category": "held-items",
+      "attributes": [],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "攜帶後在精神場地時會使用，特防會提升1個級別。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/psychic-seed.png",
+      "heldByPokemon": [
+        "exeggcute"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 在精神場地上使用， 就會提高特防。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/99",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/99"
+    },
+    "misty-seed": {
+      "id": 900,
+      "slug": "misty-seed",
+      "apiName": "misty-seed",
+      "name": {
+        "zhHant": "薄霧種子",
+        "en": "Misty Seed",
+        "ja": "ミストシード"
+      },
+      "category": "held-items",
+      "attributes": [],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "攜帶後在薄霧場地時會使用，特防會提升1個級別。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/misty-seed.png",
+      "heldByPokemon": [
+        "comfey"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 在薄霧場地上使用， 就會提高特防。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/100",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/100"
+    },
+    "grassy-seed": {
+      "id": 901,
+      "slug": "grassy-seed",
+      "apiName": "grassy-seed",
+      "name": {
+        "zhHant": "青草種子",
+        "en": "Grassy Seed",
+        "ja": "グラスシード"
+      },
+      "category": "held-items",
+      "attributes": [],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "攜帶後在青草場地時會使用，防禦會提升1個級別。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/grassy-seed.png",
+      "heldByPokemon": [
+        "bounsweet",
+        "steenee",
+        "tsareena"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 在青草場地上使用， 就會提高防禦。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/101",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/101"
+    },
+    "cheri-berry": {
+      "id": 126,
+      "slug": "cheri-berry",
+      "apiName": "cheri-berry",
+      "name": {
+        "zhHant": "櫻子果",
+        "en": "Cheri Berry",
+        "ja": "クラボのみ"
+      },
+      "category": "medicine",
+      "attributes": [
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": "berry-effect",
+      "description": "可治癒麻痺狀態。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cheri-berry.png",
+      "heldByPokemon": [
+        "glameow",
+        "purugly",
+        "blitzle",
+        "zebstrika",
+        "emolga",
+        "crabominable"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 可以治癒麻痺。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/144",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/144"
+    },
+    "chesto-berry": {
+      "id": 127,
+      "slug": "chesto-berry",
+      "apiName": "chesto-berry",
+      "name": {
+        "zhHant": "零餘果",
+        "en": "Chesto Berry",
+        "ja": "カゴのみ"
+      },
+      "category": "medicine",
+      "attributes": [
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": "berry-effect",
+      "description": "可治癒睡眠狀態。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chesto-berry.png",
+      "heldByPokemon": [
+        "snorlax",
+        "whismur",
+        "loudred",
+        "exploud",
+        "spinda",
+        "minccino",
+        "cinccino",
+        "mimikyu-disguised",
+        "mimikyu-totem-disguised"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 可以治癒睡眠。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/145",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/145"
+    },
+    "pecha-berry": {
+      "id": 128,
+      "slug": "pecha-berry",
+      "apiName": "pecha-berry",
+      "name": {
+        "zhHant": "桃桃果",
+        "en": "Pecha Berry",
+        "ja": "モモンのみ"
+      },
+      "category": "medicine",
+      "attributes": [
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": "berry-effect",
+      "description": "可治癒中毒、劇毒狀態。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pecha-berry.png",
+      "heldByPokemon": [
+        "poochyena",
+        "mightyena",
+        "wurmple",
+        "skitty",
+        "delcatty",
+        "buneary",
+        "lopunny",
+        "stunky",
+        "skuntank",
+        "tympole",
+        "palpitoad",
+        "seismitoad",
+        "venipede",
+        "whirlipede",
+        "scolipede",
+        "yungoos",
+        "gumshoos",
+        "rattata-alola",
+        "raticate-alola",
+        "raticate-totem-alola",
+        "gumshoos-totem"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 可以治癒中毒。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/146",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/146"
+    },
+    "rawst-berry": {
+      "id": 129,
+      "slug": "rawst-berry",
+      "apiName": "rawst-berry",
+      "name": {
+        "zhHant": "莓莓果",
+        "en": "Rawst Berry",
+        "ja": "チーゴのみ"
+      },
+      "category": "medicine",
+      "attributes": [
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": "berry-effect",
+      "description": "可治癒灼傷狀態。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rawst-berry.png",
+      "heldByPokemon": [
+        "vulpix",
+        "ninetales",
+        "growlithe",
+        "arcanine",
+        "magmar",
+        "magby",
+        "numel",
+        "camerupt",
+        "darumaka",
+        "darmanitan-standard",
+        "toucannon",
+        "darmanitan-zen"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 可以治癒灼傷。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/147",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/147"
+    },
+    "aspear-berry": {
+      "id": 130,
+      "slug": "aspear-berry",
+      "apiName": "aspear-berry",
+      "name": {
+        "zhHant": "利木果",
+        "en": "Aspear Berry",
+        "ja": "ナナシのみ"
+      },
+      "category": "medicine",
+      "attributes": [
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": "berry-effect",
+      "description": "可治癒冰凍狀態。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aspear-berry.png",
+      "heldByPokemon": [
+        "seel",
+        "dewgong",
+        "jynx",
+        "swinub",
+        "piloswine",
+        "smoochum",
+        "cubchoo",
+        "beartic",
+        "crabrawler"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 可以治癒冰凍。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/148",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/148"
+    },
+    "leppa-berry": {
+      "id": 131,
+      "slug": "leppa-berry",
+      "apiName": "leppa-berry",
+      "name": {
+        "zhHant": "蘋野果",
+        "en": "Leppa Berry",
+        "ja": "ヒメリのみ"
+      },
+      "category": "medicine",
+      "attributes": [
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": "berry-effect",
+      "description": "會讓PP變為0的招式回復10PP。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leppa-berry.png",
+      "heldByPokemon": [
+        "clefairy",
+        "clefable",
+        "mr-mime",
+        "cleffa",
+        "skitty",
+        "delcatty",
+        "mime-jr"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 可以回復１０ＰＰ。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/149",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/149"
+    },
+    "oran-berry": {
+      "id": 132,
+      "slug": "oran-berry",
+      "apiName": "oran-berry",
+      "name": {
+        "zhHant": "橙橙果",
+        "en": "Oran Berry",
+        "ja": "オレンのみ"
+      },
+      "category": "medicine",
+      "attributes": [
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": "berry-effect",
+      "description": "剩餘HP降到最大HP的1/2以下時,會回復10HP。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png",
+      "heldByPokemon": [
+        "raticate",
+        "pikachu",
+        "raichu",
+        "jigglypuff",
+        "wigglytuff",
+        "sentret",
+        "furret",
+        "pichu",
+        "igglybuff",
+        "shuckle",
+        "teddiursa",
+        "ursaring",
+        "zigzagoon",
+        "linoone",
+        "gulpin",
+        "swalot",
+        "bibarel",
+        "pansage",
+        "simisage",
+        "pansear",
+        "simisear",
+        "panpour",
+        "simipour",
+        "audino",
+        "pikipek",
+        "audino-mega"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 可以回復１０ＨＰ。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/150",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/150"
+    },
+    "persim-berry": {
+      "id": 133,
+      "slug": "persim-berry",
+      "apiName": "persim-berry",
+      "name": {
+        "zhHant": "柿仔果",
+        "en": "Persim Berry",
+        "ja": "キーのみ"
+      },
+      "category": "medicine",
+      "attributes": [
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": "berry-effect",
+      "description": "可治癒混亂狀態。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/persim-berry.png",
+      "heldByPokemon": [
+        "girafarig",
+        "spoink",
+        "grumpig",
+        "seviper",
+        "kecleon",
+        "tympole",
+        "palpitoad",
+        "seismitoad",
+        "gothita",
+        "gothorita",
+        "gothitelle",
+        "solosis",
+        "duosion",
+        "reuniclus",
+        "drampa"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 可以治癒混亂。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/151",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/151"
+    },
+    "lum-berry": {
+      "id": 134,
+      "slug": "lum-berry",
+      "apiName": "lum-berry",
+      "name": {
+        "zhHant": "木子果",
+        "en": "Lum Berry",
+        "ja": "ラムのみ"
+      },
+      "category": "medicine",
+      "attributes": [
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": "berry-effect",
+      "description": "可治癒所有異常狀態、混亂狀態。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lum-berry.png",
+      "heldByPokemon": [
+        "mew",
+        "chikorita",
+        "celebi",
+        "shaymin-land",
+        "shaymin-sky"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 可以治癒所有異常狀態。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/152",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/152"
+    },
+    "sitrus-berry": {
+      "id": 135,
+      "slug": "sitrus-berry",
+      "apiName": "sitrus-berry",
+      "name": {
+        "zhHant": "文柚果",
+        "en": "Sitrus Berry",
+        "ja": "オボンのみ"
+      },
+      "category": "medicine",
+      "attributes": [
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": "berry-effect",
+      "description": "剩餘HP降到最大HP的1/2以下時,會回復最大HP的1/4。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png",
+      "heldByPokemon": [
+        "raticate",
+        "furret",
+        "teddiursa",
+        "ursaring",
+        "linoone",
+        "gulpin",
+        "swalot",
+        "bibarel",
+        "audino",
+        "trumbeak",
+        "audino-mega"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 可以回復少量ＨＰ。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/153",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/153"
+    },
+    "occa-berry": {
+      "id": 161,
+      "slug": "occa-berry",
+      "apiName": "occa-berry",
+      "name": {
+        "zhHant": "巧可果",
+        "en": "Occa Berry",
+        "ja": "オッカのみ"
+      },
+      "category": "type-protection",
+      "attributes": [
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "受到效果絕佳的火屬性招式時,傷害會減半。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/occa-berry.png",
+      "heldByPokemon": [
+        "mawile",
+        "pansage",
+        "simisage"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 在受到效果絕佳的火屬性招式 攻擊時，能使其威力減弱。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/165",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/165"
+    },
+    "passho-berry": {
+      "id": 162,
+      "slug": "passho-berry",
+      "apiName": "passho-berry",
+      "name": {
+        "zhHant": "千香果",
+        "en": "Passho Berry",
+        "ja": "イトケのみ"
+      },
+      "category": "type-protection",
+      "attributes": [
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "受到效果絕佳的水屬性招式時,傷害會減半。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/passho-berry.png",
+      "heldByPokemon": [
+        "phanpy",
+        "donphan",
+        "pansear",
+        "simisear"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 在受到效果絕佳的水屬性招式 攻擊時，能使其威力減弱。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/166",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/166"
+    },
+    "wacan-berry": {
+      "id": 163,
+      "slug": "wacan-berry",
+      "apiName": "wacan-berry",
+      "name": {
+        "zhHant": "燭木果",
+        "en": "Wacan Berry",
+        "ja": "ソクノのみ"
+      },
+      "category": "type-protection",
+      "attributes": [
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "受到效果絕佳的電屬性招式時,傷害會減半。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wacan-berry.png",
+      "heldByPokemon": [
+        "buizel",
+        "floatzel"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 在受到效果絕佳的電屬性招式 攻擊時，能使其威力減弱。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/167",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/167"
+    },
+    "rindo-berry": {
+      "id": 164,
+      "slug": "rindo-berry",
+      "apiName": "rindo-berry",
+      "name": {
+        "zhHant": "羅子果",
+        "en": "Rindo Berry",
+        "ja": "リンドのみ"
+      },
+      "category": "type-protection",
+      "attributes": [
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "受到效果絕佳的草屬性招式時,傷害會減半。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rindo-berry.png",
+      "heldByPokemon": [
+        "finneon",
+        "lumineon",
+        "panpour",
+        "simipour"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 在受到效果絕佳的草屬性招式 攻擊時，能使其威力減弱。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/168",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/168"
+    },
+    "yache-berry": {
+      "id": 165,
+      "slug": "yache-berry",
+      "apiName": "yache-berry",
+      "name": {
+        "zhHant": "番荔果",
+        "en": "Yache Berry",
+        "ja": "ヤチェのみ"
+      },
+      "category": "type-protection",
+      "attributes": [
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "受到效果絕佳的冰屬性招式時,傷害會減半。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/yache-berry.png",
+      "heldByPokemon": [
+        "starly",
+        "staravia",
+        "staraptor"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 在受到效果絕佳的冰屬性招式 攻擊時，能使其威力減弱。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/169",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/169"
+    },
+    "chople-berry": {
+      "id": 166,
+      "slug": "chople-berry",
+      "apiName": "chople-berry",
+      "name": {
+        "zhHant": "蓮蒲果",
+        "en": "Chople Berry",
+        "ja": "ヨプのみ"
+      },
+      "category": "type-protection",
+      "attributes": [
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "受到效果絕佳的格鬥屬性招式時,傷害會減半。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chople-berry.png",
+      "heldByPokemon": [
+        "buneary",
+        "lopunny"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 在受到效果絕佳的格鬥屬性招式 攻擊時，能使其威力減弱。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/170",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/170"
+    },
+    "kebia-berry": {
+      "id": 167,
+      "slug": "kebia-berry",
+      "apiName": "kebia-berry",
+      "name": {
+        "zhHant": "通通果",
+        "en": "Kebia Berry",
+        "ja": "ビアーのみ"
+      },
+      "category": "type-protection",
+      "attributes": [
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "受到效果絕佳的毒屬性招式時,傷害會減半。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kebia-berry.png",
+      "heldByPokemon": [
+        "shroomish",
+        "breloom"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 在受到效果絕佳的毒屬性招式 攻擊時，能使其威力減弱。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/171",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/171"
+    },
+    "shuca-berry": {
+      "id": 168,
+      "slug": "shuca-berry",
+      "apiName": "shuca-berry",
+      "name": {
+        "zhHant": "腰木果",
+        "en": "Shuca Berry",
+        "ja": "シュカのみ"
+      },
+      "category": "type-protection",
+      "attributes": [
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "受到效果絕佳的地面屬性招式時,傷害會減半。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shuca-berry.png",
+      "heldByPokemon": [
+        "ponyta",
+        "rapidash"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 在受到效果絕佳的地面屬性招式 攻擊時，能使其威力減弱。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/172",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/172"
+    },
+    "coba-berry": {
+      "id": 169,
+      "slug": "coba-berry",
+      "apiName": "coba-berry",
+      "name": {
+        "zhHant": "稜瓜果",
+        "en": "Coba Berry",
+        "ja": "バコウのみ"
+      },
+      "category": "type-protection",
+      "attributes": [
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "受到效果絕佳的飛行屬性招式時,傷害會減半。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/coba-berry.png",
+      "heldByPokemon": [
+        "sunkern"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 在受到效果絕佳的飛行屬性招式 攻擊時，能使其威力減弱。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/173",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/173"
+    },
+    "payapa-berry": {
+      "id": 170,
+      "slug": "payapa-berry",
+      "apiName": "payapa-berry",
+      "name": {
+        "zhHant": "福祿果",
+        "en": "Payapa Berry",
+        "ja": "ウタンのみ"
+      },
+      "category": "type-protection",
+      "attributes": [
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "受到效果絕佳的超能力屬性招式時,傷害會減半。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/payapa-berry.png",
+      "heldByPokemon": [
+        "mankey",
+        "primeape"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 在受到效果絕佳的超能力屬性招式 攻擊時，能使其威力減弱。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/174",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/174"
+    },
+    "tanga-berry": {
+      "id": 171,
+      "slug": "tanga-berry",
+      "apiName": "tanga-berry",
+      "name": {
+        "zhHant": "扁櫻果",
+        "en": "Tanga Berry",
+        "ja": "タンガのみ"
+      },
+      "category": "type-protection",
+      "attributes": [
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "受到效果絕佳的蟲屬性招式時,傷害會減半。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tanga-berry.png",
+      "heldByPokemon": [
+        "spoink",
+        "grumpig"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 在受到效果絕佳的蟲屬性招式 攻擊時，能使其威力減弱。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/175",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/175"
+    },
+    "charti-berry": {
+      "id": 172,
+      "slug": "charti-berry",
+      "apiName": "charti-berry",
+      "name": {
+        "zhHant": "草蠶果",
+        "en": "Charti Berry",
+        "ja": "ヨロギのみ"
+      },
+      "category": "type-protection",
+      "attributes": [
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "受到效果絕佳的岩石屬性招式時,傷害會減半。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/charti-berry.png",
+      "heldByPokemon": [
+        "taillow",
+        "swellow"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 在受到效果絕佳的岩石屬性招式 攻擊時，能使其威力減弱。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/176",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/176"
+    },
+    "kasib-berry": {
+      "id": 173,
+      "slug": "kasib-berry",
+      "apiName": "kasib-berry",
+      "name": {
+        "zhHant": "佛柑果",
+        "en": "Kasib Berry",
+        "ja": "カシブのみ"
+      },
+      "category": "type-protection",
+      "attributes": [
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "受到效果絕佳的幽靈屬性招式時,傷害會減半。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kasib-berry.png",
+      "heldByPokemon": [
+        "duskull",
+        "dusclops",
+        "dusknoir"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 在受到效果絕佳的幽靈屬性招式 攻擊時，能使其威力減弱。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/177",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/177"
+    },
+    "haban-berry": {
+      "id": 174,
+      "slug": "haban-berry",
+      "apiName": "haban-berry",
+      "name": {
+        "zhHant": "莓榴果",
+        "en": "Haban Berry",
+        "ja": "ハバンのみ"
+      },
+      "category": "type-protection",
+      "attributes": [
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "受到效果絕佳的龍屬性招式時,傷害會減半。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/haban-berry.png",
+      "heldByPokemon": [
+        "gible",
+        "gabite",
+        "garchomp"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 在受到效果絕佳的龍屬性招式 攻擊時，能使其威力減弱。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/178",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/178"
+    },
+    "colbur-berry": {
+      "id": 175,
+      "slug": "colbur-berry",
+      "apiName": "colbur-berry",
+      "name": {
+        "zhHant": "刺耳果",
+        "en": "Colbur Berry",
+        "ja": "ナモのみ"
+      },
+      "category": "type-protection",
+      "attributes": [
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "受到效果絕佳的惡屬性招式時,傷害會減半。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/colbur-berry.png",
+      "heldByPokemon": [
+        "chimecho",
+        "chingling"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 在受到效果絕佳的惡屬性招式 攻擊時，能使其威力減弱。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/179",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/179"
+    },
+    "babiri-berry": {
+      "id": 176,
+      "slug": "babiri-berry",
+      "apiName": "babiri-berry",
+      "name": {
+        "zhHant": "霹霹果",
+        "en": "Babiri Berry",
+        "ja": "リリバのみ"
+      },
+      "category": "type-protection",
+      "attributes": [
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "受到效果絕佳的鋼屬性招式時,傷害會減半。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/babiri-berry.png",
+      "heldByPokemon": [
+        "snorunt",
+        "glalie",
+        "froslass"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 在受到效果絕佳的鋼屬性招式 攻擊時，能使其威力減弱。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/180",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/180"
+    },
+    "roseli-berry": {
+      "id": 723,
+      "slug": "roseli-berry",
+      "apiName": "roseli-berry",
+      "name": {
+        "zhHant": "洛玫果",
+        "en": "Roseli Berry",
+        "ja": "ロゼルのみ"
+      },
+      "category": "type-protection",
+      "attributes": [],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "受到效果絕佳的妖精屬性招式時,傷害會減半。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/roseli-berry.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 在受到效果絕佳的妖精屬性招式 攻擊時，能使其威力減弱。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/181",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/181"
+    },
+    "chilan-berry": {
+      "id": 177,
+      "slug": "chilan-berry",
+      "apiName": "chilan-berry",
+      "name": {
+        "zhHant": "燈漿果",
+        "en": "Chilan Berry",
+        "ja": "ホズのみ"
+      },
+      "category": "type-protection",
+      "attributes": [
+        "holdable-active"
+      ],
+      "flingPower": 10,
+      "flingEffect": null,
+      "description": "受到一般屬性招式時,傷害會減半。使用1次後就會在該對戰中消失。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chilan-berry.png",
+      "heldByPokemon": [
+        "rattata",
+        "raticate"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓寶可夢攜帶後， 在受到一般屬性招式攻擊時， 能使其威力減弱。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/182",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/182"
+    },
+    "fairy-feather": {
+      "id": 2105,
+      "slug": "fairy-feather",
+      "apiName": "fairy-feather",
+      "name": {
+        "zhHant": "妖精之羽",
+        "en": "Fairy Feather",
+        "ja": "ようせいのハネ"
+      },
+      "category": "held-items",
+      "attributes": [],
+      "flingPower": null,
+      "flingEffect": null,
+      "description": "妖精屬性招式威力會變為1.2倍。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item659.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": null,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/251",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/251"
+    },
+    "light-ball": {
+      "id": 213,
+      "slug": "light-ball",
+      "apiName": "light-ball",
+      "name": {
+        "zhHant": "電氣球",
+        "en": "Light Ball",
+        "ja": "でんきだま"
+      },
+      "category": "species-specific",
+      "attributes": [
+        "holdable"
+      ],
+      "flingPower": 30,
+      "flingEffect": "paralyze",
+      "description": "皮卡丘的攻擊、特攻會變為2倍。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/light-ball.png",
+      "heldByPokemon": [
+        "pikachu",
+        "pikachu-rock-star",
+        "pikachu-belle",
+        "pikachu-pop-star",
+        "pikachu-phd",
+        "pikachu-libre",
+        "pikachu-cosplay",
+        "pikachu-original-cap",
+        "pikachu-hoenn-cap",
+        "pikachu-sinnoh-cap",
+        "pikachu-unova-cap",
+        "pikachu-kalos-cap",
+        "pikachu-alola-cap",
+        "pikachu-partner-cap"
+      ],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓皮卡丘攜帶後， 攻擊和特攻的威力 就會提高的神奇之球。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/253",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/253"
+    },
+    "champions-item-261": {
+      "id": null,
+      "slug": "champions-item-261",
+      "name": {
+        "zhHant": "大力鱷進化石",
+        "ja": "オーダイルナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓大力鱷超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m494.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/261",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/261"
+    },
+    "champions-item-262": {
+      "id": null,
+      "slug": "champions-item-262",
+      "name": {
+        "zhHant": "大竺葵進化石",
+        "ja": "メガニウムナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓大竺葵超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m495.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/262",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/262"
+    },
+    "champions-item-263": {
+      "id": null,
+      "slug": "champions-item-263",
+      "name": {
+        "zhHant": "炎武王進化石",
+        "ja": "エンブオナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓炎武王超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m496.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/263",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/263"
+    },
+    "beedrillite": {
+      "id": 811,
+      "slug": "beedrillite",
+      "apiName": "beedrillite",
+      "name": {
+        "zhHant": "大針蜂進化石",
+        "en": "Beedrillite",
+        "ja": "スピアナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓大針蜂超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/beedrillite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "大針蜂攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/264",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/264"
+    },
+    "ampharosite": {
+      "id": 697,
+      "slug": "ampharosite",
+      "apiName": "ampharosite",
+      "name": {
+        "zhHant": "電龍進化石",
+        "en": "Ampharosite",
+        "ja": "デンリュウナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓電龍超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ampharosite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓電龍攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/265",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/265"
+    },
+    "champions-item-266": {
+      "id": null,
+      "slug": "champions-item-266",
+      "name": {
+        "zhHant": "龜足巨鎧進化石",
+        "ja": "ガメノデスナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓龜足巨鎧超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m499.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/266",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/266"
+    },
+    "champions-item-267": {
+      "id": null,
+      "slug": "champions-item-267",
+      "name": {
+        "zhHant": "寶石海星進化石",
+        "ja": "スターミナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓寶石海星超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m500.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/267",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/267"
+    },
+    "champions-item-268": {
+      "id": null,
+      "slug": "champions-item-268",
+      "name": {
+        "zhHant": "大食花進化石",
+        "ja": "ウツボットナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓大食花超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m501.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/268",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/268"
+    },
+    "altarianite": {
+      "id": 796,
+      "slug": "altarianite",
+      "apiName": "altarianite",
+      "name": {
+        "zhHant": "七夕青鳥進化石",
+        "en": "Altarianite",
+        "ja": "チルタリスナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓七夕青鳥超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/altarianite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓七夕青鳥攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/269",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/269"
+    },
+    "banettite": {
+      "id": 707,
+      "slug": "banettite",
+      "apiName": "banettite",
+      "name": {
+        "zhHant": "詛咒娃娃進化石",
+        "en": "Banettite",
+        "ja": "ジュペッタナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓詛咒娃娃超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/banettite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓詛咒娃娃攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/270",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/270"
+    },
+    "cameruptite": {
+      "id": 808,
+      "slug": "cameruptite",
+      "apiName": "cameruptite",
+      "name": {
+        "zhHant": "噴火駝進化石",
+        "en": "Cameruptite",
+        "ja": "バクーダナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓噴火駝超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cameruptite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "噴火駝攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/271",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/271"
+    },
+    "mawilite": {
+      "id": 720,
+      "slug": "mawilite",
+      "apiName": "mawilite",
+      "name": {
+        "zhHant": "大嘴娃進化石",
+        "en": "Mawilite",
+        "ja": "クチートナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓大嘴娃超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mawilite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓大嘴娃攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/272",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/272"
+    },
+    "absolite": {
+      "id": 716,
+      "slug": "absolite",
+      "apiName": "absolite",
+      "name": {
+        "zhHant": "阿勃梭魯進化石",
+        "en": "Absolite",
+        "ja": "アブソルナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓阿勃梭魯超級進化的持有物。(超級阿勃梭魯)",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/absolite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓阿勃梭魯攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/273",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/273"
+    },
+    "slowbronite": {
+      "id": 801,
+      "slug": "slowbronite",
+      "apiName": "slowbronite",
+      "name": {
+        "zhHant": "呆殼獸進化石",
+        "en": "Slowbronite",
+        "ja": "ヤドランナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓呆殼獸超級進化的持有物。對伽勒爾的樣子沒有效果。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/slowbronite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓呆殼獸攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/274",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/274"
+    },
+    "champions-item-275": {
+      "id": null,
+      "slug": "champions-item-275",
+      "name": {
+        "zhHant": "快龍進化石",
+        "ja": "カイリュナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓快龍超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m508.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/275",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/275"
+    },
+    "champions-item-276": {
+      "id": null,
+      "slug": "champions-item-276",
+      "name": {
+        "zhHant": "雪妖女進化石",
+        "ja": "ユキメノコナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓雪妖女超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m510.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/276",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/276"
+    },
+    "champions-item-277": {
+      "id": null,
+      "slug": "champions-item-277",
+      "name": {
+        "zhHant": "摔角鷹人進化石",
+        "ja": "ルチャブルナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓摔角鷹人超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m512.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/277",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/277"
+    },
+    "tyranitarite": {
+      "id": 708,
+      "slug": "tyranitarite",
+      "apiName": "tyranitarite",
+      "name": {
+        "zhHant": "班基拉斯進化石",
+        "en": "Tyranitarite",
+        "ja": "バンギラスナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓班基拉斯超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tyranitarite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓班基拉斯攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/278",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/278"
+    },
+    "pidgeotite": {
+      "id": 803,
+      "slug": "pidgeotite",
+      "apiName": "pidgeotite",
+      "name": {
+        "zhHant": "大比鳥進化石",
+        "en": "Pidgeotite",
+        "ja": "ピジョットナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓大比鳥超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pidgeotite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓大比鳥攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/280",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/280"
+    },
+    "manectite": {
+      "id": 721,
+      "slug": "manectite",
+      "apiName": "manectite",
+      "name": {
+        "zhHant": "雷電獸進化石",
+        "en": "Manectite",
+        "ja": "ライボルトナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓雷電獸超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/manectite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓雷電獸攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/281",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/281"
+    },
+    "houndoominite": {
+      "id": 705,
+      "slug": "houndoominite",
+      "apiName": "houndoominite",
+      "name": {
+        "zhHant": "黑魯加進化石",
+        "en": "Houndoominite",
+        "ja": "ヘルガナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓黑魯加超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/houndoominite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓黑魯加攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/282",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/282"
+    },
+    "audinite": {
+      "id": 798,
+      "slug": "audinite",
+      "apiName": "audinite",
+      "name": {
+        "zhHant": "差不多娃娃進化石",
+        "en": "Audinite",
+        "ja": "タブンネナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓差不多娃娃超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/audinite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓差不多娃娃攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/283",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/283"
+    },
+    "lopunnite": {
+      "id": 809,
+      "slug": "lopunnite",
+      "apiName": "lopunnite",
+      "name": {
+        "zhHant": "長耳兔進化石",
+        "en": "Lopunnite",
+        "ja": "ミミロップナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓長耳兔超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lopunnite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "長耳兔攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/284",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/284"
+    },
+    "sablenite": {
+      "id": 795,
+      "slug": "sablenite",
+      "apiName": "sablenite",
+      "name": {
+        "zhHant": "勾魂眼進化石",
+        "en": "Sablenite",
+        "ja": "ヤミラミナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓勾魂眼超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sablenite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓勾魂眼攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/285",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/285"
+    },
+    "sharpedonite": {
+      "id": 800,
+      "slug": "sharpedonite",
+      "apiName": "sharpedonite",
+      "name": {
+        "zhHant": "巨牙鯊進化石",
+        "en": "Sharpedonite",
+        "ja": "サメハダナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓巨牙鯊超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sharpedonite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓巨牙鯊攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/286",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/286"
+    },
+    "gyaradosite": {
+      "id": 715,
+      "slug": "gyaradosite",
+      "apiName": "gyaradosite",
+      "name": {
+        "zhHant": "暴鯉龍進化石",
+        "en": "Gyaradosite",
+        "ja": "ギャラドスナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓暴鯉龍超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gyaradosite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓暴鯉龍攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/287",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/287"
+    },
+    "lucarionite": {
+      "id": 712,
+      "slug": "lucarionite",
+      "apiName": "lucarionite",
+      "name": {
+        "zhHant": "路卡利歐進化石",
+        "en": "Lucarionite",
+        "ja": "ルカリオナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓路卡利歐超級進化的持有物。(超級路卡利歐)",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lucarionite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓路卡利歐攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/288",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/288"
+    },
+    "heracronite": {
+      "id": 719,
+      "slug": "heracronite",
+      "apiName": "heracronite",
+      "name": {
+        "zhHant": "赫拉克羅斯進化石",
+        "en": "Heracronite",
+        "ja": "ヘラクロスナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓赫拉克羅斯超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/heracronite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓赫拉克羅斯攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/289",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/289"
+    },
+    "aerodactylite": {
+      "id": 711,
+      "slug": "aerodactylite",
+      "apiName": "aerodactylite",
+      "name": {
+        "zhHant": "化石翼龍進化石",
+        "en": "Aerodactylite",
+        "ja": "プテラナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓化石翼龍超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aerodactylite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓化石翼龍攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/290",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/290"
+    },
+    "alakazite": {
+      "id": 718,
+      "slug": "alakazite",
+      "apiName": "alakazite",
+      "name": {
+        "zhHant": "胡地進化石",
+        "en": "Alakazite",
+        "ja": "フーディナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓胡地超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/alakazite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓胡地攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/291",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/291"
+    },
+    "champions-item-292": {
+      "id": null,
+      "slug": "champions-item-292",
+      "name": {
+        "zhHant": "老翁龍進化石",
+        "ja": "ジジーロナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓老翁龍超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m527.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/292",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/292"
+    },
+    "champions-item-293": {
+      "id": null,
+      "slug": "champions-item-293",
+      "name": {
+        "zhHant": "麻麻鰻魚王進化石",
+        "ja": "シビルドナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓麻麻鰻魚王超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m528.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/293",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/293"
+    },
+    "glalitite": {
+      "id": 804,
+      "slug": "glalitite",
+      "apiName": "glalitite",
+      "name": {
+        "zhHant": "冰鬼護進化石",
+        "en": "Glalitite",
+        "ja": "オニゴーリナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓冰鬼護超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/glalitite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓冰鬼護攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/294",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/294"
+    },
+    "pinsirite": {
+      "id": 710,
+      "slug": "pinsirite",
+      "apiName": "pinsirite",
+      "name": {
+        "zhHant": "凱羅斯進化石",
+        "en": "Pinsirite",
+        "ja": "カイロスナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓凱羅斯超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pinsirite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓凱羅斯攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/295",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/295"
+    },
+    "champions-item-296": {
+      "id": null,
+      "slug": "champions-item-296",
+      "name": {
+        "zhHant": "列陣兵進化石",
+        "ja": "タイレーツナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓列陣兵超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m531.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/296",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/296"
+    },
+    "champions-item-297": {
+      "id": null,
+      "slug": "champions-item-297",
+      "name": {
+        "zhHant": "蜈蚣王進化石",
+        "ja": "ペンドラナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓蜈蚣王超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m532.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/297",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/297"
+    },
+    "gardevoirite": {
+      "id": 696,
+      "slug": "gardevoirite",
+      "apiName": "gardevoirite",
+      "name": {
+        "zhHant": "沙奈朵進化石",
+        "en": "Gardevoirite",
+        "ja": "サーナイトナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓沙奈朵超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gardevoirite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓沙奈朵攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/298",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/298"
+    },
+    "galladite": {
+      "id": 797,
+      "slug": "galladite",
+      "apiName": "galladite",
+      "name": {
+        "zhHant": "艾路雷朵進化石",
+        "en": "Galladite",
+        "ja": "エルレイドナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓艾路雷朵超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/galladite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓艾路雷朵攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/299",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/299"
+    },
+    "champions-item-300": {
+      "id": null,
+      "slug": "champions-item-300",
+      "name": {
+        "zhHant": "盔甲鳥進化石",
+        "ja": "エアームドナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓盔甲鳥超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m535.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/300",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/300"
+    },
+    "champions-item-301": {
+      "id": null,
+      "slug": "champions-item-301",
+      "name": {
+        "zhHant": "皮可西進化石",
+        "ja": "ピクシナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓皮可西超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m536.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/301",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/301"
+    },
+    "champions-item-302": {
+      "id": null,
+      "slug": "champions-item-302",
+      "name": {
+        "zhHant": "毒藻龍進化石",
+        "ja": "ドラミドナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓毒藻龍超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m537.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/302",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/302"
+    },
+    "champions-item-303": {
+      "id": null,
+      "slug": "champions-item-303",
+      "name": {
+        "zhHant": "頭巾混混進化石",
+        "ja": "ズルズキナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓頭巾混混超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m538.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/303",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/303"
+    },
+    "champions-item-304": {
+      "id": null,
+      "slug": "champions-item-304",
+      "name": {
+        "zhHant": "火炎獅進化石",
+        "ja": "カエンジシナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓火炎獅超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m539.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/304",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/304"
+    },
+    "champions-item-305": {
+      "id": null,
+      "slug": "champions-item-305",
+      "name": {
+        "zhHant": "烏賊王進化石",
+        "ja": "カラマネナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓烏賊王超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m540.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/305",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/305"
+    },
+    "champions-item-306": {
+      "id": null,
+      "slug": "champions-item-306",
+      "name": {
+        "zhHant": "龍頭地鼠進化石",
+        "ja": "ドリュウズナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓龍頭地鼠超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m541.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/306",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/306"
+    },
+    "champions-item-307": {
+      "id": null,
+      "slug": "champions-item-307",
+      "name": {
+        "zhHant": "水晶燈火靈進化石",
+        "ja": "シャンデラナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓水晶燈火靈超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m542.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/307",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/307"
+    },
+    "aggronite": {
+      "id": 706,
+      "slug": "aggronite",
+      "apiName": "aggronite",
+      "name": {
+        "zhHant": "波士可多拉進化石",
+        "en": "Aggronite",
+        "ja": "ボスゴドラナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓波士可多拉超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aggronite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓波士可多拉攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/308",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/308"
+    },
+    "salamencite": {
+      "id": 810,
+      "slug": "salamencite",
+      "apiName": "salamencite",
+      "name": {
+        "zhHant": "暴飛龍進化石",
+        "en": "Salamencite",
+        "ja": "ボーマンダナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "暴飛龍在對戰中可以進行超級進化。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/salamencite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "暴飛龍攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/309",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/309"
+    },
+    "metagrossite": {
+      "id": 799,
+      "slug": "metagrossite",
+      "apiName": "metagrossite",
+      "name": {
+        "zhHant": "巨金怪進化石",
+        "en": "Metagrossite",
+        "ja": "メタグロスナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓巨金怪超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metagrossite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓巨金怪攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/310",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/310"
+    },
+    "gengarite": {
+      "id": 695,
+      "slug": "gengarite",
+      "apiName": "gengarite",
+      "name": {
+        "zhHant": "耿鬼進化石",
+        "en": "Gengarite",
+        "ja": "ゲンガナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓耿鬼超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gengarite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓耿鬼攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/311",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/311"
+    },
+    "medichamite": {
+      "id": 704,
+      "slug": "medichamite",
+      "apiName": "medichamite",
+      "name": {
+        "zhHant": "恰雷姆進化石",
+        "en": "Medichamite",
+        "ja": "チャーレムナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓恰雷姆超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/medichamite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓恰雷姆攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/312",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/312"
+    },
+    "abomasite": {
+      "id": 713,
+      "slug": "abomasite",
+      "apiName": "abomasite",
+      "name": {
+        "zhHant": "暴雪王進化石",
+        "en": "Abomasite",
+        "ja": "ユキノオナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓暴雪王超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/abomasite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓暴雪王攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/313",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/313"
+    },
+    "scizorite": {
+      "id": 709,
+      "slug": "scizorite",
+      "apiName": "scizorite",
+      "name": {
+        "zhHant": "巨鉗螳螂進化石",
+        "en": "Scizorite",
+        "ja": "ハッサムナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓巨鉗螳螂超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/scizorite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓巨鉗螳螂攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/314",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/314"
+    },
+    "garchompite": {
+      "id": 722,
+      "slug": "garchompite",
+      "apiName": "garchompite",
+      "name": {
+        "zhHant": "烈咬陸鯊進化石",
+        "en": "Garchompite",
+        "ja": "ガブリアスナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓烈咬陸鯊超級進化的持有物。(超級烈咬陸鯊)",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/garchompite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓烈咬陸鯊攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/315",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/315"
+    },
+    "steelixite": {
+      "id": 802,
+      "slug": "steelixite",
+      "apiName": "steelixite",
+      "name": {
+        "zhHant": "大鋼蛇進化石",
+        "en": "Steelixite",
+        "ja": "ハガネールナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓大鋼蛇超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/steelixite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓大鋼蛇攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/316",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/316"
+    },
+    "kangaskhanite": {
+      "id": 714,
+      "slug": "kangaskhanite",
+      "apiName": "kangaskhanite",
+      "name": {
+        "zhHant": "袋獸進化石",
+        "en": "Kangaskhanite",
+        "ja": "ガルーラナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓袋獸超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kangaskhanite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓袋獸攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/317",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/317"
+    },
+    "charizardite-x": {
+      "id": 699,
+      "slug": "charizardite-x",
+      "apiName": "charizardite-x",
+      "name": {
+        "zhHant": "噴火龍進化石Ｘ",
+        "en": "Charizardite X",
+        "ja": "リザードナイトＸ"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓噴火龍超級進化的持有物。(超級噴火龍X)",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/charizardite-x.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓噴火龍攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/318",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/318"
+    },
+    "charizardite-y": {
+      "id": 717,
+      "slug": "charizardite-y",
+      "apiName": "charizardite-y",
+      "name": {
+        "zhHant": "噴火龍進化石Ｙ",
+        "en": "Charizardite Y",
+        "ja": "リザードナイトＹ"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓噴火龍超級進化的持有物。(超級噴火龍Y)",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/charizardite-y.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓噴火龍攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/319",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/319"
+    },
+    "blastoisinite": {
+      "id": 700,
+      "slug": "blastoisinite",
+      "apiName": "blastoisinite",
+      "name": {
+        "zhHant": "水箭龜進化石",
+        "en": "Blastoisinite",
+        "ja": "カメックスナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓水箭龜超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/blastoisinite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓水箭龜攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/320",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/320"
+    },
+    "venusaurite": {
+      "id": 698,
+      "slug": "venusaurite",
+      "apiName": "venusaurite",
+      "name": {
+        "zhHant": "妙蛙花進化石",
+        "en": "Venusaurite",
+        "ja": "フシギバナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓妙蛙花超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/venusaurite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓妙蛙花攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/321",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/321"
+    },
+    "champions-item-322": {
+      "id": null,
+      "slug": "champions-item-322",
+      "name": {
+        "zhHant": "甲賀忍蛙進化石",
+        "ja": "ゲッコウガナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓甲賀忍蛙超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m557.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/322",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/322"
+    },
+    "champions-item-323": {
+      "id": null,
+      "slug": "champions-item-323",
+      "name": {
+        "zhHant": "妖火紅狐進化石",
+        "ja": "マフォクシナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓妖火紅狐超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m558.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/323",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/323"
+    },
+    "champions-item-324": {
+      "id": null,
+      "slug": "champions-item-324",
+      "name": {
+        "zhHant": "布里卡隆進化石",
+        "ja": "ブリガロナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓布里卡隆超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m559.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/324",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/324"
+    },
+    "champions-item-325": {
+      "id": null,
+      "slug": "champions-item-325",
+      "name": {
+        "zhHant": "花葉蒂進化石",
+        "ja": "フラエッテナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓花葉蒂(永恆之花)超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m564.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/325",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/325"
+    },
+    "champions-item-326": {
+      "id": null,
+      "slug": "champions-item-326",
+      "name": {
+        "zhHant": "戟脊龍進化石",
+        "ja": "セグレイブナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "戟脊龍能在對戰中超級進化。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m566.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/326",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/326"
+    },
+    "champions-item-330": {
+      "id": null,
+      "slug": "champions-item-330",
+      "name": {
+        "zhHant": "路卡利歐進化石Z",
+        "ja": "ルカリオナイトZ",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "路卡利歐能在對戰中超級進化。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m571.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/330",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/330"
+    },
+    "champions-item-331": {
+      "id": null,
+      "slug": "champions-item-331",
+      "name": {
+        "zhHant": "雷丘進化石Ｘ",
+        "ja": "ライチュウナイトX",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓雷丘超級進化的持有物。對阿羅拉的樣子沒有效果。(超級雷丘X)",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m587.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/331",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/331"
+    },
+    "champions-item-332": {
+      "id": null,
+      "slug": "champions-item-332",
+      "name": {
+        "zhHant": "雷丘進化石Ｙ",
+        "ja": "ライチュウナイトY",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓雷丘超級進化的持有物。對阿羅拉的樣子沒有效果。(超級雷丘Y)",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m588.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/332",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/332"
+    },
+    "sceptilite": {
+      "id": 794,
+      "slug": "sceptilite",
+      "apiName": "sceptilite",
+      "name": {
+        "zhHant": "蜥蜴王進化石",
+        "en": "Sceptilite",
+        "ja": "ジュカインナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓蜥蜴王超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sceptilite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓蜥蜴王攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/333",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/333"
+    },
+    "swampertite": {
+      "id": 793,
+      "slug": "swampertite",
+      "apiName": "swampertite",
+      "name": {
+        "zhHant": "巨沼怪進化石",
+        "en": "Swampertite",
+        "ja": "ラグラージナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓巨沼怪超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/swampertite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓巨沼怪攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/334",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/334"
+    },
+    "blazikenite": {
+      "id": 703,
+      "slug": "blazikenite",
+      "apiName": "blazikenite",
+      "name": {
+        "zhHant": "火焰雞進化石",
+        "en": "Blazikenite",
+        "ja": "バシャーモナイト"
+      },
+      "category": "mega-stones",
+      "attributes": [],
+      "flingPower": 80,
+      "flingEffect": null,
+      "description": "能讓火焰雞超級進化的持有物。",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/blazikenite.png",
+      "heldByPokemon": [],
+      "babyTriggerForEvolutionChainId": null,
+      "machines": [],
+      "inChampions": true,
+      "legacyDescription": "讓火焰雞攜帶後， 在戰鬥時就能進行超級進化的 一種神奇超級石。",
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/335",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/335"
+    },
+    "champions-item-336": {
+      "id": null,
+      "slug": "champions-item-336",
+      "name": {
+        "zhHant": "阿勃梭魯進化石Z",
+        "ja": "アブソルナイトZ",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "阿勃梭魯能在對戰中超級進化。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m592.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/336",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/336"
+    },
+    "champions-item-337": {
+      "id": null,
+      "slug": "champions-item-337",
+      "name": {
+        "zhHant": "姆克鷹進化石",
+        "ja": "ムクホークナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓姆克鷹超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m593.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/337",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/337"
+    },
+    "champions-item-339": {
+      "id": null,
+      "slug": "champions-item-339",
+      "name": {
+        "zhHant": "風鈴鈴進化石",
+        "ja": "チリーンナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓風鈴鈴超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m599.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/339",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/339"
+    },
+    "champions-item-340": {
+      "id": null,
+      "slug": "champions-item-340",
+      "name": {
+        "zhHant": "好勝毛蟹進化石",
+        "ja": "ケケンカニナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓好勝毛蟹超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m600.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/340",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/340"
+    },
+    "champions-item-341": {
+      "id": null,
+      "slug": "champions-item-341",
+      "name": {
+        "zhHant": "狠辣椒進化石",
+        "ja": "スコヴィラナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓狠辣椒超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m601.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/341",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/341"
+    },
+    "champions-item-342": {
+      "id": null,
+      "slug": "champions-item-342",
+      "name": {
+        "zhHant": "泥偶巨人進化石",
+        "ja": "ゴルーグナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓泥偶巨人超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m606.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/342",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/342"
+    },
+    "champions-item-344": {
+      "id": null,
+      "slug": "champions-item-344",
+      "name": {
+        "zhHant": "超能妙喵進化石",
+        "ja": "ニャオニクスナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓超能妙喵超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m613.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/344",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/344"
+    },
+    "champions-item-346": {
+      "id": null,
+      "slug": "champions-item-346",
+      "name": {
+        "zhHant": "具甲武者進化石",
+        "ja": "グソクムシャナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "具甲武者能在對戰中超級進化。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m621.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/346",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/346"
+    },
+    "champions-item-347": {
+      "id": null,
+      "slug": "champions-item-347",
+      "name": {
+        "zhHant": "晶光花進化石",
+        "ja": "キラフロルナイト",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "能讓晶光花超級進化的持有物。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m627.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/347",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/347"
+    },
+    "champions-item-352": {
+      "id": null,
+      "slug": "champions-item-352",
+      "name": {
+        "zhHant": "烈咬陸鯊進化石Z",
+        "ja": "ガブリアスナイトZ",
+        "en": ""
+      },
+      "category": "mega-stones",
+      "attributes": [
+        "holdable"
+      ],
+      "description": "烈咬陸鯊能在對戰中超級進化。",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-champions/gacha/i_item_m637.png",
+      "flingPower": null,
+      "flingEffect": null,
+      "legacyDescription": null,
+      "inChampions": true,
+      "championsSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/352",
+      "descriptionVersion": "Champions",
+      "descriptionSource": "https://gamewith.ai/pokemon-champions/zh-hant/items/352"
+    }
+  }
+}

@@ -6,9 +6,11 @@ const state = {
   pokemon: [], chains: [], types: {}, abilities: {}, pokedexNumbers: {}, moves: null, championsRoster: null, query: "",
   type: new Set(), generation: new Set(), region: new Set(), form: new Set(), tag: new Set(),
   typeMode: "or", pokedex: "national", filtersOpen: false,
+  statSortKey: "number", statSortDirection: "asc", statHighlightKey: "number", statLimit: 100,
   moveQuery: "", moveType: new Set(), moveClass: new Set(), moveTarget: new Set(), moveKind: new Set(["normal"]),
   moveSortKey: "id", moveSortDirection: "asc", moveLimit: 100,
-  abilityQuery: "", abilityGeneration: new Set(), abilityCategory: new Set(), abilitySortKey: "id", abilitySortDirection: "asc",
+  abilityQuery: "", abilityGeneration: new Set(), abilityCategory: new Set(), abilitySortKey: "id", abilitySortDirection: "asc", abilityLimit: 100,
+  items: null, itemQuery: "", itemCategory: new Set(), itemChampions: new Set(), itemSortKey: "id", itemSortDirection: "asc", itemLimit: 100,
   championsOwned: loadChampionsOwned()
 };
 
@@ -104,13 +106,15 @@ function setActiveNav(page) {
 }
 
 function pokemonTags(mon) {
-  return {
+  const tags = {
     baby: Boolean(mon.isBaby), legendary: Boolean(mon.isLegendary), mythical: Boolean(mon.isMythical),
     starter: mon.isStarter ?? STARTER_SPECIES_IDS.has(mon.speciesId),
     pseudo: mon.isPseudoLegendary ?? PSEUDO_LEGENDARY_SPECIES_IDS.has(mon.speciesId),
     ultraBeast: mon.isUltraBeast ?? ULTRA_BEAST_SPECIES_IDS.has(mon.speciesId),
     paradox: mon.isParadox ?? PARADOX_SPECIES_IDS.has(mon.speciesId)
   };
+  tags.nonLegendary = !tags.legendary && !tags.mythical && !tags.ultraBeast && !tags.paradox;
+  return tags;
 }
 
 function pokemonRegion(mon) {
@@ -120,10 +124,19 @@ function pokemonRegion(mon) {
 function queryTermMatches(mon, rawTerm, regionalEntry, tags) {
   const term = normalize(rawTerm).replace(/^#/, "");
   if (!term) return true;
+  const comparison = term.normalize("NFKC").match(/^(hp|atk|attack|def|defense|spa|spatk|specialattack|spd|spdef|specialdefense|spe|speed|total|bst|sum|體力|攻擊|防禦|特攻|特防|速度|總和|總計)\s*(<=|>=|==|=|<|>|≤|≥)\s*(\d+)$/i);
+  if (comparison) {
+    const aliases = { hp: "hp", 體力: "hp", atk: "attack", attack: "attack", 攻擊: "attack", def: "defense", defense: "defense", 防禦: "defense", spa: "specialAttack", spatk: "specialAttack", specialattack: "specialAttack", 特攻: "specialAttack", spd: "specialDefense", spdef: "specialDefense", specialdefense: "specialDefense", 特防: "specialDefense", spe: "speed", speed: "speed", 速度: "speed", total: "total", bst: "total", sum: "total", 總和: "total", 總計: "total" };
+    const key = aliases[comparison[1].toLowerCase()];
+    const value = key === "total" ? statsTotal(mon) : mon.stats?.[key];
+    if (!Number.isFinite(value)) return false;
+    const threshold = Number(comparison[3]);
+    return { "<": value < threshold, ">": value > threshold, "<=": value <= threshold, "≤": value <= threshold, ">=": value >= threshold, "≥": value >= threshold, "=": value === threshold, "==": value === threshold }[comparison[2]];
+  }
   const tagLabels = {
     baby: ["寶寶", "寶寶寶可夢"], legendary: ["傳說", "傳說寶可夢"], mythical: ["幻之", "幻之寶可夢"],
     starter: ["御三家", "最初的夥伴"], pseudo: ["600族", "大器晚成"],
-    ultraBeast: ["究極異獸", "ultra beast"], paradox: ["悖謬", "悖謬寶可夢", "paradox"]
+    ultraBeast: ["究極異獸", "ultra beast"], paradox: ["悖謬", "悖謬寶可夢", "paradox"], nonLegendary: ["非神獸"]
   };
   const region = pokemonRegion(mon);
   const searchableFields = [
@@ -220,21 +233,21 @@ function filterButtons(key, options) {
 }
 function activeFilterCount() { return state.type.size + state.generation.size + state.region.size + state.form.size + state.tag.size; }
 
-function renderHome() {
-  setActiveNav("pokedex");
-  document.title = "Pokédex｜寶可夢圖鑑";
+function renderHome(statistics = false) {
+  setActiveNav(statistics ? "stats" : "pokedex");
+  document.title = statistics ? "種族值一覽｜Pokédex" : "Pokédex｜寶可夢圖鑑";
   const pokedexOptions = getPokedexOptions();
   app.innerHTML = `
-    <section class="hero"><div class="hero-inner">
-      <p class="eyebrow">National Pokédex</p>
-      <h1>遇見每一種<br>獨一無二的寶可夢</h1>
-      <p class="hero-copy">搜尋名稱或圖鑑編號，也可以依屬性、世代與型態快速找到牠們。</p>
+    <section class="hero ${statistics ? "stats-hero" : ""}"><div class="hero-inner">
+      <p class="eyebrow">${statistics ? "BASE STATS DATABASE" : "National Pokédex"}</p>
+      <h1>${statistics ? "種族值一覽" : "遇見每一種<br>獨一無二的寶可夢"}</h1>
+      <p class="hero-copy">${statistics ? "比較六項能力與總和，找到符合條件的寶可夢。" : "搜尋名稱或圖鑑編號，也可以依屬性、世代與型態快速找到牠們。"}</p>
     </div></section>
     <section class="search-panel" aria-label="圖鑑搜尋與篩選">
       <div class="search-area">
         <label class="search-box">
           <span class="search-icon" aria-hidden="true">⌕</span>
-          <input id="pokemon-search" aria-label="搜尋寶可夢" type="search" value="${escapeHtml(state.query)}" placeholder="名稱、編號、屬性、地區或標籤…" autocomplete="off">
+          <input id="pokemon-search" aria-label="搜尋寶可夢" type="search" value="${escapeHtml(state.query)}" placeholder="名稱、編號、屬性、地區、標籤或種族值…" autocomplete="off">
           <button class="clear-search" type="button" aria-label="清除搜尋" ${state.query ? "" : "hidden"}>×</button>
         </label>
       </div>
@@ -244,10 +257,10 @@ function renderHome() {
         <div class="filter-group"><span class="filter-label">世代</span><div class="filter-chips" data-filter="generation">${filterButtons("generation", [{ value: "all", label: "全部" }, ...[1,2,3,4,5,6,7,8,9].map(value => ({ value: String(value), label: `Gen ${value}` }))])}</div></div>
         <div class="filter-group"><span class="filter-label">首次登場地區</span><div class="filter-chips" data-filter="region">${filterButtons("region", [{ value: "all", label: "全部" }, ...REGION_OPTIONS])}</div></div>
         <div class="filter-group"><span class="filter-label">型態</span><div class="filter-chips" data-filter="form">${filterButtons("form", [{ value: "all", label: "全部" }, { value: "normal", label: "一般" }, { value: "mega", label: "超級進化" }, { value: "gmax", label: "超極巨化" }, { value: "regional", label: "地區型態" }, { value: "primal", label: "原始回歸" }, { value: "battle", label: "戰鬥型態" }, { value: "other", label: "特殊型態" }])}</div></div>
-        <div class="filter-group"><span class="filter-label">分類標籤</span><div class="filter-chips" data-filter="tag">${filterButtons("tag", [{ value: "all", label: "全部" }, { value: "baby", label: "寶寶" }, { value: "legendary", label: "傳說" }, { value: "mythical", label: "幻之" }, { value: "ultraBeast", label: "究極異獸" }, { value: "paradox", label: "悖謬寶可夢" }, { value: "starter", label: "御三家" }, { value: "pseudo", label: "600族" }])}</div></div>
+        <div class="filter-group"><span class="filter-label">分類標籤</span><div class="filter-chips" data-filter="tag">${filterButtons("tag", [{ value: "all", label: "全部" }, { value: "nonLegendary", label: "非神獸" }, { value: "baby", label: "寶寶" }, { value: "legendary", label: "傳說" }, { value: "mythical", label: "幻之" }, { value: "ultraBeast", label: "究極異獸" }, { value: "paradox", label: "悖謬寶可夢" }, { value: "starter", label: "御三家" }, { value: "pseudo", label: "600族" }])}</div></div>
       </div>
       <div class="pokedex-picker">
-        <div><span class="filter-label">各地區圖鑑</span><strong>依所選圖鑑的地區編號排列</strong></div>
+        <div><span class="filter-label">各地區圖鑑</span><strong>${statistics ? "依所選圖鑑篩選寶可夢" : "依所選圖鑑的地區編號排列"}</strong></div>
         <label><span class="sr-only">選擇圖鑑</span><select id="pokedex-select">
           <option value="national" ${state.pokedex === "national" ? "selected" : ""}>全國圖鑑</option>
           ${pokedexOptions.map(option => `<option value="${option.value}" ${state.pokedex === option.value ? "selected" : ""}>${option.label}</option>`).join("")}
@@ -256,18 +269,37 @@ function renderHome() {
     </section>
     <section class="catalog">
       <div class="catalog-heading"><h2>寶可夢一覽</h2><p class="result-count" aria-live="polite"></p></div>
-      <div class="pokemon-grid"></div>
+      ${statistics ? `<div class="stats-sort"><span class="filter-label">排序</span><div class="filter-chips">${Object.entries(STAT_SORT_LABELS).map(([key,label]) => `<button type="button" class="filter-chip" data-stat-sort="${key}">${label}</button>`).join("")}</div></div><div class="move-table-shell stats-table-shell"><table class="move-table stats-table"><thead><tr><th data-stat-column="number"><button type="button" data-stat-highlight="number" aria-pressed="false">編號</button></th><th data-stat-column="name"><button type="button" data-stat-highlight="name" aria-pressed="false">寶可夢</button></th><th data-stat-column="type"><button type="button" data-stat-highlight="type" aria-pressed="false">屬性</button></th>${Object.entries(BASE_STAT_LABELS).map(([key,label]) => `<th data-stat-column="${key}"><button type="button" data-stat-highlight="${key}" aria-pressed="false">${label}</button></th>`).join("")}</tr></thead><tbody></tbody></table></div>` : '<div class="pokemon-grid"></div>'}
+      ${statistics ? '<button class="move-more stats-more" type="button" hidden></button>' : ""}
       <div class="empty-state" hidden><div><h3>沒有找到符合條件的寶可夢</h3><p>試著調整關鍵字或清除篩選條件。</p></div></div>
     </section>`;
-  bindHomeEvents();
-  renderGrid();
+  bindHomeEvents(statistics ? () => { state.statLimit = 100; renderStatTable(); } : renderGrid);
+  if (statistics) {
+    app.querySelectorAll("[data-stat-sort]").forEach(button => button.addEventListener("click", () => {
+      const key = button.dataset.statSort;
+      state.statSortDirection = key === state.statSortKey
+        ? (state.statSortDirection === "asc" ? "desc" : "asc")
+        : (key === "number" ? "asc" : "desc");
+      state.statSortKey = key; state.statHighlightKey = key; state.statLimit = 100; renderStatTable();
+    }));
+    const table = app.querySelector(".stats-table");
+    app.querySelector(".stats-more").addEventListener("click", () => { state.statLimit += 100; renderStatTable(); });
+    table.addEventListener("click", event => {
+      const heading = event.target.closest("[data-stat-highlight]");
+      if (heading) { state.statHighlightKey = heading.dataset.statHighlight; highlightStatColumn(); return; }
+      const row = event.target.closest("[data-stat-slug]");
+      if (row) location.hash = `#/pokemon/${encodeURIComponent(row.dataset.statSlug)}`;
+    });
+    table.addEventListener("keydown", event => { const row = event.target.closest("[data-stat-slug]"); if(row && ["Enter", " "].includes(event.key)){event.preventDefault();location.hash=`#/pokemon/${encodeURIComponent(row.dataset.statSlug)}`;} });
+    renderStatTable(); window.scrollTo({top:0,behavior:"auto"});
+  } else renderGrid();
 }
 
-function bindHomeEvents() {
+function bindHomeEvents(renderResults = renderGrid) {
   const input = document.querySelector("#pokemon-search");
   const clear = document.querySelector(".clear-search");
-  input.addEventListener("input", event => { state.query = event.target.value; clear.hidden = !state.query; renderGrid(); });
-  clear.addEventListener("click", () => { state.query = ""; input.value = ""; clear.hidden = true; renderGrid(); input.focus(); });
+  input.addEventListener("input", event => { state.query = event.target.value; clear.hidden = !state.query; renderResults(); });
+  clear.addEventListener("click", () => { state.query = ""; input.value = ""; clear.hidden = true; renderResults(); input.focus(); });
   document.querySelector(".filter-toggle").addEventListener("click", event => {
     state.filtersOpen = !state.filtersOpen;
     event.currentTarget.setAttribute("aria-expanded", String(state.filtersOpen));
@@ -282,7 +314,7 @@ function bindHomeEvents() {
         item.classList.toggle("active", active);
         item.setAttribute("aria-pressed", String(active));
       });
-      renderGrid();
+      renderResults();
       return;
     }
     const button = event.target.closest(".filter-chip");
@@ -299,16 +331,46 @@ function bindHomeEvents() {
       item.setAttribute("aria-pressed", String(active));
     });
     document.querySelector(".filter-toggle").textContent = `篩選${activeFilterCount() ? ` · ${activeFilterCount()}` : ""}`;
-    renderGrid();
+    renderResults();
   });
   document.querySelector("#pokedex-select").addEventListener("change", event => {
     state.pokedex = event.target.value;
-    renderGrid();
+    renderResults();
   });
-  document.querySelector(".pokemon-grid").addEventListener("click", event => {
+  document.querySelector(".pokemon-grid")?.addEventListener("click", event => {
     const card = event.target.closest(".pokemon-card");
     if (card) location.hash = `#/pokemon/${card.dataset.slug}`;
   });
+}
+
+const BASE_STAT_LABELS = { total: "總和", hp: "體力", attack: "攻擊", defense: "防禦", specialAttack: "特攻", specialDefense: "特防", speed: "速度" };
+const STAT_SORT_LABELS = { number: "編號", ...BASE_STAT_LABELS };
+function statsTotal(mon) { return Object.values(mon.stats || {}).reduce((sum,value) => sum + value, 0); }
+function highlightStatColumn() {
+  app.querySelectorAll("[data-stat-column]").forEach(cell => cell.classList.toggle("selected", cell.dataset.statColumn === state.statHighlightKey));
+  app.querySelectorAll("[data-stat-highlight]").forEach(button => button.setAttribute("aria-pressed", String(button.dataset.statHighlight === state.statHighlightKey)));
+}
+function renderStatTable() {
+  const filtered = state.pokemon.filter(pokemonMatches);
+  const key = state.statSortKey;
+  const value = mon => key === "number" ? (getRegionalDexEntry(mon)?.number ?? mon.dexNumber) : key === "total" ? statsTotal(mon) : mon.stats[key];
+  filtered.sort((a,b) => (value(a)-value(b))*(state.statSortDirection === "desc" ? -1 : 1) || a.dexNumber-b.dexNumber || a.id-b.id || a.slug.localeCompare(b.slug));
+  const visible = filtered.slice(0, state.statLimit);
+  app.querySelector(".stats-table tbody").innerHTML = visible.map(mon => `<tr class="move-row" tabindex="0" data-stat-slug="${escapeHtml(mon.slug)}" aria-label="查看${escapeHtml(mon.name.zhHant)}"><td class="move-id" data-stat-column="number">${formatDex(getRegionalDexEntry(mon)?.number ?? mon.dexNumber)}</td><td data-stat-column="name"><div class="stats-pokemon"><img loading="lazy" src="${artworkFor(mon)}" alt=""><strong>${escapeHtml(mon.name.zhHant)}</strong></div></td><td data-stat-column="type">${mon.types.map(type => typePill(type,true)).join(" ")}</td>${Object.keys(BASE_STAT_LABELS).map(stat => `<td class="stats-value" data-stat-column="${stat}">${stat === "total" ? statsTotal(mon) : mon.stats[stat]}</td>`).join("")}</tr>`).join("");
+  const total = state.pokedex === "national" ? state.pokemon.length : state.pokemon.filter(mon => getRegionalDexEntry(mon)).length;
+  app.querySelector(".result-count").textContent = `顯示 ${visible.length}／${filtered.length} 筆${filtered.length !== total ? `（圖鑑共 ${total} 筆）` : ""}`;
+  const more = app.querySelector(".stats-more");
+  more.hidden = visible.length >= filtered.length;
+  more.textContent = `顯示更多（剩餘 ${Math.max(filtered.length - visible.length, 0)}）`;
+  app.querySelector(".catalog-heading h2").textContent = "種族值比較";
+  app.querySelector(".stats-table-shell").hidden = !filtered.length;
+  app.querySelector(".empty-state").hidden = Boolean(filtered.length);
+  app.querySelectorAll("[data-stat-sort]").forEach(button => {
+    const active = button.dataset.statSort === key;
+    const arrow = state.statSortDirection === "desc" ? "↓" : "↑";
+    button.classList.toggle("active",active);button.setAttribute("aria-pressed",String(active));button.textContent=`${STAT_SORT_LABELS[button.dataset.statSort]}${active ? ` ${arrow}` : ""}`;
+  });
+  highlightStatColumn();
 }
 
 function renderGrid() {
@@ -874,6 +936,7 @@ function renderAbilitiesPage() {
       <div class="move-result-bar"><strong>特性資料</strong><span class="move-result-count"></span></div>
       <div class="move-table-shell"><table class="move-table ability-table"><thead><tr>${[["id", "編號"], ["name", "特性名"], ["generation", "世代"], ["description", "效果"]].map(([key, label]) => `<th aria-sort="none"><button type="button" data-ability-sort="${key}">${label}<span>↕</span></button></th>`).join("")}</tr></thead><tbody></tbody></table></div>
       <div class="move-empty" hidden><h2>找不到符合條件的特性</h2><p>請調整關鍵字或篩選條件。</p></div>
+      <button class="move-more ability-more" type="button" hidden></button>
     </section>`;
   const update = () => {
     const query = normalize(state.abilityQuery.trim());
@@ -885,8 +948,12 @@ function renderAbilitiesPage() {
       const compared = typeof first === "number" ? first - second : String(first).localeCompare(String(second), "zh-Hant");
       return (compared || a.id - b.id) * (state.abilitySortDirection === "asc" ? 1 : -1);
     });
-    app.querySelector(".move-result-count").textContent = `共 ${filtered.length} 個特性`;
-    app.querySelector("tbody").innerHTML = filtered.map(item => `<tr class="move-row" tabindex="0" data-ability-key="${escapeHtml(item.slug)}" aria-label="查看${escapeHtml(item.name.zhHant)}特性"><td class="move-id">#${String(item.id).padStart(3, "0")}</td><td class="move-name-cell"><strong>${escapeHtml(item.name.zhHant)}</strong><small>${escapeHtml(item.name.en)}</small></td><td class="ability-generation">Gen ${item.generation}</td><td class="ability-effect">${escapeHtml(abilityDescription(item))}</td></tr>`).join("");
+    const visible = filtered.slice(0, state.abilityLimit);
+    app.querySelector(".move-result-count").textContent = `顯示 ${visible.length}／${filtered.length} 個特性`;
+    const more = app.querySelector(".ability-more");
+    more.hidden = visible.length >= filtered.length;
+    more.textContent = `顯示更多（剩餘 ${Math.max(filtered.length - visible.length, 0)}）`;
+    app.querySelector("tbody").innerHTML = visible.map(item => `<tr class="move-row" tabindex="0" data-ability-key="${escapeHtml(item.slug)}" aria-label="查看${escapeHtml(item.name.zhHant)}特性"><td class="move-id">#${String(item.id).padStart(3, "0")}</td><td class="move-name-cell"><strong>${escapeHtml(item.name.zhHant)}</strong><small>${escapeHtml(item.name.en)}</small></td><td class="ability-generation">Gen ${item.generation}</td><td class="ability-effect">${escapeHtml(abilityDescription(item))}</td></tr>`).join("");
     app.querySelector(".move-table-shell").hidden = !filtered.length;
     app.querySelector(".move-empty").hidden = Boolean(filtered.length);
     app.querySelectorAll("[data-ability-sort]").forEach(button => {
@@ -897,8 +964,8 @@ function renderAbilitiesPage() {
   };
   const input = app.querySelector("input");
   const clear = app.querySelector(".move-search button");
-  input.addEventListener("input", () => { state.abilityQuery = input.value; clear.hidden = !input.value; update(); });
-  clear.addEventListener("click", () => { state.abilityQuery = ""; input.value = ""; clear.hidden = true; update(); input.focus(); });
+  input.addEventListener("input", () => { state.abilityQuery = input.value; state.abilityLimit = 100; clear.hidden = !input.value; update(); });
+  clear.addEventListener("click", () => { state.abilityQuery = ""; input.value = ""; state.abilityLimit = 100; clear.hidden = true; update(); input.focus(); });
   app.querySelector(".ability-filters").addEventListener("click", event => {
     const button = event.target.closest(".filter-chip");
     if (!button) return;
@@ -912,6 +979,7 @@ function renderAbilitiesPage() {
       const active = chip.dataset.value === "all" ? !selected.size : selected.has(chip.dataset.value);
       chip.classList.toggle("active", active); chip.setAttribute("aria-pressed", String(active));
     });
+    state.abilityLimit = 100;
     update();
   });
   app.querySelector("table").addEventListener("click", event => {
@@ -919,7 +987,7 @@ function renderAbilitiesPage() {
     if (button) {
       const key = button.dataset.abilitySort;
       state.abilitySortDirection = key === state.abilitySortKey && state.abilitySortDirection === "asc" ? "desc" : "asc";
-      state.abilitySortKey = key; update(); return;
+      state.abilitySortKey = key; state.abilityLimit = 100; update(); return;
     }
     const row = event.target.closest("[data-ability-key]");
     if (row) location.hash = `#/abilities/${encodeURIComponent(row.dataset.abilityKey)}`;
@@ -928,6 +996,7 @@ function renderAbilitiesPage() {
     const row = event.target.closest("[data-ability-key]");
     if (row && ["Enter", " "].includes(event.key)) { event.preventDefault(); location.hash = `#/abilities/${encodeURIComponent(row.dataset.abilityKey)}`; }
   });
+  app.querySelector(".ability-more").addEventListener("click", () => { state.abilityLimit += 100; update(); });
   update();
   window.scrollTo({top: 0, behavior: "auto"});
 }
@@ -948,6 +1017,98 @@ function renderAbilityDetailPage(key) {
     <section class="panel move-pokemon-panel"><div class="move-pokemon-heading"><div><h2 class="panel-title">擁有此特性的寶可夢</h2><p>依本地圖鑑資料列出各型態；隱藏特性另加標示，共 ${owners.length} 個型態。</p></div><strong>${owners.length}</strong></div>
     ${owners.length ? `<div class="move-pokemon-grid">${owners.map(mon => `<a class="move-pokemon-card" href="#/pokemon/${encodeURIComponent(mon.slug)}"><img loading="lazy" src="${artworkFor(mon)}" alt=""><div><strong>${escapeHtml(mon.name.zhHant)}</strong><span>${mon.types.map(type => state.types[type]?.name || type).join("／")}</span>${mon.abilities.some(item => item.id === ability.id && item.hidden) ? '<small class="ability-hidden-label">隱藏特性</small>' : ""}</div></a>`).join("")}</div>` : '<p class="muted-copy">本地圖鑑目前未收錄擁有此特性的寶可夢。</p>'}</section></div></article>`;
   window.scrollTo({top: 0, behavior: "auto"});
+}
+
+const ITEM_CATEGORY_LABELS = { held: "對戰持有物", berries: "樹果", mega: "超級石", z: "Z純晶", balls: "精靈球", medicine: "回復與藥品", evolution: "進化道具", machines: "招式機器", training: "培育道具", ingredients: "料理材料", key: "重要道具", other: "其他" };
+function itemCategory(item) {
+  const category = item.category || "";
+  if (category === "mega-stones") return "mega";
+  if (category === "z-crystals") return "z";
+  if (["medicine", "picky-healing", "baking-only", "effort-drop", "type-protection", "in-a-pinch", "other"].includes(category)) return "berries";
+  if (category.includes("balls")) return "balls";
+  if (["healing", "status-cures", "revival", "pp-recovery", "flutes"].includes(category)) return "medicine";
+  if (category === "evolution") return "evolution";
+  if (category === "all-machines") return "machines";
+  if (["vitamins", "effort-training", "training", "nature-mints", "species-candies"].includes(category)) return "training";
+  if (["curry-ingredients", "sandwich-ingredients"].includes(category)) return "ingredients";
+  if (["gameplay", "plot-advancement", "event-items", "apricorn-box", "data-cards"].includes(category)) return "key";
+  if (["held-items", "choice", "type-enhancement", "species-specific", "plates", "jewels", "memories", "bad-held-items", "stat-boosts"].includes(category) || item.inChampions) return "held";
+  return "other";
+}
+function itemDescription(item) { return item.description || "資料庫目前未有此道具資料。"; }
+function itemStatus(item) { return `<span class="item-status ${item.inChampions ? "added" : "absent"}">${item.inChampions ? "已加入" : "未加入"}</span>`; }
+function itemImage(item, detail = false) {
+  return `<span class="item-art${detail ? " detail" : ""}">${item.image ? `<img src="${escapeHtml(item.image)}" alt="" loading="lazy">` : '<span aria-hidden="true">◇</span>'}</span>`;
+}
+function bindItemImages() {
+  app.querySelectorAll(".item-art img").forEach(image => image.addEventListener("error", () => {
+    const fallback = document.createElement("span"); fallback.textContent = "◇"; fallback.setAttribute("aria-hidden", "true"); image.replaceWith(fallback);
+  }, {once: true}));
+}
+
+function renderItemsPage() {
+  setActiveNav("items"); document.title = "道具一覽｜Pokédex";
+  app.innerHTML = `<section class="moves-hero items-hero"><div><p class="eyebrow">ITEM DATABASE</p><h1>道具一覽</h1><p>查詢道具效果，尋找已加入 Champions 的持有物。</p></div></section>
+    <section class="move-browser item-browser"><div class="move-toolbar"><label class="move-search"><span aria-hidden="true">⌕</span><input type="search" value="${escapeHtml(state.itemQuery)}" placeholder="搜尋道具名稱、編號或效果…" aria-label="搜尋道具"><button type="button" aria-label="清除道具搜尋" ${state.itemQuery ? "" : "hidden"}>×</button></label></div>
+    <div class="ability-filters item-filters"><div data-item-filter="itemCategory"><span class="filter-label">分類</span><div class="filter-chips">${filterButtons("itemCategory", [{value:"all",label:"全部"}, ...Object.entries(ITEM_CATEGORY_LABELS).map(([value,label]) => ({value,label}))])}</div></div><div data-item-filter="itemChampions"><span class="filter-label">Champions 是否加入</span><div class="filter-chips">${filterButtons("itemChampions", [{value:"all",label:"全部"},{value:"yes",label:"已加入"},{value:"no",label:"未加入"}])}</div></div></div>
+    <div class="move-result-bar"><strong>道具資料</strong><span class="move-result-count"></span></div><div class="move-table-shell"><table class="move-table item-table"><thead><tr><th>圖片</th>${[["id","編號"],["name","道具名"],["category","分類"],["inChampions","Champions 是否加入"],["description","效果"]].map(([key,label]) => `<th aria-sort="none"><button type="button" data-item-sort="${key}">${label}<span>↕</span></button></th>`).join("")}</tr></thead><tbody></tbody></table></div>
+    <div class="move-empty" hidden><h2>找不到符合條件的道具</h2><p>請調整關鍵字或篩選條件。</p></div><button class="move-more" type="button" hidden></button>
+    <p class="item-source-note">Champions 加入狀態及版本描述依 <a href="https://gamewith.ai/pokemon-champions/zh-hant/items" target="_blank" rel="noreferrer">GameWith 持有物一覽</a> 的顯示名單；其餘描述沿用圖鑑資料。持有物分類可參考 <a href="https://wiki.52poke.com/zh-hant/持有物" target="_blank" rel="noreferrer">52Poké 持有物</a>。</p></section>`;
+  const update = () => {
+    const query = normalize(state.itemQuery.trim());
+    const filtered = state.items.filter(item => (!state.itemCategory.size || state.itemCategory.has(itemCategory(item))) && (!state.itemChampions.size || state.itemChampions.has(item.inChampions ? "yes" : "no")) && (!query || normalize([item.id ?? "", ...Object.values(item.name), item.description || ""].join(" ")).includes(query)));
+    const key = state.itemSortKey;
+    const value = item => key === "name" ? item.name.zhHant : key === "category" ? ITEM_CATEGORY_LABELS[itemCategory(item)] : key === "description" ? itemDescription(item) : key === "inChampions" ? Number(Boolean(item.inChampions)) : item.id;
+    filtered.sort((a,b) => {
+      const first=value(a), second=value(b);
+      if (first == null || second == null) return first == null && second == null ? a.slug.localeCompare(b.slug) : first == null ? 1 : -1;
+      return (typeof first === "number" ? first-second : String(first).localeCompare(String(second),"zh-Hant")) * (state.itemSortDirection === "asc" ? 1 : -1) || a.slug.localeCompare(b.slug);
+    });
+    const visible = filtered.slice(0,state.itemLimit);
+    app.querySelector(".move-result-count").textContent = `顯示 ${visible.length}／${filtered.length} 個道具`;
+    app.querySelector("tbody").innerHTML = visible.map(item => `<tr class="move-row" tabindex="0" data-item-key="${escapeHtml(item.slug)}" aria-label="查看${escapeHtml(item.name.zhHant)}道具"><td>${itemImage(item)}</td><td class="move-id">${item.id == null ? "—" : `#${String(item.id).padStart(3,"0")}`}</td><td class="move-name-cell"><strong>${escapeHtml(item.name.zhHant)}</strong><small>${escapeHtml(item.name.en)}</small></td><td>${ITEM_CATEGORY_LABELS[itemCategory(item)]}</td><td>${itemStatus(item)}</td><td class="ability-effect">${escapeHtml(itemDescription(item))}</td></tr>`).join("");
+    app.querySelector(".move-table-shell").hidden = !filtered.length; app.querySelector(".move-empty").hidden = Boolean(filtered.length);
+    const more = app.querySelector(".move-more"); more.hidden = visible.length >= filtered.length; more.textContent = `顯示更多（剩餘 ${filtered.length-visible.length}）`;
+    app.querySelectorAll("[data-item-sort]").forEach(button => {
+      const active = button.dataset.itemSort === key;
+      button.querySelector("span").textContent = active ? (state.itemSortDirection === "asc" ? "↑" : "↓") : "↕";
+      button.closest("th").setAttribute("aria-sort", active ? (state.itemSortDirection === "asc" ? "ascending" : "descending") : "none");
+    });
+    bindItemImages();
+  };
+  const input = app.querySelector("input"), clear = app.querySelector(".move-search button");
+  input.addEventListener("input", () => {state.itemQuery=input.value;state.itemLimit=100;clear.hidden=!input.value;update();});
+  clear.addEventListener("click", () => {state.itemQuery="";input.value="";state.itemLimit=100;clear.hidden=true;update();input.focus();});
+  app.querySelector(".item-filters").addEventListener("click", event => {
+    const button=event.target.closest(".filter-chip"); if(!button)return;
+    const group=button.closest("[data-item-filter]"), selected=state[group.dataset.itemFilter], value=button.dataset.value;
+    if(value==="all")selected.clear();else if(selected.has(value))selected.delete(value);else selected.add(value);
+    group.querySelectorAll(".filter-chip").forEach(chip => {const active=chip.dataset.value==="all"?!selected.size:selected.has(chip.dataset.value);chip.classList.toggle("active",active);chip.setAttribute("aria-pressed",String(active));});
+    state.itemLimit=100;update();
+  });
+  app.querySelector("table").addEventListener("click", event => {
+    const button=event.target.closest("[data-item-sort]");
+    if(button){const key=button.dataset.itemSort;state.itemSortDirection=key===state.itemSortKey&&state.itemSortDirection==="asc"?"desc":"asc";state.itemSortKey=key;update();return;}
+    const row=event.target.closest("[data-item-key]");if(row)location.hash=`#/items/${encodeURIComponent(row.dataset.itemKey)}`;
+  });
+  app.querySelector("table").addEventListener("keydown",event=>{const row=event.target.closest("[data-item-key]");if(row&&["Enter"," "].includes(event.key)){event.preventDefault();location.hash=`#/items/${encodeURIComponent(row.dataset.itemKey)}`;}});
+  app.querySelector(".move-more").addEventListener("click",()=>{state.itemLimit+=100;update();});
+  update();window.scrollTo({top:0,behavior:"auto"});
+}
+
+function renderItemDetailPage(key) {
+  setActiveNav("items");
+  const item=state.items.find(item=>item.slug===key||String(item.id)===key);
+  if(!item){document.title="找不到道具｜Pokédex";app.innerHTML='<section class="error-state"><div><h2>找不到這個道具</h2><a href="#/items">← 返回道具一覽</a></div></section>';return;}
+  document.title=`${item.name.zhHant}｜道具一覽`;
+  app.innerHTML=`<article class="move-detail-page" style="--move-color:#a77d41;--move-dark:#58412a"><header class="move-detail-hero"><div class="move-detail-hero-inner"><a class="back-button" href="#/items">← 返回道具一覽</a><p class="move-detail-number">${item.id==null?"CHAMPIONS ITEM":`ITEM #${String(item.id).padStart(3,"0")}`}</p><div class="item-detail-title">${itemImage(item,true)}<div><h1>${escapeHtml(item.name.zhHant)}</h1><p class="move-foreign-names">${[item.name.en,item.name.ja].filter(Boolean).map(escapeHtml).join(" &nbsp;/&nbsp; ")}</p><div class="move-detail-labels"><span class="move-kind">${ITEM_CATEGORY_LABELS[itemCategory(item)]}</span>${itemStatus(item)}</div></div></div></div></header>
+    <div class="move-detail-content"><section class="panel"><h2 class="panel-title">道具效果</h2><p class="move-detail-description">${escapeHtml(itemDescription(item))}</p>${item.descriptionVersion==="Champions"?`<p class="muted-copy">Champions 版本描述 · <a href="${escapeHtml(item.descriptionSource)}" target="_blank" rel="noreferrer">GameWith</a></p>`:""}</section><section class="panel"><h2 class="panel-title">詳細資料</h2><div class="move-facts item-facts"><div><span>分類</span><strong>${ITEM_CATEGORY_LABELS[itemCategory(item)]}</strong></div><div><span>Champions 是否加入</span><strong>${item.inChampions?"已加入":"未加入"}</strong></div><div><span>投擲威力</span><strong>${item.flingPower??"—"}</strong></div></div><p class="item-source-note">加入狀態依 <a href="https://gamewith.ai/pokemon-champions/zh-hant/items" target="_blank" rel="noreferrer">GameWith 顯示名單</a>。${item.inChampions?`<a href="${escapeHtml(item.championsSource)}" target="_blank" rel="noreferrer">查看此道具來源</a>`:""}</p></section></div></article>`;
+  bindItemImages();window.scrollTo({top:0,behavior:"auto"});
+}
+
+async function ensureItems() {
+  if(state.items)return;
+  const response=await fetch("data/items.json");if(!response.ok)throw new Error("道具資料檔讀取失敗");state.items=await response.json();
 }
 
 function renderMoveNotFound() {
@@ -1131,6 +1292,15 @@ function renderChampionsPage() {
 async function route() {
   typeChartCleanup?.();
   typeChartCleanup = null;
+  if (location.hash === "#/stats") { renderHome(true); return; }
+  const itemMatch=location.hash.match(/^#\/items\/([^/]+)$/);
+  if(location.hash==="#/items"||itemMatch){
+    const requestedHash=location.hash;setActiveNav("items");
+    app.innerHTML='<section class="loading-state" aria-live="polite"><span class="loading-ball"></span><p>正在載入道具資料…</p></section>';
+    try{await ensureItems();if(location.hash!==requestedHash)return;if(itemMatch)renderItemDetailPage(decodeURIComponent(itemMatch[1]));else renderItemsPage();}
+    catch(error){console.error(error);if(location.hash===requestedHash)app.innerHTML='<section class="error-state"><div><h2>無法載入道具資料</h2><p>請確認 data/items.json 存在並透過本機伺服器開啟網站。</p></div></section>';}
+    return;
+  }
   const abilityMatch = location.hash.match(/^#\/abilities\/([^/]+)$/);
   if (location.hash === "#/abilities" || abilityMatch) {
     if (abilityMatch) renderAbilityDetailPage(decodeURIComponent(abilityMatch[1]));
